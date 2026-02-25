@@ -89,8 +89,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box2">
                     <h2>Ecommerce</h2>
                     <p className="para">
-                      Our eCommerce expertise helps brands build scalable stores
-                      that convert visitors into loyal customers.
+                      Advanced ecommerce development focused on seamless user journeys, secure payments, and scalable online store growth worldwide.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -98,8 +97,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box3">
                     <h2>Healthcare</h2>
                     <p className="para">
-                      We create secure, user-friendly healthcare systems that
-                      improve patient experiences and operational efficiency.
+                      Reliable healthcare technology solutions that improve efficiency, patient experience, and secure digital transformation across medical services.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -107,8 +105,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box4">
                     <h2>Agriculture</h2>
                     <p className="para">
-                      Our digital platforms help agricultural businesses
-                      innovate, connect markets, and boost productivity.
+                      Innovative agriculture technology solutions helping businesses improve productivity, automation, and sustainable growth in modern farming systems.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -116,9 +113,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box5">
                     <h2>Education</h2>
                     <p className="para">
-                      From e-learning platforms to institutional websites, we
-                      empower educators with innovative digital tools for modern
-                      learning.
+                      Modern education technology solutions designed to enhance e-learning platforms, student engagement, and digital transformation for schools, institutes, and training businesses worldwide.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -126,8 +121,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box6">
                     <h2>Legal</h2>
                     <p className="para">
-                      We empower law firms with professional websites and tools
-                      that build credibility and attract clients.
+                      Secure and reliable digital solutions for legal firms to manage clients, automate workflows, and improve online presence with professional branding globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -135,9 +129,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box7">
                     <h2>b2b</h2>
                     <p className="para">
-                      Our B2B solutions enhance collaboration, lead generation,
-                      and growth through smart automation and data-driven
-                      marketing.
+                      Powerful B2B digital solutions helping companies generate quality leads, automate operations, and build strong business relationships through scalable technology worldwide.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -145,9 +137,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box8">
                     <h2>food</h2>
                     <p className="para">
-                      We help food businesses build appetizing digital
-                      experiences that boost visibility, orders, and brand
-                      loyalty.
+                      Smart digital solutions for food businesses to improve online ordering, customer experience, and brand visibility while increasing sales and operational efficiency globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -155,9 +145,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box9">
                     <h2>Travel</h2>
                     <p className="para">
-                      From travel portals to booking apps, we create seamless
-                      user experiences that inspire exploration and easy
-                      planning.
+                      Custom digital solutions for travel agencies to boost bookings, improve customer experience, and manage online reservations with scalable platforms globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -165,8 +153,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box10">
                     <h2>Crm</h2>
                     <p className="para">
-                      Our CRM integrations streamline customer management,
-                      enhance engagement, and strengthen business relationships.
+                      Advanced CRM solutions designed to manage customer relationships, track sales, and automate workflows for improved productivity and long-term business growth globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -174,8 +161,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box10X">
                     <h2>Manufacturing</h2>
                     <p className="para">
-                      We digitize manufacturing workflows with custom software
-                      and web solutions for efficiency and scalability.
+                      Innovative manufacturing software solutions that streamline production, automate processes, and improve operational efficiency for modern industrial businesses worldwide.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -183,9 +169,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box11">
                     <h2>Fashion</h2>
                     <p className="para">
-                      We craft stunning online experiences that capture brand
-                      identity, attract audiences, and drive sales in the
-                      fashion world.
+                      Creative digital solutions for fashion brands to boost online visibility, manage ecommerce stores, and enhance customer engagement across global fashion markets.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -193,8 +177,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box12">
                     <h2>Logistic</h2>
                     <p className="para">
-                      We develop logistics solutions that optimize tracking,
-                      operations, and customer communication in real time.
+                      Smart logistics technology solutions that optimize supply chains, manage fleet operations, and improve delivery efficiency for transport and logistics companies globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -202,8 +185,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box13">
                     <h2>Finance</h2>
                     <p className="para">
-                      We deliver secure, compliant finance tech solutions that
-                      simplify transactions and enhance customer trust.
+                      Secure fintech and financial software solutions to manage transactions, customer data, and digital banking services with advanced security and performance globally.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -211,8 +193,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box14">
                     <h2>Real State</h2>
                     <p className="para">
-                      We build powerful real estate platforms that showcase
-                      properties, engage buyers, and drive conversions.
+                      Modern real estate digital solutions to showcase properties, generate leads, and manage clients through high-performing websites and marketing systems globally.
                     </p>
                   </div>
                 </SwiperSlide>
