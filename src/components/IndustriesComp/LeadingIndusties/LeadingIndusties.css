@@ -42,31 +42,31 @@
   color: var(--white-color);
 }
 
-.leading-industrial-box1 {
-  background-image: url("../../../../public/images/automotive.png");
-}
+ .leading-industrial-box1 {
+  background-image: url("../../../../public/images/automotive.webp");
+} 
 
-.leading-industrial-box2 {
+/* .leading-industrial-box2 {
   background-image: url("../../../../public/images/ecommerce.png");
-}
+} */
 
-.leading-industrial-box3 {
+/* .leading-industrial-box3 {
   background-image: url("../../../../public/images/healthcare.png");
-}
+} */
 
-.leading-industrial-box4 {
+/* .leading-industrial-box4 {
   background-image: url("../../../../public/images/agriculture.png");
-}
+}  */
 
 /* .leading-industrial-box5 {
   background-image: url("../../../../public/images/education.png");
 } */
 
-.leading-industrial-box6 {
+/* .leading-industrial-box6 {
   background-image: url("../../../../public/images/legal.png");
-}
+} */
 
-.leading-industrial-box7 {
+/* .leading-industrial-box7 {
   background-image: url("../../../../public/images/b2b.png");
 }
 
@@ -100,7 +100,7 @@
 
 .leading-industrial-box14 {
   background-image: url("../../../../public/images/real-state.png");
-}
+} */
 
 .leading-industries-slides .swiper {
   overflow-y: hidden;
