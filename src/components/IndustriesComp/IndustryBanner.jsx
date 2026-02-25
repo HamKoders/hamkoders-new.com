@@ -15,15 +15,15 @@ const IndustryBanner = () => {
               <div className="text-center mb-1">
                 <Image src={topRated} alt="top-rated" />
               </div>
-              <h1 className="same-heading">Smart Solutions for</h1>
+              <h1 className="same-heading">INDUSTRIES WE </h1>
               <h1 className="same-heading">
-                <span>Every Industry We Touch</span>
+                <span>SERVE & SUPPORT</span>
               </h1>
 
               <p className="para">
-                HadzTech creates tailored digital solutions, blending technology and strategy{" "}
+                Drive growth with industry-focused digital solutions designed to support{" "}
                 <br />
-                to boost business success.
+                 modern businesses across multiple global sectors
               </p>
 
               <div className="industries-content-btn">
