@@ -153,7 +153,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Robert</h3>
+                        <h3> Michael Carter</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -164,7 +164,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Hamkoders has completely improved my business profile. I connected with great clients and discovered new opportunities. Highly recommended for digital growth.
+                      “Hamkoders has completely improved my business profile. I connected with great clients and discovered new opportunities. Highly recommended for digital growth.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -181,7 +181,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Eli Carter</h3>
+                        <h3>Sophie Bennett</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -192,7 +192,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      The creative design and smart features from Hamkoders helped my brand grow faster online. It has become my trusted digital partner.
+                       “The creative design and smart features from Hamkoders helped my brand grow faster online. It has become my trusted digital partner.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -209,7 +209,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Kathy Ross</h3>
+                        <h3>Emma Collins</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -220,7 +220,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                     I really like how Hamkoders helped me connect with more customers. Their solutions are simple, user-friendly, and highly effective for business.
+                      “Amazing personal development resources that helped me build confidence and clarity in my daily life.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -238,7 +238,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Joe</h3>
+                        <h3>Daniel Roberts</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -249,8 +249,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Mr. Miller, and Jennifer did great on my website and video
-                      marketing. Easy, professional, and highly recommended.
+                       “I really like how Hamkoders helped me connect with more customers. Their solutions are simple, user-friendly, and highly effective for business.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -267,7 +266,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Michael Jordon</h3>
+                        <h3>Jonathan Reed</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -278,9 +277,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      They built our eCommerce store, improved visibility, ran
-                      effective ads, and brought quality customers. Sales
-                      increased quickly after launch.
+                       “The book recommendations were exactly what I needed. Every title added real value to my personal growth journey.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -297,7 +294,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Amelia</h3>
+                        <h3>Isabella Turner</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -308,8 +305,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      They developed a smooth, engaging game that ran flawlessly
-                      and delivered the exciting experience we were hoping for.
+                      “I stay motivated every day because of their inspiring insights and consistent positive content.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -326,7 +322,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Mike Scott</h3>
+                        <h3>David Harrison</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -337,9 +333,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Our website performance improved greatly in two months.
-                      Clean design, smooth functionality, and a quick,
-                      professional, responsive team.
+                       “The business-focused content completely changed how I think and plan. Truly powerful and practical.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -356,7 +350,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Evelyn Carter</h3>
+                        <h3>Sophia Williams</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -367,10 +361,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      HadzTech absolutely transformed our online presence! The
-                      website is fantastic and beautiful, it’s fast in
-                      performance and already boosting our sales. I couldn’t
-                      have asked for a smoother experience!
+                      “Their recommended books on communication and social skills helped me improve both personally and professionally.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -387,7 +378,7 @@ const Testimonials = () => {
                         alt="review1"
                       />
                       <div className="client-review-details">
-                        <h3>Logan Whitmore</h3>
+                        <h3>Ryan Mitchell</h3>
                         <div className="review-star">
                           <FaStar color="#FFD029" size={18} />
                           <FaStar color="#FFD029" size={18} />
@@ -398,10 +389,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Wow, just wow! From start to finish, the team at HadzTech
-                      was beyond impressive, responsive, creative, and truly
-                      invested in our success. They turned our vision into
-                      something even better than we imagined!
+                      “Professional support and guidance made it easy to choose the right books and growth resources.”
                     </p>
                   </div>
                 </SwiperSlide>
@@ -429,10 +417,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Choosing HadzTech was the best decision we made for our
-                      business! Their attention to detail and customer-first
-                      approach made the entire process unified. Our digital
-                      platform now stands out, and so do we!
+                       “Business Dialogs is more than a platform it’s a complete growth experience for anyone who wants success.”
                     </p>
                   </div>
                 </SwiperSlide>
