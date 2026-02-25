@@ -66,41 +66,41 @@
   background-image: url("../../../../public/images/legal.webp");
 }
 
-/* .leading-industrial-box7 {
-  background-image: url("../../../../public/images/b2b.png");
-}
+ .leading-industrial-box7 {
+  background-image: url("../../../../public/images/b2b.webp");
+} 
 
-.leading-industrial-box8 {
+/* .leading-industrial-box8 {
   background-image: url("../../../../public/images/food.png");
-}
-
-.leading-industrial-box9 {
-  background-image: url("../../../../public/images/travel.png");
-}
-
-.leading-industrial-box10 {
-  background-image: url("../../../../public/images/crm.png");
-}
-
-.leading-industrial-box10X {
-  background-image: url("../../../../public/images/mechanical.webp");
-}
-
-.leading-industrial-box11 {
-  background-image: url("../../../../public/images/fashion.png");
-}
-
-.leading-industrial-box12 {
-  background-image: url("../../../../public/images/logistic.png");
-}
-
-.leading-industrial-box13 {
-  background-image: url("../../../../public/images/financ.png");
-}
-
-.leading-industrial-box14 {
-  background-image: url("../../../../public/images/real-state.png");
 } */
+
+/* .leading-industrial-box9 {
+  background-image: url("../../../../public/images/travel.png");
+} */
+
+/* .leading-industrial-box10 {
+  background-image: url("../../../../public/images/crm.png");
+} */
+
+/* .leading-industrial-box10X {
+  background-image: url("../../../../public/images/mechanical.webp");
+} */
+
+/* .leading-industrial-box11 {
+  background-image: url("../../../../public/images/fashion.png");
+} */
+
+/* .leading-industrial-box12 {
+  background-image: url("../../../../public/images/logistic.png");
+} */
+
+/* .leading-industrial-box13 {
+  background-image: url("../../../../public/images/financ.png");
+} */
+
+/* .leading-industrial-box14 {
+  background-image: url("../../../../public/images/real-state.png");
+} */ */
 
 .leading-industries-slides .swiper {
   overflow-y: hidden;
