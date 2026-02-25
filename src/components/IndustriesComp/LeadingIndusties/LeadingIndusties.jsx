@@ -18,10 +18,10 @@ const LeadingIndusties = () => {
           <div className="col-lg-12">
             <div className="leading-industries-content">
               <h2 className="same-heading">
-                INDUSTRIES WE <span> SERVE & SUPPORT </span>
+                TRUSTED BY  <span> GLOBAL INDUSTRIES </span>
               </h2>
               <p className="para">
-                Drive growth with industry-focused digital solutions designed to support modern businesses across multiple global sectors
+                Explore our successful digital projects where our expert teams consistently deliver innovation, performance, and high-quality development solutions worldwide.
               </p>
             </div>
           </div>
@@ -81,9 +81,7 @@ const LeadingIndusties = () => {
                   <div className="leading-industrial-box leading-industrial-box1">
                     <h2>Automotive</h2>
                     <p className="para">
-                      We design digital platforms that accelerate brand
-                      performance, streamline operations, and drive customer
-                      engagement across the automotive industry.
+                      Smart digital solutions designed to enhance performance, user experience, and innovation across modern automotive business platforms globally.
                     </p>
                   </div>
                 </SwiperSlide>
