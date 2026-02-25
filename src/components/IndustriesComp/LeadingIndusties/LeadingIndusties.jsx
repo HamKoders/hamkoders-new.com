@@ -18,12 +18,10 @@ const LeadingIndusties = () => {
           <div className="col-lg-12">
             <div className="leading-industries-content">
               <h2 className="same-heading">
-                Innovating for Every Industry<span> We Partner With</span>
+                INDUSTRIES WE <span> SERVE & SUPPORT </span>
               </h2>
               <p className="para">
-                We deliver innovative digital solutions, enhancing brand
-                operations, improving user experiences, <br />
-                and driving growth in the digital era.
+                Drive growth with industry-focused digital solutions designed to support modern businesses across multiple global sectors
               </p>
             </div>
           </div>
