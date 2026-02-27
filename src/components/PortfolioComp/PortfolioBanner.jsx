@@ -76,17 +76,12 @@ const PortfolioBanner = () => {
           <div className="col-lg-12">
             <div className="portfolio-banner-content">
               <h1 className="same-heading">
-                <span>Showcasing Excellence in</span> Every Digital Project:{" "}
+                <span>Passion-Fueled </span> Innovation:{" "}
               </h1>
-              <h4>Creative Technology Solutions</h4>
+              <h4>Where Dreams Become Reality</h4>
 
               <p className="para">
-                Explore our portfolio of innovative web, app, and digital
-                solutions. That further reflects our passion and performance
-                across industries. Each project showcases our commitment to
-                impactful digital experiences. Explore our recent portfolio
-                speaks up everything to deliver the message about the expertise
-                we have.
+                Hamkoders is not just a service provider; we are an invaluable extension of your marketing team, bringing a powerful combination of strategic thinking, expertise, and flawless execution to the areas where you need it the most.
               </p>
 
               <div className="portfolio-banner-btn">
