@@ -76,7 +76,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/enterprise-web-development"}>
                           Enterprise web development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/web-app-development"}>
                           Web app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/frontend-development"}>
                           Front-end development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/backend-development"}>
                           Backend development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -108,7 +108,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/fullstack-development"}>
                           Full-stack development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -116,7 +116,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/landing-page-development"}>
                           Landing Page Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -124,7 +124,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/web3.0-development"}>
                           Web 3.0 Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -132,7 +132,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/website-maintenance"}>
                           Website maintenance
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
