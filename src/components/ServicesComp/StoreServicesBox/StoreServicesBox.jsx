@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./StoreServicesBox.css";
 import Image from "next/image";
-import storedevPortfolio from "../../../../public/images/storedev-portfolio.webp";
+import storedevPortfolio from "../../../../public/images/branding-portfolio.png";
 import Link from "next/link";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
@@ -59,7 +59,7 @@ const StoreServicesBox = () => {
                   </div>
                 </div>
                 <p className="para">
-                  Our store development service creates user-friendly, visually appealing eCommerce websites that attract customers, increase conversions, and strengthen your brand’s online presence.
+                  Our creative branding team builds strong brand identities and visual strategies that attract customers, build trust, and help your business stand out in global markets.
                 </p>
 
                 <div className="storedev-servicesBox-content-box">
@@ -67,24 +67,24 @@ const StoreServicesBox = () => {
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/shopify-development"}>
-                          Shopify development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          Brand Strategy Development
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/magento-development"}>
-                          Magento development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          Logo & Visual Identity Design
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/woocommerce-development"}>
-                          Woo commerce development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          Brand Guidelines & Style Guide
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -92,23 +92,31 @@ const StoreServicesBox = () => {
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/wordpress-development"}>
                           Wordpress development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/drupal-development"}>
-                          Drupal development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          Corporate Identity Design
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
                         <Link href={"/store-development/store-maintenance"}>
-                          Store maintenance
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          Rebranding Services
+                          <HiMiniArrowUpRight size={30}  />
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 ps-lg-0">
+                      <div className="storedev-servicesBox-content-box-link">
+                        <Link href={"/store-development/store-maintenance"}>
+                           Packaging & Product Branding
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
