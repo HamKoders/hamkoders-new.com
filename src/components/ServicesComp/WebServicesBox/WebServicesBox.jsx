@@ -59,7 +59,7 @@ const WebServicesBox = () => {
                   </div>
                 </div>
                 <p className="para">
-                  Through our custom web development expertise, we create responsive, scalable, and visually stunning websites that reflect your brand’s identity and deliver meaningful results for your business.
+                  With our expert web development services, we build responsive, scalable, and modern websites that strengthen your brand identity and generate real business growth.
                 </p>
 
                 <div className="webdev-servicesBox-content-box">
