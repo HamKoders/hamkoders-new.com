@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./WebServicesBox.css";
 import Image from "next/image";
-import webdevPortfolio from "../../../../public/images/webdev-portfolio.webp";
+import webdevPortfolio from "../../../../public/images/webdev-portfolio.png";
 import Link from "next/link";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
