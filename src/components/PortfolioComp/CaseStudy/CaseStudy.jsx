@@ -34,10 +34,10 @@ const CaseStudy = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="case-study-content">
-              <h2 className="same-heading">Portfolio</h2>
+              <h2 className="same-heading">Case Study </h2>
 
               <p className="para">
-                Explore how HadzTech delivers impactful digital solutions
+                Explore how Hamkoders delivers impactful digital solutions
                 through real-world projects. Each project highlights our
                 expertise in strategy, design, and technology showing measurable
                 results, innovation, and success across diverse industries and
@@ -52,18 +52,18 @@ const CaseStudy = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/1.webp"
+                href="/images/new-portfolio/1.png"
               >
-                <Image src="/images/new-portfolio/1.webp" width={1170} height={4875} alt="our-work-image" />
+                <Image src="/images/new-portfolio/1.png" width={1170} height={4875} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>cryptix</span> - Saas Dashboard
+                  <span>Edukidz</span> - school web
                 </h4>
                 <p className="para">
-                  We delivered Cryptix, a SaaS dashboard built for clarity and performance, helping businesses track data easily and make smarter decisions.
+                  A modern school website with interactive learning, admissions info, and easy communication for students and parents.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
