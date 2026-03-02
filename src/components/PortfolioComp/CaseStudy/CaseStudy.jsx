@@ -216,57 +216,57 @@ const CaseStudy = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/10.webp"
+                href="/images/new-portfolio/10.png"
               >
-                <Image src={"/images/new-portfolio/10.webp"} width={1170} height={5921} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/10.png"} width={1170} height={5921} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>superior streaming-</span>E-commerce Website
+                  <span>pealfiy</span> - property por...
                 </h4>
                 <p className="para">
-                  An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
+                  A modern property portal for browsing listings, managing properties, and simplifying real estate experiences.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/11.webp"
+                href="/images/new-portfolio/11.png"
               >
-                <Image src={"/images/new-portfolio/11.webp"} width={1170} height={5808} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/11.png"} width={1170} height={5808} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>superior streaming-</span>E-commerce Website
+                  <span>faura</span> - portal
                 </h4>
                 <p className="para">
-                  An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
+                  A smart digital portal built for productivity, content management, and seamless user collaboration.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/12.webp"
+                href="/images/new-portfolio/12.png"
               >
-                <Image src={"/images/new-portfolio/12.webp"} width={1170} height={3420} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/12.png"} width={1170} height={3420} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>superior streaming-</span>E-commerce Website
+                  <span>gocab</span> - cab app
                 </h4>
                 <p className="para">
-                  An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
+                  A user-friendly cab booking app offering quick rides, live tracking, and convenient travel management.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -274,17 +274,17 @@ const CaseStudy = () => {
               >
                 <Image src={"/images/new-portfolio/13.webp"} width={1170} height={3960} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -292,17 +292,17 @@ const CaseStudy = () => {
               >
                 <Image src={"/images/new-portfolio/14.webp"} width={1170} height={3960} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -310,17 +310,17 @@ const CaseStudy = () => {
               >
                 <Image src={"/images/new-portfolio/15.webp"} width={1170} height={6817} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -328,16 +328,16 @@ const CaseStudy = () => {
               >
                 <Image src={"/images/new-portfolio/16.webp"} width={1170} height={3522} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
