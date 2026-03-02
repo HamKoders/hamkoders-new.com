@@ -59,7 +59,7 @@ const SoftwareServicesBox = () => {
                   </div>
                 </div>
                 <p className="para">
-                  Our software development service focuses on building secure, high-performing solutions that simplify processes and empower your business to reach its full potential.
+                  Our custom software development services focus on creating secure, scalable solutions that streamline operations and help your business achieve long-term digital growth.
                 </p>
 
                 <div className="softwaredev-servicesBox-content-box">
@@ -68,7 +68,7 @@ const SoftwareServicesBox = () => {
                       <div className="softwaredev-servicesBox-content-box-link">
                         <Link href={"/software-development/erm-development"}>
                           ERM Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -76,7 +76,7 @@ const SoftwareServicesBox = () => {
                       <div className="softwaredev-servicesBox-content-box-link">
                         <Link href={"/software-development/crm-development"}>
                           CRM Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const SoftwareServicesBox = () => {
                       <div className="softwaredev-servicesBox-content-box-link">
                         <Link href={"/software-development/erp-development"}>
                           ERP Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const SoftwareServicesBox = () => {
                       <div className="softwaredev-servicesBox-content-box-link">
                         <Link href={"/software-development/cms-development"}>
                           CMS Development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>

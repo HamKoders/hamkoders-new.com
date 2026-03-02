@@ -50,7 +50,7 @@ const StoreServicesBox = () => {
               <div className="storedev-servicesBox-content">
                 <div className="storedev-servicesBox-contentTop">
                   <h2 className="same-heading">
-                    Store <span>Development</span>
+                    Branding
                   </h2>
                   <div className="storedev-servicesBox-contentTop-btn">
                     <Link className="global-btn-outline-black" href={"/store-development"}>
