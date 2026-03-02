@@ -162,54 +162,54 @@ const CaseStudy = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/7.webp"
+                href="/images/new-portfolio/7.png"
               >
-                <Image src={"/images/new-portfolio/7.webp"} width={1170} height={3433} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/7.png"} width={1170} height={3433} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>every fit</span> - fitness app
+                  <span>zaroo</span> - Furniture web
                 </h4>
                 <p className="para">
-                  A feature-rich fitness app built to track workouts, set goals, and motivate users toward healthier, active lifestyles.
+                  A stylish furniture website showcasing premium collections with smooth browsing and an enhanced online shopping experience.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/8.webp"
+                href="/images/new-portfolio/8.png"
               >
-                <Image src={"/images/new-portfolio/8.webp"} width={1170} height={3153} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/8.png"} width={1170} height={3153} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>superior streaming-</span>E-commerce Website
+                  <span>fluxo</span> - branding
                 </h4>
                 <p className="para">
-                  An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
+                 Creative branding solutions focused on strong visual identity, modern design, and impactful brand presence.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/9.webp"
+                href="/images/new-portfolio/9.png"
               >
-                <Image src={"/images/new-portfolio/9.webp"} width={1170} height={5188} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/9.png"} width={1170} height={5188} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
-                  <span>superior streaming-</span>E-commerce Website
+                  <span>obima</span> - saas web
                 </h4>
                 <p className="para">
-                  An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
+                 A powerful SaaS website designed for business automation, smart dashboards, and seamless digital performance.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
