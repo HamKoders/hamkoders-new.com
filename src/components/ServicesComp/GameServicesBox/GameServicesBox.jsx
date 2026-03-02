@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./GameServicesBox.css";
 import Image from "next/image";
-import gamedevPortfolio from "../../../../public/images/digitaldev-portfolio.png";
+import gamedevPortfolio from "../../../../public/images/digidev-portfolio.png";
 import Link from "next/link";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
