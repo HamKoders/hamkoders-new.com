@@ -59,7 +59,7 @@ const AppServicesBox = () => {
                   </div>
                 </div>
                 <p className="para">
-                  We build powerful mobile apps and deliver solutions that improve user experience, boost engagement, and help your business grow in the digital world.
+                  We create high-performance mobile apps and deliver solutions that enhance user experience, increase engagement, and support your business growth in today’s digital market.
                 </p>
 
                 <div className="appdev-servicesBox-content-box">
@@ -68,7 +68,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/ios-app-development"}>
                           iOS app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -76,7 +76,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/android-app-development"}>
                           Android app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/cross-platform-app-development"}>
                           Cross-platform app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/hybrid-app-development"}>
                           Hybrid app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/saas-app-development"}>
                           Saas app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
@@ -108,7 +108,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/mvp-app-development"}>
                           MVP app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
@@ -116,7 +116,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/concept-design"}>
                           Concept design
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
@@ -124,7 +124,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/wearable-app-development"}>
                           Wearable app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
@@ -132,7 +132,7 @@ const AppServicesBox = () => {
                       <div className="appdev-servicesBox-content-box-link">
                         <Link href={"/app-development/app-maintenance"}>
                           App maintenance
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} />
                         </Link>
                       </div>
                     </div>
