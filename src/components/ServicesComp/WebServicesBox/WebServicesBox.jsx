@@ -68,7 +68,7 @@ const WebServicesBox = () => {
                       <div className="webdev-servicesBox-content-box-link">
                         <Link href={"/website-development/custom-website-development"}>
                           Custom website development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          <HiMiniArrowUpRight size={30} color={"#ffff"} />
                         </Link>
                       </div>
                     </div>
