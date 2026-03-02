@@ -204,7 +204,7 @@ const AndroidAppDevelopment = () => {
   return (
     <PageLayout>
       <AndroidAppBanner bannerData={bannerData} />
-      <FeaturedBrands heading={"Trusted by"} headingSpan={"Leading Brands"} />
+      <FeaturedBrands heading={"Trusted by"} headingSpan={"Global Brands"} />
       <AndroidServices serviceData={serviceData} />
       <AndroidProgress />
       <AwardsSec />

@@ -10,17 +10,17 @@ const ServicesBanner = () => {
           <div className="col-lg-12">
             <div className="services-banner-content">
               <h1 className="same-heading">
-                Your Partner in{" "}
+                YOUR PARTNER IN {" "}
                 <span>
-                   Crafting Impactful <br /> eCommerce
+                   BUILDING HIGH-IMPACT <br />  ECOMMERCE 
                 </span>{" "}
-                Website
+                WEBSITE
               </h1>
 
-              <h4>Development Solutions</h4>
+              <h4>ECOMMERCE Solutions</h4>
 
               <p className="para">
-                With intelligent, scalable digital solutions, we develop user-focused eCommerce websites and web applications that improve performance, increase sales, and support the expansion of your company.
+                With smart, scalable ecommerce solutions, we build user-focused online stores and web applications that boost performance, increase conversions, and support the growth of your business.
               </p>
 
               <div className="services-banner-btn">
