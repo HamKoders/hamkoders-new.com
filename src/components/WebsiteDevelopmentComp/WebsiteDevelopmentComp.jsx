@@ -25,13 +25,13 @@ import websitePortSlide2 from "../../../public/images/website-port-slide2.webp";
 import websitePortSlide3 from "../../../public/images/website-port-slide3.webp";
 import websitePortSlide4 from "../../../public/images/website-port-slide4.webp";
 import websitePortSlide5 from "../../../public/images/website-port-slide5.webp";
-import webDevServiceBefore from "../../../public/images/web-dev-service-before.webp";
-import webDevServiceAfter from "../../../public/images/web-dev-service-after.webp";
+import webDevServiceBefore from "../../../public/images/web-dev-service-before.png";
+import webDevServiceAfter from "../../../public/images/web-dev-service-after.png";
 import axiosInstance from "@/utils/axiosInstance";
 // import whySecVideo from "../../../public/images/whySecVideo.mp4"
 
 const whySecData = {
-  heading3: "Why Choose HadzTech?",
+  heading3: "Why Choose Hamkoder's?",
   heading2: (
     <h2 className="same-heading">
       We Don’t <span>Just Design Websites</span> We <span>Design</span> Success
@@ -107,7 +107,7 @@ const websiteDevCompBannerData = {
   // spanPart2: "APP DEVELOPMENT",
   // spanPart3: "COMPANY",
   para: (
-  <p className="para">Build your brand’s digital foundation with custom web development services <br /> designed to impress, perform, and accelerate business growth.</p>
+  <p className="para">Create a strong online presence with professional web development services built to perform smoothly, <br />  attract customers, and support long-term business growth.</p>
  ), 
   swipperImages: [
     {
@@ -162,7 +162,7 @@ const WebsiteDevelopmentComp = () => {
   return (
     <PageLayout>
       <WebsiteDevCompBanner websiteDevCompBannerData={websiteDevCompBannerData}/>
-      <FeaturedBrands heading={"Trusted by"} headingSpan={"Leading Brands"} />
+      <FeaturedBrands heading={"Trusted by"} headingSpan={"Global Brands"} />
       <IdeaTransformation />
       <WhySec whySecData={whySecData} />
       <WhatWeOffer whatWeOfferData={whatWeOfferData}/>
