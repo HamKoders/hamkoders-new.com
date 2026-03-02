@@ -77,7 +77,7 @@
 }
 
 .budget-option.selected {
-  background: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
+  background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   color: #000;
   font-weight: 500;
 }
@@ -122,7 +122,7 @@
 .contactUs-form-div form button {
   width: 100%;
   padding: 13px 0px;
-  background: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
+  background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   border: none;
   outline: none;
 }
