@@ -78,7 +78,7 @@
 
 .budget-option.selected {
   background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
-  color: #000;
+  color: #ffff;
   font-weight: 500;
 }
 
@@ -125,6 +125,7 @@
   background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   border: none;
   outline: none;
+  color: #ffff;
 }
 
 @media(max-width: 1536px) {
