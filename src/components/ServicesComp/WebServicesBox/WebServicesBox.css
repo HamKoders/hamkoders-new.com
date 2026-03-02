@@ -84,6 +84,7 @@
 .webdev-servicesBox-content-box-link a:hover {
   background: linear-gradient(180deg, #ef303e 0%, #a00d18 100%),
     linear-gradient(180deg, #ef303e 9.33%, rgba(216, 253, 126, 0) 73.63%);
+    color: white;
 }
 
 .webdev-servicesBox-sec {
