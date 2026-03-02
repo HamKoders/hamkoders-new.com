@@ -225,7 +225,7 @@ const ContactUsForm = () => {
                         <div className="col-lg-12">
                           <button type="submit" disabled={loading}>
                             {loading ? "Sending..." : "Let's Connect!"}{" "}
-                            <HiMiniArrowUpRight size={24} color={"#000"} />
+                            <HiMiniArrowUpRight size={24} color={"#ffff"} />
                           </button>
                         </div>
                         {loading && (
