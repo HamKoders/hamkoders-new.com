@@ -50,7 +50,7 @@ const GameServicesBox = () => {
               <div className="gamedev-servicesBox-content">
                 <div className="gamedev-servicesBox-contentTop">
                   <h2 className="same-heading">
-                    Game <span>Development</span>
+                    DIGITAL  <span>MARKETING</span>
                   </h2>
                   <div className="gamedev-servicesBox-contentTop-btn">
                     <Link className="global-btn-outline-black" href={"/game-development"}>
@@ -59,7 +59,7 @@ const GameServicesBox = () => {
                   </div>
                 </div>
                 <p className="para">
-                  Our skilled team specializes in game design and development, producing entertaining, visually attractive, and performance-driven games that connect with audiences and raise your brand's profile in the gaming industry.
+                 Our expert team delivers result-focused digital marketing services, creating high-converting campaigns that attract customers, boost engagement, and grow your business across global markets..
                 </p>
 
                 <div className="gamedev-servicesBox-content-box">
@@ -67,48 +67,80 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/mobile-app-development"}>
-                          Mobile app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          SOCIAL MEDIA MANAGEMENT
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/cross-platform-game-development"}>
-                          Cross-platform app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          META ADS (FACEBOOK & INSTAGRAM)
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/blockchain-and-nft-game-app"}>
-                          Blockchain & NFT game app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          GOOGLE ADS MANAGEMENT
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/console-game-app"}>
-                          Console game app development
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          TIKTOK ADS MARKETING
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/concept-design"}>
-                          Concept design
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          LEAD GENERATION CAMPAIGNS
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/testing-and-maintenance"}>
-                          Testing & maintenance
-                          <HiMiniArrowUpRight size={30} color={"#000"} />
+                          SALES FUNNEL CREATION
+                          <HiMiniArrowUpRight size={30}  />
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 ps-lg-0">
+                      <div className="gamedev-servicesBox-content-box-link">
+                        <Link href={"/game-development/testing-and-maintenance"}>
+                          EMAIL MARKETING SOLUTIONS
+                          <HiMiniArrowUpRight size={30}  />
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 ps-lg-0">
+                      <div className="gamedev-servicesBox-content-box-link">
+                        <Link href={"/game-development/testing-and-maintenance"}>
+                          MARKETING AUTOMATION
+                          <HiMiniArrowUpRight size={30}  />
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 ps-lg-0">
+                      <div className="gamedev-servicesBox-content-box-link">
+                        <Link href={"/game-development/testing-and-maintenance"}>
+                          CONVERSION RATE OPTIMIZATION
+                          <HiMiniArrowUpRight size={30}  />
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 ps-lg-0">
+                      <div className="gamedev-servicesBox-content-box-link">
+                        <Link href={"/game-development/testing-and-maintenance"}>
+                          RETARGETING CAMPAIGNS
+                          <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>

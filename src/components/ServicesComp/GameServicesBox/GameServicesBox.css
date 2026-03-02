@@ -1,5 +1,5 @@
 .gamedev-servicesBox .gamedev-servicesBox-bg {
-  background-image: url("../../../../public/images/webdev-servicesBox-bg.webp");
+  background-image: url("../../../../public/images/webdev-servicesBox-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,8 +83,9 @@
 }
 
 .gamedev-servicesBox-content-box-link a:hover {
-  background: linear-gradient(180deg, #d8fd7e 0%, #a4db1e 100%),
-    linear-gradient(180deg, #d8fd7e 9.33%, rgba(216, 253, 126, 0) 73.63%);
+  background: linear-gradient(180deg, #ef303e  0%, #a00d18 100%),
+    linear-gradient(180deg, #ef303e  9.33%, rgba(216, 253, 126, 0) 73.63%);
+    color: white;
 }
 
 .gamedev-servicesBox-sec {
