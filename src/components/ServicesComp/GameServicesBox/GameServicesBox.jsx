@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./GameServicesBox.css";
 import Image from "next/image";
-import gamedevPortfolio from "../../../../public/images/gamedev-portfolio.webp";
+import gamedevPortfolio from "../../../../public/images/digitaldev-portfolio.png";
 import Link from "next/link";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
@@ -67,7 +67,7 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/mobile-app-development"}>
-                          SOCIAL MEDIA MANAGEMENT
+                          Search Engine Optimization (SEO)  
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
@@ -75,7 +75,7 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/cross-platform-game-development"}>
-                          META ADS (FACEBOOK & INSTAGRAM)
+                          Social Media Marketing (SMM)
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
@@ -83,7 +83,7 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/blockchain-and-nft-game-app"}>
-                          GOOGLE ADS MANAGEMENT
+                          Pay-Per-Click Advertising (PPC)
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
@@ -91,7 +91,7 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/console-game-app"}>
-                          TIKTOK ADS MARKETING
+                          Google & Meta Ads Management
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
@@ -99,7 +99,7 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/concept-design"}>
-                          LEAD GENERATION CAMPAIGNS
+                          Content Marketing
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
@@ -107,12 +107,12 @@ const GameServicesBox = () => {
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/testing-and-maintenance"}>
-                          SALES FUNNEL CREATION
+                          Email Marketing Campaigns
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6 ps-lg-0">
+                    {/* <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
                         <Link href={"/game-development/testing-and-maintenance"}>
                           EMAIL MARKETING SOLUTIONS
@@ -143,7 +143,7 @@ const GameServicesBox = () => {
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
