@@ -5,7 +5,7 @@ import Image from "next/image";
 import creativeMind1 from "../../../public/images/creative-mind-1.webp";
 import creativeMind2 from "../../../public/images/creative-mind-2.webp";
 import creativeMind3 from "../../../public/images/creative-mind-3.webp";
-import globeImg from "../../../public/images/globe.png";
+import globeImg from "../../../public/images/";
 import globalClientBefore from "../../../public/images/global-client-before.png";
 // import globe from '../../../public/images/globe.mp4'
 
