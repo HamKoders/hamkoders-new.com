@@ -9,7 +9,7 @@ const CategoryService = () => {
           <div className="col-lg-12">
             <div className="category-service-content">
               <h2 className="same-heading">
-                <span>industries</span> we serve
+                <span>industries</span> we support
               </h2>
             </div>
           </div>
