@@ -5,8 +5,8 @@ import Image from "next/image";
 import creativeMind1 from "../../../public/images/creative-mind-1.webp";
 import creativeMind2 from "../../../public/images/creative-mind-2.webp";
 import creativeMind3 from "../../../public/images/creative-mind-3.webp";
-import globeImg from "../../../public/images/globe.gif";
-import globalClientBefore from "../../../public/images/global-client-before.webp";
+import globeImg from "../../../public/images/globe.png";
+import globalClientBefore from "../../../public/images/global-client-before.png";
 // import globe from '../../../public/images/globe.mp4'
 
 
@@ -26,10 +26,9 @@ const IdeaTransformation = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="idea-transformation-content">
-              <h3>How We Build Impacts</h3>
+              <h3>HOW WE CREATE RESULTS</h3>
               <h2 className="same-heading">
-                Our <span>Expertise,</span> with <span>Creativity</span> <br /> Provides
-                Impactful <span>Outcomes</span>
+                Our <span>Expertise,</span> AND <span>Creativity</span> <br /> DELIVER POWERFUL <span> RESULTS</span>
               </h2>
             </div>
           </div>
@@ -47,25 +46,25 @@ const IdeaTransformation = () => {
 
               <div className="creative-minds-content">
                 <h4 className="same-heading">
-                  <span>40+ </span> Creative Minds
+                  <span>EXPERT  </span> TEAM MEMBER
                 </h4>
-                <p className="para">United minds turn ideas into stories.</p>
+                <p className="para">Creative teams turning ideas into success.</p>
               </div>
             </div>
             <div className="client-satisfy-rate">
               <h4 className="same-heading">
-                <span>Client </span> Satisfaction Rate
+                <span>CLIENT </span>  SUCCESS RATE 
               </h4>
               <h3>98%</h3>
               <p className="para">
-                Partner with us to build a path from lead to sale
+                Work with us to turn leads into customers
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="carvalho-box">
               <p className="para">
-                <span>Hadztech</span> were great, flexible and communicative.
+                <span>Hamkoder's</span> were great, flexible and communicative.
                 Excellent designs and quick turnaround!
               </p>
 
@@ -79,10 +78,10 @@ const IdeaTransformation = () => {
             <div className="real-time-main">
               <div className="real-time-content">
                 <h3>
-                  <span>Real-time</span> global collaboration
+                  <span>Real-time</span> TEAM COLLABORATION
                 </h3>
                 <p className="para">
-                  Collaborate Seamlessly with teams across the globe.
+                  Work smoothly with our teams worldwide.
                 </p>
 
                 <div className="text-center">
@@ -94,9 +93,9 @@ const IdeaTransformation = () => {
             <div className="global-clients">
               <div className="global-clients-content">
                 <h3>
-                  <span>150+</span> Global Clients
+                  <span>150+</span> WORLDWIDE Clients
                 </h3>
-                <p className="para">Worldwide Trust. Proven Results.</p>
+                <p className="para">Global trust with proven results.</p>
 
                 <div className="global-clients-before">
                   <Image src={globalClientBefore} alt="global-clients-before" />
