@@ -27,7 +27,7 @@ import service6 from "../../../../public/images/website-services/enterprise-web-
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-ent-web-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 import enterpriseBGImage from "../../../../public/images/enterprise-dev-banner.webp";
 
 const bannerData = {
