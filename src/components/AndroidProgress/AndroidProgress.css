@@ -13,7 +13,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 2px;
-    background: linear-gradient(180deg, #9fd815 0%, rgba(159, 216, 21, 0) 100%);
+    background: linear-gradient(180deg, #f58d92 0%, rgba(159, 216, 21, 0) 100%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
@@ -21,7 +21,7 @@
 }
 
 .android-progress-box h3 {
-    background: linear-gradient(180deg, #A0D815 21.63%, rgba(160, 216, 21, 0) 66.74%);
+    background: linear-gradient(180deg, #f58d92 21.63%, rgba(160, 216, 21, 0) 66.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 145px;
