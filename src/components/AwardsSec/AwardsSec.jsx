@@ -19,7 +19,7 @@ const AwardsSec = () => {
             <div className="awards-content">
               <h2 className="same-heading">Awards</h2>
               <p className="para">
-                On a journey from aspiring to thriving, HadzTech, a leading web and app development company, has earned recognition for empowering brands with innovative digital solutions. We continue to push boundaries, delivering tech-driven growth and future-ready experiences worldwide.
+                From startup beginnings to global growth, Hamkoders has earned recognition for delivering innovative web and app development solutions that help brands scale, perform, and succeed worldwide.
               </p>
             </div>
           </div>
