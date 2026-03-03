@@ -129,14 +129,14 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-top: 2px solid #9fd815;
+    border-top: 2px solid #D41423;
     border-bottom: none;
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
-    border-image: linear-gradient(180deg, #9fd815 0%, rgba(159, 216, 21, 0) 100%);
+    border-image: linear-gradient(180deg, #f58d92 0%, rgba(159, 216, 21, 0) 100%);
     border-image-slice: 1;
     border-image-source: linear-gradient(180deg,
-            #9fd815 0%,
+            #f58d92 0%,
             rgba(159, 216, 21, 0) 100%);
     border-image-outset: 0;
     border-image-repeat: stretch;
@@ -206,7 +206,7 @@
     position: relative;
     padding: 20px 26px 0;
     margin-top: 12px;
-    background: linear-gradient(180deg, #FFFFFF 17.03%, #D41423 100%);
+    background: linear-gradient(180deg, #FFFFFF 17.03%, #f58d92 100%);
     border-radius: 20px;
     z-index: 1;
     height: 270px;
