@@ -205,8 +205,7 @@ const faqs = [
   {
     question: "Will the platform remain adaptable to future needs?",
     answer:
-      "Yes, we build scalable and flexible enterprise platforms designed to grow with your business, allowing future upgrades, integrations, and performance improvements.
-",
+      "Yes, we build scalable and flexible enterprise platforms designed to grow with your business, allowing future upgrades, integrations, and performance improvements.",
   },
   {
     question: "Do you provide post-launch enterprise support?",
