@@ -33,14 +33,12 @@ const bannerData = {
   bgImage: "/images/android-app-dev.webp",
   heading1: (
     <h1 className="same-heading">
-      Custom<span> Web Development</span> Services
+      PROFESSIONAL<span> Web Development</span> Services
     </h1>
   ),
   para: (
     <p className="para">
-      Enhance your brand with <span>Custom Web Development</span> Services that
-      deliver innovative design, seamless performance, and strong functionality
-      to attract, engage, and convert audiences.
+      Improve your online presence with <span>Professional Web Development </span> Services that deliver modern design, smooth performance, and powerful functionality to attract, engage, and convert visitors.
     </p>
   ),
   image: vector,
@@ -50,10 +48,10 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Unleashing New Perspectives <br /> <span> for Business Success</span>
+      CREATING NEW OPPORTUNITIES <br /> <span> for Business Success</span>
     </h2>
   ),
-  para: "Our web development services focus on speed, security, and SEO optimization, delivering measurable results, enhanced performance, and a seamless digital experience that drives user engagement and business growth.",
+  para: "Our web development services focus on speed, security, and SEO optimization, delivering measurable results, improved performance, and seamless digital experiences that increase engagement and business growth.",
   serviceBox: [
     {
       image: service1,
@@ -206,7 +204,7 @@ const CustomWebDevelopment = () => {
   return (
     <PageLayout>
       <AndroidAppBanner bannerData={bannerData} />
-      <FeaturedBrands heading={"Trusted by"} headingSpan={"Leading Brands"} />
+      <FeaturedBrands heading={"Trusted by"} headingSpan={"GLOBAL Brands"} />
       <AndroidServices serviceData={serviceData} />
       <AndroidProgress />
       <AwardsSec />
