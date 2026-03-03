@@ -34,16 +34,16 @@ const whySecData = {
   heading3: "Why Choose Hamkoder's?",
   heading2: (
     <h2 className="same-heading">
-      We Don’t <span>Just Design Websites</span> We <span>Design</span> Success
+      We Don’t <span>ONLY BUILD Websites</span> We <span>BUILD</span> Success
     </h2>
   ),
-  para: "Your website is your digital first impression we make it unforgettable. Our expert team blends design and performance to craft impactful, high-standard websites that drive success and build lasting trust.",
+  para: "Your website reflects your brand identity and business vision. Our expert team combines modern design and smart technology to build high-performance websites that boost growth and credibility.",
   points: [
-    "Create a remarkable first impression that defines a brand.",
-    "Deliver premium, high-impact website designs that fascinate users.",
-    "Build unified, intelligent functionality that keeps visitors engaged.",
-    "Optimize performance, reliability, and influential results.",
-    "Drive measurable business growth through strategic solutions.",
+    "Create a powerful first impression that builds trust.",
+    "Deliver premium, high-converting website designs that attract users.",
+    "Build smart, scalable features that keep visitors engaged.",
+    "Improve speed, reliability, and measurable results.",
+    "Boost measurable business growth with smart digital strategies.",
   ],
   video: "/images/whySecVideo.mp4",
   image: whySecWebdev,
@@ -51,47 +51,47 @@ const whySecData = {
 };
 
 const whatWeOfferData = {
-  heading3: "WEBSITE DEVELOPMENT SERVICES",
+  heading3: "PROFESSIONAL WEB SERVICES",
   heading2: (
     <h2 className="same-heading">
-      INNOVATIVE<span> WEB DEVELOPMENT</span> SERVICES
+      ADVANCED<span> WEB DEVELOPMENT</span> SERVICES
     </h2>
   ),
   whatWeOfferBox: [
     {
       image: whatWeOfferBox1,
-      heading3: 'Custom-Built Solutions',
-      para: 'Every website we create is modified to a unique brand, industry, and objectives, no templates, no shortcuts.',
+      heading3: 'TAILORED WEB SOLUTIONS',
+      para: 'Every website we build is crafted to match your brand, industry, and business goals perfectly.',
       imageAlt: 'whatWeOfferBox1'
     },
     {
       image: whatWeOfferBox2,
-      heading3: 'High-Performance Development',
-      para: 'We focus on speed, reliability, and seamless performance to enhance user experience and improve conversions.',
+      heading3: 'FAST & SCALABLE DEVELOPMENT',
+      para: 'We prioritize speed, stability, and smooth performance to boost engagement and increase online conversions.',
       imageAlt: 'whatWeOfferBox2'
     },
     {
       image: whatWeOfferBox3,
-      heading3: 'Responsive Design',
-      para: 'Our websites look and function flawlessly on all devices, delivering a consistent experience everywhere.',
+      heading3: 'MOBILE RESPONSIVE DESIGN',
+      para: 'Our websites perform smoothly on all devices, ensuring seamless browsing and consistent user experience everywhere.',
       imageAlt: 'whatWeOfferBox3'
     },
     {
       image: whatWeOfferBox4,
-      heading3: 'Secure & Scalable Platforms',
-      para: 'We integrate top-level security and build scalable solutions that grow with business.',
+      heading3: 'SAFE & SCALABLE WEBSITES',
+      para: ' We implement advanced security and scalable systems designed to support your long-term business growth.',
       imageAlt: 'whatWeOfferBox4'
     },
     {
       image: whatWeOfferBox5,
-      heading3: 'User-Centric Experience',
-      para: 'Every design decision is made with audience in mind, ensuring intuitive navigation and meaningful engagement.',
+      heading3: 'USER-FOCUSED EXPERIENCE',
+      para: 'Each design choice improves usability and delivers smooth navigation for better customer engagement.',
       imageAlt: 'whatWeOfferBox5'
     },
     {
       image: whatWeOfferBox6,
-      heading3: 'SEO & Growth Ready',
-      para: 'Our development process is optimized for search engines and structured to support long-term digital success.',
+      heading3: 'SEO OPTIMIZED WEBSITES',
+      para: ' Our development strategy improves search visibility and supports long-term online business growth.',
       imageAlt: 'whatWeOfferBox6'
     },
 
