@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/backend-vector.webp";
+import vector from "../../../../public/images/backend-vector.png";
 
-import service1 from "../../../../public/images/website-services/backend-development/1.webp";
-import service2 from "../../../../public/images/website-services/backend-development/2.webp";
-import service3 from "../../../../public/images/website-services/backend-development/3.webp";
-import service4 from "../../../../public/images/website-services/backend-development/4.webp";
-import service5 from "../../../../public/images/website-services/backend-development/5.webp";
-import service6 from "../../../../public/images/website-services/backend-development/6.webp";
+import service1 from "../../../../public/images/website-services/backend-development/1.png";
+import service2 from "../../../../public/images/website-services/backend-development/2.png";
+import service3 from "../../../../public/images/website-services/backend-development/3.png";
+import service4 from "../../../../public/images/website-services/backend-development/4.png";
+import service5 from "../../../../public/images/website-services/backend-development/5.png";
+import service6 from "../../../../public/images/website-services/backend-development/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-back-web-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/backend-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Seamless <span> Back-End</span> Performance
+      POWERFUL  <span> Back-End</span> DEVELOPMENT
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech’s custom backend development services deliver fast, secure, and scalable server-side solutions, powering robust web applications with seamless performance.
+     Hamkoders provide backend development services that create secure, scalable, and high-performance systems designed to manage data efficiently and support business growth.
     </p>
   ),
   image: vector,
@@ -48,20 +48,20 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Building the Digital Engine <br /> <span>That Powers Platform</span>
+      Building the Digital Engine <br /> <span>That RUNS BUSINESS SYSTEMS</span>
     </h2>
   ),
-  para: "Our server-side programming ensures high-performance operations, seamless integrations, and secure, scalable infrastructure, handling complex data while evolving with your business and product growth.",
+  para: "Our backend development ensures secure performance, powerful integrations, and scalable infrastructure, managing data efficiently while supporting long-term platform growth.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom Server-Side <br />
+          Custom Server <br />
           Architecture
         </h4>
       ),
-      para: "We design highly efficient architectures that manage heavy workloads and deliver consistent performance. Every build is structured to support dynamic functionality and future system expansion.",
+      para: "We build strong backend frameworks designed to manage heavy operations and maintain consistent system performance for evolving digital platforms.",
     },
     {
       image: service2,
@@ -71,47 +71,47 @@ const serviceData = {
           Integration
         </h4>
       ),
-      para: "Our back-end frameworks ensure flawless communication between systems, applications, and databases. Smooth data flow enhances functionality and provides a unified digital ecosystem.",
+      para: "Our backend developers connect applications and databases seamlessly, enabling smooth communication and creating a unified digital ecosystem.",
     },
     {
       image: service3,
       heading4: (
         <h4>
           High-Speed <br />
-          Processing
+          Data Processing
         </h4>
       ),
-      para: "We implement optimized server logic, efficient data queries, and advanced caching strategies. The result is lightning-fast response times and uninterrupted system uptime.",
+      para: "We implement optimized server logic and advanced data handling to deliver fast responses, stable performance, and uninterrupted system functionality.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Enterprise Security<br />
+          ADVANCED Security<br />
           Controls
         </h4>
       ),
-      para: "Security is fundamental to our development process. With encryption, access control, and vulnerability monitoring, we protect critical data and ensure secure transactions.",
+      para: "Security is integrated into every backend system using encryption, secure access layers, and monitoring to protect sensitive data and transactions.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Scalable<br />
+          Scalable BACKEND<br />
           Solutions
         </h4>
       ),
-      para: "Our back-end foundations are designed to scale with user growth and evolving technology demands. Flexible systems allow for feature expansion without downtime or instability.",
+      para: "Our backend systems grow with your business. Flexible architecture allows feature expansion without affecting speed or performance stability.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Result-Oriented <br />
-          Performance
+          PERFORMANCE-FOCUSED  <br />
+          RESULTS
         </h4>
       ),
-      para: "Every component is designed to support measurable outcomes from faster operations and improved automation to stronger user engagement and higher revenue potential.",
+      para: "Each backend solution is structured to improve automation, efficiency, and measurable growth, supporting long-term digital success.",
     }
   ],
   btnText: "Start Backend Development",
@@ -121,10 +121,10 @@ const discussCtaData = {
   heading1: <h2 className="same-heading">Powering Business Growth Through</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>Strong Server-Side Solutions</span>
+        <span>BACK-END Solutions</span>
       </h3>
     ),
-  para: "Partner with HadzTech for a powerful back-end that drives scalability, performance, and innovation, supporting business goals and enabling applications to grow seamlessly.",
+  para: "Power your business with Hamkoders backend development services built for scalability, performance, and security. We create reliable systems that support growth, streamline operations, and ensure smooth application performance.",
   image: discussCtaImage,
 };
 
@@ -134,34 +134,34 @@ const demandCompData = {
       Back-End<span> Solutions Engineered</span> for Reliability and Future Expansion
     </h2>
   ),
-  para: 'Our custom backend development services provide secure, scalable, and flexible solutions for digital success. A skilled backend developer at HadzTech crafts robust infrastructure and advanced server-side functionalities, ensuring platforms perform reliably under real-world demands while supporting growth, innovation, and seamless user experiences across all applications.',
+  para: 'Our custom backend development services provide secure, scalable, and flexible solutions for digital success. Hamkoders backend developers build strong infrastructures and advanced server-side logic, ensuring platforms operate reliably under real-world traffic while supporting growth, automation, and seamless application performance.',
   demandBox: [
     {
       heading4: (
         <h4>Scalable <br /> Architecture</h4>
       ),
-      para: 'Build flexible backend systems that adapt to user growth, traffic spikes, and evolving business needs.',
+      para: 'Build flexible backend systems that adapt to traffic growth, user demands, and expanding platforms.',
       image: signVector
     },
     {
       heading4: (
         <h4>API  <br /> Integration</h4>
       ),
-      para: 'Seamlessly connect services and data with secure, efficient, and scalable third-party API integrations.',
+      para: 'Seamlessly connect applications, services, and databases with secure and scalable backend integrations.',
       image: signVector
     },
     {
       heading4: (
         <h4>Database <br />Optimization</h4>
       ),
-      para: 'Ensure high performance with structured, secure, and responsive database systems tailored to your application.',
+      para: 'Ensure strong performance using structured, secure, and high-speed database architecture for applications  .',
       image: signVector
     },
     {
       heading4: (
         <h4>Cloud <br /> Deployment</h4>
       ),
-      para: 'Deploy backend infrastructure in the cloud for better availability, cost-efficiency, and development speed.',
+      para: 'Deploy backend systems on cloud environments for reliability, performance, and seamless scalability.',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is back-end development?",
     answer:
-      "Back-end development involves building the server-side systems that power websites and applications handling data, logic, security, and integrations behind the scenes.",
+      "Back-end development manages server logic, databases, and integrations that power applications and ensure smooth system functionality.",
   },
   {
     question: "Why is a strong back-end important?",
     answer:
-      "It ensures speed, scalability, and reliability. A well-built back-end supports front-end functionality, manages data efficiently, and keeps the platform secure.",
+      "It ensures speed, scalability, and reliability. A powerful backend manages data efficiently and keeps digital platforms secure.",
   },
   {
     question: "What technologies do you use for back-end development?",
     answer:
-      "We work with technologies like Node.js, Python, PHP, Java, and .NET, along with modern database solutions such as MySQL, MongoDB, and PostgreSQL.",
+      "We use scalable frameworks, secure databases, and cloud-ready infrastructure for high-performance backend systems.",
   },
   {
     question: "Can you integrate third-party services into my system?",
     answer:
-      "Yes. We can connect applications with CRMs, payment gateways, analytics platforms, and other third-party tools to extend functionality.",
+      " Yes, we connect APIs, payment gateways, and external tools for smooth and efficient digital operations.",
   },
   {
     question: "Will the back-end support future feature upgrades?",
     answer:
-      "Absolutely. Our scalable and modular architectures make it easy to add new features or expand capacity without disrupting operations.",
+      "Our backend systems are built for scalability, allowing seamless feature expansion and performance improvements.",
   },
   {
     question: "Do you provide ongoing server-side support?",
     answer:
-      "Yes. We offer continuous monitoring, performance optimization, and maintenance services to ensure the back-end remains stable, secure, and efficient.",
+      "Yes, we offer monitoring, maintenance, and optimization to ensure continuous backend performance.",
   }
 ];
 
