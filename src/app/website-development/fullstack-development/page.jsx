@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/fullstack-vector.webp";
+import vector from "../../../../public/images/fullstack-vector.png";
 
-import service1 from "../../../../public/images/website-services/fullstack-development/1.webp";
-import service2 from "../../../../public/images/website-services/fullstack-development/2.webp";
-import service3 from "../../../../public/images/website-services/fullstack-development/3.webp";
-import service4 from "../../../../public/images/website-services/fullstack-development/4.webp";
-import service5 from "../../../../public/images/website-services/fullstack-development/5.webp";
-import service6 from "../../../../public/images/website-services/fullstack-development/6.webp";
+import service1 from "../../../../public/images/website-services/fullstack-development/1.png";
+import service2 from "../../../../public/images/website-services/fullstack-development/2.png";
+import service3 from "../../../../public/images/website-services/fullstack-development/3.png";
+import service4 from "../../../../public/images/website-services/fullstack-development/4.png";
+import service5 from "../../../../public/images/website-services/fullstack-development/5.png";
+import service6 from "../../../../public/images/website-services/fullstack-development/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-full-web-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Comprehensive<span> Full-Stack</span> Development
+      ADVANCING BUSINESS WITH <span> Full-Stack</span> Development
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech, a leading full stack development agency, delivers seamless, scalable front-end and back-end solutions, turning ideas into fully functional digital experiences.
+      Hamkoders builds scalable full-stack solutions combining frontend and backend technologies to improve performance, streamline operations, and support long-term digital growth.
     </p>
   ),
   image: vector,
@@ -48,80 +48,80 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Bridging Front-End Innovation<br /> <span>with Back-End Power</span>
+      BUILDING THE DIGITAL ENGINE <br /> <span>THAT POWERS SYSTEMS</span>
     </h2>
   ),
-  para: "Designing intelligent, scalable platforms, full stack developers ensure every layer from front-end to back-end works seamlessly, delivering high-performance, user-friendly, and impactful web solutions for business growth.",
+  para: "Our backend development ensures high-performance operations, seamless integrations, and secure scalable infrastructure, managing complex data while supporting business and product growth.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Unified <br />
+          CUSTOM SERVER <br />
           Architecture
         </h4>
       ),
-      para: "We build complete systems that seamlessly connect user interfaces with server-side logic. This unified approach ensures fast performance, smooth functionality, and scalable infrastructure.",
+      para: "We design powerful backend architectures that manage heavy workloads and maintain consistent performance, structured for dynamic functionality and future expansion.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          End-to-End <br />
-          Development
+          HIGH-SPEED DATA    <br />
+          PROCESSING
         </h4>
       ),
-      para: "From design to deployment, our process covers every stage of development. A single, integrated team ensures consistency, faster delivery, and superior quality control.",
+      para: "We implement optimized server logic, fast database queries, and advanced caching strategies for rapid response times and stable system uptime.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Optimized<br />
-          Performance
+          RESULT-ORIENTED <br />
+          PERFORMANCE 
         </h4>
       ),
-      para: "We develop interfaces that engage users and server systems that handle complex operations with speed and precision. Every element is engineered for responsiveness, security, and reliability.",
+      para: "Every backend component supports measurable outcomes, from faster operations and automation to improved engagement and revenue growth.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Advanced<br />
-          Integration
+          API AND DATABASE <br />
+          INTEGRATION
         </h4>
       ),
-      para: "Our full-stack solutions support a wide range of integrations from third-party APIs and databases to enterprise platforms ensuring flexibility and future scalability.",
+      para: "Our backend frameworks enable smooth communication between systems, applications, and databases, improving efficiency and building a connected digital ecosystem.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Security and<br />
-          Compliance
+          ENTERPRISE SECURITY<br />
+          CONTROLS
         </h4>
       ),
-      para: "With secure coding practices, encrypted communication, and continuous vulnerability assessments, we protect sensitive data and maintain platform integrity.",
+      para: "Security is integrated into every backend layer. With encryption, access control, and monitoring, we protect sensitive data and ensure secure transactions.  ",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Measurable<br />
-          Business Value 
+          SCALABLE <br />
+          BACKEND SOLUTIONS 
         </h4>
       ),
-      para: "Our goal is to deliver real results increased engagement, improved conversions, and enhanced operational efficiency through fully optimized digital solutions.",
+      para: "Our backend systems are built to grow with user demand and evolving technologies, allowing feature expansion without downtime or instability.",
     }
   ],
   btnText: "Start Fullstack Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Delivering Digital Ecosystems</h2>,
+  heading1: <h2 className="same-heading">DRIVING GROWTH WITH </h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>from a Single Source</span>
+        <span>FULL-STACK DEVELOPMENT</span>
       </h3>
     ),
   para: "Partner with HadzTech for end-to-end development, ensuring seamless integration of all components, accelerating innovation, streamlining delivery, and achieving measurable digital product results.",
@@ -131,37 +131,38 @@ const discussCtaData = {
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      End-to-End<span> Full Stack Development</span> for Scalable Growth
+       FULL-STACK<span> SOLUTIONS ENGINEERED</span>  FOR SCALABILITY AND BUSINESS GROWTH
+
     </h2>
   ),
-  para: 'Our full stack development agency offers comprehensive full stack development services that combine front-end and back-end expertise. We build seamless, high-performing digital products optimized for speed, scalability, and business impact, delivering agile solutions that engage users and drive measurable growth.',
+  para: 'Our full-stack development services combine powerful front-end and backend technologies to build scalable digital platforms. Hamkoders developers create complete web solutions with optimized performance, strong architecture, and seamless integrations to ensure smooth functionality and long-term business growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Strategic Product <br /> Planning</h4>
+        <h4>Unified <br />  Architecture</h4>
       ),
-      para: 'We create a tailored full-stack roadmap, aligning decisions with business goals through data-driven, growth-focused strategies.',
+      para: 'Develop complete systems combining front-end interfaces with powerful backend infrastructure and logic',
       image: signVector
     },
     {
       heading4: (
-        <h4>Robust <br /> Architecture</h4>
+        <h4>API & System <br />  Integration</h4>
       ),
-      para: 'Our solutions scale seamlessly, managing growing traffic, features, and business needs while maintaining top performance.',
+      para: 'Connect applications, third-party services, and databases for smooth digital workflows and automation.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Continuous<br />Innovation</h4>
+        <h4>Performance <br />Optimization</h4>
       ),
-      para: 'We leverage modern technologies and frameworks to keep products competitive, adaptable, and aligned with market changes.',
+      para: 'Optimize full-stack applications for speed, stability, and seamless user experiences across platforms.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Reliable<br /> Infrastructure</h4>
+        <h4>Deployment & <br /> Maintenance</h4>
       ),
-      para: 'We implement multi-layered security, safeguarding both server and user interactions to protect platforms effectively.',
+      para: 'Ensure reliable deployment and continuous monitoring for long-term performance and scalability.',
       image: signVector
     }
   ]
@@ -171,32 +172,32 @@ const faqs = [
   {
     question: "What is full-stack development?",
     answer:
-      "Full-stack development covers both front-end (client-side) and back-end (server-side) components of a web application, delivering complete, fully functional digital solutions.",
+      "Full-stack development covers both front-end and backend systems to build complete, scalable digital platforms",
   },
   {
-    question: "Why should I choose full-stack development?",
+    question: "Why choose full-stack development?",
     answer:
-      "It ensures a cohesive build process, faster delivery, and seamless integration between different components resulting in better performance and scalability.",
+      "It ensures seamless performance, faster development, and smooth integration between user interface and server systems.",
   },
   {
-    question: "What technologies do you use for full-stack projects?",
+    question: "Which technologies do you use for full-stack projects?",
     answer:
-      "We use a combination of technologies like React, Vue.js, Angular, Node.js, Python, PHP, and databases such as MongoDB and PostgreSQL.",
+      "We use modern frameworks, scalable backend technologies, and optimized databases for complete development solutions",
   },
   {
-    question: "Can you upgrade or scale existing full-stack applications?",
+    question: "Can you upgrade existing full-stack applications?",
     answer:
-      "Yes. We can modernize legacy systems, improve performance, and add new features to meet evolving business needs.",
+      " Yes, we enhance performance, improve design, and upgrade backend architecture for better scalability.",
   },
   {
-    question: "How long does a typical full-stack project take?",
+    question: "Will the system handle business growth?",
     answer:
-      "Depending on complexity, most projects are completed within 10 to 20 weeks, including planning, development, testing, and deployment.",
+      "Our full-stack solutions are built to scale with traffic, users, and future feature expansion.",
   },
   {
-    question: "Do you offer post-launch support?",
+    question: "Do you offer long-term support?",
     answer:
-      "Absolutely. We provide ongoing maintenance, updates, performance monitoring, and feature enhancements to ensure long-term success.",
+      "Yes, we provide updates, monitoring, and continuous optimization for long-term performance.",
   }
 ];
 
