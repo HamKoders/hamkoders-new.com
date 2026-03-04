@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/frontend-vector.webp";
+import vector from "../../../../public/images/frontend-vector.png";
 
-import service1 from "../../../../public/images/website-services/frontend-development/1.webp";
-import service2 from "../../../../public/images/website-services/frontend-development/2.webp";
-import service3 from "../../../../public/images/website-services/frontend-development/3.webp";
-import service4 from "../../../../public/images/website-services/frontend-development/4.webp";
-import service5 from "../../../../public/images/website-services/frontend-development/5.webp";
-import service6 from "../../../../public/images/website-services/frontend-development/6.webp";
+import service1 from "../../../../public/images/website-services/frontend-development/1.png";
+import service2 from "../../../../public/images/website-services/frontend-development/2.png";
+import service3 from "../../../../public/images/website-services/frontend-development/3.png";
+import service4 from "../../../../public/images/website-services/frontend-development/4.png";
+import service5 from "../../../../public/images/website-services/frontend-development/5.png";
+import service6 from "../../../../public/images/website-services/frontend-development/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-front-web-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/front-end-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Exceptional<span> Front-End</span> Development
+      ELITE <span> Front-End</span> Development
     </h1>
   ),
   para: (
     <p className="para">
-      We offer front end web development services that create fast, responsive, and visually engaging interfaces designed to enhance user experience and boost engagement.
+     We deliver front-end web development services that build fast, responsive, and visually powerful interfaces crafted to improve user experience and increase engagement for modern businesses.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Crafting In-built Interfaces <br /> <span>That Drive Engagement</span>
+      CREATING HIGH-PERFORMANCE INTERFACES <br /> <span>THAT BOOST USER ENGAGEMENT </span>
     </h2>
   ),
-  para: "Our front-end solutions blend design and precision, using modern frameworks and user-focused development to create high-performing, responsive interfaces that strengthen brand presence across all devices.",
+  para: "Our front-end development services combine modern UI design and advanced coding, using latest frameworks and user-focused strategies to build fast, responsive interfaces that strengthen brand visibility across all devices.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Dynamic <br />
+          SMART UI<br />
           Architecture
         </h4>
       ),
-      para: "We build interfaces structured around user behavior, ensuring smooth navigation, logical flow, and intuitive interaction. Every detail is crafted to enhance usability and accessibility.",
+      para: "We design structured and intuitive front-end layouts that ensure smooth navigation and user interaction. Every element is carefully crafted to improve usability and accessibility.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Responsive <br />
+          MOBILE-READY <br />
           Design
         </h4>
       ),
-      para: "Our front-end builds are optimized for every screen size and device. Adaptive layouts and responsive elements guarantee a consistent, engaging experience anywhere users connect.",
+      para: " Our front-end solutions are optimized for all screen sizes and devices. Adaptive layouts and responsive coding create consistent digital experiences across every platform.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Performance-Driven <br />
+          SPEED-OPTIMIZED <br />
           Development
         </h4>
       ),
-      para: "Speed is at the core of everything we create. We optimize load times, minimize code weight, and implement best practices to ensure high performance without compromising quality.",
+      para: " Performance is built into every interface we create. Fast loading times, optimized scripts, and clean code ensure high-speed performance without compromising quality.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Reliable Front-End<br />
-          Code
+          STABLE Front-End<br />
+          Coding
         </h4>
       ),
-      para: "Security is embedded at every layer, from input validation to front-end data handling. This ensures the platform remains safe, stable, and resistant to vulnerabilities.",
+      para: " We implement secure and reliable coding practices, from input validation to browser compatibility, keeping your website stable, safe, and error-free.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO-Enhanced<br />
+          SEO-OPTIMIZED<br />
           Structure
         </h4>
       ),
-      para: "We structure interfaces with semantic markup, proper metadata, and indexing best practices helping digital products gain visibility and perform better in search rankings.",
+      para: " Our front-end code follows SEO best practices including clean markup, fast performance, and structured layouts that improve visibility and search rankings.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Business-Focused <br />
-          Outcomes
+          RESULT-ORIENTED  <br />
+          DESIGN
         </h4>
       ),
-      para: "Every element is developed with a clear business goal in min whether it’s improving conversions, boosting retention, or creating a smoother buyer journey.",
+      para: "Every interface is developed with business growth in mind, helping brands increase engagement, improve conversions, and deliver seamless user journeys.",
     }
   ],
   btnText: "Start Frontend Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Empowering Brands Through</h2>,
+  heading1: <h2 className="same-heading">Empowering BUSINESSES THROUGH</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>Unified User Interaction</span>
+        <span> SEAMLESS DIGITAL EXPERIENCES</span>
       </h3>
     ),
-  para: "Our front-end solutions blend design and precision, using modern frameworks and user-focused development to create high-performing, responsive interfaces that strengthen brand presence across all devices.",
+  para: "Our web and app development solutions combine modern design and advanced technology, using performance-focused frameworks and user-centric strategies to create fast, scalable digital platforms that strengthen brand presence and business growth across all devices.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Front-End<span> Development Solutions</span> Built for Impact and Growth
+      Front-End<span> SOLUTIONS ENGINEERED FOR</span> PERFORMANCE AND USER EXPERIENCE
     </h2>
   ),
-  para: 'Our front end web development services focus on creating seamless, high-performance digital experiences. With a skilled front end developer team, we combine creativity, functionality, and responsive design to engage users, boost conversions, and strengthen brand presence through visually stunning, user-centric, and performance-optimized interfaces across all devices and platforms.',
+  para: 'Our custom front-end development services deliver responsive, fast, and visually engaging interfaces for modern digital platforms. A skilled front-end team at Hamkoders builds interactive layouts and optimized UI components, ensuring websites perform smoothly across devices while improving engagement, conversions, and brand visibility.',
   demandBox: [
     {
       heading4: (
-        <h4>Tailored UI/UX <br /> Strategy</h4>
+        <h4>Scalable UI <br /> Architecture</h4>
       ),
-      para: 'We analyze audience and brand to create interfaces that align with goals and engage users effectively.',
+      para: 'Build flexible interface structures that adapt to screen sizes, user behavior, and evolving digital trends.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Optimized Front-End <br /> Architecture</h4>
+        <h4>API <br /> Integration</h4>
       ),
-      para: 'Our solutions ensure fast performance, smooth interactivity, and flawless rendering for optimal real-world user experiences.',
+      para: 'Connect front-end systems with secure APIs, ensuring smooth data flow and real-time user interactions.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Scalable, Future-Ready <br />Interfaces</h4>
+        <h4>Cross-Browser  <br />Deployment</h4>
       ),
-      para: 'We create scalable front-end foundations that adapt seamlessly to new features and design changes.',
+      para: 'eliver consistent user interfaces across browsers and devices for better accessibility and usability.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Integrated Security<br /> Practices</h4>
+        <h4>Performance <br /> Optimization</h4>
       ),
-      para: 'We enforce strict testing and coding standards to prevent vulnerabilities, protecting user interactions and ensuring secure front-ends.',
+      para: 'Ensure lightning-fast interfaces with clean code, optimized assets, and seamless rendering across devices. ',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is front-end development?",
     answer:
-      "Front-end development focuses on building the user-facing part of websites and applications the layout, design, and interactivity users engage with directly.",
+      "Front-end development focuses on creating visual layouts, interactive elements, and responsive designs that users see and interact with on websites.",
   },
   {
-    question: "Why is front-end development important?",
+    question: "Why is professional front-end important?",
     answer:
-      "It determines how users experience a product. Well-built front-end code improves usability, engagement, SEO performance, and overall conversion rates.",
+      "It improves speed, usability, and engagement. A well-structured interface enhances navigation, boosts conversions, and strengthens digital brand presence.",
   },
   {
-    question: "Which technologies do you use?",
+    question: "Which technologies do you use for front-end development?",
     answer:
-      "We work with modern frameworks like React, Vue.js, and Angular, along with HTML5, CSS3, and JavaScript to deliver fast, responsive, and scalable interfaces.",
+      " We work with modern frameworks, responsive design tools, and performance-focused coding standards for seamless user experiences.",
   },
   {
-    question: "Can you optimize existing front-end code?",
+    question: "Can you redesign existing front-end interfaces?",
     answer:
-      "Yes. We audit, refactor, and enhance existing front-end structures to improve performance, accessibility, and user experience.",
+      "Yes, we upgrade layouts, improve responsiveness, and optimize performance while maintaining brand identity and functionality.",
   },
   {
-    question: "Will the interface be responsive on all devices?",
+    question: "Will the interface be work on all devices?",
     answer:
-      "Absolutely. Every solution we build is fully responsive and optimized for seamless performance on desktops, tablets, and mobile devices.",
+      "All front-end designs are fully responsive, ensuring smooth experiences across mobile, tablet, and desktop devices.",
   },
   {
-    question: "Do you offer ongoing front-end support?",
+    question: "Do you provide ongoing front-end support?",
     answer:
-      "Yes. We provide continuous maintenance, UI updates, and performance optimization to keep front-end experience modern and effective.",
+      "Yes, we offer maintenance, updates, and optimization to keep interfaces fast, secure, and user-friendly.",
   }
 ];
 
@@ -204,7 +204,7 @@ const FrontendDevelopment = () => {
   return (
     <PageLayout>
       <AndroidAppBanner bannerData={bannerData} />
-      <FeaturedBrands heading={"Trusted by"} headingSpan={"Leading Brands"} />
+      <FeaturedBrands heading={"Trusted by"} headingSpan={"TOP INDUSTRY Brands"} />
       <AndroidServices serviceData={serviceData} />
       <AndroidProgress />
       <AwardsSec />
