@@ -33,7 +33,7 @@ const bannerData = {
   bgImage: "/images/front-end-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      ELITE <span> Front-End</span> Development
+      ELITE <span><br> Front-End</br></span> Development
     </h1>
   ),
   para: (
