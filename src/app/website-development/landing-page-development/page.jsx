@@ -17,29 +17,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/landing-page-vector.webp";
+import vector from "../../../../public/images/landing-page-vector.png";
 
-import service1 from "../../../../public/images/website-services/landing-page-development/1.webp";
-import service2 from "../../../../public/images/website-services/landing-page-development/2.webp";
-import service3 from "../../../../public/images/website-services/landing-page-development/3.webp";
-import service4 from "../../../../public/images/website-services/landing-page-development/4.webp";
-import service5 from "../../../../public/images/website-services/landing-page-development/5.webp";
-import service6 from "../../../../public/images/website-services/landing-page-development/6.webp";
+import service1 from "../../../../public/images/website-services/landing-page-development/1.png";
+import service2 from "../../../../public/images/website-services/landing-page-development/2.png";
+import service3 from "../../../../public/images/website-services/landing-page-development/3.png";
+import service4 from "../../../../public/images/website-services/landing-page-development/4.png";
+import service5 from "../../../../public/images/website-services/landing-page-development/5.png";
+import service6 from "../../../../public/images/website-services/landing-page-development/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-landing-web-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/android-app-dev.webp",
   heading1: (
     <h1 className="same-heading">
-      Effective <span>Landing Page</span> Development
+      HIGH-CONVERTING <span>Landing Page</span> Development
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech’s landing page development services create engaging, high-converting pages with strategic design, compelling content, and seamless functionality to drive targeted actions.
+      We design landing page development services that create fast, responsive, and visually compelling pages designed to capture leads and boost conversions.  
     </p>
   ),
   image: vector,
@@ -49,80 +49,81 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Precision-Built Landing Pages<br /> <span>That Deliver Results</span>
+     BUILDING COMPLETE DIGITAL PLATFORMS<br /> <span>THAT POWER BUSINESS GROWTH</span>
+ 
     </h2>
   ),
-  para: "We develop landing page designs that align with campaign goals, engage audiences, and guide users toward clear actions, maximizing ROI through strategic layout, copy, and visuals.",
+  para: "Our full-stack development combines front-end and backend expertise to build scalable, secure, and high-performance digital platforms for modern businesses.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Conversion-Centered <br />
-          Design
+          END-TO-END <br />
+          ARCHITECTURE
         </h4>
       ),
-      para: "We design landing pages with a single goal in mind: to turn visitors into leads or customers. Clear messaging, persuasive CTAs, and intuitive layouts ensure high conversion performance.",
+      para: "We design complete system structures covering interface, server, and database to ensure smooth performance and unified functionality.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Optimized <br />
-          User Flow
+          HIGH-PERFORMANCE  <br />
+          SYSTEMS
         </h4>
       ),
-      para: "Our pages are engineered for seamless navigation and focused engagement. We eliminate distractions, streamline user journeys, and make actions effortless for higher conversion rates.",
+      para: "We optimize both client and server sides for fast loading, responsive design, and reliable operations across devices and platforms.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          SEO & Marketing<br />
-          Alignment
+          RESULT-DRIVEN<br />
+           DIGITAL PERFORMANCE
         </h4>
       ),
-      para: "We build landing pages that integrate seamlessly into the marketing ecosystem. From keyword optimization to analytics tracking, every detail supports broader campaign strategy.",
+      para: " Each project focuses on improving engagement, automation, and conversions, delivering measurable business impact and growth.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Responsive and<br />
-          Fast-Loading
+          SECURE FULL-STACK<br />
+           STRUCTURE
         </h4>
       ),
-      para: "Performance matters our landing pages are fully responsive, lightning-fast, and optimized for all devices, ensuring a frictionless user experience that keeps visitors engaged.",
+      para: " Security is built into every layer, from interface protection to database security, ensuring safe and stable digital environments.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          A/B Testing and<br />
-          Analytics Integration
+          FRONTEND AND<br />
+         BACKEND INTEGRATION
         </h4>
       ),
-      para: "We incorporate advanced testing capabilities and analytics tools to measure performance and refine results over time. Data-driven insights help you continuously improve conversion rates.",
+      para: " Our developers connect design and server technologies seamlessly, creating stable platforms with smooth data flow and powerful functionality.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Scalable and<br />
-          Campaign-Ready 
+          SCALABLE<br />
+           DEVELOPMENT SOLUTIONS
         </h4>
       ),
-      para: "Whether you’re launching a single product, running an ad campaign, or testing a new idea, our landing pages are designed to scale and adapt to evolving marketing goals.",
+      para: "Our full-stack platforms are built to scale with growth, supporting new features, users, and integrations without performance issues.",
     }
   ],
   btnText: "Start Landing Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Turn Clicks Into Customers</h2>,
+  heading1: <h2 className="same-heading">POWERING BUSINESS GROWTH</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>with Landing Pages</span>
+        <span>WITH FULL-STACK DEVELOPMENT</span> 
       </h3>
     ),
   para: "Partner with HadzTech to create mobile-friendly landing pages that blend creativity, strategy, and technical expertise, transforming marketing efforts into measurable business results.",
@@ -132,37 +133,39 @@ const discussCtaData = {
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Landing Page Solutions That Fuel<span> Conversions and Growth</span>
+      ADVANCED FULL-STACK SOLUTIONS BUILT FOR<span> SCALABILITY AND BUSINESS SUCCESS</span>
+
+
     </h2>
   ),
-  para: 'Our landing page development services go beyond simple design. We develop landing page solutions that deliver high-impact, engaging digital experiences, capturing attention and driving actions. Each page is strategically crafted to boost lead generation, increase sales, and enhance brand engagement effectively.',
+  para: 'Hamkoders delivers full-stack development services combining modern frontend and backend technologies to build scalable digital platforms that enhance performance, flexibility, and long-term business growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Strategic Campaign<br /> Planning</h4>
+        <h4>Unified<br />  Architecture</h4>
       ),
-      para: 'We define goals, audiences, and conversions to develop landing pages perfectly aligned with marketing strategy.',
+      para: 'Develop complete systems that connect front-end interfaces with powerful backend infrastructure for stable and scalable performance.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Persuasive Copy <br /> and Design</h4>
+        <h4>API & System  <br /> Integration</h4>
       ),
-      para: 'We create compelling headlines, visuals, and optimized messaging to develop landing pages that engage and convert users.',
+      para: 'Integrate applications, third-party tools, and databases to create smooth workflows and efficient digital automation.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Performance-Driven<br />Development</h4>
+        <h4>Performance<br /> Optimization</h4>
       ),
-      para: 'We prioritize speed, functionality, and SEO to ensure landing page design performs flawlessly under real-world traffic.',
+      para: 'Enhance application speed, stability, and user experience with optimized full-stack development practices.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Ongoing Optimization<br /> Support</h4>
+        <h4>Deployment &<br />  Maintenance</h4>
       ),
-      para: 'We provide ongoing support with performance tracking, A/B testing, and improvements to maximize long-term ROI.',
+      para: 'Ensure smooth deployment, regular updates, and ongoing monitoring for long-term platform reliability and scalability.',
       image: signVector
     }
   ]
@@ -170,34 +173,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is a landing page, and why is it important?",
+    question: "What is landing page development?",
     answer:
-      "A landing page is a standalone web page designed to convert visitors into leads or customers. It focuses on a single objective, such as capturing sign-ups, selling a product, or promoting an event.",
+      " Landing page development focuses on creating high-converting pages designed for marketing campaigns and lead generation.",
   },
   {
-    question: "How long does it take to develop a landing page?",
+    question: "Why are landing pages important?",
     answer:
-      "Depending on complexity and campaign requirements, development typically takes 1 to 3 weeks, including planning, design, development, and testing.",
+      "They improve conversions, capture leads, and support marketing campaigns with targeted messaging and design.",
   },
   {
-    question: "Can you integrate marketing tools and analytics?",
+    question: "Do you create SEO-friendly landing pages?",
     answer:
-      "Yes, we integrate platforms like Google Analytics, HubSpot, Mailchimp, and more to help you track conversions and campaign performance.",
+      "Yes, all landing pages are optimized for speed, search visibility, and better campaign performance",
   },
   {
-    question: "Will the landing page be mobile-friendly?",
+    question: "Can you redesign existing landing pages?",
     answer:
-      "Absolutely. Every landing page we develop is fully responsive and optimized for mobile, tablet, and desktop devices.",
+      "We optimize design, content layout, and speed to improve conversion rates and engagement.",
   },
   {
-    question: "Can you design multiple landing pages for different campaigns?",
+    question: "Will landing pages work on all devices?",
     answer:
-      "Yes, we can build custom landing pages for multiple campaigns, audiences, or products to maximize engagement and conversion.",
+      "Yes, every page is fully responsive and optimized for mobile, tablet, and desktop performance.",
   },
   {
-    question: "Do you provide ongoing optimization services?",
+    question: "Do you provide landing page maintenance?",
     answer:
-      "Yes, we offer continuous testing, performance tracking, and iterative enhancements to ensure landing pages keep delivering results.",
+      " Yes, we offer updates, performance monitoring, and optimization for better campaign results.",
   }
 ];
 
