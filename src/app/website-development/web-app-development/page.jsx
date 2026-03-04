@@ -25,7 +25,7 @@ import service4 from "../../../../public/images/website-services/web-app-develop
 import service5 from "../../../../public/images/website-services/web-app-development/5.png";
 import service6 from "../../../../public/images/website-services/web-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image-web-app-dev.png";
+import discussCtaImage from "../../../../public/images/discuss-cta-image-web-app-dev.webp";
 
 import signVector from "../../../../public/images/sign-vector.png";
 
