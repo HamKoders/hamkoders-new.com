@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/website-maintenance-vector.webp";
+import vector from "../../../../public/images/website-maintenance-vector.png";
 
-import service1 from "../../../../public/images/website-services/website-maintenance/1.webp";
-import service2 from "../../../../public/images/website-services/website-maintenance/2.webp";
-import service3 from "../../../../public/images/website-services/website-maintenance/3.webp";
-import service4 from "../../../../public/images/website-services/website-maintenance/4.webp";
-import service5 from "../../../../public/images/website-services/website-maintenance/5.webp";
-import service6 from "../../../../public/images/website-services/website-maintenance/6.webp";
+import service1 from "../../../../public/images/website-services/website-maintenance/1.png";
+import service2 from "../../../../public/images/website-services/website-maintenance/2.png";
+import service3 from "../../../../public/images/website-services/website-maintenance/3.png";
+import service4 from "../../../../public/images/website-services/website-maintenance/4.png";
+import service5 from "../../../../public/images/website-services/website-maintenance/5.png";
+import service6 from "../../../../public/images/website-services/website-maintenance/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-maintain-ser.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
@@ -38,9 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s website maintenance service keeps your digital presence secure,
-      fast, and fully functional, ensuring seamless performance and protecting
-      brand reputation.
+      We provide website maintenance services that ensure fast performance, strong security, and smooth functionality to keep your business running without interruptions.
     </p>
   ),
   image: vector,
@@ -50,134 +48,134 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Keeping Website Secure, Fast,
-      <br /> <span>and Up-to-Date</span>
+      MAINTAINING DIGITAL SYSTEM 
+      <br /> <span>THAT POWER PERFORMANCE</span>
     </h2>
   ),
-  para: "Our maintenance of website services ensure updates, monitoring, and optimization keep your site secure, efficient, high-performing, and aligned with business goals, maintaining user trust.",
+  para: "Our website maintenance ensures high-performance operations, seamless updates, and secure scalable infrastructure to support continuous business growth.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Performance <br />
-          Optimization
+          CUSTOM WEBSITE  <br />
+          MANAGEMENT
         </h4>
       ),
-      para: "We regularly monitor load times, server response, and overall website speed. Optimized performance ensures better user experience and higher engagement rates.",
+      para: "We manage website structures efficiently to maintain performance and ensure consistent functionality across all pages.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Security Monitoring <br />
-          and Updates
+          Security and<br />
+           Monitoring
         </h4>
       ),
-      para: "Our team implements security patches, scans for vulnerabilities, and enforces best practices to protect websites from cyber threats.",
+      para: "With encryption, malware protection, and vulnerability monitoring, we secure websites and protect critical data.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Content and
+          HIGH-SPEED
           <br />
-          Feature Updates
+           WEBSITE PERFORMANCE
         </h4>
       ),
-      para: "We handle updates to content, plugins, and functionality, keeping the website fresh, relevant, and aligned with evolving business needs.",
+      para: "We implement optimization, caching, and monitoring strategies to deliver fast load times and uninterrupted uptime.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Backup and <br />
-          Recovery Solutions
+          PLUGIN AND  <br />
+          SYSTEM INTEGRATION
         </h4>
       ),
-      para: "Regular backups and recovery strategies safeguard data. In the event of unexpected issues, we ensure minimal disruption and fast restoration.",
+      para: "Our maintenance frameworks ensure flawless communication between tools, plugins, and databases for stable performance.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO and <br />
-          Compatibility Checks
+          SCALABLE <br />
+           MAINTENANCE SOLUTIONS
         </h4>
       ),
-      para: "We maintain SEO standards, browser compatibility, and responsive design to ensure the website continues to perform well in search rankings and across devices.",
+      para: " Our maintenance systems adapt to growth and evolving technologies without downtime or instability",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Analytics and <br />
-          Reporting
+          RESULT-ORIENTED<br />
+           WEBSITE PERFORMANCE
         </h4>
       ),
-      para: "Our team provides insights into website performance, user behavior, and technical health, helping guide future improvements and strategic decisions.",
+      para: "Every update and optimization supports measurable engagement, improved functionality, and stronger digital growth.",
     },
   ],
   btnText: "Start Website Maintenance",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Website’s Longevity</h2>,
+  heading1: <h2 className="same-heading">RELIABLE</h2>,
   heading2: (
     <h3 className="same-heading">
-      <span>and Effectiveness</span>
+      <span> WEBSITE MAINTENANCE</span>
     </h3>
   ),
-  para: "Partner with HadzTech for continuous monitoring and professional website maintenance, keeping your platform secure, optimized, and a reliable, high-performing business asset.",
+  para: "We offer website maintenance services to keep your platform secure, updated, and optimized with continuous monitoring, performance improvements, and technical support for long-term stability.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Comprehensive Website<span> Maintenance Solutions</span>
+      WEBSITE MAINTENANCE SOLUTIONS FOR<span> PERFORMANCE AND LONG-TERM STABILITY</span>
     </h2>
   ),
-  para: "Our website maintenance service offers comprehensive, proactive support to ensure your site remains secure, efficient, and high-performing. By preventing issues before they arise and adapting to evolving technologies, we keep your digital platform reliable, optimized, and ready to support ongoing business growth.",
+  para: "Our website maintenance services keep digital platforms secure, updated, and performing at peak levels. Hamkoders ensures smooth functionality, regular updates, and performance monitoring so businesses maintain strong online presence without downtime.",
   demandBox: [
     {
       heading4: (
         <h4>
-          Monitoring and
-          <br /> Updates
+          Performance
+          <br />  Monitoring
         </h4>
       ),
-      para: "We regularly scan, update, and optimize all website components to prevent downtime and performance issues.",
+      para: "Track website speed, uptime, and functionality to maintain consistent digital performance.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Security-First <br />
-          Approach
+          Security <br />
+           Updates
         </h4>
       ),
-      para: "Ongoing vulnerability checks and updates protect sensitive information and maintain user trust.",
+      para: "Implement regular updates and patches to protect websites from vulnerabilities and threats.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Functional
+          Bug Fixing  
           <br />
-          Support
+          & Support
         </h4>
       ),
-      para: "We implement content revisions, plugin updates, and feature enhancements to keep the website relevant and effective.",
+      para: "Resolve technical issues quickly to ensure uninterrupted user experience and stability.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Reporting and <br /> Recommendations
+          Ongoing<br />  Optimization
         </h4>
       ),
-      para: "Detailed analytics and recommendations help identify areas for improvement and optimize site for long-term success.",
+      para: "Continuously improve performance, speed, and usability for long-term growth and success.",
       image: signVector,
     },
   ],
@@ -187,32 +185,32 @@ const faqs = [
   {
     question: "What does website maintenance include?",
     answer:
-      "It includes updates, security monitoring, performance optimization, backups, compatibility checks, and ongoing technical support.",
+      "Website maintenance includes updates, security checks, performance optimization, and technical support.",
   },
   {
-    question: "How often should a website be maintained?",
+    question: "Why is website maintenance important?",
     answer:
-      "Regular maintenance is recommended at least monthly, with critical updates applied immediately to ensure security and functionality.",
+      "Regular maintenance keeps websites secure, fast, and fully functional for better user experience.",
   },
   {
-    question: "Can you handle content updates and design changes?",
+    question: "Do you provide regular updates?",
     answer:
-      "Yes, we manage content revisions, plugin updates, and minor design or functional changes as part of ongoing maintenance.",
+      "Yes, we update plugins, security patches, and system features to maintain stability.",
   },
   {
-    question: "How do you ensure website security?",
+    question: "Can you fix website issues quickly?",
     answer:
-      "We implement updates, vulnerability scans, firewall management, and proactive monitoring to prevent cyber threats.",
+      "Our team resolves bugs, errors, and performance issues to ensure smooth website operation.",
   },
   {
-    question: "What if my website experiences downtime or technical issues?",
+    question: "Will my website remain secure?",
     answer:
-      "Our team provides quick troubleshooting, restoration from backups, and resolution to minimize disruption and maintain performance.",
+      " We implement security monitoring and protection systems to safeguard your digital platform.",
   },
   {
-    question: "Do you offer performance reporting for my website?",
+    question: "Do you offer ongoing maintenance plans?",
     answer:
-      "Yes, we provide analytics on speed, user behavior, SEO, and technical health, along with actionable recommendations.",
+      " Yes, we provide continuous support and optimization for long-term website performance.",
   },
 ];
 
