@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/web3.0-vector.webp";
+import vector from "../../../../public/images/web3.0-vector.png";
 
-import service1 from "../../../../public/images/website-services/web3.0-development/1.webp";
-import service2 from "../../../../public/images/website-services/web3.0-development/2.webp";
-import service3 from "../../../../public/images/website-services/web3.0-development/3.webp";
-import service4 from "../../../../public/images/website-services/web3.0-development/4.webp";
-import service5 from "../../../../public/images/website-services/web3.0-development/5.webp";
-import service6 from "../../../../public/images/website-services/web3.0-development/6.webp";
+import service1 from "../../../../public/images/website-services/web3.0-development/1.png";
+import service2 from "../../../../public/images/website-services/web3.0-development/2.png";
+import service3 from "../../../../public/images/website-services/web3.0-development/3.png";
+import service4 from "../../../../public/images/website-services/web3.0-development/4.png";
+import service5 from "../../../../public/images/website-services/web3.0-development/5.png";
+import service6 from "../../../../public/images/website-services/web3.0-development/6.png";
 
 import discussCtaImage from "../../../../public/images/discuss-cta-image-web3-dev.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/webapp-dev-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s web 3.0 development services create next-generation platforms using blockchain, decentralization, and interactive features for engaging, future-ready digital experiences.
+      We deliver Web 3.0 development services that build secure, decentralized, and scalable platforms designed to enhance digital experiences and future-ready business solutions.
     </p>
   ),
   image: vector,
@@ -48,120 +48,121 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Building the Decentralized Web<br /> <span>for Tomorrow’s Businesses</span>
+      BUILDING NEXT-GEN DIGITAL PLATFORMS<br /> <span>THAT POWER DECENTRALIZED SYSTEMS</span>
+       
     </h2>
   ),
-  para: "Our web development 3.0 services build intelligent, secure, and scalable platforms using blockchain, smart contracts, and AI, enhancing engagement, trust, and innovation for businesses.",
+  para: "Our Web3 development focuses on secure, scalable, and future-ready digital platforms that support blockchain and decentralized solutions.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Decentralized <br />
-          Architecture
+          CUSTOM WEB 3.0 <br />
+           ARCHITECTURE
         </h4>
       ),
-      para: "We design platforms built on decentralized networks, ensuring enhanced security, user control, and data privacy without reliance on centralized servers.",
+      para: "We design decentralized platforms structured for transparency, security, and advanced digital functionality.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Blockchain <br />
-          Functionality
+          BLOCKCHAIN AND <br />
+           API INTEGRATION
         </h4>
       ),
-      para: "From smart contracts to crypto wallet integration, we implement blockchain solutions that add trust, automation, and transparency to digital ecosystems.",
+      para: " Our Web3 systems connect smart contracts, wallets, and applications to create seamless decentralized ecosystems.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Enhanced User<br />
-          Interaction
+         HIGH-SPEED<br />
+          TRANSACTION PROCESSING
         </h4>
       ),
-      para: "Web 3.0 interfaces prioritize user ownership and personalized experiences. We create adaptive environments that respond intelligently to user actions.",
+      para: "We build optimized blockchain systems ensuring fast transactions, secure operations, and reliable performance.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Tokenization and<br />
-          Digital Assets
+           ADVANCED<br />
+          SECURITY LAYERS
         </h4>
       ),
-      para: "We develop token-based platforms for seamless asset exchange, reward systems, and NFT functionalities exposing new revenue streams for business.",
+      para: " Security is built into every Web3 solution with encryption, smart contract audits, and protected user access.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Unified<br />
-          Interoperability 
+          RESULT-DRIVEN<br />
+           DIGITAL INNOVATION
         </h4>
       ),
-      para: "Our solutions are designed for compatibility across blockchains, APIs, and traditional systems, ensuring future-ready integration and scalability.",
+      para: " Every Web 3.0 project is designed to deliver transparency, efficiency, and measurable digital growth.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          AI and Semantic<br />
-          Web Integration
+          SCALABLE WEBc<br />
+           3.0 SOLUTIONS
         </h4>
       ),
-      para: "We integrate semantic data and machine learning technologies to deliver smarter, context-aware platforms that offer deeper personalization and functionality.",
+      para: "Our Web 3.0 platforms are structured to scale with users and evolving blockchain technologies.",
     },
   ],
   btnText: "Start Web3.0 Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Empower Business with</h2>,
+  heading1: <h2 className="same-heading">DRIVING GROWTH WITH </h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>Web 3.0 Innovation</span>
+        <span>SECURE WEB 3.0 SOLUTIONS</span>
       </h3>
     ),
-  para: "Partner with HadzTech to transform traditional websites into scalable, transparent, blockchain-enabled platforms, embracing the decentralized future for long-term growth and innovation.",
+  para: "Hamkoders builds scalable Web  platforms with blockchain integration, helping businesses innovate, improve security, and create future-ready digital experiences for growth.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Custom Web 3.0 Platforms That<span> Redefine Digital Engagement</span>
+       Web 3.0 ENGINEERED FOR<span> SECURITY AND DIGITAL INNOVATION</span>
     </h2>
   ),
-  para: 'Our web 3.0 development services integrate advanced technologies and strategic planning to create industry-leading platforms. With robust Web 3.0 backend solutions, every project is future-proof, secure, and designed to deliver engaging, meaningful experiences while driving innovation and long-term digital growth.',
+  para: 'Our Web 3.0 development services deliver secure, scalable decentralized platforms for modern businesses. Hamkoders builds blockchain-based systems, smart integrations, and advanced digital solutions that support transparency, innovation, and next-generation web experiences.',
   demandBox: [
     {
       heading4: (
-        <h4>Strategic Decentralization<br /> Planning</h4>
+        <h4> Decentralization<br />  Architecture</h4>
       ),
-      para: 'We design Web 3.0 architecture, including dApps and smart contracts, using optimal blockchain infrastructure.',
+      para: 'Build secure Web 3.0 platforms designed for transparency, scalability, and future digital ecosystems.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Next-Gen User <br />Experience</h4>
+        <h4>Smart <br /> Integration</h4>
       ),
-      para: 'We design exceptional interfaces and personalized interactions to foster stronger, more meaningful connections with digital users.',
+      para: 'Connect blockchain networks, digital assets, and platforms with seamless secure integrations.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Secure, Scalable<br />Infrastructure</h4>
+        <h4>Performance<br /> Optimization</h4>
       ),
-      para: 'We develop with security-first principles and scalability in mind, allowing the platform to grow without compromising reliability.',
+      para: 'Ensure reliable Web 3.0  performance with secure protocols and scalable infrastructure systems.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Long-TERM Ecosystem<br /> Support</h4>
+        <h4>Secure<br />  Deployment</h4>
       ),
-      para: 'Our team provides ongoing support, updates, and ecosystem integration so platform evolves alongside Web 3.0 advancements.',
+      para: 'Deploy decentralized platforms with strong encryption, reliability, and continuous monitoring.',
       image: signVector
     }
   ]
@@ -171,32 +172,32 @@ const faqs = [
   {
     question: "What is Web 3.0 development?",
     answer:
-      "Web 3.0 development focuses on building decentralized, blockchain-based platforms that prioritize data security, user ownership, and intelligent functionality beyond traditional web applications.",
+      "Web 3.0 development focuses on decentralized platforms, blockchain integration, and secure digital ecosystems",
   },
   {
-    question: "What technologies are used in Web 3.0 solutions?",
+    question: "Why is Web 3.0 important for businesses?",
     answer:
-      "We leverage blockchain protocols, smart contracts, decentralized storage, semantic web technologies, and AI to deliver advanced, future-ready platforms.",
+      " It offers transparency, security, and advanced digital ownership features for modern platforms.",
   },
   {
-    question: "How long does it take to develop a Web 3.0 project?",
+    question: "What technologies do you use for Web3 development?",
     answer:
-      "Timelines vary based on complexity and features, but most projects take between 8 to 20 weeks, including planning, development, testing, and deployment.",
+      " We build blockchain-integrated systems, secure smart solutions, and scalable decentralized platforms",
   },
   {
-    question: "Can Web 3.0 solutions integrate with existing systems?",
+    question: "Can you integrate Web 3.0  into existing platforms?",
     answer:
-      "Yes, we ensure compatibility with legacy systems, APIs, and existing web platforms, allowing seamless migration or hybrid solutions.",
+      " Yes, we connect blockchain features with existing websites and applications seamlessly.",
   },
   {
-    question: "Do you develop decentralized apps (dApps)?",
+    question: "Are Web 3.0 platforms scalable?",
     answer:
-      "Absolutely. We design and deploy custom dApps personalized to the business model, ensuring secure, transparent, and automated operations.",
+      "Our Web 3.0 solutions are designed for scalability, security, and long-term digital innovation.",
   },
   {
-    question: "Is Web 3.0 suitable for startups and small businesses?",
+    question: "Do you provide Web 3.0  support?",
     answer:
-      "Yes, decentralized solutions can offer competitive advantages to businesses of all sizes, from improved security to new revenue models through tokenization and NFTs.",
+      " Yes, we offer maintenance, upgrades, and monitoring for decentralized platforms",
   }
 ];
 
