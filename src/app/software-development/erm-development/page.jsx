@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/erm-dev-banner.webp";
+import vector from "../../../../public/images/erm-dev-banner.png";
 
-import service1 from "../../../../public/images/software-development-services/erm-development/1.webp";
-import service2 from "../../../../public/images/software-development-services/erm-development/2.webp";
-import service3 from "../../../../public/images/software-development-services/erm-development/3.webp";
-import service4 from "../../../../public/images/software-development-services/erm-development/4.webp";
-import service5 from "../../../../public/images/software-development-services/erm-development/5.webp";
-import service6 from "../../../../public/images/software-development-services/erm-development/6.webp";
+import service1 from "../../../../public/images/software-development-services/erm-development/1.png";
+import service2 from "../../../../public/images/software-development-services/erm-development/2.png";
+import service3 from "../../../../public/images/software-development-services/erm-development/3.png";
+import service4 from "../../../../public/images/software-development-services/erm-development/4.png";
+import service5 from "../../../../public/images/software-development-services/erm-development/5.png";
+import service6 from "../../../../public/images/software-development-services/erm-development/6.png";
 
-import discussCtaImage from "../../../../public/images/erm-dev-cta.webp";
+import discussCtaImage from "../../../../public/images/erm-dev-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/android-app-dev.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      Strengthen your organization’s resilience and decision-making with our expert enterprise risk management services. We help you identify, assess, and mitigate risks through centralized data, automated workflows, and secure, compliant solutions  empowering smarter business operations and long-term growth.
+      Enhance business stability and decision-making with Hamkoders enterprise risk management services. We help organizations identify, evaluate, and reduce risks through centralized data systems, automated workflows, and secure compliant solutions that support smarter operations and sustainable growth.
     </p>
   ),
   image: vector,
@@ -48,11 +48,11 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Delivering ERM Solutions
-      <br /> <span>That Minimize Risk</span>
+      Providing ERM Solutions
+      <br /> <span>That Reduce Risk</span>
     </h2>
   ),
-  para: "Our tailored enterprise risk management services help organizations identify threats, streamline compliance, reduce operational risks, and ensure secure, scalable business continuity.",
+  para: "Hamkoders enterprise risk management services help businesses detect risks, maintain compliance, lower operational threats, and ensure secure, scalable continuity for stable and efficient growth.",
   serviceBox: [
     {
       image: service1,
@@ -62,7 +62,7 @@ const serviceData = {
           Development
         </h4>
       ),
-      para: "We design tailored ERM solutions that align with your organization’s risk management goals, improving visibility, compliance, and operational efficiency.",
+      para: "We create customized ERM solutions aligned with organizational risk strategies, improving visibility, compliance, and overall operational performance.",
     },
     {
       image: service2,
@@ -72,7 +72,7 @@ const serviceData = {
           Integration
         </h4>
       ),
-      para: "Our expert team delivers advanced ERM software development, enabling businesses to effectively identify, assess, and mitigate potential risks across all departments.",
+      para: "Our team delivers advanced ERM software integration, helping businesses identify, evaluate, and manage potential risks across all operational areas.",
     },
     {
       image: service3,
@@ -82,7 +82,7 @@ const serviceData = {
           Workflow
         </h4>
       ),
-      para: "We automate complex risk management tasks, minimize manual processes, and streamline workflows to enhance accuracy, speed, and overall productivity.",
+      para: "We simplify risk-related tasks through automation, reducing manual effort and streamlining workflows to improve efficiency and productivity.",
     },
     {
       image: service4,
@@ -92,7 +92,7 @@ const serviceData = {
           and Reporting
         </h4>
       ),
-      para: "Our ERM platforms provide real-time insights, interactive dashboards, and detailed reports that empower better decision-making and business resilience.",
+      para: "Our ERM platforms deliver real-time data insights, interactive dashboards, and reports to support strong decision-making and business stability.",
     },
     {
       image: service5,
@@ -102,7 +102,7 @@ const serviceData = {
           Existing Systems
         </h4>
       ),
-      para: "We ensure seamless integration of ERM tools with existing ERP, CRM, and finance systems for unified operations and improved performance.",
+      para: "We enable smooth ERM integration with ERP, CRM, and finance platforms to maintain unified and efficient business operations.",
     },
     {
       image: service6,
@@ -113,20 +113,20 @@ const serviceData = {
           Maintenance
         </h4>
       ),
-      para: "Through our enterprise risk management services, we provide continuous monitoring, timely updates, and dedicated support to keep your ERM systems secure, efficient, and scalable.",
+      para: "We provide continuous monitoring, regular updates, and technical support to keep ERM systems secure, reliable, and performing efficiently.",
     },
   ],
   btnText: "Start ERM Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Business Control</h2>,
+  heading1: <h2 className="same-heading">Strengthen Business Control</h2>,
   heading2: (
     <h3 className="same-heading">
-      <span>and Risk Readiness</span>
+      <span>and Risk Preparedness</span>
     </h3>
   ),
-  para: "Partner with HadzTech for ERM software development that centralizes risk data, automates compliance workflows, improves decision-making, and supports sustainable business growth",
+  para: "Partner with Hamkoders for ERM software development that centralizes risk data, automates compliance processes, improves decision-making, and supports stable, long-term business growth.",
   image: discussCtaImage,
 };
 
@@ -136,7 +136,7 @@ const demandCompData = {
       Risk Management Solutions<span> for Modern Enterprises</span>
     </h2>
   ),
-  para: "HadzTech provides expert enterprise risk management services to help organizations identify threats, ensure compliance, and maintain operational stability. Our scalable solutions are designed to support business growth, strengthen internal controls, and adapt to evolving risks empowering companies to manage uncertainty with confidence in today’s fast-changing regulatory and business environment.",
+  para: "Hamkoders delivers reliable enterprise risk management services that help businesses detect risks, maintain compliance, and ensure stable operations. Our scalable solutions support growth, strengthen internal controls, and adapt to changing risks, helping organizations manage uncertainty confidently.",
   demandBox: [
     {
       heading4: (
@@ -144,7 +144,7 @@ const demandCompData = {
           Custom ERM <br />Architecture
         </h4>
       ),
-      para: "We develop scalable ERM systems tailored to your industry and business needs for optimal performance.",
+      para: "We build scalable ERM systems designed around industry standards and business processes to ensure strong performance and efficiency.",
       image: signVector,
     },
     {
@@ -154,7 +154,7 @@ const demandCompData = {
           Capabilities
         </h4>
       ),
-      para: "Integrated ERM features help organizations proactively address operational, financial, and compliance risks.",
+      para: "Integrated ERM features enable organizations to identify, monitor, and control operational, financial, and compliance risks effectively.",
       image: signVector,
     },
     {
@@ -164,7 +164,7 @@ const demandCompData = {
           Automation
         </h4>
       ),
-      para: "Our solutions streamline communication, automate tasks, and boost team productivity.",
+      para: "Our solutions simplify communication, automate routine tasks, and improve productivity across teams and operations.",
       image: signVector,
     },
     {
@@ -173,7 +173,7 @@ const demandCompData = {
           Insightful <br /> Analytics
         </h4>
       ),
-      para: "Gain real-time data, detailed reports, and dashboards to guide strategic decisions and performance tracking.",
+      para: " Access real-time data, detailed reports, and dashboards to support smarter decisions and effective performance tracking.",
       image: signVector,
     },
   ],
@@ -183,32 +183,32 @@ const faqs = [
   {
     question: "What is ERM development?",
     answer:
-      "ERM development focuses on building systems that identify, assess, and manage enterprise-level risks to ensure business continuity and compliance.",
+      "ERM development involves creating enterprise risk management systems that help businesses identify, monitor, and manage risks while maintaining compliance and operational stability.",
   },
   {
     question: "How does ERM improve risk control?",
     answer:
-      "By combining enterprise risk management services with advanced ERM software development, businesses gain real-time visibility into potential risks and can respond more effectively.",
+      "By combining enterprise risk management services with advanced ERM software, businesses gain real-time risk visibility and respond faster to potential threats.",
   },
   {
     question: "Can ERM solutions be tailored by industry?",
     answer:
-      "Yes, our ERM frameworks are fully customized to meet the unique regulatory, operational, and strategic needs of different industries.",
+      "Yes, ERM systems can be customized according to industry requirements, risk factors, and specific business operations.",
   },
   {
     question: "Do ERM systems provide analytics?",
     answer:
-      "Absolutely. Our solutions offer real-time dashboards, reports, and data insights for informed risk-based decisions.",
+      "Yes, ERM platforms offer real-time analytics, dashboards, and reports to support risk monitoring and strategic decision-making.",
   },
   {
     question: "Are ERM tools compatible with other systems?",
     answer:
-      "Yes, we integrate ERM with ERP, finance, and compliance platforms for smooth, centralized operations.",
+      "Yes, ERM solutions integrate easily with ERP, CRM, and financial systems to ensure smooth business operations.",
   },
   {
     question: "Is ongoing support available?",
     answer:
-      "We provide continuous maintenance, updates, and support to ensure your ERM system stays reliable and secure.",
+      "Yes, Hamkoders provides continuous updates, monitoring, and technical support to maintain secure and efficient ERM system performance.",
   },
 ];
 
