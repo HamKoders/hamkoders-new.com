@@ -25,7 +25,7 @@ import service4 from "../../../../public/images/software-development-services/er
 import service5 from "../../../../public/images/software-development-services/erp-development/5.png";
 import service6 from "../../../../public/images/software-development-services/erp-development/6.png";
 
-import discussCtaImage from "../../../../public/images/erp-dev-cta.webp";
+import discussCtaImage from "../../../../public/images/erp-dev-cta.png";
 
 import signVector from "../../../../public/images/sign-vector.png";
 
