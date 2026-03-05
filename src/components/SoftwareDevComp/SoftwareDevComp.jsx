@@ -11,7 +11,7 @@ import OurWork from "@/components/OurWork/OurWork";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import CtaSec from "@/components/CtaSec/CtaSec";
 import OurBlogs from "@/components/OurBlogs/OurBlogs";
-import whySecWebdev from "../../../public/images/whySecSoftwareDev.webp";
+import whySecWebdev from "../../../public/images/whySecSoftwareDev.png";
 
 import whatWeOfferBox1 from "../../../public/images/software-dev-solution/1.webp";
 import whatWeOfferBox2 from "../../../public/images/software-dev-solution/2.webp";
@@ -25,24 +25,24 @@ import websitePortSlide2 from "../../../public/images/software-banner/2.webp";
 import websitePortSlide3 from "../../../public/images/software-banner/3.webp";
 import websitePortSlide4 from "../../../public/images/software-banner/4.webp";
 import websitePortSlide5 from "../../../public/images/software-banner/5.webp";
-import webDevServiceBefore from "../../../public/images/software-dev-before.webp";
-import webDevServiceAfter from "../../../public/images/software-dev-after.webp";
+import webDevServiceBefore from "../../../public/images/software-dev-before.png";
+import webDevServiceAfter from "../../../public/images/software-dev-after.png";
 import axiosInstance from "@/utils/axiosInstance";
 
 const whySecData = {
-  heading3: "Why to Choose HadzTech?",
+  heading3: "Why to Choose Hamkoders?",
   heading2: (
     <h2 className="same-heading">
-      Trusted <span>Software Development</span> Partner
+      Your Trusted <span>Software Development</span> Partner
     </h2>
   ),
-  para: "We deliver strategic, scalable solutions that empower businesses to grow, innovate, and lead. Our exclusive range of software development delivers CMS, HRMIS, and different business support. We have comprehensive online invoicing solutions to rapid eBill generation.",
+  para: "We deliver scalable, performance-driven software solutions that help businesses grow, streamline operations, and stay competitive. Hamkoders offers custom software development including CMS systems, HRMIS platforms, and business automation tools with advanced online invoicing and fast e-billing solutions.",
   points: [
-    "Software application development to reach goals and workflows",
-    "From concept and coding to deployment 24/7 support",
-    "Engineered solutions that grow with your business and future needs.",
-    "Integrate smoothly with existing systems and technology stack.",
-    "Focused on speed, security, and functionality to deliver quality outcomes.",
+    "Custom software development designed to match your business goals and workflow requirements.",
+    "From planning and development to deployment and ongoing technical support.",
+    "Future-ready solutions built to scale with business growth and evolving needs.",
+    "Seamless integration with existing systems, platforms, and technology infrastructure.",
+    "Focused on performance, security, and reliability to deliver high-quality digital solutions.",
   ],
   image: whySecWebdev,
   attachmentAlt: "whySecWebdev",
@@ -59,37 +59,37 @@ const whatWeOfferData = {
     {
       image: whatWeOfferBox1,
       heading3: "Custom Applications",
-      para: "We design and develop bespoke software solutions improved to business goals and operational needs.",
+      para: "We build custom software applications designed around your business objectives, workflows, and operational requirements for better performance and efficiency.",
       imageAlt: "whatWeOfferBox1",
     },
     {
       image: whatWeOfferBox2,
       heading3: "Expert Development Team",
-      para: "Our skilled application software developers bring technical expertise and strategic thinking to every project.",
+      para: "Our professional software developers combine technical knowledge and smart strategy to deliver reliable, high-quality solutions for every project.",
       imageAlt: "whatWeOfferBox2",
     },
     {
       image: whatWeOfferBox3,
       heading3: "Scalable Architecture",
-      para: "Solutions designed to scale with your business, delivering lasting value, flexibility, and future adaptability.",
+      para: "Flexible systems created to support business growth, ensuring stability, adaptability, and long-term performance as your company expands.",
       imageAlt: "whatWeOfferBox3",
     },
     {
       image: whatWeOfferBox4,
       heading3: "Unified Integration",
-      para: "Our software works flawlessly with existing available tools, platforms, and systems.",
+      para: " Our solutions integrate smoothly with your existing tools, platforms, and business technologies for uninterrupted digital operations.",
       imageAlt: "whatWeOfferBox4",
     },
     {
       image: whatWeOfferBox5,
-      heading3: "Secure & Compliant",
-      para: "We prioritize security, compliance, and reliability to protect business and user data.",
+      heading3: "5 Secure & Compliant",
+      para: "We focus on strong security standards, compliance, and system reliability to protect sensitive business and user information.",
       imageAlt: "whatWeOfferBox5",
     },
     {
       image: whatWeOfferBox6,
       heading3: "End-to-End Delivery",
-      para: "From strategy and planning to deployment and ongoing support, we manage the entire lifecycle of software.",
+      para: "From initial planning and development to launch and ongoing maintenance, we manage the complete software development process.",
       imageAlt: "whatWeOfferBox6",
     },
   ],
@@ -100,18 +100,18 @@ const websiteDevCompBannerData = {
   imageAfter: webDevServiceAfter,
   h1Part1: (
     <h1 className="same-heading">
-      BEST{" "}
+      SOFTWARE DEVELOPMENT{" "}
       <span>
-        SOFTWARE <br /> DEVELOPMENT
+        COMPANY FOR <br /> MODERN
       </span>{" "}
-      AGENCY
+      BUSINESSES    
     </h1>
   ),
   para: (
     <p className="para">
-      Hadztech, a professional software development agency, crafts powerful,
+      A trusted software development company delivering high-performance, user-focused solutions that
       <br />
-      user-focused software that drives innovation and business growth.
+      enhance efficiency, accelerate growth, and help businesses succeed in competitive digital markets worldwide.
     </p>
   ),
   swipperImages: [
