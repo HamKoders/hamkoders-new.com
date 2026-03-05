@@ -102,7 +102,7 @@ const websiteDevCompBannerData = {
     <h1 className="same-heading">
       SOFTWARE DEVELOPMENT{" "}
       <span>
-        COMPANY FOR <br /> MODERN
+      <br /> COMPANY FOR <br /> MODERN
       </span>{" "}
       BUSINESSES    
     </h1>
