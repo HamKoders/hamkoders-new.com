@@ -25,7 +25,7 @@ import service4 from "../../../../public/images/app-services/hybrid-app-developm
 import service5 from "../../../../public/images/app-services/hybrid-app-development/5.png";
 import service6 from "../../../../public/images/app-services/hybrid-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/cross-platform-app-vector.png";
+import discussCtaImage from "../../../../public/images/discuss-cta-image.png";
 
 import signVector from "../../../../public/images/sign-vector.png";
 
