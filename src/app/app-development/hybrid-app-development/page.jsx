@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/hybrid-app-vector.webp";
+import vector from "../../../../public/images/hybrid-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/hybrid-app-development/1.webp";
-import service2 from "../../../../public/images/app-services/hybrid-app-development/2.webp";
-import service3 from "../../../../public/images/app-services/hybrid-app-development/3.webp";
-import service4 from "../../../../public/images/app-services/hybrid-app-development/4.webp";
-import service5 from "../../../../public/images/app-services/hybrid-app-development/5.webp";
-import service6 from "../../../../public/images/app-services/hybrid-app-development/6.webp";
+import service1 from "../../../../public/images/app-services/hybrid-app-development/1.png";
+import service2 from "../../../../public/images/app-services/hybrid-app-development/2.png";
+import service3 from "../../../../public/images/app-services/hybrid-app-development/3.png";
+import service4 from "../../../../public/images/app-services/hybrid-app-development/4.png";
+import service5 from "../../../../public/images/app-services/hybrid-app-development/5.png";
+import service6 from "../../../../public/images/app-services/hybrid-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image.webp";
+import discussCtaImage from "../../../../public/images/cross-platform-app-vector.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/front-end-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s hybrid mobile app development services create powerful, high-speed apps combining web technology flexibility with native performance for seamless mobile experiences.
+     Hamkoders hybrid mobile app development services build powerful, high-speed apps that combine web technology flexibility with native performance for smooth and seamless mobile experiences.
     </p>
   ),
   image: vector,
@@ -51,7 +51,7 @@ const serviceData = {
       Building Hybrid Apps That<br /> <span>Perform Everywhere</span>
     </h2>
   ),
-  para: "We develop hybrid app solutions that deliver fast, reliable performance and visual consistency on iOS and Android, optimizing every feature for usability and business growth.",
+  para: "We create hybrid app solutions that deliver fast, reliable performance and consistent visuals on iOS and Android, optimizing every feature for usability and steady business growth.",
   serviceBox: [
     {
       image: service1,
@@ -61,7 +61,7 @@ const serviceData = {
           Codebase
         </h4>
       ),
-      para: "We build apps with a unified codebase for iOS and Android, reducing development time, costs, and maintenance efforts efficiently.",
+      para: " We develop apps using a unified codebase for iOS and Android, reducing development time, costs, and maintenance efforts efficiently.",
     },
     {
       image: service2,
@@ -71,7 +71,7 @@ const serviceData = {
           UI/UX
         </h4>
       ),
-      para: "Our team designs interfaces that maintain uniformity and deliver an intuitive experience on all devices, enhancing engagement and brand perception.",
+      para: "Our team designs interfaces that maintain consistency and deliver an intuitive experience across all devices, improving engagement and brand percep",
     },
     {
       image: service3,
@@ -81,7 +81,7 @@ const serviceData = {
           Performance
         </h4>
       ),
-      para: "Through efficient coding and advanced optimization techniques, we ensure hybrid apps perform smoothly, reducing latency and improving responsiveness.",
+      para: "With efficient coding and smart optimization techniques, we ensure hybrid apps run smoothly, reduce delays, and improve responsiveness.",
     },
     {
       image: service4,
@@ -91,7 +91,7 @@ const serviceData = {
           Data
         </h4>
       ),
-      para: "We implement robust security measures, including encryption and secure authentication, to safeguard sensitive data and maintain user trust.",
+      para: "We apply strong security measures, including encryption and secure authentication, to protect sensitive data and maintain user trust.    ",
     },
     {
       image: service5,
@@ -101,7 +101,7 @@ const serviceData = {
           Development
         </h4>
       ),
-      para: "Hybrid apps allow for faster delivery and lower costs compared to building separate native apps while maintaining quality and performance.",
+      para: "Hybrid apps enable faster delivery and reduced costs compared to separate native builds while maintaining performance and quality. ",
     },
     {
       image: service6,
@@ -111,7 +111,7 @@ const serviceData = {
           Support
         </h4>
       ),
-      para: "We provide continuous monitoring, updates, and feature enhancements to keep hybrid app secure, relevant, and high-performing over time.",
+      para: "We provide continuous monitoring, updates, and feature improvements to keep hybrid apps secure, updated, and performing reliably over time.",
     },
   ],
   btnText: "Start Hybrid App Development",
@@ -124,7 +124,7 @@ const discussCtaData = {
         <span>Hybrid App Solutions</span>
       </h3>
     ),
-  para: "Partner with HadzTech for scalable, cross-device apps. Our hybrid solutions deliver efficiency, performance, and engaging experiences that drive measurable business results.",
+  para: "Partner with Hamkoders for scalable, multi-device apps. Our hybrid solutions deliver efficiency, performance, and engaging experiences that support measurable business growth.",
   image: discussCtaImage,
 };
 
@@ -134,34 +134,34 @@ const demandCompData = {
       Hybrid App Development Solutions Designed<span> for Efficiency and Growth</span>
     </h2>
   ),
-  para: 'Our hybrid mobile app development services combine innovation, technology, and strategic design to create reliable, high-performing apps across all platforms. Through hybrid android app development, HadzTech delivers cost-effective, scalable solutions that enhance efficiency, reduce development time, and provide seamless user experiences for sustainable digital growth.',
+  para: 'Our hybrid mobile app development services combine technology, strategy, and smart design to build reliable, high-performing apps across platforms. Through hybrid Android app development, Hamkoders delivers cost-effective, scalable solutions that improve efficiency, shorten development time, and ensure seamless user experiences for long-term digital growth.',
   demandBox: [
     {
       heading4: (
         <h4>Strategic Planning <br /> and Design</h4>
       ),
-      para: 'We align app design, features, and functionality with business goals to deliver measurable value.',
+      para: 'We align app structure, features, and functionality with business objectives to deliver measurable and practical value.',
       image: signVector
     },
     {
       heading4: (
         <h4>Optimized Cross-Platform<br />Architecture</h4>
       ),
-      para: 'Our apps ensure responsiveness, speed, and seamless performance across both iOS and Android devices.',
+      para: 'Our apps maintain responsiveness, speed, and smooth performance across both iOS and Android devices.',
       image: signVector
     },
     {
       heading4: (
         <h4>Scalable and<br />Adaptable Solutions</h4>
       ),
-      para: 'We build modular hybrid apps supporting new features, integrations, and updates without impacting performance.',
+      para: 'We create modular hybrid apps that support new features, integrations, and updates without affecting performance.',
       image: signVector
     },
     {
       heading4: (
         <h4>Security and <br /> Compliance</h4>
       ),
-      para: 'Robust security protocols safeguard user and business data, ensuring safe, reliable, and secure app usage.',
+      para: 'RStrong security practices protect user and business data, ensuring safe, stable, and reliable application usage.',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is hybrid app development?",
     answer:
-      "Hybrid app development combines web technologies and native functionality to build a single app that works across iOS and Android platforms.",
+      "Hybrid app development builds applications using a shared codebase that runs efficiently on multiple platforms, including iOS and Android.",
   },
   {
     question: "What technologies do you use for hybrid apps?",
     answer:
-      "We use frameworks like Ionic, Flutter, and React Native to create fast, responsive, and cross-platform compatible apps.",
+      "We use frameworks such as Ionic, Flutter, and React Native to develop fast, responsive, and cross-platform compatible applications.",
   },
   {
     question: "How long does it take to develop a hybrid app?",
     answer:
-      "Development typically ranges from 8 to 16 weeks depending on app complexity, design, and features.",
+      "Hybrid app development typically takes between 6 to 14 weeks depending on features, integrations, and project scope.",
   },
   {
     question: "Will the app work seamlessly on all devices?",
     answer:
-      "Yes, hybrid apps are optimized for performance and responsiveness across both iOS and Android devices.",
+      "Yes, we ensure hybrid apps deliver consistent performance and usability across supported devices and operating systems.",
   },
   {
     question: "Can hybrid apps integrate with other systems?",
     answer:
-      "Absolutely. We can connect hybrid apps to CRMs, payment gateways, analytics tools, and other third-party platforms.",
+      " Yes, hybrid applications can integrate smoothly with APIs, CRM, ERP, and other business systems.",
   },
   {
     question: "Do you provide post-launch maintenance for hybrid apps?",
     answer:
-      "Yes, we offer continuous support, updates, and feature enhancements to ensure the app remains secure, functional, and competitive.",
+      "Yes, Hamkoders offers ongoing updates, monitoring, and technical support after launch.",
   }
 ];
 
