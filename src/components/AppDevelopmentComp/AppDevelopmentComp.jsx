@@ -32,23 +32,23 @@ import appDevSlide7 from "../../../public/images/app-banner/7.webp";
 import appDevSlide8 from "../../../public/images/app-banner/8.webp";
 import appDevSlide9 from "../../../public/images/app-banner/9.webp";
 import appDevSlide10 from "../../../public/images/app-banner/10.webp";
-import appDevBefore from "../../../public/images/appDevBefore.webp";
-import appDevAfter from "../../../public/images/appDevAfter.webp";
+import appDevBefore from "../../../public/images/appDevBefore.png";
+import appDevAfter from "../../../public/images/appDevAfter.png";
 
 const whySecData = {
-  heading3: "Why Choose HadzTech?",
+  heading3: "Why Choose Hamkoders?",
   heading2: (
     <h2 className="same-heading">
-      Smart <span>App</span> Website Design That <span>Performs</span>
+      Smart <span>App</span>  & Website Solutions That <span>Performs</span>
     </h2>
   ),
-  para: "Our custom app development services focus on innovation and performance, delivering responsive applications that engage users, strengthen brand identity, and drive consistent digital growth for your business.",
+  para: "Our custom app development services focus on innovation and performance, delivering responsive applications that engage users, strengthen brand identity, and support consistent digital growth for your business.",
   points: [
     "Customized Solutions",
     "Responsive Performance",
     "Scalable & Future-Ready",
     "Secure Development",
-    "User-Centric Design",
+    "User-Focused Design",
   ],
   video: "/images/appVideo.mp4",
   image: whySecWebdev,
@@ -59,44 +59,44 @@ const whatWeOfferData = {
   heading3: "APP DEVELOPMENT SOLUTION",
   heading2: (
     <h2 className="same-heading">
-      BEST<span> MOBILE APP DEVELOPMENT</span> COMPANY
+      APP DEVELOPMENT SOLUTION<span>TOP MOBILE APP DEVELOPMENT</span> COMPANY
     </h2>
   ),
   whatWeOfferBox: [
     {
       image: whatWeOfferBox1,
       heading3: "Custom-Built Apps",
-      para: "Custom-built mobile applications designed to match business goals and user expectations.",
+      para: "Tailor-made mobile applications developed to align with business objectives and deliver strong user experiences.",
       imageAlt: "whatWeOfferBox1",
     },
     {
       image: whatWeOfferBox2,
       heading3: "Responsive Apps",
-      para: "Responsive and high-performing apps that deliver seamless functionality across all devices.",
+      para: " Fast and responsive apps designed to perform smoothly across all devices and operating systems..",
       imageAlt: "whatWeOfferBox2",
     },
     {
       image: whatWeOfferBox3,
       heading3: "Scalable Solutions",
-      para: "Scalable solutions built to evolve with business and future technological demands.",
+      para: "Flexible solutions created to grow with your business and adapt to future technology requirements.",
       imageAlt: "whatWeOfferBox3",
     },
     {
       image: whatWeOfferBox4,
       heading3: "Highly Secure",
-      para: "Secure, reliable development practices delivering data protection and platform integrity.",
+      para: "Reliable and secure development ensuring strong data protection and stable platform performance.",
       imageAlt: "whatWeOfferBox4",
     },
     {
       image: whatWeOfferBox5,
       heading3: "User Friendly",
-      para: "Intuitive, user-friendly designs that improve engagement and boost customer satisfaction.",
+      para: "Simple, user-friendly interfaces that enhance engagement and improve overall customer experience.",
       imageAlt: "whatWeOfferBox5",
     },
     {
       image: whatWeOfferBox6,
       heading3: "End-to-end Support",
-      para: "End-to-end development support, from concept and strategy to launch and ongoing maintenance.",
+      para: "Complete development support from planning and design to deployment and continuous maintenance.",
       imageAlt: "whatWeOfferBox6",
     },
   ],
@@ -107,14 +107,13 @@ const websiteDevCompBannerData = {
   imageAfter: appDevBefore,
   h1Part1: (
     <h1 className="same-heading">
-     Leading Custom <span>App <br /> Development</span> Company
+     Top Custom  <span>App <br /> Development</span> Company
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech stands out as a top custom app development company, delivering
-      responsive, <br /> high-quality, and innovative mobile solutions across the USA.
-    </p>
+      Hamkoders stands out as a trusted custom app development company, delivering responsive, <br /> high-performance, and innovative mobile solutions for businesses across global markets.
+    </p> 
   ),
   swipperImages: [
     {
