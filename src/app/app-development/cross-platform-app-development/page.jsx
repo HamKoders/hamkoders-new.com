@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/cross-platform-app-vector.webp";
+import vector from "../../../../public/images/cross-platform-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/cross-platform-app-development/1.webp";
-import service2 from "../../../../public/images/app-services/cross-platform-app-development/2.webp";
-import service3 from "../../../../public/images/app-services/cross-platform-app-development/3.webp";
-import service4 from "../../../../public/images/app-services/cross-platform-app-development/4.webp";
-import service5 from "../../../../public/images/app-services/cross-platform-app-development/5.webp";
-import service6 from "../../../../public/images/app-services/cross-platform-app-development/6.webp";
+import service1 from "../../../../public/images/app-services/cross-platform-app-development/1.png";
+import service2 from "../../../../public/images/app-services/cross-platform-app-development/2.png";
+import service3 from "../../../../public/images/app-services/cross-platform-app-development/3.png";
+import service4 from "../../../../public/images/app-services/cross-platform-app-development/4.png";
+import service5 from "../../../../public/images/app-services/cross-platform-app-development/5.png";
+import service6 from "../../../../public/images/app-services/cross-platform-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image.webp";
+import discussCtaImage from "../../../../public/images/discuss-cta-image.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/webapp-dev-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s cross platform app development services deliver seamless, high-performing applications with consistent design and optimized functionality across iOS, Android, and web platforms.
+      Hamkoders cross platform app development services deliver seamless, high-performing applications with consistent design and optimized functionality across iOS, Android, and web platforms.
     </p>
   ),
   image: vector,
@@ -48,10 +48,10 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Building Apps That<br /> <span>Work Everywhere</span>
+      Building Apps That<br /> <span>Run Everywhere</span>
     </h2>
   ),
-  para: "Our multi-platform app development ensures flawless performance across all devices and operating systems, delivering consistent speed, usability, and seamless user experiences on every platform.",
+  para: "Our cross-platform app development delivers reliable performance across all devices and operating systems, ensuring consistent speed, usability, and smooth user experiences on every platform.",
   serviceBox: [
     {
       image: service1,
@@ -61,7 +61,7 @@ const serviceData = {
           Architecture
         </h4>
       ),
-      para: "We design a single codebase that runs efficiently on iOS, Android, and web platforms. This approach reduces development time while ensuring consistent functionality.",
+      para: "We create a single codebase that works efficiently on iOS, Android, and web platforms, reducing development time while maintaining consistent performance.",
     },
     {
       image: service2,
@@ -71,7 +71,7 @@ const serviceData = {
           Interface
         </h4>
       ),
-      para: "Our team creates interfaces that deliver the same high-quality experience across devices. Uniform design improves usability, engagement, and brand perception.",
+      para: " Our team designs interfaces that provide the same quality experience across all devices, improving usability, engagement, and brand consistency.",
     },
     {
       image: service3,
@@ -81,7 +81,7 @@ const serviceData = {
           Performance
         </h4>
       ),
-      para: "We implement best coding practices and rigorous testing to ensure smooth performance on all target platforms. High-performing apps reduce crashes and enhance user satisfaction.",
+      para: "We follow proven coding standards and testing methods to maintain stable performance across platforms, improving user satisfaction and reliability.",
     },
     {
       image: service4,
@@ -91,7 +91,7 @@ const serviceData = {
           Reliable Systems
         </h4>
       ),
-      para: "We integrate robust security measures, encrypted data storage, and secure communication protocols to protect user and business data across all platforms.",
+      para: "We apply strong security measures, encrypted storage, and secure communication protocols to protect user and business data on every platform.",
     },
     {
       image: service5,
@@ -101,7 +101,7 @@ const serviceData = {
           Development
         </h4>
       ),
-      para: "Using a single codebase for multiple platforms, we lower development costs, simplify maintenance, and ensure consistent, high-quality app performance.",
+      para: "With one codebase for multiple platforms, we reduce development costs, simplify maintenance, and maintain consistent application performance.",
     },
     {
       image: service6,
@@ -111,7 +111,7 @@ const serviceData = {
           and Updates
         </h4>
       ),
-      para: "We offer ongoing monitoring, updates, and feature enhancements to keep your app secure, relevant, and high-performing across all platforms consistently.",
+      para: "We provide continuous monitoring, updates, and improvements to keep applications secure, updated, and performing smoothly across all platforms.",
     },
   ],
   btnText: "Start Cross Platform App Development",
@@ -124,44 +124,44 @@ const discussCtaData = {
         <span>Cross-Platform Solutions</span>
       </h3>
     ),
-  para: "Partner with HadzTech to create apps that deliver a seamless user experience on every device. Our cross-platform development approach ensures maximum reach, efficiency, and measurable business impact.",
+  para: "Partner with Hamkoders to build apps that deliver a smooth user experience on every device. Our cross-platform development approach ensures wider reach, efficiency, and measurable business results.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      iOS App Development Solutions<span> Personalized for Performance</span>
+      Cross-Platform App Development Solutions<span> Personalized for Performance</span>
     </h2>
   ),
-  para: 'Our cross platform app development services integrate advanced technology and strategic design to deliver seamless, high-performing applications. By develop mobile apps cross platform, HadzTech ensures consistent functionality, scalability, and user experience across devices, helping businesses reach wider audiences efficiently while maintaining top performance and reliability.',
+  para: 'Our cross platform app development services combine modern technology with strategic design to deliver smooth, high-performing applications. By developing mobile apps cross platform, Hamkoders ensures consistent functionality, scalability, and user experience across devices, helping businesses reach wider audiences efficiently while maintaining top performance and reliability.',
   demandBox: [
     {
       heading4: (
         <h4>Strategic App <br /> Planning</h4>
       ),
-      para: 'We create a roadmap aligning business goals with cross-platform compatibility, ensuring every feature enhances performance.',
+      para: 'We build a clear roadmap that aligns business goals with cross-platform compatibility, ensuring every feature supports performance and usability.',
       image: signVector
     },
     {
       heading4: (
         <h4>High-Performance <br />Architecture</h4>
       ),
-      para: 'Our solutions ensure responsiveness, speed, and reliability across devices for a smooth, consistent user experience.',
+      para: 'Our solutions deliver speed, responsiveness, and stability across devices to maintain a consistent and reliable user experience.',
       image: signVector
     },
     {
       heading4: (
         <h4>Scalable and<br />Future-Ready Apps</h4>
       ),
-      para: 'We build scalable, modular apps that support new features and integrations without affecting performance.',
+      para: 'We develop scalable and flexible apps that support new features and integrations without disrupting performance.',
       image: signVector
     },
     {
       heading4: (
         <h4>Security Across <br /> Platforms</h4>
       ),
-      para: 'Our apps ensure strong security with encrypted data handling and authentication, protecting users and business information.',
+      para: 'Our apps include strong protection with encrypted data and secure authentication, safeguarding user and business information across all platforms.',
       image: signVector
     }
   ]
@@ -171,7 +171,7 @@ const faqs = [
   {
     question: "What is cross-platform app development?",
     answer:
-      "Cross-platform development builds a single application that works seamlessly across multiple operating systems, including iOS, Android, and web platforms.",
+      "Cross-platform app development creates mobile applications that run smoothly on iOS, Android, and web platforms using a single, efficient codebase.",
   },
   {
     question: "What technologies do you use for cross-platform apps?",
@@ -181,22 +181,22 @@ const faqs = [
   {
     question: "How long does it take to develop a cross-platform app?",
     answer:
-      "Development typically ranges from 10 to 18 weeks, depending on complexity, features, and platform requirements.",
+      "Most cross-platform apps take between 6 to 14 weeks depending on features, integrations, and overall design complexity.",
   },
   {
     question: "Will the app perform the same on all devices?",
     answer:
-      "Yes, we optimize the code and design to ensure consistent functionality, responsiveness, and user experience across all platforms.",
+      "Yes, our development process ensures consistent performance, speed, and usability across all supported platforms and devices.",
   },
   {
     question: "Can cross-platform apps integrate with existing systems?",
     answer:
-      "Absolutely. We can integrate app with CRMs, payment gateways, analytics tools, and other third-party platforms.",
+      "Yes, we ensure smooth integration with existing software, APIs, and third-party tools to maintain continuous business operations.",
   },
   {
     question: "Do you provide maintenance and updates post-launch?",
     answer:
-      "Yes, we offer continuous support, updates, and feature enhancements to keep cross-platform apps secure, functional, and up-to-date.",
+      "Yes, we offer ongoing updates, monitoring, and support to keep your cross-platform app secure, updated, and performing efficiently.",
   }
 ];
 
