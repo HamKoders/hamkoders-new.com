@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/saas-app-vector.webp";
+import vector from "../../../../public/images/saas-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/saas-app-development/1.webp";
-import service2 from "../../../../public/images/app-services/saas-app-development/2.webp";
-import service3 from "../../../../public/images/app-services/saas-app-development/3.webp";
-import service4 from "../../../../public/images/app-services/saas-app-development/4.webp";
-import service5 from "../../../../public/images/app-services/saas-app-development/5.webp";
-import service6 from "../../../../public/images/app-services/saas-app-development/6.webp";
+import service1 from "../../../../public/images/app-services/saas-app-development/1.png";
+import service2 from "../../../../public/images/app-services/saas-app-development/2.png";
+import service3 from "../../../../public/images/app-services/saas-app-development/3.png";
+import service4 from "../../../../public/images/app-services/saas-app-development/4.png";
+import service5 from "../../../../public/images/app-services/saas-app-development/5.png";
+import service6 from "../../../../public/images/app-services/saas-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image.webp";
+import discussCtaImage from "../../../../public/images/discuss-cta-image1.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/backend-banner.webp",
@@ -38,9 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s saas app development services create secure, scalable, and
-      high-performing cloud solutions that drive innovation, boost revenue, and
-      empower business growth.
+      Hamkoders SaaS app development services deliver secure, scalable, and high-performing cloud solutions that encourage innovation, increase revenue, and support steady business growth
     </p>
   ),
   image: vector,
@@ -65,7 +63,7 @@ const serviceData = {
           Architecture
         </h4>
       ),
-      para: "We develop scalable, modular applications tailored to unique business needs, ensuring each solution provides long-term flexibility, supports future growth, and adapts seamlessly to evolving requirements and market demands.",
+      para: "We build scalable and modular applications designed around unique business needs, ensuring every solution delivers flexibility, supports future expansion, and adapts smoothly to evolving market demands.",
     },
     {
       image: service2,
@@ -76,7 +74,7 @@ const serviceData = {
           Interface
         </h4>
       ),
-      para: "Our team creates intuitive dashboards and user interfaces that streamline workflows, improve usability, and boost engagement. Thoughtful, user-centric design ensures higher adoption, increased retention, and enhanced overall user satisfaction.",
+      para: "Our team designs intuitive dashboards and interfaces that simplify workflows, improve usability, and increase engagement. Smart, user-focused design encourages adoption, boosts retention, and enhances user satisfaction.",
     },
     {
       image: service3,
@@ -87,7 +85,7 @@ const serviceData = {
           Cloud Solutions
         </h4>
       ),
-      para: "We enhance server-side logic, streamline database management, and integrate APIs efficiently to deliver fast, reliable, and seamless application performance, ensuring optimal functionality and a smooth user experience across platforms.",
+      para: "We optimize server-side performance, manage databases efficiently, and integrate APIs to deliver fast, reliable application performance across platforms for a smooth user experience.",
     },
     {
       image: service4,
@@ -97,7 +95,7 @@ const serviceData = {
           Compliance
         </h4>
       ),
-      para: "We implement best practices, including secure data storage and adherence to industry standards, to protect sensitive business and user information, ensuring compliance, trust, and reliable security across all applications.",
+      para: "We follow proven practices, including secure data storage and compliance standards, to protect sensitive business and user information while ensuring reliable application security.",
     },
     {
       image: service5,
@@ -107,7 +105,7 @@ const serviceData = {
           and Subscription
         </h4>
       ),
-      para: "Our solutions enable multi-client management, support various subscription tiers, and accommodate different user roles, offering flexible, scalable, and controlled operations that optimize SaaS performance and streamline business management.",
+      para: "Our SaaS platforms support multi-client management, subscription models, and user roles, enabling flexible operations and controlled access for improved performance and management.",
     },
     {
       image: service6,
@@ -118,7 +116,7 @@ const serviceData = {
           and Updates
         </h4>
       ),
-      para: "We offer continuous monitoring, performance optimization, and regular feature enhancements to ensure your SaaS application remains competitive, reliable, high-performing, and aligned with evolving business needs and user expectations.",
+      para: "We provide continuous monitoring, performance tuning, and feature updates to keep your SaaS application reliable, competitive, and aligned with changing business needs.",
     },
   ],
   btnText: "Start Saas App Development",
@@ -131,7 +129,7 @@ const discussCtaData = {
       <span>SaaS Solutions</span>
     </h3>
   ),
-  para: "Partner with HadzTech to develop scalable SaaS platforms that streamline operations, enhance user engagement, and drive measurable business results.",
+  para: "Partner with Hamkoders to build scalable SaaS platforms that simplify operations, improve user engagement, and deliver measurable business results.  ",
   image: discussCtaImage,
 };
 
@@ -142,7 +140,7 @@ const demandCompData = {
       <span> for Efficiency and Growth</span>
     </h2>
   ),
-  para: "Our saas app development services integrate strategic planning, advanced technology, and robust architecture to build scalable, high-performing cloud platforms. Through AI-powered SaaS development, HadzTech delivers intelligent solutions that enhance efficiency, drive growth, and provide innovative, future-ready applications for businesses of all sizes.",
+  para: "Our SaaS app development services combine strategic planning, advanced technology, and strong architecture to build scalable, high-performing cloud platforms. Through smart SaaS development, Hamkoders delivers reliable solutions that improve efficiency, support growth, and provide future-ready applications for businesses of every size.",
   demandBox: [
     {
       heading4: (
@@ -150,7 +148,7 @@ const demandCompData = {
           Strategic <br /> SaaS Planning
         </h4>
       ),
-      para: "We align app features, architecture, and functionality with business goals to deliver growth-driven solutions.",
+      para: "We align application features, structure, and functionality with business objectives to deliver solutions focused on measurable growth.",
       image: signVector,
     },
     {
@@ -161,7 +159,7 @@ const demandCompData = {
           Modular
         </h4>
       ),
-      para: "Our applications are scalable, supporting new features and integrations without affecting performance or user experience.",
+      para: "Our platforms are scalable and flexible, supporting new features and integrations without compromising performance or user experience.",
       image: signVector,
     },
     {
@@ -172,7 +170,7 @@ const demandCompData = {
           Performance
         </h4>
       ),
-      para: "We prioritize speed, reliability, and seamless functionality to deliver high-performing applications across all user activities.",
+      para: "We focus on speed, stability, and seamless functionality to deliver dependable applications across all user activities.",
       image: signVector,
     },
     {
@@ -181,7 +179,7 @@ const demandCompData = {
           Security <br /> Measures
         </h4>
       ),
-      para: "We implement multi-layered security, encryption, and compliance measures to safeguard sensitive data and ensure user trust.",
+      para: "We apply layered security controls, encryption standards, and compliance practices to protect sensitive data and maintain user trust.",
       image: signVector,
     },
   ],
@@ -191,32 +189,32 @@ const faqs = [
   {
     question: "What is SaaS app development?",
     answer:
-      "SaaS app development involves creating cloud-based software that is accessible online and provides scalable, subscription-based services to multiple users.",
+      "SaaS app development involves creating cloud-based software applications that users access online through subscription-based models.",
   },
   {
     question: "How long does it take to develop a SaaS app?",
     answer:
-      "Depending on complexity, features, and integrations, development typically takes 12 to 20 weeks.",
+      "Depending on complexity, features, and integrations, development generally takes between 12 to 20 weeks.",
   },
   {
     question: "Can SaaS apps support multiple clients and subscriptions?",
     answer:
-      "Yes, our apps are built with multi-tenant architecture and subscription management capabilities to handle multiple clients efficiently.",
+      "Yes, SaaS platforms can manage multiple clients, user roles, and subscription plans within a secure multi-tenant structure.",
   },
   {
     question: "Will the SaaS app be secure and compliant?",
     answer:
-      "Absolutely. We implement encryption, secure authentication, and compliance with industry standards to protect data and maintain user trust.",
+      "Yes, we implement strong security measures and compliance standards to ensure safe and reliable application performance.",
   },
   {
     question: "Can SaaS apps integrate with existing systems?",
     answer:
-      "Yes, we can integrate CRMs, payment gateways, analytics tools, and other third-party platforms to extend functionality.",
+      "Yes, SaaS applications can integrate smoothly with ERP, CRM, APIs, and other business systems.",
   },
   {
     question: "Do you provide post-launch support for SaaS apps?",
     answer:
-      "Yes, we offer ongoing maintenance, feature updates, performance monitoring, and technical support to ensure long-term reliability and growth.",
+      "Yes, Hamkoders offers continuous updates, monitoring, and technical support after launch.",
   },
 ];
 
