@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/android-app-vector.webp";
+import vector from "../../../../public/images/android-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/android-development/1.webp";
-import service2 from "../../../../public/images/app-services/android-development/2.webp";
-import service3 from "../../../../public/images/app-services/android-development/3.webp";
-import service4 from "../../../../public/images/app-services/android-development/4.webp";
-import service5 from "../../../../public/images/app-services/android-development/5.webp";
-import service6 from "../../../../public/images/app-services/android-development/6.webp";
+import service1 from "../../../../public/images/app-services/android-development/1.png";
+import service2 from "../../../../public/images/app-services/android-development/2.png";
+import service3 from "../../../../public/images/app-services/android-development/3.png";
+import service4 from "../../../../public/images/app-services/android-development/4.png";
+import service5 from "../../../../public/images/app-services/android-development/5.png";
+import service6 from "../../../../public/images/app-services/android-development/6.png";
 
-import discussCtaImage from "../../../../public/images/android-cta.webp";
+import discussCtaImage from "../../../../public/images/android-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/enterprise-dev-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s android app development services create high-performing, user-friendly apps with seamless design and functionality to expand reach and boost engagement.
+      Hamkoders android app development services build high-performing, user-friendly apps with smooth design and reliable functionality to expand reach and increase user engagement.
     </p>
   ),
   image: vector,
@@ -48,10 +48,10 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Creating Android Apps<br /> <span>That Connect and Convert</span>
+      Building Android Apps<br /> <span>That Engage and Perform</span>
     </h2>
   ),
-  para: "Our android app development process focuses to develop app for android that’s fast, scalable, and user-friendly, enhancing engagement and achieving business goals.",
+  para: " Our Android app development process focuses on creating fast, scalable, and user-friendly apps that strengthen engagement and support your core business goals.",
   serviceBox: [
     {
       image: service1,
@@ -61,17 +61,17 @@ const serviceData = {
           Architecture
         </h4>
       ),
-      para: "We design Android apps with scalable and maintainable architecture to support growth and evolving requirements. Every build ensures reliable performance under high user demand.",
+      para: "We build Android apps with scalable and reliable architecture designed to support growth and changing user demands while maintaining strong performance.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          User-Centered <br />
+          User-Focused <br />
           UI/UX Design
         </h4>
       ),
-      para: "Our team develops interfaces that are intuitive, visually engaging, and easy to navigate. Thoughtful design enhances user satisfaction, retention, and conversion rates.",
+      para: "Our team designs intuitive, visually appealing interfaces that are simple to use, improving user satisfaction, retention, and overall engagement.",
     },
     {
       image: service3,
@@ -81,7 +81,7 @@ const serviceData = {
           Performance
         </h4>
       ),
-      para: "We employ efficient coding practices and rigorous testing to deliver smooth, responsive performance across all Android devices. Fast apps increase engagement and reduce churn.",
+      para: "We follow efficient coding practices and thorough testing to ensure fast, responsive performance across all Android devices for better engagement.",
     },
     {
       image: service4,
@@ -91,7 +91,7 @@ const serviceData = {
           and Privacy
         </h4>
       ),
-      para: "We integrate secure authentication, encrypted data storage, and strict compliance standards to safeguard sensitive user information and protect vital business data effectively.",
+      para: "We apply secure authentication, encrypted storage, and strict protection standards to keep user data safe and business information secure.",
     },
     {
       image: service5,
@@ -101,7 +101,7 @@ const serviceData = {
           Store Ready
         </h4>
       ),
-      para: "We ensure your app complies with all Google Play guidelines, enabling smooth submission, enhanced visibility, and better discoverability in the Play Store.",
+      para: "We prepare your app to meet all Google Play requirements, ensuring smooth approval, improved visibility, and stronger discoverability.",
     },
     {
       image: service6,
@@ -111,20 +111,20 @@ const serviceData = {
           and Updates
         </h4>
       ),
-      para: "After launch, we offer continuous updates, technical support, and feature enhancements to keep your Android app secure, modern, and high-performing.",
+      para: "After launch, we provide updates, support, and improvements to keep your Android app secure, updated, and performing efficiently.",
     },
   ],
   btnText: "Start Android App Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Empower Brand with</h2>,
+  heading1: <h2 className="same-heading">Empower Brands with</h2>,
   heading2: (
       <h3 className="same-heading">
         <span>Robust Android Apps</span>
       </h3>
     ),
-  para: "Partner with HadzTech to bring business Android apps with stunning impressions. We build mobile solutions that engage users, streamline operations, and scale with business growth.",
+  para: "Partner with Hamkoders to build powerful Android apps for your business. We create mobile solutions that engage users, simplify operations, and grow with your business.",
   image: discussCtaImage,
 };
 
@@ -134,34 +134,34 @@ const demandCompData = {
       Android App Development Solutions<span> Designed for Performance</span>
     </h2>
   ),
-  para: 'Our android app development services merge advanced technology with strategic design to deliver high-performing, visually stunning mobile apps. By developing an app for android, HadzTech ensures flawless functionality, brand success, and customer satisfaction through exceptional quality, seamless performance, and a focus on long-term business growth.',
+  para: 'Our Android app development services combine advanced technology with smart design to deliver high-performing, visually refined mobile apps. By building Android applications, Hamkoders ensures reliable functionality, strong brand impact, and user satisfaction through quality execution, smooth performance, and long-term business growth.',
   demandBox: [
     {
       heading4: (
         <h4>Strategic <br /> Planning</h4>
       ),
-      para: 'We align app design and functionality with business goals to ensure clarity, direction, and measurable results.',
+      para: 'We align app structure and functionality with business objectives to provide clear direction and measurable outcomes.',
       image: signVector
     },
     {
       heading4: (
         <h4>High-Performance<br />App</h4>
       ),
-      para: 'We build responsive, stable, and efficient apps ensuring consistent performance across all user conditions.',
+      para: 'We develop responsive, stable, and efficient applications that maintain consistent performance under all usage conditions.',
       image: signVector
     },
     {
       heading4: (
         <h4>Future-Proof<br />Apps</h4>
       ),
-      para: 'We create apps that support new features, integrations, and updates without affecting performance or user experience.',
+      para: 'We create applications ready for new features, integrations, and updates without compromising speed or user experience.',
       image: signVector
     },
     {
       heading4: (
         <h4>Comprehensive <br /> Security</h4>
       ),
-      para: 'We prioritize security with encrypted storage, secure authentication, and continuous threat monitoring at every development stage.',
+      para: 'We focus on data protection with encrypted storage, secure authentication, and proactive monitoring throughout development.',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is Android app development?",
     answer:
-      "Android app development is the process of creating mobile applications specifically for Android devices, focusing on usability, performance, and user engagement.",
+      "Android app development involves designing and building mobile applications for Android devices using secure, scalable, and performance-driven technologies.",
   },
   {
     question: "How long does it take to develop an Android app?",
     answer:
-      "Development timelines typically range from 8 to 16 weeks, depending on complexity, design, and feature requirements.",
+      "Development timelines usually range from 8 to 16 weeks depending on complexity, design structure, and required features.",
   },
   {
     question: "Will my Android app work on all devices?",
     answer:
-      "Yes, we develop responsive apps that perform seamlessly across smartphones, tablets, and other Android devices.",
+      "Yes, we ensure compatibility across major Android devices, screen sizes, and operating system versions.",
   },
   {
     question: "Can you assist with Google Play Store submission?",
     answer:
-      "Absolutely. We handle compliance with Google Play guidelines and manage the submission process for a smooth launch.",
+      "Yes, we handle compliance checks, optimization, and submission processes for a smooth Google Play Store launch.",
   },
   {
     question: "Do you provide post-launch support for Android apps?",
     answer:
-      "Yes, we offer ongoing updates, technical support, and performance optimization to ensure the app stays current and secure.",
+      "Yes, Hamkoders offers ongoing updates, monitoring, and technical support after launch.",
   },
   {
     question: "Can the Android app integrate with other systems?",
     answer:
-      "Yes, our apps can integrate with CRMs, payment gateways, analytics tools, and other third-party platforms to streamline operations.",
+      "Yes, we integrate Android apps with CRM, ERP, payment systems, and other business platforms for seamless operation",
   }
 ];
 
