@@ -18,12 +18,12 @@ import DemandComp from "@/components/DemandComp/DemandComp";
 
 import vector from "../../../../public/images/Logo-Visual-banner.png";
 
-import service1 from "../../../../public/images/brand-services/logo-visual/1.png";
-import service2 from "../../../../public/images/brand-services/logo-visual/2.png";
-import service3 from "../../../../public/images/brand-services/logo-visual/3.png";
-import service4 from "../../../../public/images/brand-services/logo-visual/4.png";
-import service5 from "../../../../public/images/brand-services/logo-visual/5.png";
-import service6 from "../../../../public/images/brand-services/logo-visual/6.png";
+import service1 from "../../../../public/images/store-services/magento-development/1.png";
+import service2 from "../../../../public/images/store-services/magento-development/2.png";
+import service3 from "../../../../public/images/store-services/magento-development/3.png";
+import service4 from "../../../../public/images/store-services/magento-development/4.png";
+import service5 from "../../../../public/images/store-services/magento-development/5.png";
+import service6 from "../../../../public/images/store-services/magento-development/6.png";
 
 import discussCtaImage from "../../../../public/images/brand-cta.png";
 
