@@ -17,18 +17,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/app-maintenance-vector.webp";
+import vector from "../../../../public/images/app-maintenance-vector.png";
 
-import service1 from "../../../../public/images/app-services/app-maintenance/1.webp";
-import service2 from "../../../../public/images/app-services/app-maintenance/2.webp";
-import service3 from "../../../../public/images/app-services/app-maintenance/3.webp";
-import service4 from "../../../../public/images/app-services/app-maintenance/4.webp";
-import service5 from "../../../../public/images/app-services/app-maintenance/5.webp";
-import service6 from "../../../../public/images/app-services/app-maintenance/6.webp";
+import service1 from "../../../../public/images/app-services/app-maintenance/1.png";
+import service2 from "../../../../public/images/app-services/app-maintenance/2.png";
+import service3 from "../../../../public/images/app-services/app-maintenance/3.png";
+import service4 from "../../../../public/images/app-services/app-maintenance/4.png";
+import service5 from "../../../../public/images/app-services/app-maintenance/5.png";
+import service6 from "../../../../public/images/app-services/app-maintenance/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image-maintain-ser.webp";
+import discussCtaImage from "../../../../public/images/discuss-cta-image-maintain-ser.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
@@ -39,7 +39,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s mobile app maintenance services ensure apps remain secure, efficient, and up-to-date, monitoring performance for smooth operation and supporting business growth.
+      Hamkoders mobile app maintenance services keep applications secure, optimized, and fully updated, tracking performance to ensure smooth operation and continuous business growth.
     </p>
   ),
   image: vector,
@@ -52,7 +52,7 @@ const serviceData = {
       Keeping Applications Secure,<br /> <span>Fast, and Functional</span>
     </h2>
   ),
-  para: "Our app backup and recovery and mobile app performance monitoring services ensure optimal performance, reliability, and user satisfaction by addressing technical issues, optimizing functionality, and maintaining compatibility with evolving platforms.",
+  para: "Our mobile app backup, recovery, and performance monitoring services maintain peak efficiency, reliability, and user satisfaction by resolving technical issues, refining functionality, and ensuring compatibility with evolving platforms.",
   serviceBox: [
     {
       image: service1,
@@ -62,7 +62,7 @@ const serviceData = {
           Monitoring
         </h4>
       ),
-      para: "We monitor app performance metrics, detect bottlenecks, and implement enhancements to ensure smooth, responsive, and high-performing operation across all platforms and user interactions.",
+      para: "We track performance metrics, identify bottlenecks, and apply improvements to maintain smooth, responsive, and stable operation across all platforms.",
     },
     {
       image: service2,
@@ -81,7 +81,7 @@ const serviceData = {
           Enhancements
         </h4>
       ),
-      para: "We update app frameworks, libraries, and functionalities while introducing new features, improving usability, enhancing engagement, and ensuring applications remain modern, efficient, and high-performing.",
+      para: "Continuous monitoring and timely updates protect sensitive data, reduce vulnerabilities, and maintain compliance with industry standards.",
     },
     {
       image: service4,
@@ -101,7 +101,7 @@ const serviceData = {
           Compatibility
         </h4>
       ),
-      para: "We ensure applications stay fully compatible with the latest operating systems, devices, and third-party integrations, maintaining seamless functionality, optimal performance, and consistent user experience across platforms.",
+      para: "We ensure apps remain compatible with the latest devices, operating systems, and third-party tools for uninterrupted functionality.",
     },
     {
       image: service6,
@@ -111,7 +111,7 @@ const serviceData = {
           Reporting
         </h4>
       ),
-      para: "We deliver performance insights, analyze user behavior, and offer actionable recommendations to enhance app efficiency, optimize growth, and ensure a seamless, high-performing user experience.",
+      para: "We provide actionable performance insights, user behavior analysis, and strategic recommendations to optimize growth and efficiency.",
     }
   ],
   btnText: "Start App Maintenance",
@@ -124,7 +124,7 @@ const discussCtaData = {
         <span>Reliability and Longevity</span>
       </h3>
     ),
-  para: "Partner with HadzTech for app backup and recovery, ensuring applications deliver consistent performance, strong security, uninterrupted experiences, and remain valuable long-term assets.",
+  para: "Partner with Hamkoders for app backup and recovery services that ensure stable performance, strong security, uninterrupted user experiences, and long-term digital value.",
   image: discussCtaImage,
 };
 
@@ -134,34 +134,34 @@ const demandCompData = {
       Application Maintenance Solutions<span> for Continuous Success</span>
     </h2>
   ),
-  para: 'Our mobile app maintenance services combine proactive monitoring, optimization, and high-quality technical support. Through mobile app support & maintenance services, HadzTech ensures apps remain secure, stable, future-ready, and perform flawlessly, providing continuous coverage and delivering exceptional user experiences while supporting business growth.',
+  para: 'Our mobile app maintenance services combine proactive monitoring, optimization, and reliable technical support. Through mobile app support and maintenance services, Hamkoders ensures applications remain secure, stable, future-ready, and perform smoothly while delivering strong user experiences and supporting ongoing business growth.',
   demandBox: [
     {
       heading4: (
         <h4>Proactive<br />Monitoring</h4>
       ),
-      para: 'We track system performance and optimize app speed, responsiveness, and efficiency on an ongoing basis.',
+      para: 'We continuously track system performance and enhance app speed, responsiveness, and efficiency to maintain smooth operation.',
       image: signVector
     },
     {
       heading4: (
         <h4>Technical  <br />Support</h4>
       ),
-      para: 'Our team resolves issues promptly, ensuring minimal disruption to users and smooth app functionality.',
+      para: 'Our team resolves issues quickly, minimizing disruption and ensuring consistent and reliable app functionality.',
       image: signVector
     },
     {
       heading4: (
         <h4>Feature <br />Updates</h4>
       ),
-      para: 'We implement improvements and new functionalities that align with user feedback and business goals.',
+      para: 'We introduce enhancements and new features aligned with user feedback and evolving business requirements.',
       image: signVector
     },
     {
       heading4: (
         <h4>Security <br /> Management</h4>
       ),
-      para: 'Continuous updates and security measures protect sensitive data and maintain regulatory compliance.',
+      para: 'Regular updates and strong security measures protect sensitive data and maintain compliance with industry standards.',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is application maintenance?",
     answer:
-      "Application maintenance involves ongoing support, updates, optimization, and issue resolution to keep apps secure, functional, and relevant.",
+      "AApplication maintenance ensures software remains updated, secure, optimized, and compatible with new devices and system updates.",
   },
   {
     question: "How often should apps be maintained?",
     answer:
-      "Regular maintenance is recommended at least monthly, with critical updates applied immediately to ensure security and performance.",
+      "Regular maintenance is recommended at least monthly, with urgent updates applied immediately to maintain security and performance.",
   },
   {
     question: "Do you provide updates for both mobile and web applications?",
     answer:
-      "Yes, we maintain and update both mobile and web apps, including frameworks, libraries, and features.",
+      "Yes, Hamkoders provides maintenance and updates for both mobile and web applications.",
   },
   {
     question: "Can you fix bugs and performance issues?",
     answer:
-      "Absolutely. Our team promptly identifies and resolves errors, crashes, and performance bottlenecks.",
+      "Yes, we quickly resolve bugs, crashes, and performance issues to ensure smooth functionality.",
   },
   {
     question: "How do you ensure app security?",
     answer:
-      "We implement security patches, encryption, authentication measures, and compliance best practices to protect data.",
+      "We apply regular security updates, monitoring, and data protection practices to keep applications secure.",
   },
   {
     question: "Do you provide reports on app performance?",
     answer:
-      "Yes, we provide analytics, performance reports, and actionable recommendations for optimization and growth.",
+      "Yes, we provide detailed performance reports and insights to help improve efficiency and user experience.",
   }
 ];
 
