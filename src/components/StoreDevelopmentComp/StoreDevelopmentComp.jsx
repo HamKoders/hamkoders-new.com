@@ -11,22 +11,22 @@ import OurWork from "@/components/OurWork/OurWork";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import CtaSec from "@/components/CtaSec/CtaSec";
 import OurBlogs from "@/components/OurBlogs/OurBlogs";
-import whySecStoreDev from "../../../public/images/whySecStoreDev.webp";
+import whySecStoreDev from "../../../public/images/whySecBrandDev.png";
 
-import whatWeOfferBox1 from "../../../public/images/store-dev-solution/1.webp";
-import whatWeOfferBox2 from "../../../public/images/store-dev-solution/2.webp";
-import whatWeOfferBox3 from "../../../public/images/store-dev-solution/3.webp";
-import whatWeOfferBox4 from "../../../public/images/store-dev-solution/4.webp";
-import whatWeOfferBox5 from "../../../public/images/store-dev-solution/5.webp";
-import whatWeOfferBox6 from "../../../public/images/store-dev-solution/6.webp";
+import whatWeOfferBox1 from "../../../public/images/store-dev-solution/1.png";
+import whatWeOfferBox2 from "../../../public/images/store-dev-solution/2.png";
+import whatWeOfferBox3 from "../../../public/images/store-dev-solution/3.png";
+import whatWeOfferBox4 from "../../../public/images/store-dev-solution/4.png";
+import whatWeOfferBox5 from "../../../public/images/store-dev-solution/5.png";
+import whatWeOfferBox6 from "../../../public/images/store-dev-solution/6.png";
 
 import websitePortSlide1 from "../../../public/images/store-banner/1.webp";
 import websitePortSlide2 from "../../../public/images/store-banner/2.webp";
 import websitePortSlide3 from "../../../public/images/store-banner/3.webp";
 import websitePortSlide4 from "../../../public/images/store-banner/4.webp";
 import websitePortSlide5 from "../../../public/images/store-banner/5.webp";
-import webDevServiceBefore from "../../../public/images/store-dev-before.webp";
-import webDevServiceAfter from "../../../public/images/store-dev-after.webp";
+import webDevServiceBefore from "../../../public/images/store-dev-before.png";
+import webDevServiceAfter from "../../../public/images/store-dev-after.png";
 import axiosInstance from "@/utils/axiosInstance";
 
 const whySecData = {
@@ -49,7 +49,7 @@ const whySecData = {
 };
 
 const whatWeOfferData = {
-  heading3: "MOBILE COMMERCE SOLUTION",
+  heading3: "What We Offer",
   heading2: (
     <h2 className="same-heading">
       BRAND<span> IDENTITY SOLUTION CUSTOM BRANDINGT</span> SERVICES
