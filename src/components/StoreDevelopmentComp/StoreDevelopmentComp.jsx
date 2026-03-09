@@ -100,7 +100,7 @@ const websiteDevCompBannerData = {
   imageAfter: webDevServiceAfter,
   h1Part1: (
     <h1 className="same-heading">
-      BRAND <span>IDENTITY GROWTH</span>
+      BRAND <br /><span>IDENTITY GROWTH</span>
       <br /> COMPANY  
     </h1>
   ),
