@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/drupal-vector-banner.webp";
+import vector from "../../../../public/images/rebranding-vector.png";
 
-import service1 from "../../../../public/images/store-services/drupal-development/1.webp";
-import service2 from "../../../../public/images/store-services/drupal-development/2.webp";
-import service3 from "../../../../public/images/store-services/drupal-development/3.webp";
-import service4 from "../../../../public/images/store-services/drupal-development/4.webp";
-import service5 from "../../../../public/images/store-services/drupal-development/5.webp";
-import service6 from "../../../../public/images/store-services/drupal-development/6.webp";
+import service1 from "../../../../public/images/store-services/drupal-development/1.png";
+import service2 from "../../../../public/images/store-services/drupal-development/2.png";
+import service3 from "../../../../public/images/store-services/drupal-development/3.png";
+import service4 from "../../../../public/images/store-services/drupal-development/4.png";
+import service5 from "../../../../public/images/store-services/drupal-development/5.png";
+import service6 from "../../../../public/images/store-services/drupal-development/6.png";
 
-import discussCtaImage from "../../../../public/images/drupal-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/backend-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Drupal Development for<span> Robust Websites </span>
+      Expert  <span> Rebranding </span>Services
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech’s expert drupal developer team builds scalable, secure, high-performance websites using Drupal 10, CMS 2.0, and API-first solutions.
+      Reimagine your brand with Hamkoders. We help businesses evolve with clarity, confidence, and creativity through strategic rebranding that strengthens identity, sharpens positioning, and builds lasting impact.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Crafting Drupal Websites That<br /> <span> Perform and Scale</span>
+      Reinventing Brands Thatt<br /> <span> Reconnect, Resonate & Lead</span>
     </h2>
   ),
-  para: "We create tailored Drupal websites with intuitive navigation, strong security, and high performance, utilizing advanced Drupal CMS 2.0 features to deliver measurable business results.",
+  para: "At Hamkoders, we don’t just refresh visuals, we reshape brand perception. Our rebranding services combine strategic thinking, modern design, and market insight to craft identities that feel relevant, compelling, and future-ready.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Drupal 10<br />
-          Development
+          Brand Identity<br />
+           Reimagination
         </h4>
       ),
-      para: "HadzTech specializes in drupal 10 development, building modern, fast, and feature-rich websites designed for exceptional performance, scalability, and seamless user experiences.",
+      para: "We redefine your visual presence with refined logos, updated design systems, and cohesive brand elements that reflect your growth and communicate confidence across every platform.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Drupal CMS <br />
-          2.0 Features
+          Strategic Brand <br />
+           Positioning
         </h4>
       ),
-      para: "Our expert team leverages Drupal CMS 2.0 features to enhance content management, ensure modular architecture, and deliver flexible, dynamic, and high-performing websites.",
+      para: "Our team clarifies your voice, message, and market direction, helping your brand stand out with purpose, authority, and a stronger competitive edge.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Drupal API-First <br />
-          Approach
+          Unified Identity  <br />
+          Alignment
         </h4>
       ),
-      para: "We follow a Drupal API-first approach, ensuring seamless integration with mobile apps, external systems, and third-party services for a unified digital ecosystem.",
+      para: "WWe bring together visuals, messaging, and marketing touchpoints to create a seamless brand experience that builds trust and consistency everywhere your audience connects.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Expert Drupal<br />
-          Team
+          Complete Brand<br />
+          Revitalization
         </h4>
       ),
-      para: "Our certified drupal developer experts deliver clean code, strong architecture, and a reliable development process, ensuring high-quality, scalable, and performance-driven Drupal solutions.",
+      para: "From logo refinement to communication updates, we deliver comprehensive rebranding solutions that modernize your presence and elevate brand perception.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Responsive<br />
-          Design
+          Consistency-Driven<br />
+            Brand Framework
         </h4>
       ),
-      para: "We create visually appealing, fully responsive, and user-friendly Drupal interfaces designed to deliver seamless, consistent, and engaging experiences across all devices.",
+      para: "FWe implement structured brand systems across digital platforms, print materials, and marketing channels to maintain clarity, professionalism, and recognition.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Maintenance and <br />
-          Support
+          Continuous Brand <br />
+          Continuous Brand Evolution Support
         </h4>
       ),
-      para: "After launch, we deliver updates, performance optimization, and technical support to keep your Drupal website secure, scalable, and aligned with business goals.",
+      para: "After launch, we stay with you  refining assets, enhancing visuals, and ensuring your refreshed brand grows confidently with your business.",
     }
   ],
   btnText: "Start Drupal development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Scale Business with</h2>,
+  heading1: <h2 className="same-heading">Elevate Your Brand with</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>Drupal Expertise</span>
+        <span>Strategic Rebranding</span>  
       </h3>
     ),
-  para: "Partner with HadzTech for Drupal API-first approach, creating flexible, secure, and high-performance websites that drive efficient business growth.",
+  para: "Partner with Hamkoders to transform your identity into a powerful, recognizable, and growth-driven brand system designed for impact and longevity.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Drupal Development Solutions<span> for Modern Web Platforms</span>
+      Rebranding Solutions for <span> Forward-Thinking Businesses</span>
     </h2>
   ),
-  para: 'Our expert Drupal developer team delivers end-to-end Drupal Development Services for enterprises and businesses, creating robust, scalable, and secure websites. We design tailored solutions with advanced performance, seamless functionality, and modern features to enhance user experience and support long-term digital growth across all platforms.',
+  para: 'OHamkoders’ rebranding services combine strategic insight, creative direction, and design precision to reposition brands for stronger recognition and deeper audience connection. With unified visuals and refined messaging, we build brand identities that inspire confidence and support expansion.',
   demandBox: [
     {
       heading4: (
-        <h4>Custom <br />Architecture</h4>
+        <h4>Brand  <br />Strategy</h4>
       ),
-      para: 'We build scalable, modular websites using Drupal 10 development and Drupal CMS 2.0 features for growth.',
+      para: ' We craft rebranding roadmaps aligned with your goals, audience expectations, and competitive positioning.',
       image: signVector
     },
     {
       heading4: (
-        <h4>API-Driven <br />Integrations</h4>
+        <h4>Visual Identity  <br />Renewal</h4>
       ),
-      para: 'Our Drupal API-first approach ensures seamless integration with apps, tools, and systems for enhanced functionality.',
+      para: 'We modernize logos, typography, and brand visuals to create a clean, confident, and consistent identity.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Interactive<br />UI/UX</h4>
+        <h4>Integrated Brand <br />Assets</h4>
       ),
-      para: 'We create responsive, intuitive designs that ensure consistent and engaging user experiences across all devices.',
+      para: 'WWe align marketing materials, digital presence, and communication assets for seamless brand consistency.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Secure <br /> Platform</h4>
+        <h4>Protected Brand  <br /> Consistency Control</h4>
       ),
-      para: 'We build secure, compliant Drupal websites with optimized performance to protect data and ensure reliability.',
+      para: 'We establish clear brand systems and usage standards to maintain strength and uniformity across all channels.',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is Drupal development?",
+    question: "What are rebranding services?",
     answer:
-      "Drupal development involves building websites using Drupal, leveraging Drupal 10 development, Drupal CMS 2.0 features, and modular architecture for scalable solutions.",
+      "Rebranding services redefine your brand identity, visuals, and messaging to ensure your business remains relevant, competitive, and aligned with evolving market demands.",
   },
   {
-    question: "Who is a Drupal developer?",
+    question: "How long does a rebranding project take?",
     answer:
-      "A drupal developer is an expert who designs, builds, and maintains Drupal websites, ensuring performance, security, and scalability.",
+      "Depending on scope and complexity, most rebranding projects take between 3 to 6 weeks from strategy development to final rollout.",
   },
   {
-    question: "What is the API-first approach in Drupal?",
+    question: "Can you refresh an existing brand without losing recognition?",
     answer:
-      "The Drupal API-first approach allows websites to integrate with external systems, mobile apps, and third-party tools for a connected ecosystem.",
+      "TYes. We carefully evolve your brand while preserving its core values and recognizability.",
   },
   {
-    question: "Can Drupal websites handle large-scale businesses?",
+    question: "Will I receive complete brand assets after rebranding?",
     answer:
-      "Yes, Drupal’s modular and scalable architecture makes it ideal for enterprises, e-commerce platforms, and complex web applications.",
+      "Absolutely. You receive a full brand package including updated logos, visual systems, and structured brand guidelines.",
   },
   {
-    question: "What are the benefits of Drupal CMS 2.0 features?",
+    question: "Is rebranding suitable for growing companies?",
     answer:
-      "Drupal CMS 2.0 features offer advanced content management, flexible modules, enhanced performance, and robust security for modern websites.",
+      "Yes. Rebranding helps businesses reposition, attract new audiences, and stay competitive in changing markets.",
   },
   {
-    question: "Do you provide post-launch support for Drupal websites?",
+    question: "Do you offer support after the rebrand launch?",
     answer:
-      "Yes, we offer ongoing maintenance, updates, and technical support to keep Drupal websites secure, optimized, and future-ready.",
+      "YYes. We provide ongoing refinement, asset updates, and brand guidance to ensure long-term consistency and growth.",
   }
 ];
 
