@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/wearable-app-vector.webp";
+import vector from "../../../../public/images/wearable-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/wearable-app-development/1.webp";
-import service2 from "../../../../public/images/app-services/wearable-app-development/2.webp";
-import service3 from "../../../../public/images/app-services/wearable-app-development/3.webp";
-import service4 from "../../../../public/images/app-services/wearable-app-development/4.webp";
-import service5 from "../../../../public/images/app-services/wearable-app-development/5.webp";
-import service6 from "../../../../public/images/app-services/wearable-app-development/6.webp";
+import service1 from "../../../../public/images/app-services/wearable-app-development/1.png";
+import service2 from "../../../../public/images/app-services/wearable-app-development/2.png";
+import service3 from "../../../../public/images/app-services/wearable-app-development/3.png";
+import service4 from "../../../../public/images/app-services/wearable-app-development/4.png";
+import service5 from "../../../../public/images/app-services/wearable-app-development/5.png";
+import service6 from "../../../../public/images/app-services/wearable-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image.webp";
+import discussCtaImage from "../../../../public/images/wearable-cta-image.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/webapp-dev-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech’s wearable app development services create innovative apps for smartwatches, fitness trackers, and IoT devices, delivering real-time functionality, accurate data tracking, and seamless user experiences.
+      Hamkoders wearable app development services create smart applications for watches, fitness trackers, and IoT devices, delivering real-time features, accurate tracking, and smooth user experiences.
     </p>
   ),
   image: vector,
@@ -48,10 +48,10 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Designing Wearable Apps<br /> <span>That Enhance Daily Life</span>
+      Designing Wearable Apps<br /> <span>That Improve Daily Life</span>
     </h2>
   ),
-  para: "Our smart band/wearable mobile app development focuses on usability, performance, and connectivity, delivering apps that provide insights, streamline interactions, and engage users directly on wearable devices.",
+  para: "Our wearable app development focuses on usability, speed, and connectivity, delivering applications that provide insights, simplify interactions, and keep users engaged directly through wearable devices.",
   serviceBox: [
     {
       image: service1,
@@ -61,7 +61,7 @@ const serviceData = {
           User Interface
         </h4>
       ),
-      para: "We design interfaces specifically for small screens, ensuring all interactions are intuitive, clear, and user-friendly, providing a seamless and engaging experience on wearable devices.",
+      para: "We design interfaces tailored for small screens, ensuring interactions remain simple, clear, and user-friendly for a smooth wearable experience.",
     },
     {
       image: service2,
@@ -71,7 +71,7 @@ const serviceData = {
           Integration
         </h4>
       ),
-      para: "Our AR app development for wearables ensures apps sync seamlessly with sensors and IoT devices, delivering real-time data, analytics, and instant notifications for enhanced user experiences.",
+      para: "Our wearable apps sync seamlessly with sensors and IoT devices, delivering real-time data, analytics, and instant notifications for better user engagement.",
     },
     {
       image: service3,
@@ -81,7 +81,7 @@ const serviceData = {
           Optimization
         </h4>
       ),
-      para: "We develop lightweight, high-performance apps that deliver consistent functionality, ensuring smooth operation and optimal efficiency without overusing device resources, enhancing user experience across wearable devices.",
+      para: "We build lightweight and efficient apps that maintain stable performance and smooth functionality without overusing device resources.",
     },
     {
       image: service4,
@@ -91,7 +91,7 @@ const serviceData = {
           Compatibility
         </h4>
       ),
-      para: "Our cross-platform wearable app development solutions function seamlessly across multiple devices, including Apple Watch, Wear OS, and other IoT-enabled platforms, ensuring consistent performance and user experience.",
+      para: "Our wearable applications work across Apple Watch, Wear OS, and other connected devices, ensuring consistent performance and usability",
     },
     {
       image: service5,
@@ -101,7 +101,7 @@ const serviceData = {
           Handling
         </h4>
       ),
-      para: "We implement advanced security protocols and encryption measures to safeguard sensitive health, fitness, and personal data, ensuring privacy and trust for all wearable app users.",
+      para: "We apply strong security standards and encryption to protect health, fitness, and personal data, ensuring safe and reliable usage.",
     },
     {
       image: service6,
@@ -111,7 +111,7 @@ const serviceData = {
           Support
         </h4>
       ),
-      para: "We offer continuous monitoring, regular updates, and feature enhancements to keep wearable apps secure, reliable, and up-to-date, ensuring optimal performance and user satisfaction.",
+      para: "We provide continuous monitoring, updates, and improvements to keep wearable apps secure, stable, and performing efficiently.",
     }
   ],
   btnText: "Start Wearable App Development",
@@ -124,7 +124,7 @@ const discussCtaData = {
         <span>Smart Wearable Apps</span>
       </h3>
     ),
-  para: "Partner with HadzTech for wearable device app development, creating functional, engaging, and secure apps that enhance performance and ensure user satisfaction.",
+  para: "Partner with Hamkoders for wearable app development, building functional, engaging, and secure applications that improve performance and deliver strong user satisfaction.",
   image: discussCtaImage,
   width: "521px"
 };
@@ -135,34 +135,34 @@ const demandCompData = {
       Wearable App Development Solutions<span> for Connected Devices</span>
     </h2>
   ),
-  para: 'Our wearable app development services merge innovative design, cutting-edge technology, and real-time connectivity to deliver reliable, high-performing applications. Through watchOS app development, HadzTech creates engaging, seamless experiences that enhance functionality and enrich user interaction across connected wearable devices.',
+  para: 'Our wearable app development services combine thoughtful design, advanced technology, and real-time connectivity to build reliable, high-performing applications. Through watchOS and wearable platform development, Hamkoders delivers engaging, seamless experiences that enhance functionality and improve user interaction across connected devices.',
   demandBox: [
     {
       heading4: (
         <h4>Strategic App <br />Planning</h4>
       ),
-      para: 'We define objectives, key features, and device requirements to ensure wearable apps effectively meet user needs.',
+      para: 'We outline objectives, core features, and device specifications to ensure wearable applications effectively address real user needs.',
       image: signVector
     },
     {
       heading4: (
         <h4>Optimized UI/UX <br />for Wearables</h4>
       ),
-      para: 'Interfaces are optimized for small screens and quick interactions, enhancing usability, engagement, and user experience.',
+      para: 'Interfaces are crafted for small screens and quick actions, improving usability, engagement, and overall user experience.',
       image: signVector
     },
     {
       heading4: (
         <h4>High-Performance <br />Architecture</h4>
       ),
-      para: 'Our apps are lightweight, efficient, and optimized for minimal battery usage while ensuring consistent performance.',
+      para: 'Our applications are lightweight and efficient, optimized for low battery consumption while maintaining stable and consistent performance.',
       image: signVector
     },
     {
       heading4: (
         <h4>Security and <br /> Compliance</h4>
       ),
-      para: 'We prioritize data security and compliance with health, fitness, and device-specific regulations to protect users.',
+      para: 'WWe focus on strong data protection and compliance with health, fitness, and device-related standards to safeguard users.',
       image: signVector
     }
   ]
@@ -172,32 +172,32 @@ const faqs = [
   {
     question: "What is wearable app development?",
     answer:
-      "Wearable app development involves creating applications for smartwatches, fitness trackers, and IoT devices to deliver real-time functionality and engagement.",
+      "Wearable app development involves building applications specifically designed for smartwatches, fitness bands, and connected IoT devices.",
   },
   {
     question: "Which devices do you develop apps for?",
     answer:
-      "We develop apps for Apple Watch, Wear OS devices, and other IoT-enabled wearable platforms.",
+      "We build apps for Apple Watch, Wear OS devices, and various IoT-enabled wearable platforms.",
   },
   {
     question: "How long does it take to develop a wearable app?",
     answer:
-      "Timelines typically range from 6 to 12 weeks, depending on complexity, features, and platform requirements.",
+      "Development timelines usually range from 6 to 12 weeks depending on features, integrations, and device compatibility.",
   },
   {
     question: "Will the wearable app integrate with other devices or apps?",
     answer:
-      "Yes, we can integrate wearable apps with mobile apps, sensors, cloud platforms, and IoT devices for seamless connectivity.",
+      "Yes, wearable apps can connect seamlessly with smartphones, cloud systems, and third-party applications.",
   },
   {
     question: "How do you ensure data security in wearable apps?",
     answer:
-      "We implement encryption, secure authentication, and compliance with relevant data protection standards to safeguard sensitive information.",
+      "We implement encryption, secure authentication, and compliance standards to protect sensitive user information.",
   },
   {
     question: "Do you provide post-launch support for wearable apps?",
     answer:
-      "Yes, we offer updates, performance optimization, and technical support to ensure long-term reliability and enhanced user experience.",
+      "Yes, we offer continuous updates, monitoring, and technical support to maintain performance and security.",
   }
 ];
 
