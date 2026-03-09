@@ -20,11 +20,11 @@ import whatWeOfferBox4 from "../../../public/images/store-dev-solution/4.png";
 import whatWeOfferBox5 from "../../../public/images/store-dev-solution/5.png";
 import whatWeOfferBox6 from "../../../public/images/store-dev-solution/6.png";
 
-import websitePortSlide1 from "../../../public/images/store-banner/1.webp";
-import websitePortSlide2 from "../../../public/images/store-banner/2.webp";
-import websitePortSlide3 from "../../../public/images/store-banner/3.webp";
-import websitePortSlide4 from "../../../public/images/store-banner/4.webp";
-import websitePortSlide5 from "../../../public/images/store-banner/5.webp";
+// import websitePortSlide1 from "../../../public/images/store-banner/1.webp";
+// import websitePortSlide2 from "../../../public/images/store-banner/2.webp";
+// import websitePortSlide3 from "../../../public/images/store-banner/3.webp";
+// import websitePortSlide4 from "../../../public/images/store-banner/4.webp";
+// import websitePortSlide5 from "../../../public/images/store-banner/5.webp";
 import webDevServiceBefore from "../../../public/images/store-dev-before.png";
 import webDevServiceAfter from "../../../public/images/store-dev-after.png";
 import axiosInstance from "@/utils/axiosInstance";
@@ -52,7 +52,7 @@ const whatWeOfferData = {
   heading3: "What We Offer",
   heading2: (
     <h2 className="same-heading">
-      BRAND<span> IDENTITY SOLUTION CUSTOM BRANDINGT</span> SERVICES
+      BRAND<span> IDENTITY SOLUTION CUSTOM BRANDING</span> SERVICES
     </h2> 
   ),
   whatWeOfferBox: [
@@ -111,32 +111,32 @@ const websiteDevCompBannerData = {
       identities with expert brand strategy solutions like logo and visual design.
     </p>
   ),
-  swipperImages: [
-    {
-      image: websitePortSlide1,
-      imageAlt: "websitePortSlide1",
-    },
-    {
-      image: websitePortSlide2,
-      imageAlt: "websitePortSlide2",
-    },
-    {
-      image: websitePortSlide3,
-      imageAlt: "websitePortSlide3",
-    },
-    {
-      image: websitePortSlide4,
-      imageAlt: "websitePortSlide4",
-    },
-    {
-      image: websitePortSlide5,
-      imageAlt: "websitePortSlide5",
-    },
-    {
-      image: websitePortSlide1,
-      imageAlt: "websitePortSlide1",
-    },
-  ],
+  // swipperImages: [
+  //   {
+  //     image: websitePortSlide1,
+  //     imageAlt: "websitePortSlide1",
+  //   },
+  //   {
+  //     image: websitePortSlide2,
+  //     imageAlt: "websitePortSlide2",
+  //   },
+  //   {
+  //     image: websitePortSlide3,
+  //     imageAlt: "websitePortSlide3",
+  //   },
+  //   {
+  //     image: websitePortSlide4,
+  //     imageAlt: "websitePortSlide4",
+  //   },
+  //   {
+  //     image: websitePortSlide5,
+  //     imageAlt: "websitePortSlide5",
+  //   },
+  //   {
+  //     image: websitePortSlide1,
+  //     imageAlt: "websitePortSlide1",
+  //   },
+  // ],
 };
 
 const StoreDevelopmentComp = () => {
