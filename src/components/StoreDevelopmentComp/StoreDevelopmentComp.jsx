@@ -111,32 +111,32 @@ const websiteDevCompBannerData = {
       identities with expert brand strategy solutions like logo and visual design.
     </p>
   ),
-  // swipperImages: [
-  //   {
-  //     image: websitePortSlide1,
-  //     imageAlt: "websitePortSlide1",
-  //   },
-  //   {
-  //     image: websitePortSlide2,
-  //     imageAlt: "websitePortSlide2",
-  //   },
-  //   {
-  //     image: websitePortSlide3,
-  //     imageAlt: "websitePortSlide3",
-  //   },
-  //   {
-  //     image: websitePortSlide4,
-  //     imageAlt: "websitePortSlide4",
-  //   },
-  //   {
-  //     image: websitePortSlide5,
-  //     imageAlt: "websitePortSlide5",
-  //   },
-  //   {
-  //     image: websitePortSlide1,
-  //     imageAlt: "websitePortSlide1",
-  //   },
-  // ],
+  swipperImages: [
+    {
+      image: websitePortSlide1,
+      imageAlt: "websitePortSlide1",
+    },
+    {
+      image: websitePortSlide2,
+      imageAlt: "websitePortSlide2",
+    },
+    {
+      image: websitePortSlide3,
+      imageAlt: "websitePortSlide3",
+    },
+    {
+      image: websitePortSlide4,
+      imageAlt: "websitePortSlide4",
+    },
+    {
+      image: websitePortSlide5,
+      imageAlt: "websitePortSlide5",
+    },
+    {
+      image: websitePortSlide1,
+      imageAlt: "websitePortSlide1",
+    },
+  ],
 };
 
 const StoreDevelopmentComp = () => {
