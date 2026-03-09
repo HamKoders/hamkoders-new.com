@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/store-maintenance-banner.webp";
+import vector from "../../../../public/images/packaging-banner.png";
 
-import service1 from "../../../../public/images/store-services/store-maintenance/1.webp";
-import service2 from "../../../../public/images/store-services/store-maintenance/2.webp";
-import service3 from "../../../../public/images/store-services/store-maintenance/3.webp";
-import service4 from "../../../../public/images/store-services/store-maintenance/4.webp";
-import service5 from "../../../../public/images/store-services/store-maintenance/5.webp";
-import service6 from "../../../../public/images/store-services/store-maintenance/6.webp";
+import service1 from "../../../../public/images/store-services/store-maintenance/1.png";
+import service2 from "../../../../public/images/store-services/store-maintenance/2.png";
+import service3 from "../../../../public/images/store-services/store-maintenance/3.png";
+import service4 from "../../../../public/images/store-services/store-maintenance/4.png";
+import service5 from "../../../../public/images/store-services/store-maintenance/5.png";
+import service6 from "../../../../public/images/store-services/store-maintenance/6.png";
 
-import discussCtaImage from "../../../../public/images/store-maintenance-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
