@@ -30,19 +30,19 @@ import webDevServiceAfter from "../../../public/images/store-dev-after.webp";
 import axiosInstance from "@/utils/axiosInstance";
 
 const whySecData = {
-  heading3: "Why Choose HadzTech?",
+  heading3: "Why Choose Hamkoders?",
   heading2: (
     <h2 className="same-heading">
-      Your Trusted Partner for <span>Store Development</span>
+      Your Trusted Partner for <span>Branding</span>
     </h2>
   ),
-  para: "We specialize in store development, creating engaging shopping experiences that boost customer loyalty. Our expert team offers Shopify and WooCommerce website development, delivering effective eStore solutions that drive business growth and lasting success.",
+  para: "We specialize in branding services, creating impactful brand identities that boost visibility and trust. Our expert team offers logo design and brand strategy, delivering strong identity systems that drive business growth and lasting recognition.",
   points: [
-    "eCommerce store development services offer unique brand needs.",
-    "User Experience with engaging design, and fast checkout processes",
-    "Scalable & Flexible Platforms to grow with market changes.",
-    "Secure Payment & Data for safe payment gateways.",
-    "Conversion-Focused Design increases sales and boost revenue.",
+    "Branding services tailored to unique business identity goals.",
+    " Audience connection with creative visuals and clear brand messaging",
+    "Scalable & flexible identity systems to grow with market trends.",
+    "SSecure brand consistency & guidelines for strong recognition.",
+    "Conversion-focused branding builds trust and boosts loyalty.",
   ],
   image: whySecStoreDev,
   attachmentAlt: "whySecWebdev",
@@ -52,44 +52,44 @@ const whatWeOfferData = {
   heading3: "MOBILE COMMERCE SOLUTION",
   heading2: (
     <h2 className="same-heading">
-      CUSTOM<span> ECOMMERCE STORE DEVELOPMENT</span> SERVICES
-    </h2>
+      BRAND<span> IDENTITY SOLUTION CUSTOM BRANDINGT</span> SERVICES
+    </h2> 
   ),
   whatWeOfferBox: [
     {
       image: whatWeOfferBox1,
-      heading3: "Custom Online Stores",
-      para: "We design and develop eCommerce platforms for products, customers, and business goals.",
+      heading3: "Custom Brand Identity",
+      para: "We design and develop brand identities for businesses, audiences, and growth goals.",
       imageAlt: "whatWeOfferBox1",
     },
     {
       image: whatWeOfferBox2,
-      heading3: "Expert Store Developers",
-      para: "Our skilled online store developers create innovative, conversion-driven online retail experiences.",
+      heading3: "Expert Branding Team",
+      para: "Our skilled branding specialists create innovative, recognition-focused brand strategies.",
       imageAlt: "whatWeOfferBox2",
     },
     {
       image: whatWeOfferBox3,
-      heading3: "Engaging UI/UX Design",
-      para: "We focus on user-friendly interfaces, unified navigation, and optimized layouts for higher conversions.",
+      heading3: "Engaging Visual Strategy",
+      para: "We focus on audience-driven visuals, unified design systems, and optimized brand communication for higher impact.",
       imageAlt: "whatWeOfferBox3",
     },
     {
       image: whatWeOfferBox4,
-      heading3: "Secure Payment Systems",
-      para: "With safe and reliable integrations, we ensure every transaction is protected and trustworthy.",
+      heading3: "Secure Brand Consistency",
+      para: "With reliable guidelines and structured assets, we ensure every brand element stays consistent.",
       imageAlt: "whatWeOfferBox4",
     },
     {
       image: whatWeOfferBox5,
-      heading3: "Scalable Solutions",
-      para: "Our stores are built for growth, capable of expanding with inventory and audience.",
+      heading3: "Scalable Branding Solutions",
+      para: " Our identity systems are built for growth, capable of expanding with your brand presence.",
       imageAlt: "whatWeOfferBox5",
     },
     {
       image: whatWeOfferBox6,
       heading3: "Ongoing Support",
-      para: "From launch to long-term updates, we provide continuous support to keep online store ahead of the competition.",
+      para: "From launch to long-term growth, we provide continuous support to keep your brand ahead of the competition.",
       imageAlt: "whatWeOfferBox6",
     },
   ],
@@ -100,17 +100,15 @@ const websiteDevCompBannerData = {
   imageAfter: webDevServiceAfter,
   h1Part1: (
     <h1 className="same-heading">
-      CUSTOM <span>E-COMMERCE</span> <br /> STORE DEVELOPMENT
-      <br />
-      <span> COMPANY</span>
+      BRAND <span>IDENTITY GROWTH</span>
+      <br /> COMPANY  
     </h1>
   ),
   para: (
     <p className="para">
-      We offer custom eCommerce store development services, creating scalable,{" "}
+      We offer custom branding services, creating scalable, engaging{" "}
       <br />
-      engaging platforms with expert online store builder solutions like Shopify
-      and WooCommerce.
+      identities with expert brand strategy solutions like logo and visual design.
     </p>
   ),
   swipperImages: [
