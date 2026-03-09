@@ -25,7 +25,7 @@ import service4 from "../../../../public/images/store-services/shopify-developme
 import service5 from "../../../../public/images/store-services/shopify-development/5.png";
 import service6 from "../../../../public/images/store-services/shopify-development/6.png";
 
-import discussCtaImage from "../../../../public/images/shopify-dev-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.webp";
 
 import signVector from "../../../../public/images/sign-vector.png";
 
