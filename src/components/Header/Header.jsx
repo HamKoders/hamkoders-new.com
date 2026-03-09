@@ -264,7 +264,7 @@ const Header = () => {
                                 <div className="services-drop">
                                   <h3>
                                     <Link href={"/store-development"}>
-                                      Store Development
+                                      Branding
                                     </Link>
                                   </h3>
                                   <ul>
@@ -274,7 +274,7 @@ const Header = () => {
                                           "/store-development/shopify-development"
                                         }
                                       >
-                                        Shopify development
+                                        Brand Strategy Development
                                       </Link>
                                     </li>
                                     <li>
@@ -283,7 +283,7 @@ const Header = () => {
                                           "/store-development/magento-development"
                                         }
                                       >
-                                        Magento development
+                                        Logo & Visual Identity Design
                                       </Link>
                                     </li>
                                     <li>
@@ -292,7 +292,7 @@ const Header = () => {
                                           "/store-development/woocommerce-development"
                                         }
                                       >
-                                        Woocommerce development
+                                        Brand Guidelines & Style Guide
                                       </Link>
                                     </li>
                                     <li>
@@ -301,7 +301,7 @@ const Header = () => {
                                           "/store-development/wordpress-development"
                                         }
                                       >
-                                        Wordpress development
+                                        Corporate Identity Design
                                       </Link>
                                     </li>
                                     <li>
@@ -310,7 +310,7 @@ const Header = () => {
                                           "/store-development/drupal-development"
                                         }
                                       >
-                                        Drupal development
+                                        Rebranding Services
                                       </Link>
                                     </li>
                                     <li>
@@ -319,7 +319,7 @@ const Header = () => {
                                           "/store-development/store-maintenance"
                                         }
                                       >
-                                        Store maintenance
+                                        Packaging & Product Branding
                                       </Link>
                                     </li>
                                   </ul>
@@ -329,7 +329,7 @@ const Header = () => {
                                 <div className="services-drop">
                                   <h3>
                                     <Link href={"/game-development"}>
-                                      Game development
+                                      Digital Marketing
                                     </Link>
                                   </h3>
                                   <ul>
@@ -339,7 +339,7 @@ const Header = () => {
                                           "/game-development/mobile-app-development"
                                         }
                                       >
-                                        Mobile app development
+                                        Search Engine Optimization (SEO)
                                       </Link>
                                     </li>
                                     <li>
@@ -348,7 +348,7 @@ const Header = () => {
                                           "/game-development/cross-platform-game-development"
                                         }
                                       >
-                                        Cross-platform game development
+                                        Social Media Marketing (SMM)
                                       </Link>
                                     </li>
                                     <li>
@@ -357,7 +357,7 @@ const Header = () => {
                                           "/game-development/blockchain-and-nft-game-app"
                                         }
                                       >
-                                        Blockchain & NFT game app development
+                                        Pay-Per-Click Advertising (PPC)
                                       </Link>
                                     </li>
                                     <li>
@@ -366,7 +366,7 @@ const Header = () => {
                                           "/game-development/console-game-app"
                                         }
                                       >
-                                        Console game app development
+                                        Google & Meta Ads Management
                                       </Link>
                                     </li>
                                     <li>
@@ -375,7 +375,7 @@ const Header = () => {
                                           "/game-development/concept-design"
                                         }
                                       >
-                                        Concept design
+                                        Content Marketing
                                       </Link>
                                     </li>
                                     <li>
@@ -384,7 +384,7 @@ const Header = () => {
                                           "/game-development/testing-and-maintenance"
                                         }
                                       >
-                                        Testing & maintenance
+                                        Email Marketing Campaigns
                                       </Link>
                                     </li>
                                   </ul>
