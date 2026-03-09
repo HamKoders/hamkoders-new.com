@@ -33,12 +33,12 @@ const bannerData = {
   bgImage: "/images/android-app-dev.webp",
   heading1: (
     <h1 className="same-heading">
-      Expert <span> Shopify Development </span>Services
+      Expert <span> Brand Strategy </span> Development Services
     </h1>
   ),
   para: (
     <p className="para">
-      Boost your online sales with HadzTech, a trusted Shopify expert developer offering custom designs, seamless functionality, and secure payments.
+      Strengthen your market position with Hamkoders, a trusted brand strategy consultancy delivering custom brand frameworks, clear positioning, and consistent identity systems.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Creating Shopify Stores That<br /> <span>Engage and Convert</span>
+      Creating Brand Strategies That<br /> <span>Engage and Inspire</span>
     </h2>
   ),
-  para: "HadzTech specializes in Shopify custom theme development and 2.0 theme development, creating visually stunning, user-friendly stores designed to boost conversions and showcase your brand identity.",
+  para: "Hamkoders specializes in comprehensive brand strategy development, building distinctive brand identities and structured positioning designed to increase recognition and long-term brand value.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom Shopify<br />
-          Design
+          Custom Brand<br />
+          Positioning
         </h4>
       ),
-      para: "We create unique, responsive Shopify stores that perfectly reflect your brand’s aesthetics while delivering a seamless, intuitive, and engaging shopping experience for customers.",
+      para: "We craft unique brand positioning strategies that reflect your vision, values, and audience expectations while delivering a clear, compelling, and memorable market presence.",
     },
     {
       image: service2,
       heading4: (
         <h4>
           Optimized<br />
-          Store
+          Brand Messaging
         </h4>
       ),
-      para: "Our team guarantees fast-loading pages, effortless navigation, and seamless checkout experiences, designed to enhance user satisfaction, boost engagement, and drive higher sales for your store.",
+      para: "Our team develops powerful messaging frameworks, tone of voice guidelines, and communication strategies designed to strengthen audience trust and drive consistent engagement.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Payment <br />
-          Integration
+          Brand  <br />
+          Identity Development
         </h4>
       ),
-      para: "We seamlessly integrate secure payment gateways, providing customers with safe, reliable, and hassle-free transactions, ensuring trust, convenience, and a smooth shopping experience every time.",
+      para: "We build complete identity systems including visual direction, brand elements, and strategic alignment, ensuring cohesion, credibility, and lasting brand impact.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Feature-Rich <br />
-          Functionality
+          Research-Driven <br />
+          Strategy
         </h4>
       ),
-      para: "We deliver Shopify stores complete with product catalogs, inventory management, marketing tools, and analytics, offering all essential e-commerce features for efficient, growth-driven online business.",
+      para: "We conduct market research, competitor analysis, and audience profiling, providing essential insights for effective, growth-focused brand positioning.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO-Friendly <br />
+          Consistency-Focused <br />
           Architecture
         </h4>
       ),
-      para: "We apply SEO best practices across store structure, product pages, and content, boosting search visibility, attracting organic traffic, and helping your Shopify store rank higher.",
+      para: "We apply brand strategy best practices across communication channels, internal alignment, and customer touchpoints, enhancing visibility and strengthening brand equity.",
     },
     {
       image: service6,
       heading4: (
         <h4>
           Ongoing <br />
-          Maintenance
+          Brand Support
         </h4>
       ),
-      para: "After launch, we deliver regular updates, feature enhancements, and dedicated technical support, keeping your Shopify store secure, up-to-date, and performing at its best.",
+      para: "After launch, we provide regular evaluations, refinements, and strategic guidance, keeping your brand aligned, relevant, and positioned for long-term success.",
     }
   ],
   btnText: "Start Shopify development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Scale Online Business</h2>,
+  heading1: <h2 className="same-heading">Scale Business Growth</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>with Shopify Expertise</span>
+        <span>with Strategic Branding</span> 
       </h3>
     ),
-  para: "Partner with HadzTech for theme development Shopify, delivering innovative, functional stores optimized for growth, customer engagement, and success in competitive e-commerce markets.",
+  para: "Partner with Hamkoders for comprehensive brand strategy development, delivering structured positioning, compelling messaging, and sustainable competitive advantage in evolving markets.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Shopify Development Solutions<span> for Modern E-Commerce</span>
-    </h2>
+      Brand Strategy Development Solutions<span> for Modern Businesses</span>
+    </h2> 
   ),
-  para: 'HadzTech’s Shopify Development Services, led by a trusted Shopify expert developer, combine design, technology, and strategy to create custom stores. With seamless payment gateway integration, we build engaging, high-converting e-commerce solutions that attract customers and rapidly boost online sales.',
+  para: 'Hamkoders brand strategy services, led by experienced consultants, combine research, positioning, and structured planning to build impactful brands. With aligned messaging and clear identity architecture, we create strong, recognizable brands that attract audiences and drive long-term business growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Store <br />Architecture</h4>
+        <h4>Brand <br />Architecture</h4>
       ),
-      para: 'We create Shopify stores tailored to your business model, product range, and seamless customer journey.',
+      para: 'We develop brand frameworks tailored to your business goals, audience insights, and long-term strategic vision.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Responsive <br />UI/UX</h4>
+        <h4>Strategic <br />Messaging</h4>
       ),
-      para: 'We design fully responsive, easy-to-navigate Shopify stores, delivering a seamless and superior shopping experience everywhere.',
+      para: 'We create clear, consistent communication guidelines, delivering a cohesive and influential brand voice across all platforms.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Integrated <br />Marketing</h4>
+        <h4>Integrated <br />Market Positioning</h4>
       ),
-      para: 'We integrate apps and tools to boost promotions, enhance customer engagement, and track store performance effectively.',
+      para: 'We define competitive positioning strategies to strengthen visibility, enhance differentiation, and measure brand performance effectively.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Secure <br /> Platform</h4>
+        <h4>Secure <br /> Brand Governance</h4>
       ),
-      para: 'We ensure secure transactions, data handling, and platform management, protecting both your business and customer information.',
+      para: 'We ensure structured brand guidelines, consistent execution, and controlled brand management, protecting your reputation and market credibility. ',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is Shopify development?",
+    question: "What is brand strategy development?",
     answer:
-      "Shopify development involves designing, building, and customizing online stores on the Shopify platform to meet business goals and enhance user experience.",
+      "Brand strategy development involves defining positioning, messaging, target audience, and long-term direction to build a strong and recognizable market presence.",
   },
   {
-    question: "How long does it take to develop a Shopify store?",
+    question: "How long does it take to develop a brand strategy?",
     answer:
-      "Depending on complexity and features, Shopify stores typically take 3 to 8 weeks to develop, from planning to launch.",
+      "Depending on research scope and business objectives, brand strategy development typically takes 3 to 8 weeks from discovery to final framework delivery.",
   },
   {
-    question: "Can you create a fully custom Shopify store?",
+    question: "Can you create a fully customized brand strategy?",
     answer:
-      "Yes, we provide fully customized designs, themes, and features tailored to brand and business objectives.",
+      "Yes, we build tailored brand strategies aligned with your industry, vision, and competitive landscape.",
   },
   {
-    question: "Will the store be optimized for mobile devices?",
+    question: "Will the strategy include messaging and positioning guidelines?",
     answer:
-      "Absolutely. Every Shopify store we build is fully responsive and optimized for mobile, tablet, and desktop viewing.",
+      "Yes, we provide structured messaging frameworks, tone guidelines, and positioning clarity for consistent communication.",
   },
   {
-    question: "Can you integrate third-party apps and payment gateways?",
+    question: "Can you integrate the strategy across marketing channels?",
     answer:
-      "Yes, we integrate payment solutions, analytics tools, marketing apps, and other third-party services to extend store functionality.",
+      "Yes, we ensure the brand strategy aligns with digital marketing, content, and communication platforms.",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Do you provide post-development suppor?",
     answer:
-      "Yes, we offer ongoing maintenance, updates, and technical support to ensure Shopify stores remain secure, fast, and optimized.",
+      "Yes, we offer ongoing consultation, brand audits, and refinement services to maintain consistency and growth",
   }
 ];
 
