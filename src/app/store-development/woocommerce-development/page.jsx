@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/woocommerce-vector.webp";
+import vector from "../../../../public/images/guidelines-vector.png";
 
-import service1 from "../../../../public/images/store-services/woocommerce-development/1.webp";
-import service2 from "../../../../public/images/store-services/woocommerce-development/2.webp";
-import service3 from "../../../../public/images/store-services/woocommerce-development/3.webp";
-import service4 from "../../../../public/images/store-services/woocommerce-development/4.webp";
-import service5 from "../../../../public/images/store-services/woocommerce-development/5.webp";
-import service6 from "../../../../public/images/store-services/woocommerce-development/6.webp";
+import service1 from "../../../../public/images/store-services/woocommerce-development/1.png";
+import service2 from "../../../../public/images/store-services/woocommerce-development/2.png";
+import service3 from "../../../../public/images/store-services/woocommerce-development/3.png";
+import service4 from "../../../../public/images/store-services/woocommerce-development/4.png";
+import service5 from "../../../../public/images/store-services/woocommerce-development/5.png";
+import service6 from "../../../../public/images/store-services/woocommerce-development/6.png";
 
-import discussCtaImage from "../../../../public/images/woocommerce-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/webapp-dev-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Excellent<span> WooCommerce Development </span>Services
-    </h1>
+      Expert<span> Brand Guidelines & Style Guide </span>Services
+    </h1>   
   ),
   para: (
     <p className="para">
-      Boost online business with HadzTech’s WooCommerce development, creating scalable, flexible stores for seamless product, payment, and customer management.
+      Strengthen your brand identity with Hamkoders, a trusted brand guideline and style guide partner delivering consistent visual standards, cohesive branding systems, and clear brand communication.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Creating WooCommerce Stores That <br /> <span>Engage and Convert</span>
+      Creating Brand Systems That <br /> <span>Maintain Consistency and Impact</span>
     </h2>
   ),
-  para: "HadzTech specializes in custom theme development for WooCommerce, creating visually appealing, user-friendly stores that reflect brand identity, drive high conversions, and deliver a seamless shopping experience.",
+  para: "Hamkoders specializes in complete brand guidelines and style guide development, creating structured visual systems and documentation designed to maintain consistency and strengthen brand recognition.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom Store <br />
-          Design
+          Custom Brand <br />
+          Guidelines
         </h4>
       ),
-      para: "We design tailored WooCommerce stores that reflect your brand and offer a seamless, intuitive shopping experience across all devices.",
+      para: "We create tailored brand guideline documents that perfectly represent your brand identity while delivering clear standards for consistent visual and content presentation.",
     },
     {
       image: service2,
       heading4: (
         <h4>
           Optimized <br />
-          Performance
+          Visual Standards 
         </h4>
       ),
-      para: "We build WooCommerce stores for speed, reliability, and efficiency, ensuring fast loading and seamless user experiences even during high traffic.",
+      para: "Our team ensures consistent typography, color palettes, logo usage, and design elements, designed to enhance brand recognition, credibility, and professional consistency.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Secure Payment <br />
-          and Checkout
+          Asset  <br />
+          Integration
         </h4>
       ),
-      para: "We integrate multiple payment gateways, secure checkouts, and database optimization, providing customers with confidence, convenience, and seamless purchase experiences.",
+      para: "We organize brand assets, visual elements, and usage rules, providing teams with reliable, structured resources for smooth and consistent brand implementation",
     },
     {
       image: service4,
       heading4: (
         <h4>
           Feature-Rich <br />
-          Online Store
+          Documentation
         </h4>
       ),
-      para: "Our WooCommerce solutions provide advanced functionality, including inventory management, product variations, marketing tools, and analytics dashboards to monitor store performance efficiently.",
+      para: "We deliver comprehensive style guides including logo usage, imagery direction, tone of voice, and digital branding standards for efficient brand management.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO <br />
-          Optimization
+          Consistency-Focused  <br />
+          Structure
         </h4>
       ),
-      para: "We apply SEO and integrate marketing tools to boost organic traffic, enhance visibility, and improve customer acquisition for WooCommerce stores.",
+      para: "WWe apply brand standardization across digital platforms, print materials, and communication channels, strengthening recognition and maintaining brand alignment.",
     },
     {
       image: service6,
       heading4: (
         <h4>
           Ongoing<br />
-          Maintenance
+          Brand Support
         </h4>
       ),
-      para: "After launch, we offer updates, performance monitoring, and technical support to keep your WooCommerce store secure, optimized, and business-focused.",
+      para: "After delivery, we provide updates, refinements, and documentation support, keeping your brand guidelines relevant, consistent, and aligned with growth.",
     }
   ],
   btnText: "Start WooCommerce development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Scale Business with </h2>,
+  heading1: <h2 className="same-heading">Scale Brand Consistency with </h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>WooCommerce Expertise</span>
+        <span>Style Guide Expertise</span>
       </h3>
     ),
-  para: "Partner with HadzTech for Managed WooCommerce hosting and performance, creating stores that boost engagement, increase conversions, and support long-term business growth.",
+  para: "Partner with Hamkoders for brand guideline and style guide development, delivering structured documentation optimized for consistency, clarity, and long-term brand success. ",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      WooCommerce Development Solutions<span> for Modern E-Commerce</span>
+      Brand Guidelines & Style Guide Solutions<span> for Modern Brands</span>
     </h2>
   ),
-  para: 'HadzTech’s woo commerce development services combine strategic planning, custom solutions, and scalable architecture to build high-performing stores. We specialize in woo commerce website development in USA, delivering reliable, feature-rich, and growth-focused e-commerce solutions for modern businesses.',
+  para: 'Hamkoders’ Brand Guidelines & Style Guide Services, led by experienced branding specialists, combine strategy, structure, and creativity to build comprehensive brand systems. With structured documentation and consistent visual rules, we create professional branding frameworks that strengthen recognition and support growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Tailored Store <br />Architecture</h4>
+        <h4>Brand <br />Structure</h4>
       ),
-      para: 'We create fully customizable, scalable WooCommerce stores that efficiently support business operations and product catalogs.',
+      para: 'We create brand guideline systems tailored to your identity, communication style, and business positioning.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Responsive <br />UI/UX Design</h4>
+        <h4>Consistent <br />Visual Identity </h4>
       ),
-      para: 'We design visually appealing, responsive, and easy-to-navigate WooCommerce interfaces across all devices, boosting user engagement.',
+      para: 'We define typography, color systems, imagery direction, and logo usage to maintain strong visual consistency everywhere.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Integrated Analytics <br />Tools</h4>
+        <h4>Integrated Brand <br /> Assets</h4>
       ),
-      para: 'We integrate plugins for marketing, user tracking, and analytics, empowering businesses to make data-driven decisions.',
+      para: 'We organize brand elements and usage rules to support marketing, design, and communication across all channels.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Secure and <br /> Reliable Platform</h4>
+        <h4>Secure Brand  <br /> Standards</h4>
       ),
-      para: 'We ensure security with encrypted transactions, data protection, and updates, building trust and reliability for customers.',
+      para: 'We ensure clear documentation and brand control, protecting identity consistency across digital and print platforms.',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is WooCommerce development?",
+    question: "What are brand guidelines and style guides?",
     answer:
-      "WooCommerce development involves creating custom e-commerce stores on WordPress, providing full control over design, features, and functionality.",
+      "Brand guidelines and style guides define how your brand should appear and communicate, including logo usage, colors, typography, tone, and visual standards.",
   },
   {
-    question: "How long does it take to develop a WooCommerce store?",
+    question: "How long does it take to create brand guidelines?",
     answer:
-      "Depending on complexity and features, WooCommerce stores usually take 3 to 8 weeks from planning to launch.",
+      "Depending on brand complexity and assets, brand guideline development typically takes 2 to 5 weeks from planning to final documentation.",
   },
   {
-    question: "Can you create fully customized WooCommerce stores?",
+    question: "Can you create guidelines for an existing brand?",
     answer:
-      "Yes, our custom ecommerce store development services provide tailored designs and features that reflect brand and business requirements.",
+      "YYes, we can develop structured brand guidelines for both new and existing brands to ensure consistency and clarity.",
   },
   {
-    question: "Will the store be mobile-friendly?",
+    question: "Will the style guide work across digital and print media?",
     answer:
-      "Absolutely. Every WooCommerce store we build is fully responsive and optimized for all devices, ensuring a seamless shopping experience.",
+      "Yes, guidelines are created to maintain consistency across websites, social media, print materials, and marketing assets.",
   },
   {
-    question: "Can you integrate third-party apps and payment gateways?",
+    question: "Do you include logo and visual usage rules?",
     answer:
-      "Yes, as an experienced online store developer, we integrate payment solutions, CRM tools, analytics, and other third-party apps to enhance functionality.",
+      " Yes, we include detailed logo usage rules, typography standards, color codes, and design directions..",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Do you provide updates to brand guidelines later?",
     answer:
-      "Yes, we offer continuous maintenance, updates, and technical support to keep WooCommerce store secure, high-performing, and future-ready.",
+      "Yes, we provide ongoing support and updates to keep your brand documentation aligned with business growth.",
   }
 ];
 
