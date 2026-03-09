@@ -27,7 +27,7 @@ import service6 from "../../../../public/images/store-services/shopify-developme
 
 import discussCtaImage from "../../../../public/images/shopify-dev-cta.webp";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/android-app-dev.webp",
