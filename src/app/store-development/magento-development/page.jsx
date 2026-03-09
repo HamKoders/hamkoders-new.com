@@ -25,7 +25,7 @@ import service4 from "../../../../public/images/store-services/magento-developme
 import service5 from "../../../../public/images/store-services/magento-development/5.webp";
 import service6 from "../../../../public/images/store-services/magento-development/6.webp";
 
-import discussCtaImage from "../../../../public/images/magento-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.png";
 
 import signVector from "../../../../public/images/sign-vector.webp";
 
@@ -33,14 +33,12 @@ const bannerData = {
   bgImage: "/images/enterprise-dev-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Magento <span>Development Experts</span>
+      Expert  <span> Logo & Visual</span><br/> Identity Design Services
     </h1>
   ),
   para: (
     <p className="para">
-      Boost your online sales with HadzTech’s Magento development services,
-      delivering custom, secure, scalable, and feature-rich e-commerce stores
-      for businesses.
+      Elevate your brand presence with Hamkoders, a trusted logo and visual identity design partner delivering custom branding concepts, cohesive visuals, and consistent brand assets.
     </p>
   ),
   image: vector,
@@ -50,134 +48,134 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Crafting Magento Stores That
-      <br /> <span>Engage and Convert</span>
+      Crafting Brand Identities That
+      <br /> <span>Stand Out and Connect</span>
     </h2>
   ),
-  para: "HadzTech specializes in custom Magento development, creating fully optimized, user-friendly stores designed to boost conversions, provide seamless shopping experiences, and enhance overall operational efficiency.",
+  para: "Hamkoders specializes in logo creation and complete visual identity systems, crafting distinctive, memorable designs that strengthen recognition and communicate your brand story clearly.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom Magento
+          Custom Logo 
           <br />
-          Store
+          Design
         </h4>
       ),
-      para: "We create personalized, visually stunning Magento stores that reflect your brand identity while offering intuitive navigation for a seamless customer experience.",
+      para: "We create unique, scalable logos that perfectly represent your brand values while delivering a clean, versatile, and impactful visual presence across all platforms.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          High-Performance
+          Optimized Brand 
           <br />
-          Store
+          Assets
         </h4>
       ),
-      para: "We build Magento stores for speed, reliability, and scalability, ensuring fast loading, smooth performance, and consistent operation even during high traffic.",
+      para: "Our team ensures consistent typography, color palettes, and visual elements designed to enhance brand recall, improve credibility, and build strong audience trust.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Secure <br />
-          Payment
+          Brand <br />
+          Guidelines
         </h4>
       ),
-      para: "We integrate secure payment gateways and seamless checkout processes, ensuring customer trust, satisfaction, and a smooth, reliable shopping experience.",
+      para: "We develop detailed brand guidelines, providing clear direction for logo usage, colors, and visual standards to ensure consistency across digital and print materials.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Feature-Rich <br />
-          Store
+          Complete Visual<br />
+          Identity Systems
         </h4>
       ),
-      para: "Our online store builder approach equips Magento stores with essential features such as product catalogs, inventory management, marketing tools, and analytics.",
+      para: "We deliver comprehensive branding packages including logo variations, social media assets, stationery design, and marketing visuals for a unified and professional brand image.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO and <br />
-          Marketing
+          Strategic Brand  <br />
+          Positioning
         </h4>
       ),
-      para: "We apply SEO best practices and integrate marketing solutions to increase search visibility, drive targeted traffic, and boost online sales.",
+      para: "We apply branding best practices across visual storytelling, messaging alignment, and identity structure, helping your brand stand out and build long-term recognition.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Support and <br />
-          Maintenance
+          Ongoing Brand <br />
+          Support
         </h4>
       ),
-      para: "After launch, we offer updates, performance monitoring, and technical support to keep your Magento store secure, optimized, and fully functional.",
+      para: "After launch, we provide brand refinements, asset updates, and creative support, keeping your visual identity modern, consistent, and aligned with business growth.",
     },
   ],
   btnText: "Start Magento development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Scale E-Commerce Business</h2>,
+  heading1: <h2 className="same-heading">Scale Brand Impact with </h2>,
   heading2: (
     <h3 className="same-heading">
-      <span>with Magento</span>
+      <span>Visual Identity Expertise</span>
     </h3>
   ),
-  para: "Partner with HadzTech for Magento API integration services, delivering innovative, functional stores that engage users, streamline operations, and boost business revenue.",
+  para: "Partner with Hamkoders for logo and brand identity design, delivering distinctive visuals optimized for recognition, credibility, and long-term market presence.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Magento Development Solutions<span> for Modern Online Stores</span>
+      Logo & Visual Identity Design Solutions <span> for Modern Brands</span>
     </h2>
   ),
-  para: "HadzTech’s Magento development services provide custom e-commerce solutions that are flexible, scalable, and growth-focused. With Magento cloud hosting and DevOps, we ensure high-performance, secure, and fully optimized stores, delivering excellence in every aspect of Magento online store development.",
+  para: "Hamkoders’ Logo & Visual Identity Design Services, led by experienced brand designers, combine creativity, strategy, and research to craft compelling brand identities. With cohesive visual systems and consistent branding elements, we build powerful identities that attract audiences and strengthen brand positioning.",
   demandBox: [
     {
       heading4: (
         <h4>
-          Tailored Store <br />
+          Brand <br />
           Architecture
         </h4>
       ),
-      para: "We create Magento stores aligned with business goals, products, and customer journey to drive growth.",
+      para: "We create visual identity systems tailored to your business vision, market positioning, and brand personality.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Responsive <br />
-          UI/UX Design
+          Consistent  <br />
+          Visual Design
         </h4>
       ),
-      para: "We design fully responsive, visually appealing Magento stores that are easy to navigate on all devices.",
+      para: "We design cohesive brand elements, ensuring a unified and professional brand appearance across all platforms.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Integrated Analytics <br />
-          Tools
+          Integrated Brand <br />
+           Assets
         </h4>
       ),
-      para: "We integrate apps and plugins to boost promotions, enhance customer engagement, and enable real-time performance tracking.",
+      para: "We deliver logos, typography systems, color palettes, and marketing visuals that strengthen recognition and brand consistency.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Secure and <br /> Reliable Platform
+          Secure Brand <br /> Usage Standards
         </h4>
       ),
-      para: "We ensure secure transactions, data protection, and compliance, delivering a reliable Magento platform with top-level security.",
+      para: "We ensure clear brand guidelines and controlled asset management, protecting your visual identity across all channels.",
       image: signVector,
     },
   ],
@@ -185,34 +183,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is Magento development?",
+    question: "What is logo and visual identity design?",
     answer:
-      "Magento development involves building custom ecommerce stores on the Magento platform, providing robust features, scalability, and optimized performance.",
+      "Logo and visual identity design involves creating a unique logo along with cohesive visual elements such as colors, typography, and brand guidelines that define and represent your brand consistently.",
   },
   {
-    question: "How long does it take to develop a Magento store?",
+    question: "How long does it take to develop a logo and brand identity?",
     answer:
-      "Depending on features and complexity, Magento stores typically take 4 to 10 weeks from planning to launch.",
+      "Depending on complexity and revisions, logo and visual identity design typically takes 2 to 6 weeks from research to final delivery.",
   },
   {
-    question: "Can you create a fully custom Magento store?",
+    question: "Can you create a fully custom logo design?",
     answer:
-      "Yes, our custom ecommerce store development services deliver fully tailored designs and functionalities to meet business needs.",
+      "Yes, we design completely original logos tailored to your brand vision, target audience, and industry positioning.",
   },
   {
-    question: "Will the store be mobile-friendly?",
+    question: "Will the brand identity work across digital and print platforms?",
     answer:
-      "Absolutely. All Magento stores we build are fully responsive and optimized for mobile, tablet, and desktop devices.",
+      "AYes, all brand assets are created to ensure consistency and clarity across websites, social media, packaging, and print materials.",
   },
   {
-    question: "Can you integrate third-party apps and payment gateways?",
+    question: "Can you deliver complete brand guidelines?",
     answer:
-      "Yes, as an experienced online store developer, we integrate payment solutions, analytics tools, marketing apps, and other third-party services.",
+      "Yes, we provide detailed brand guidelines covering logo usage, color codes, typography, and visual standards.",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Do you provide post-launch design support?",
     answer:
-      "Yes, we offer ongoing maintenance, updates, and technical support to ensure Magento stores remain secure, fast, and optimized.",
+      "Yes, we offer ongoing design support, brand refinements, and asset updates to maintain brand consistency and growth.",
   },
 ];
 
