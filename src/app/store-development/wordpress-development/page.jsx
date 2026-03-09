@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/wordpress-vector.webp";
+import vector from "../../../../public/images/Corporate-vector.png";
 
-import service1 from "../../../../public/images/store-services/wordpress-development/1.webp";
-import service2 from "../../../../public/images/store-services/wordpress-development/2.webp";
-import service3 from "../../../../public/images/store-services/wordpress-development/3.webp";
-import service4 from "../../../../public/images/store-services/wordpress-development/4.webp";
-import service5 from "../../../../public/images/store-services/wordpress-development/5.webp";
-import service6 from "../../../../public/images/store-services/wordpress-development/6.webp";
+import service1 from "../../../../public/images/store-services/wordpress-development/1.png";
+import service2 from "../../../../public/images/store-services/wordpress-development/2.png";
+import service3 from "../../../../public/images/store-services/wordpress-development/3.png";
+import service4 from "../../../../public/images/store-services/wordpress-development/4.png";
+import service5 from "../../../../public/images/store-services/wordpress-development/5.png";
+import service6 from "../../../../public/images/store-services/wordpress-development/6.png";
 
-import discussCtaImage from "../../../../public/images/wordpress-cta.webp";
+import discussCtaImage from "../../../../public/images/brand-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/front-end-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Professional<span> WordPress Development </span>Services
+      Expert<span> Corporate Identity Design  </span>Services
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech offers custom wordpress development services, creating versatile, scalable websites that combine creativity, functionality, and AI-powered solutions for high-performance, personalized business websites.
+     Build a powerful brand presence with Hamkoders, a reliable corporate identity design partner delivering cohesive visuals, consistent branding systems, and professional identity solutions.
     </p>
   ),
   image: vector,
@@ -48,60 +48,60 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Creating WordPress Websites<br /> <span>That Perform</span>
-    </h2>
+      Creating Corporate Identities<br /> <span>That Strengthen Recognition and Trust</span>
+    </h2> 
   ),
-  para: "HadzTech specializes in wordpress theme development, creating visually appealing, user-friendly websites that enhance brand identity, boost engagement, and deliver measurable business results.",
+  para: "Hamkoders focuses on corporate identity design and brand system creation, producing visually aligned, professional identity assets designed to improve recognition and present your brand values clearly.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom WordPress<br />
-          Development
+          Custom Identity<br />
+           Design
         </h4>
       ),
-      para: "We deliver custom WordPress development solutions tailored to your business goals, creating unique, scalable, and fully optimized websites.",
+      para: "We craft distinctive, professional corporate identity designs that reflect your brand personality while delivering a consistent and engaging visual experience across all platforms.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          WordPress Theme<br />
-          Development
+          Refined Brand<br />
+          Elements
         </h4>
       ),
-      para: "We provide WordPress theme development services, designing visually stunning, responsive themes that ensure a seamless and consistent user experience on all devices.",
+      para: " Our team develops balanced color schemes, typography, and visual assets designed to improve credibility, recognition, and consistent communication everywhere.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          AI-Powered WordPress <br />
-          Development
+          Brand Asset <br />
+          Integration
         </h4>
       ),
-      para: "Our AI-powered WordPress development integrates advanced tools to automate processes, enhance personalization, and boost user engagement with intelligent website features.",
+      para: "We structure identity assets and usage guidelines, delivering organized resources for smooth implementation across marketing, print, and digital channels.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Hire WordPress <br />
-          Developer
+          Complete Brand <br />
+          Systems
         </h4>
       ),
-      para: "Our expert team builds websites with clean code, best practices, and reliable performance. Hire WordPress developers for projects or support.",
+      para: "We provide full corporate identity kits including stationery, visual assets, and branding elements for effective and unified brand management.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          SEO and Performance<br />
-          Optimization
+          Consistency-Driven<br />
+           Framework
         </h4>
       ),
-      para: "We apply SEO strategies, fast-loading designs, and performance optimization to boost search visibility, attract organic traffic, and enhance website success.",
+      para: "We implement identity standards across digital platforms, print materials, and communication channels, strengthening recognition and maintaining brand consistency.",
     },
     {
       image: service6,
@@ -111,57 +111,57 @@ const serviceData = {
           Support
         </h4>
       ),
-      para: "After launch, we offer updates, technical support, and enhancements to keep your WordPress website secure, functional, and business-ready.",
+      para: "After delivery, we offer updates, refinements, and brand assistance, keeping your corporate identity relevant, consistent, and aligned with growth.",
     }
   ],
   btnText: "Start Wordpress development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Scale Business with</h2>,
+  heading1: <h2 className="same-heading">Grow Brand Presence with</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>WordPress Expertise</span>
+        <span>Corporate Identity Expertise</span>
       </h3>
     ),
-  para: "Partner with HadzTech for custom wordpress development, creating innovative, functional, and AI-enhanced websites tailored for professional, scalable business digital platforms.",
+  para: "Partner with Hamkoders for corporate identity design, delivering cohesive visual systems optimized for recognition, trust, and long-term brand success.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      WordPress Development Solutions<span> for Dynamic Websites</span>
-    </h2>
+      Corporate Identity Design Solutions<span> for Modern Brands</span>
+    </h2> 
   ),
-  para: 'HadzTech offers custom wordpress development services, delivering end-to-end solutions for businesses seeking responsive, engaging, and high-performing websites. You can hire WordPress developers from our expert team to build, customize, and maintain digital platforms that drive growth and success.',
+  para: 'Hamkoders’ Corporate Identity Design Services, led by experienced branding professionals, combine creativity, structure, and strategy to develop strong identity systems. With defined visual standards and unified brand assets, we create professional corporate identities that improve recognition and support growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Custom <br />Architecture</h4>
+        <h4>Identity  <br />Framework</h4>
       ),
-      para: 'We provide custom WordPress development tailored to business needs, ensuring flexible, scalable solutions for long-term growth.',
+      para: 'WWe build corporate identity systems tailored to your brand positioning, communication style, and market presence.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Responsive <br />UI/UX</h4>
+        <h4>ConsistentVisual  <br />Branding</h4>
       ),
-      para: 'We design intuitive, mobile-responsive WordPress interfaces that boost user experience and engagement across all devices.',
+      para: 'We establish typography, colors, logo usage, and brand elements to maintain consistent visual identity across platforms.',
       image: signVector
     },
     {
       heading4: (
-        <h4>AI-Powered<br />Features</h4>
+        <h4>Integrated Brand<br /> Assets</h4>
       ),
-      para: 'We deliver AI-powered WordPress development solutions, enabling personalization, chatbots, content recommendations, and automated workflows.',
+      para: 'We organize identity assets and documentation to support marketing, communication, and brand execution.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Theme <br /> Customization</h4>
+        <h4>Protected Brand <br /> Consistency</h4>
       ),
-      para: 'Our WordPress theme development services create visually appealing, fully customizable themes aligned with brand identity and user expectations.',
+      para: 'We ensure clear identity documentation and brand control, protecting visual consistency across digital and print channels.',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is WordPress development?",
+    question: "What is corporate identity design?",
     answer:
-      "WordPress development involves building websites with WordPress, including custom wordpress development, theme creation, and functional enhancements.",
+      "Corporate identity design defines visual elements such as logos, colors, typography, and brand assets that create a consistent and recognizable brand image.",
   },
   {
-    question: "How long does it take to develop a WordPress website?",
+    question: "How long does it take to  design a corporate identity?",
     answer:
-      "Depending on complexity, WordPress websites usually take 3 to 6 weeks, including planning, design, development, and testing.",
+      "DDepending on brand requirements and assets, corporate identity design usually takes 2 to 5 weeks from planning to final delivery.",
   },
   {
-    question: "Can I hire a developer for my WordPress project?",
+    question: "Can you redesign an existing corporate identity?",
     answer:
-      "Yes, you can hire wordpress developers from our team for full project development, ongoing support, or specific customizations.",
+      "YYes, we can refresh or completely redesign your existing corporate identity to improve consistency and brand impact.",
   },
   {
-    question: "Do you provide custom themes for WordPress?",
+    question: "Will I receive complete brand identity assets?",
     answer:
-      "Absolutely. Our wordpress theme development services deliver unique, responsive, and brand-aligned themes.",
+      "Yes, we provide full identity kits including logo usage, stationery design, and visual brand elements.",
   },
   {
-    question: "What is AI-powered WordPress development?",
+    question: "Is corporate identity useful for digital and print branding?",
     answer:
-      "We integrate AI tools and automation to enhance personalization, optimize workflows, and improve user engagement on websites.",
+      "Yes, corporate identity ensures consistency across websites, social media, marketing materials, and print media.",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Do you provide updates after delivery?",
     answer:
-      "Yes, we offer continuous maintenance, updates, and technical support to keep WordPress website secure, optimized, and future-ready.",
+      "YYes, we provide ongoing support and refinements to keep your corporate identity aligned with business growth.",
   }
 ];
 
