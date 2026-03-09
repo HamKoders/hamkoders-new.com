@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/magento-development-banner.webp";
+import vector from "../../../../public/images/Logo-Visual-banner.png";
 
-import service1 from "../../../../public/images/store-services/magento-development/1.webp";
-import service2 from "../../../../public/images/store-services/magento-development/2.webp";
-import service3 from "../../../../public/images/store-services/magento-development/3.webp";
-import service4 from "../../../../public/images/store-services/magento-development/4.webp";
-import service5 from "../../../../public/images/store-services/magento-development/5.webp";
-import service6 from "../../../../public/images/store-services/magento-development/6.webp";
+import service1 from "../../../../public/images/brand-services/Logo-Visual/1.webp";
+import service2 from "../../../../public/images/brand-services/Logo-Visual/2.webp";
+import service3 from "../../../../public/images/brand-services/Logo-Visual/3.webp";
+import service4 from "../../../../public/images/brand-services/Logo-Visual/4.webp";
+import service5 from "../../../../public/images/brand-services/Logo-Visual/5.webp";
+import service6 from "../../../../public/images/brand-services/Logo-Visual/6.webp";
 
 import discussCtaImage from "../../../../public/images/brand-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/enterprise-dev-banner.webp",
