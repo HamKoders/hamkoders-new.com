@@ -16,18 +16,18 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/mvp-app-vector.webp";
+import vector from "../../../../public/images/mvp-app-vector.png";
 
-import service1 from "../../../../public/images/app-services/mvp-app-development/1.webp";
-import service2 from "../../../../public/images/app-services/mvp-app-development/2.webp";
-import service3 from "../../../../public/images/app-services/mvp-app-development/3.webp";
-import service4 from "../../../../public/images/app-services/mvp-app-development/4.webp";
-import service5 from "../../../../public/images/app-services/mvp-app-development/5.webp";
-import service6 from "../../../../public/images/app-services/mvp-app-development/6.webp";
+import service1 from "../../../../public/images/app-services/mvp-app-development/1.png";
+import service2 from "../../../../public/images/app-services/mvp-app-development/2.png";
+import service3 from "../../../../public/images/app-services/mvp-app-development/3.png";
+import service4 from "../../../../public/images/app-services/mvp-app-development/4.png";
+import service5 from "../../../../public/images/app-services/mvp-app-development/5.png";
+import service6 from "../../../../public/images/app-services/mvp-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/discuss-cta-image.webp";
+import discussCtaImage from "../../../../public/images/mvp-cta-image.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
@@ -38,7 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech, a leading mvp app development company, helps startups validate ideas by creating scalable, user-friendly MVPs focused on essential features and performance.
+      Hamkoders, a trusted MVP app development company, helps startups validate ideas by building scalable, user-friendly MVPs focused on core features and reliable performance.
     </p>
   ),
   image: vector,
@@ -51,7 +51,7 @@ const serviceData = {
       Building MVPs That Test, Learn,<br /> <span>and Scale</span>
     </h2>
   ),
-  para: "Our MVP mobile app development delivers functional, reliable applications that validate ideas, meet early user expectations, and allow rapid iteration for growth based on real-world feedback.",
+  para: "Our MVP mobile app development delivers practical, reliable applications that validate ideas, meet early user expectations, and allow fast iteration for growth based on real user feedback.",
   serviceBox: [
     {
       image: service1,
@@ -61,7 +61,7 @@ const serviceData = {
           Development
         </h4>
       ),
-      para: "We prioritize essential features to validate business ideas quickly without unnecessary complexity. This ensures fast deployment and early user engagement.",
+      para: "We focus on core features to validate business ideas quickly without extra complexity, ensuring faster launch and early user engagement.",
     },
     {
       image: service2,
@@ -71,7 +71,7 @@ const serviceData = {
           Design
         </h4>
       ),
-      para: "Our team develops intuitive interfaces that deliver a seamless experience for early adopters. Effective design encourages adoption and provides actionable insights.",
+      para: "Our team creates simple and intuitive interfaces that deliver a smooth experience for early users while encouraging adoption and useful feedback.",
     },
     {
       image: service3,
@@ -81,7 +81,7 @@ const serviceData = {
           Architecture
         </h4>
       ),
-      para: "Even as a lean version, the MVP is designed on a scalable foundation, supporting future features, updates, and business growth.",
+      para: "Even as a lean version, the MVP is built on a scalable structure that supports future features, updates, and steady business growth.",
     },
     {
       image: service4,
@@ -91,7 +91,7 @@ const serviceData = {
           Development
         </h4>
       ),
-      para: "We employ agile methodologies to speed up development, ensuring your MVP is delivered efficiently and reaches the market quickly.",
+      para: "We use agile development methods to speed up production, ensuring your MVP reaches the market quickly and efficiently.",
     },
     {
       image: service5,
@@ -101,7 +101,7 @@ const serviceData = {
           Iteration
         </h4>
       ),
-      para: "Our MVPs efficiently gather user feedback, enabling continuous improvements and refinements that guide product development and drive sustainable growth.",
+      para: "Our MVPs collect real user feedback, allowing ongoing improvements that guide product direction and support sustainable growth.",
     },
     {
       image: service6,
@@ -111,7 +111,7 @@ const serviceData = {
           Support
         </h4>
       ),
-      para: "We offer continuous maintenance and updates, transforming your MVP into a fully-featured, scalable application that grows alongside your business needs.",
+      para: "We provide ongoing maintenance and updates, transforming your MVP into a complete, scalable application that evolves with your business.",
     }
   ],
   btnText: "Start MVP App Development",
@@ -124,7 +124,7 @@ const discussCtaData = {
         <span>Quickly and Effectively</span>
       </h3>
     ),
-  para: "Partner with HadzTech to develop MVPs that validate ideas, gather insights, and deliver scalable, fast, and functional solutions for market success.",
+  para: "Partner with Hamkoders to build MVPs that test ideas, collect feedback, and deliver scalable, fast, and functional solutions for successful market entry.",
   image: discussCtaImage,
 };
 
@@ -134,34 +134,34 @@ const demandCompData = {
       MVP App Development Solutions Designed<span> for Speed and Growth</span>
     </h2>
   ),
-  para: 'Our MVP App Development Services focus on creating efficient, scalable, and functional applications. As a trusted mvp app development company, our expert app developer MVP team accelerates time-to-market, validates business ideas, and delivers high-quality strategies to enhance app performance and drive growth.',
+  para: 'Our MVP app development services focus on building efficient, scalable, and practical applications. As a trusted MVP app development company, Hamkoders accelerates launch timelines, validates business ideas, and delivers reliable strategies that improve app performance and support business growth.',
   demandBox: [
     {
       heading4: (
         <h4>Strategic <br /> MVP Planning</h4>
       ),
-      para: 'We define essential features and functionality to validate concepts while ensuring alignment with business goals.',
+      para: 'We define core features and functionality to test concepts while maintaining strong alignment with business objectives.',
       image: signVector
     },
     {
       heading4: (
         <h4>Optimized Lean<br />Architecture</h4>
       ),
-      para: 'We develop lightweight, modular applications that can scale into full-featured products without complete reconstruction.',
+      para: 'We create lightweight and modular applications that can grow into full-featured products without major redevelopment.',
       image: signVector
     },
     {
       heading4: (
         <h4>Agile Development<br />Process</h4>
       ),
-      para: 'We use iterative development and testing to deliver a reliable MVP quickly, adapting based on user feedback.',
+      para: 'We follow iterative development and testing methods to deliver dependable MVPs quickly while adapting to user feedback.',
       image: signVector
     },
     {
       heading4: (
         <h4>Security and <br /> Reliability</h4>
       ),
-      para: 'Even as a lean product, the MVP ensures robust security and consistent performance to protect data.',
+      para: 'Even as a lean solution, each MVP includes strong security and stable performance to protect business and user data.',
       image: signVector
     }
   ]
@@ -171,32 +171,32 @@ const faqs = [
   {
     question: "What is MVP app development?",
     answer:
-      "MVP app development focuses on creating a simplified version of a product with essential features to validate an idea and test the market.",
+      "MVP app development builds a basic version of an application with core features to test ideas and gather real user feedback.",
   },
   {
     question: "How long does it take to develop an MVP?",
     answer:
-      "Most MVPs can be developed within 4 to 8 weeks, depending on complexity and required features.",
+      "Most MVPs can be completed within 4 to 8 weeks, depending on complexity and required features",
   },
   {
     question: "Can the MVP scale into a full-featured app?",
     answer:
-      "Yes, our MVPs are built on scalable architecture that allows seamless expansion as product evolves.",
+      "Yes, MVPs are designed on scalable architecture that allows future upgrades, features, and integrations.",
   },
   {
     question: "Will the MVP be user-friendly?",
     answer:
-      "Absolutely. We prioritize intuitive design and usability to ensure early adopters can engage effectively.",
+      "Yes, MVPs are built with simple and intuitive interfaces to ensure easy adoption and smooth user experience.",
   },
   {
     question: "Can you integrate third-party tools in the MVP?",
     answer:
-      "Yes, we can integrate essential third-party services like analytics, payment gateways, and CRMs as needed.",
+      "Yes, MVPs can integrate APIs, payment systems, and other tools to support core functionality.",
   },
   {
     question: "Do you offer post-launch support for MVPs?",
     answer:
-      "Yes, we provide ongoing maintenance, updates, and enhancements to help MVP transition into a fully-featured application.",
+      "Yes, Hamkoders provides ongoing updates, improvements, and technical support after launch.",
   }
 ];
 
