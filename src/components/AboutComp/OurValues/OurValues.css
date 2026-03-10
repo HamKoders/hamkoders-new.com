@@ -16,7 +16,7 @@
 }
 
 .our-values-1 {
-  padding: 72px 70px;
+  padding: 65px 70px;
   background-image: url("../../../../public/images/our-value1.png");
   background-position: center;
   background-size: cover;
@@ -113,7 +113,7 @@
 
 @media(max-width:1366px) {
           .our-values-1 {
-        padding: 20px 50px;
+        padding: 29px 70px;
     }
           .our-values-2 {
         padding: 29px 70px;
