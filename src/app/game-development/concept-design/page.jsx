@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/concept-game-vector.webp";
+import vector from "../../../../public/images/content-vector.png";
 
-import service1 from "../../../../public/images/game-dev-services/concept-design/1.webp";
-import service2 from "../../../../public/images/game-dev-services/concept-design/2.webp";
-import service3 from "../../../../public/images/game-dev-services/concept-design/3.webp";
-import service4 from "../../../../public/images/game-dev-services/concept-design/4.webp";
-import service5 from "../../../../public/images/game-dev-services/concept-design/5.webp";
-import service6 from "../../../../public/images/game-dev-services/concept-design/6.webp";
+import service1 from "../../../../public/images/game-dev-services/concept-design/1.png";
+import service2 from "../../../../public/images/game-dev-services/concept-design/2.png";
+import service3 from "../../../../public/images/game-dev-services/concept-design/3.png";
+import service4 from "../../../../public/images/game-dev-services/concept-design/4.png";
+import service5 from "../../../../public/images/game-dev-services/concept-design/5.png";
+import service6 from "../../../../public/images/game-dev-services/concept-design/6.png";
 
-import discussCtaImage from "../../../../public/images/cross-platform-app-cta.webp";
+import discussCtaImage from "../../../../public/images/mobile-app-dev-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/backend-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Concept Design<span> for Game </span>Development
+      Professional <span> Content Marketing </span>Services
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech’s expert game concept designer team transforms creative ideas into engaging, visually stunning, and technically feasible game development strategies.
+      Strengthen your digital presence with Hamkoders, a reliable content marketing partner delivering strategic writing, compelling storytelling, and steady brand growth across online platforms.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Building the Foundation <br /> <span>for Exceptional Games</span>
-    </h2>
+      Building Content Strategies  <br /> <span>That Connect and Convert</span>
+    </h2> 
   ),
-  para: "Our game concept design process blends creativity, technology, and user engagement to craft scalable, optimized game concepts that enhance gameplay and ensure lasting success.",
+  para: "Hamkoders focuses on powerful content marketing and brand messaging, creating engaging, audience-focused content crafted to increase reach and build a strong brand image.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Game <br />
-          Storyboarding
+          Custom Content  <br />
+          Planning
         </h4>
       ),
-      para: "We create immersive stories, dynamic characters, and engaging worlds that captivate players and sustain their interest throughout gameplay.",
+      para: "We craft tailored content strategies aligned with your brand voice while delivering engaging, meaningful, and value-driven experiences for your audience",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Gameplay <br />
-          Mechanics
+          Performance Focused  <br />
+          Content
         </h4>
       ),
-      para: "We design core gameplay loops, interactive mechanics, and progression systems that enhance player enjoyment, engagement, and long-term retention.",
+      para: "Our team ensures structured content, clear communication, and consistent publishing designed to improve engagement, build credibility, and increase conversions.",
     },
-    {
+     {
       image: service3,
       heading4: (
         <h4>
-          Visual<br />
-          Concept
+          Content <br />
+          Promotion
         </h4>
       ),
-      para: "We create concept art, character designs, and environment visuals that define the game’s aesthetic style and strengthen its visual identity.",
+      para: "We manage content promotion across digital channels, delivering consistent and engaging content that improves brand visibility and audience connection.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Prototype<br />
-          Development
+          Strategic Content  <br />
+          Creation
         </h4>
       ),
-      para: "We build interactive prototypes to validate gameplay mechanics, user interactions, and overall feasibility before moving into full development.",
+      para: "We deliver complete content plans including blogs, articles, social posts, and campaigns, providing essential marketing material for steady digital growth.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Engagement <br />
-          Strategy
+          Search-Friendly <br />
+          Content Setup
         </h4>
       ),
-      para: "We design intuitive controls, seamless interfaces, and engaging progression systems to elevate player satisfaction and overall gaming experience.",
+      para: "We implement search-focused practices across website content and blogs, improving visibility, driving organic traffic, and helping your brand rank better.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Collaboration<br />
-          with Teams
+          Ongoing Content <br />
+          Support
         </h4>
       ),
-      para: "Our concept design collaborates with developers to ensure creative ideas are feasible, technically sound, and aligned with project objectives.",
+      para: "After launch, we provide regular updates, refinements, and dedicated support, keeping your content fresh, consistent, and performing effectively.",
     },
   ],
   btnText: "Start Concept Design Development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Game Potential</h2>,
+  heading1: <h2 className="same-heading">Grow Online Business</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>from the Start</span>
+        <span>with Content Marketing</span> 
       </h3>
     ),
-  para: "Partner with HadzTech for expert concept design services that streamline development, reduce risks, and ensure a unified vision from start to launch.",
+  para: "Partner with Hamkoders for professional content marketing services, delivering creative and performance-driven campaigns focused on growth, audience engagement, and long-term success.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Concept Design Solutions<span> for Game Development</span>
+      Content Marketing Services <span> for Modern Brands</span>
     </h2>
   ),
-  para: 'Our game concept designer team at HadzTech crafts detailed game design concepts that define visuals, mechanics, and user interaction strategies. We ensure each concept blends creativity with technical precision, resulting in visually stunning, engaging, and feasible games that capture player interest and support seamless development from idea to execution.',
+  para: 'Hamkoders content marketing services blend creativity, planning, and research to deliver strong brand communication. With smart planning and consistent delivery, we create engaging content that attracts audiences and supports online growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Detailed<br /> Narratives</h4>
+        <h4>Content <br /> Planning</h4>
       ),
-      para: 'We develop rich storylines, characters, and world-building elements to create fantastic player experiences.',
+      para: 'We build content strategies aligned with your business goals, audience interests, and customer journey.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Gameplay <br /> Planning</h4>
+        <h4>Responsive Content  <br /> Creation</h4>
       ),
-      para: 'We map core mechanics, user interactions, and progression systems to ensure engaging and balanced gameplay.',
+      para: 'We develop engaging and easy-to-consume content formats that deliver a smooth and valuable audience experience.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Prototype<br />Design</h4>
+        <h4>Integrated Campaign<br />Content</h4>
       ),
-      para: 'We create concept art and prototypes to define visuals and test gameplay functionality early in development.',
+      para: 'We align blogs, social posts, and campaigns to increase engagement, expand reach, and track performance effectively.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Strategic<br />Development</h4>
+        <h4> Consistent Brand <br />Messaging</h4>
       ),
-      para: 'We collaborate with developers and designers to create practical, technically sound concepts aligned with project goals.',
+      para: 'We maintain clear tone and storytelling across all content, protecting your brand identity and marketing impact.',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is concept design in game development?",
+    question: "What is content marketing?",
     answer:
-      "Concept design involves creating the foundational vision for a game, including story, characters, gameplay mechanics, and visual style.",
+      "Content marketing is the process of creating and sharing valuable content to attract, engage, and convert your target audience.",
   },
   {
-    question: "Why is concept design important?",
+    question: "How long does it take to see content marketing results?",
     answer:
-      "It ensures games are engaging, technically feasible, and aligned with the intended player experience before full-scale development begins.",
+      "IContent marketing usually shows measurable improvement within a few months based on strategy, consistency, and audience response.",
   },
   {
-    question: "Do you provide visual concepts and prototypes?",
+    question: "Can you create customized content plans?",
     answer:
-      "Yes, we create detailed concept art, sketches, and interactive prototypes to test gameplay, visuals, and mechanics.",
+      "Yes, all content strategies are designed according to your brand goals, audience, and industry needs.",
   },
   {
-    question: "Can you design game narratives and characters?",
+    question: "Will content be search optimized?",
     answer:
-      "Absolutely. We craft compelling storylines, characters, and world-building elements to enhance player immersion.",
+      "Yes, every piece of content follows search-friendly practices to improve visibility and reach.",
   },
   {
-    question: "How do you ensure feasibility with development teams?",
+    question: "Can you manage content across platforms?",
     answer:
-      "Our concept design integrates closely with developers to ensure ideas are practical, technically achievable, and align with project goals.",
+      "Can you manage content across platformsYes, we manage website, blog, and social media content for a consistent brand presence.",
   },
   {
-    question: "What types of games can you create concept designs for?",
+    question: "Do you offer ongoing content support?",
     answer:
-      "We provide concept design for mobile, console, blockchain, NFT, and cross-platform games, supporting diverse gaming genres.",
+      "Yes, we provide continuous planning, updates, and management to support long-term growth.",
   }
 ];
 
