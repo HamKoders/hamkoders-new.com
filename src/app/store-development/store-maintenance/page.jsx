@@ -38,9 +38,7 @@ const bannerData = {
   ),
   para: (
     <p className="para">
-      HadzTech offers expert store maintenance services to keep Shopify,
-      Magento, and eCommerce platforms secure, optimized, and running smoothly
-      for better performance.
+      Boost your product appeal with Hamkoders, a trusted packaging and product branding partner delivering distinctive designs, cohesive visuals, and impactful shelf presence.
     </p>
   ),
   image: vector,
@@ -50,136 +48,136 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Keeping Online Store Secure
-      <br /> <span> and Up-to-Date</span>
+      Creating Packaging That
+      <br /> <span>  Captivates and Converts</span>
     </h2>
   ),
-  para: "Our eCommerce site maintenance services include updates, performance checks, and issue fixes to ensure secure, high-performing stores with smooth, uninterrupted shopping experiences.",
+  para: "Hamkoders specializes in product packaging design and brand-focused visual systems, creating attractive, market-ready packaging solutions designed to enhance recognition and strengthen product identity.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Regular
+          Custom Product 
           <br />
-          Updates
+          Packaging Design
         </h4>
       ),
-      para: "We provide timely platform, plugin, and security updates to keep your store maintenance seamless, secure, and always up-to-date.",
+      para: "We create unique, eye-catching packaging designs that perfectly reflect your brand personality while delivering a memorable and premium customer experience.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Performance
+          Optimized Brand 
           <br />
-          Optimization
+          Presentation
         </h4>
       ),
-      para: "Our team ensures smooth store maintenance by monitoring performance, fixing bottlenecks, and improving speed, responsiveness, and overall efficiency.",
+      para: "Our team ensures balanced layouts, compelling visuals, and clear product messaging designed to attract attention, build trust, and increase purchase decisions.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Issue <br />
-          Resolution
+          Label & Print  <br />
+          Integration
         </h4>
       ),
-      para: "We proactively identify and fix technical issues, glitches, and errors to ensure seamless performance and uninterrupted store operations.",
+      para: "We develop professional label designs and print-ready assets, ensuring consistency, quality production, and strong visual impact across every packaging format.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Shopify Store
+          Feature-Rich Product 
           <br />
-          Maintenance
+          Identity Systems
         </h4>
       ),
-      para: "Our Shopify store maintenance services optimize themes, apps, and checkout flows to enhance user experience, performance, and conversion rates.",
+      para: "We deliver complete packaging systems including box design, label concepts, brand elements, and visual storytelling for a cohesive and growth-focused product presence..",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Magento Store <br />
-          Maintenance
+          Brand-Focused  <br />
+          Visual Strategy
         </h4>
       ),
-      para: "Our Magento store maintenance services ensure security, optimized databases, and smooth performance through regular updates and extension management.",
+      para: "We apply branding best practices across packaging structure, typography, color systems, and layout design to improve shelf visibility and market differentiation.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Analytics and <br />
-          Reporting
+          Ongoing Brand  <br />
+          Support
         </h4>
       ),
-      para: "We track key performance metrics and provide actionable insights to help optimize store operations, user experience, and sales performance.",
+      para: "After launch, we provide packaging refinements, design updates, and continued creative support, keeping your product branding fresh and competitive.",
     },
   ],
   btnText: "Start Store Maintenance",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Store Efficiency</h2>,
+  heading1: <h2 className="same-heading">Scale Product Success with</h2>,
   heading2: (
     <h3 className="same-heading">
-      <span>and Reliability</span>
+      <span>Strategic Packaging</span> 
     </h3>
   ),
-  para: "Partner with HadzTech for expert store maintenance ensuring security, reliability, and smooth performance to support eCommerce growth and customer satisfaction.",
+  para: "Partner with Hamkoders for packaging and product branding solutions designed to increase visibility, strengthen brand loyalty, and drive market growth.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Store Maintenance Solutions<span> for High-Performing E-Commerce</span>
-    </h2>
+      Packaging & Product Branding Solutions<span> for Modern Businesses</span>
+    </h2> 
   ),
-  para: "Our eCommerce site maintenance services ensure secure, efficient, and high-performing online stores through proactive monitoring, optimization, and technical support. We specialize in store maintenance, including Shopify store maintenance and Magento store management, keeping your eCommerce platform updated, reliable, and ready to deliver seamless shopping experiences.",
+  para: "Hamkoder's Packaging & Product Branding Services combine creativity, strategy, and market insight to develop powerful product identities. With cohesive visuals and strong brand positioning, we build packaging solutions that attract customers and enhance brand value.",
   demandBox: [
     {
       heading4: (
         <h4>
-          Store <br />
-          Upgrades
+          Packaging  <br />
+          Architecture
         </h4>
       ),
-      para: "We ensure store stability and performance by updating features, versions, and security protocols regularly.",
+      para: "We create packaging structures tailored to your product category, audience expectations, and retail positioning.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Responsive Issue <br />
-          Resolution
+          Visual Brand  <br />
+          Identity
         </h4>
       ),
-      para: "We quickly fix technical issues to minimize downtime and ensure smooth, uninterrupted customer experiences.",
+      para: "We design consistent color systems, typography, and label elements to maintain strong product recognition.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Security
+          Integrated Brand 
           <br />
-          Optimization
+          Assets
         </h4>
       ),
-      para: "We monitor and improve site speed, security, and reliability to ensure a safe, optimized shopping experience.",
+      para: "We align packaging visuals with marketing materials to ensure seamless brand communication across channels.",
       image: signVector,
     },
     {
       heading4: (
         <h4>
-          Platform-Specific <br /> Maintenance
+          Secure Brand  <br /> Consistency
         </h4>
       ),
-      para: "We provide tailored Shopify and Magento store maintenance services designed for each platform’s unique needs.",
+      para: "We ensure controlled brand standards and structured packaging guidelines to protect your product identity.",
       image: signVector,
     },
   ],
@@ -187,34 +185,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is store maintenance?",
+    question: "What is packaging and product branding?",
     answer:
-      "Store maintenance involves regular updates, bug fixes, performance optimization, and security checks to keep an online store running smoothly.",
+      "Packaging and product branding involve designing the visual appearance, labels, and structural elements of a product to strengthen identity, attract customers, and improve shelf presence.",
   },
   {
-    question: "What are eCommerce site maintenance services?",
+    question: "How long does it take to design product packaging?",
     answer:
-      "eCommerce site maintenance services include updates, performance monitoring, security management, and technical support for online stores across various platforms.",
+      "Depending on complexity and revisions, packaging design projects typically take 2 to 5 weeks from concept development to final production-ready files.",
   },
   {
-    question: "Can you provide Shopify store maintenance?",
+    question: "Can you create custom packaging for new products?",
     answer:
-      "Yes, our shopify store maintenance services cover theme updates, app management, checkout optimization, and performance enhancements.",
+      "Yes, we design fully customized packaging solutions tailored to your product type, target audience, and market positioning.",
   },
   {
-    question: "Do you provide Magento store maintenance?",
+    question: "Will I receive print-ready packaging files?",
     answer:
-      "Absolutely. Our magento store maintenance services include security patches, extension updates, database optimization, and performance monitoring.",
+      "Yes, we provide complete, high-resolution, print-ready files suitable for manufacturers and packaging vendors.",
   },
   {
-    question: "How often should online stores be maintained?",
+    question: " Can packaging design improve product sales?",
     answer:
-      "Regular maintenance is recommended at least monthly, with critical updates applied immediately to ensure security, speed, and optimal functionality.",
+      "Yes, professional packaging enhances visibility, builds trust, and positively influences purchasing decisions.",
   },
   {
-    question: "Do you provide analytics and performance reports?",
+    question: "Do you provide updates after packaging launch?",
     answer:
-      "Yes, we provide detailed insights and actionable recommendations to help improve store performance, user experience, and sales metrics.",
+      "Yes, we offer ongoing design refinements and support to keep your product branding aligned with market trends and business growth",
   },
 ];
 
