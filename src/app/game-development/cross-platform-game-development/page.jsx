@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/cross-platform-app-banner.webp";
+import vector from "../../../../public/images/social-media-app-banner.png";
 
-import service1 from "../../../../public/images/game-dev-services/cross-platform-game-development/1.webp";
-import service2 from "../../../../public/images/game-dev-services/cross-platform-game-development/2.webp";
-import service3 from "../../../../public/images/game-dev-services/cross-platform-game-development/3.webp";
-import service4 from "../../../../public/images/game-dev-services/cross-platform-game-development/4.webp";
-import service5 from "../../../../public/images/game-dev-services/cross-platform-game-development/5.webp";
-import service6 from "../../../../public/images/game-dev-services/cross-platform-game-development/6.webp";
+import service1 from "../../../../public/images/game-dev-services/cross-platform-game-development/1.png";
+import service2 from "../../../../public/images/game-dev-services/cross-platform-game-development/2.png";
+import service3 from "../../../../public/images/game-dev-services/cross-platform-game-development/3.png";
+import service4 from "../../../../public/images/game-dev-services/cross-platform-game-development/4.png";
+import service5 from "../../../../public/images/game-dev-services/cross-platform-game-development/5.png";
+import service6 from "../../../../public/images/game-dev-services/cross-platform-game-development/6.png";
 
-import discussCtaImage from "../../../../public/images/cross-platform-app-cta.webp";
+import discussCtaImage from "../../../../public/images/mobile-app-dev-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/enterprise-dev-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Seamless <span>Game Creation</span>
+      Expert <span>Social Media Marketing </span>Services
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech offers expert cross platform game development delivering high-performance, engaging, and visually stunning games that run seamlessly across Android, iOS, and multiple devices.
+      Boost your brand growth with Hamkoders, a trusted social media marketing team delivering creative campaigns, smooth management, and strong engagement.
     </p>
   ),
   image: vector,
@@ -48,120 +48,121 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Creating Games That<br /> <span>Engage on Every Device</span>
+      Creating Social Campaigns That<br /> <span>Engage and Convert</span>
     </h2>
+
   ),
-  para: "We develop cross platform games that deliver interactive gameplay, stunning visuals, and smooth performance, ensuring players enjoy a seamless and immersive experience across every device.",
+  para: "Hamkoders specializes in social media strategy and campaign management, creating visually strong, user-focused campaigns designed to increase engagement and strengthen your brand identity.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Unified Game<br />
-          Architecture
+          Custom Social <br />
+          Strategy
         </h4>
       ),
-      para: "We create a unified codebase that runs seamlessly across platforms, minimizing development time and ensuring consistent performance and functionality.",
+      para: "We create unique, targeted social media strategies that reflect your brand identity while delivering engaging and consistent audience experiences.",
     },
     {
       image: service2,
       heading4: (
         <h4>
           Optimized <br />
-          Performance
+          Campaigns
         </h4>
       ),
-      para: "We optimize games for speed, responsiveness, and smooth animations, ensuring seamless, uninterrupted gameplay across all devices and platforms.",
+      para: "Our team ensures fast content delivery, smooth audience targeting, and engaging interactions designed to increase visibility and drive stronger results.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Interactive <br />
-          UI/UX Design
+          Ad Campaign  <br />
+          Management
         </h4>
       ),
-      para: "We create intuitive interfaces and responsive controls that elevate gameplay, ensuring a smooth and consistent experience across all platforms.",
+      para: "We manage secure and effective ad campaigns, ensuring reliable reach, strong engagement, and smooth performance across social platforms.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Cross-Platform <br />
-          Compatibility Testing
+          Feature-Rich  <br />
+          Marketing
         </h4>
       ),
-      para: "Our team performs thorough testing to guarantee games run reliably and smoothly across Android, iOS, tablets, and all other devices.",
+      para: "We deliver social media solutions complete with content planning, audience management, and analytics, offering essential tools for growth-focused promotion.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Integrated Analytics <br />
-          and Monetization
+          SEO-Friendly  <br />
+          Content
         </h4>
       ),
-      para: "We integrate analytics, in-app purchases, and ad networks to monitor performance, boost engagement, and increase revenue across all platforms.",
+      para: "We apply search and content strategies across posts and campaigns, improving visibility, attracting audiences, and helping your brand grow online.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Ongoing Support <br />
-          and Updates
+          Ongoing <br />
+          Management
         </h4>
       ),
-      para: "We deliver continuous updates, fix bugs, and implement feature enhancements to ensure optimal performance, robust security, and ongoing user engagement.",
+      para: "WAfter launch, we provide regular content updates, performance tracking, and dedicated support to keep your social presence active and effective.",
     }
   ],
   btnText: "Start Cross Platform App development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Reach with</h2>,
+  heading1: <h2 className="same-heading">Scale Online Presence with</h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>Cross-Platform Expertise</span>
+        <span>Social Media Expertise</span> 
       </h3>
     ),
-  para: "We provide 3d game development cross platform services, delivering updates, bug fixes, and feature enhancements for optimal performance, security, and engagement.",
+  para: "Partner with Hamkoders for social media marketing services, delivering creative and result-focused campaigns optimized for growth, engagement, and success in competitive digital markets.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Cross-Platform Game<span> Development Solutions</span>
+      Social Media Marketing <span> Solutions for Modern Brands</span>
     </h2>
   ),
-  para: 'Our cross platform game development services deliver high-performing, scalable, and engaging games for multiple platforms. With expertise in cross platform game development iOS Android, we create interactive, visually stunning games that captivate players, ensuring seamless performance and immersive experiences across all devices.',
+  para: 'Hamkoders social media marketing services, led by experienced marketing specialists, combine creativity, planning, and strategy to build strong brand presence. With seamless campaign management and audience targeting, we create engaging, high-performing marketing solutions that attract customers and increase brand reach.',
   demandBox: [
     {
       heading4: (
-        <h4>Codebase <br/> Architecture</h4>
+        <h4>Campaign <br/> Strategy</h4>
       ),
-      para: 'We build games using a unified architecture that supports Android, iOS, and other platforms efficiently.',
+      para: 'We create social media campaigns tailored to your business goals, audience behavior, and brand growth journey.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Engaging  <br />UI/UX</h4>
+        <h4>Responsive <br />Content</h4>
       ),
-      para: 'Our team designs interactive interfaces and controls that enhance the gaming experience across all devices.',
+      para: 'We design engaging, easy-to-consume content that delivers a consistent and high-quality experience across all platforms.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Monetization <br />Integration</h4>
+        <h4>Integrated  <br />Marketing</h4>
       ),
-      para: 'We integrate performance tracking, in-app purchases, and ads to optimize engagement and revenue.',
+      para: 'We integrate tools and analytics to improve promotions, strengthen engagement, and track campaign performance effectively.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Security and <br /> Stability</h4>
+        <h4>Secure <br /> Brand</h4>
       ),
-      para: 'Games are developed with secure coding practices and stability in mind, ensuring a reliable experience for users.',
+      para: 'We maintain secure account management, safe data handling, and strong brand protection across all platforms.',
       image: signVector
     }
   ]
@@ -169,34 +170,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is cross-platform game development?",
+    question: "What is social media marketing?",
     answer:
-      "It is the creation of games that work seamlessly across multiple platforms such as Android, iOS, and tablets using a single codebase.",
+      "Social media marketing promotes brands through platforms like Instagram, Facebook, and TikTok to increase reach and engagement.",
   },
   {
-    question: "How long does cross-platform game development take?",
+    question: "How long does it take to see results from social media marketing?",
     answer:
-      "Depending on complexity and features, it usually takes 10 to 20 weeks, including design, development, and testing.",
+      "Most campaigns begin showing measurable engagement and reach improvements within 3 to 6 weeks.",
   },
   {
-    question: "Will the gameplay experience be consistent across all platforms?",
+    question: "Can you create a fully custom social media strategy?",
     answer:
-      "Yes, we ensure smooth and uniform gameplay with fully optimized graphics and controls across all devices.",
+      "YYes, we build tailored strategies based on your brand goals and audience behavior.",
   },
   {
-    question: "Can you integrate monetization features in cross-platform games?",
+    question: "CWill the content be optimized for all devices?",
     answer:
-      "Absolutely. We include in-app purchases, subscriptions, and ad networks to generate revenue.",
+      "Yes, all content is designed to perform smoothly across mobile and desktop platforms.",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Can you manage ads and campaign tools?",
     answer:
-      "Yes, we provide continuous updates, bug fixes, and performance optimizations to ensure long-term stability.",
+      "Yes, we manage paid ads, content scheduling, and performance tracking tools.",
   },
   {
-    question: "How do you test cross-platform compatibility?",
+    question: "Do you provide ongoing social media support?",
     answer:
-      "Our team performs extensive testing on multiple devices and platforms to ensure flawless functionality and performance.",
+      "Yes, Hamkoders provides continuous management, optimization, and performance reporting.",
   }
 ];
 
