@@ -53,7 +53,7 @@
 
 /* black vector design */
 .our-values-2 {
-  padding: 100px 70px;
+  padding: 72px 70px;
   background-image: url("../../../../public/images/our-value2.png");
   background-position: center;
   background-size: cover;
@@ -62,7 +62,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .our-values-2 h2 {
