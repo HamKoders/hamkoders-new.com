@@ -11,14 +11,14 @@ import OurWork from "@/components/OurWork/OurWork";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import CtaSec from "@/components/CtaSec/CtaSec";
 import OurBlogs from "@/components/OurBlogs/OurBlogs";
-import whySecGameDev from "../../../public/images/whySecGameDev.webp";
+import whySecGameDev from "../../../public/images/whySecdigitalDev.png";
 
-import whatWeOfferBox1 from "../../../public/images/game-dev-solution/1.webp";
-import whatWeOfferBox2 from "../../../public/images/game-dev-solution/2.webp";
-import whatWeOfferBox3 from "../../../public/images/game-dev-solution/3.webp";
-import whatWeOfferBox4 from "../../../public/images/game-dev-solution/4.webp";
-import whatWeOfferBox5 from "../../../public/images/game-dev-solution/5.webp";
-import whatWeOfferBox6 from "../../../public/images/game-dev-solution/6.webp";
+import whatWeOfferBox1 from "../../../public/images/game-dev-solution/1.png";
+import whatWeOfferBox2 from "../../../public/images/game-dev-solution/2.png";
+import whatWeOfferBox3 from "../../../public/images/game-dev-solution/3.png";
+import whatWeOfferBox4 from "../../../public/images/game-dev-solution/4.png";
+import whatWeOfferBox5 from "../../../public/images/game-dev-solution/5.png";
+import whatWeOfferBox6 from "../../../public/images/game-dev-solution/6.png";
 
 import websitePortSlide1 from "../../../public/images/game-banner/1.webp";
 import websitePortSlide2 from "../../../public/images/game-banner/2.webp";
@@ -28,71 +28,72 @@ import websitePortSlide5 from "../../../public/images/game-banner/5.webp";
 import websitePortSlide6 from "../../../public/images/game-banner/6.webp";
 import websitePortSlide7 from "../../../public/images/game-banner/7.webp";
 import websitePortSlide8 from "../../../public/images/game-banner/8.webp";
-import webDevServiceBefore from "../../../public/images/game-dev-before.webp";
-import webDevServiceAfter from "../../../public/images/game-dev-after.webp";
+import webDevServiceBefore from "../../../public/images/digital-mar-before.png";
+import webDevServiceAfter from "../../../public/images/digital-mar-after.png";
 import axiosInstance from "@/utils/axiosInstance";
 
 const whySecData = {
-  heading3: "EXPERT IN GAMES",
+  heading3: "Why Choose Hamkoders?",
   heading2: (
     <h2 className="same-heading">
-      AN OUTSTANDING <span> GAME DEVELOPMENT</span> COMPANY
+      Your<span> Trusted Partner</span> for Digital Marketing
     </h2>
   ),
-  para: "We design top-quality mobile games with impressive visuals and seamless gameplay. Our skilled designers deliver modern, engaging experiences that feel premium and exciting. Partner with us to bring your game ideas to life.",
+  para: " We specialize in digital marketing, creating engaging campaigns that boost customer reach and loyalty. Our expert team offers SEO and social media marketing, delivering effective growth strategies that drive business success and lasting impact",
   points: [
-    "High-quality mobile games with exceptional graphical interfaces.",
-    "Professional, luxurious gameplay experiences crafted by experts.",
-    "Stunning designs that fascinate and engage players instantly.",
-    "Modern, high-class game solutions built for today’s market.",
-    "Expert game developers ready to bring fun like addiction.",
+    "Digital marketing services tailored to unique brand goals.",
+    "User engagement with creative content and fast campaign execution.",
+    "Scalable & flexible strategies to grow with market trends.",
+    "Secure data tracking & analytics for safe marketing performance.",
+    "Conversion-focused campaigns increase leads and boost revenue.",
   ],
   image: whySecGameDev,
   attachmentAlt: "whySecWebdev",
 };
 
 const whatWeOfferData = {
-  heading3: "MOBILE GAME SOLUTION",
+  heading3: "What We Offer",
   heading2: (
     <h2 className="same-heading">
-      NATIVE<span> MOBILE GAMES </span>DEVELOPERS <span>IN HOUSTON</span>
+     <span> DIGITAL GROWTH </span>SOLUTION <br/>CUSTOM <span>DIGITAL MARKETING</span>SERVICES
     </h2>
+   
   ),
   whatWeOfferBox: [
     {
       image: whatWeOfferBox1,
-      heading3: "Custom Games",
-      para: "We design and develop fully tailored mobile games that align with vision, deliver engaging experiences, and stand out in a competitive market.",
+      heading3: "Custom Marketing Campaigns",
+      para: "We design and manage digital campaigns for brands, audiences, and business goals.",
       imageAlt: "whatWeOfferBox1",
     },
     {
       image: whatWeOfferBox2,
-      heading3: "Houston Experts",
-      para: "Our native mobile games developers in Houston bring deep technical expertise and creativity to deliver world-class gaming solutions that attract users.",
+      heading3: "Expert Marketing Team",
+      para: "Our skilled marketing specialists create innovative, conversion-focused marketing strategies.",
       imageAlt: "whatWeOfferBox2",
     },
     {
       image: whatWeOfferBox3,
-      heading3: "Creative Design",
-      para: "From concept to interface, we focus on stunning visuals, smooth mechanics, and brilliant gameplay that keep players engaged and entertained.",
+      heading3: "Engaging Content Strategy",
+      para: "We focus on audience-focused content, unified messaging, and optimized campaigns for higher conversions.",
       imageAlt: "whatWeOfferBox3",
     },
     {
       image: whatWeOfferBox4,
-      heading3: "VR Innovation",
-      para: "We specialize in VR game development, creating 3D environment, interactive experiences that redefine the way players connect with games.",
+      heading3: "Secure Data Tracking",
+      para: "With reliable tools and analytics, we ensure every campaign is tracked and optimized.",
       imageAlt: "whatWeOfferBox4",
     },
     {
       image: whatWeOfferBox5,
-      heading3: "Multi-Platform",
-      para: "Our games are optimized for seamless performance across mobile devices, ensuring consistent quality, speed, and user satisfaction.",
+      heading3: "Scalable Marketing Solutions",
+      para: "Our strategies are built for growth, capable of expanding with audience and reach.",
       imageAlt: "whatWeOfferBox5",
     },
     {
       image: whatWeOfferBox6,
-      heading3: "Complete Support",
-      para: "From strategy and design to development, launch, and post-release updates, we manage the entire process to ensure long-term success.",
+      heading3: "Ongoing Support",
+      para: "From launch to long-term growth, we provide continuous support to keep your brand ahead of the competition.",
       imageAlt: "whatWeOfferBox6",
     },
   ],
@@ -103,13 +104,12 @@ const websiteDevCompBannerData = {
   imageAfter: webDevServiceAfter,
   h1Part1: (
     <h1 className="same-heading">
-      LEADING <span>MOBILE GAME</span> <br /> DEVELOPMENT <span>COMPANY</span>
-    </h1>
+      DIGITAL <span>MARKETING GROWTH</span> <br /> COMPANY 
+    </h1> 
   ),
   para: (
     <p className="para">
-      Hadztech, a mobile game development company, is passionate <br /> about creating
-      fun, fast, and visually appealing games for every gamer.
+      We offer custom digital marketing services, creating scalable, engaging <br />  campaigns with expert online marketing solutions like SEO and social media.
     </p>
   ),
   swipperImages: [
