@@ -16,29 +16,29 @@ import CategoryService from "@/components/CategoryService/CategoryService";
 import FAQSection from "@/components/AboutComp/FaqSec/FaqSec";
 import DemandComp from "@/components/DemandComp/DemandComp";
 
-import vector from "../../../../public/images/mobile-app-banner.webp";
+import vector from "../../../../public/images/mobile-app-banner.png";
 
-import service1 from "../../../../public/images/game-dev-services/mobile-app-development/1.webp";
-import service2 from "../../../../public/images/game-dev-services/mobile-app-development/2.webp";
-import service3 from "../../../../public/images/game-dev-services/mobile-app-development/3.webp";
-import service4 from "../../../../public/images/game-dev-services/mobile-app-development/4.webp";
-import service5 from "../../../../public/images/game-dev-services/mobile-app-development/5.webp";
-import service6 from "../../../../public/images/game-dev-services/mobile-app-development/6.webp";
+import service1 from "../../../../public/images/game-dev-services/mobile-app-development/1.png";
+import service2 from "../../../../public/images/game-dev-services/mobile-app-development/2.png";
+import service3 from "../../../../public/images/game-dev-services/mobile-app-development/3.png";
+import service4 from "../../../../public/images/game-dev-services/mobile-app-development/4.png";
+import service5 from "../../../../public/images/game-dev-services/mobile-app-development/5.png";
+import service6 from "../../../../public/images/game-dev-services/mobile-app-development/6.png";
 
-import discussCtaImage from "../../../../public/images/mobile-app-dev-cta.webp";
+import discussCtaImage from "../../../../public/images/mobile-app-dev-cta.png";
 
-import signVector from "../../../../public/images/sign-vector.webp";
+import signVector from "../../../../public/images/sign-vector.png";
 
 const bannerData = {
   bgImage: "/images/android-app-dev.webp",
   heading1: (
     <h1 className="same-heading">
-      Innovative<span> Mobile Game </span>Development
+      Expert <span> Search Engine Optimization </span> Services
     </h1>
   ),
   para: (
     <p className="para">
-      HadzTech, a leading mobile game development company, creates engaging Android and iOS games with innovative design, smooth performance, and immersive gameplay experiences.
+      Boost your online visibility with Hamkoders, a trusted SEO expert team delivering strategic optimization, seamless performance, and measurable search growth.
     </p>
   ),
   image: vector,
@@ -48,120 +48,120 @@ const bannerData = {
 const serviceData = {
   heading1: (
     <h2 className="same-heading">
-      Crafting Mobile Games <br /> <span>That Fascinate and Entertain</span>
-    </h2>
+      Creating SEO Strategies <br /> <span>That Rank and Convert</span>
+    </h2> 
   ),
-  para: "Our expert game developers in Houston design visually stunning, responsive, and immersive games with smooth mechanics, engaging interfaces, and rewarding player experiences that drive retention.",
+  para: "Hamkoders specializes in technical SEO and on-page optimization, creating powerful, search-focused strategies designed to increase rankings and strengthen your brand visibility.",
   serviceBox: [
     {
       image: service1,
       heading4: (
         <h4>
-          Custom Game<br />
-          Design
+          Custom SEO<br />
+          Strategy
         </h4>
       ),
-      para: "We create unique game concepts, characters, and storylines that resonate with the target audience and enhance player engagement.",
+      para: "We build tailored SEO strategies that reflect your business goals while delivering targeted traffic, strong engagement, and consistent growth across search platforms.",
     },
     {
       image: service2,
       heading4: (
         <h4>
-          Cross-Platform <br />
-          Development
+          Optimized  <br />
+          Website
         </h4>
       ),
-      para: "Our games are developed for both Android and iOS platforms, ensuring a consistent and seamless experience across devices.",
+      para: "Our team ensures fast-loading pages, clear structure, and optimized content designed to improve user experience, increase engagement, and drive higher search rankings.",
     },
     {
       image: service3,
       heading4: (
         <h4>
-          Optimized <br />
-          Performance
+           Technical SEO  <br />
+          Integration
         </h4>
       ),
-      para: "We implement advanced coding practices and optimization techniques to ensure fast loading, smooth gameplay, and minimal latency.",
+      para: "We implement advanced SEO techniques, ensuring secure structure, clean coding, and optimized indexing for smooth and reliable search performance.",
     },
     {
       image: service4,
       heading4: (
         <h4>
-          Interactive <br />
-          UI/UX
+          Feature-Rich <br />
+          Optimization
         </h4>
       ),
-      para: "Our team designs intuitive interfaces and interactive elements that enhance gameplay and provide an enjoyable user experience.",
+      para: "We deliver SEO solutions complete with keyword research, competitor analysis, content strategy, and analytics for efficient and growth-focused digital visibility.",
     },
     {
       image: service5,
       heading4: (
         <h4>
-          Analytics and <br />
-          Monetization
+          Search-Focused  <br />
+          Architecture
         </h4>
       ),
-      para: "We integrate analytics, in-app purchases, and ad networks to maximize user retention, engagement, and revenue generation.",
+      para: "We apply SEO best practices across site structure, pages, and content to improve rankings, attract organic traffic, and increase search visibility.",
     },
     {
       image: service6,
       heading4: (
         <h4>
-          Post-Launch <br />
+          Ongoing SEO <br />
           Support
         </h4>
       ),
-      para: "We provide ongoing maintenance, updates, and enhancements to keep game fresh, secure, and optimized for the latest devices and OS versions.",
+      para: "After launch, we provide continuous optimization, ranking improvements, and dedicated support to keep your website performing at its best. ",
     }
   ],
   btnText: "Start Mobile Game development",
 };
 
 const discussCtaData = {
-  heading1: <h2 className="same-heading">Maximize Player Engagement</h2>,
+  heading1: <h2 className="same-heading">Scale Online Visibility </h2>,
   heading2: (
       <h3 className="same-heading">
-        <span>and Retention</span>
+        <span>with SEO Expertise</span>
       </h3>
     ),
-  para: "Partner with HadzTech for expert game design and development that delivers engaging, high-performance mobile games with immersive and unforgettable player experiences.",
+  para: "Partner with Hamkoders for professional SEO services, delivering effective, result-focused strategies optimized for growth, higher rankings, and success in competitive search markets.",
   image: discussCtaImage,
 };
 
 const demandCompData = {
   heading1: (
     <h2 className="same-heading">
-      Mobile Game Development Solutions<span> for All Platforms</span>
+      SEO Solutions<span> for Modern Businesses</span> 
     </h2>
   ),
-  para: 'As a leading mobile game development company, HadzTech delivers interactive, high-quality, and performance-driven games for all platforms. Our expertise spans engaging gameplay, scalability, and VR game development, ensuring immersive experiences that captivate players, enhance retention, and drive long-term success across Android, iOS, and emerging gaming technologies.',
+  para: 'Hamkoders SEO services, led by a trusted search optimization team, combine research, strategy, and performance planning to build strong online visibility. With seamless keyword targeting and technical optimization, we create engaging, high-ranking solutions that attract traffic and rapidly boost website growth.',
   demandBox: [
     {
       heading4: (
-        <h4>Storyboarding</h4>
+        <h4>Website Architecture</h4>
       ),
-      para: 'We transform every game idea into detailed storyboards, gameplay mechanics, and interactive prototypes for effective development.',
+      para: 'We build SEO structures tailored to your business model, target keywords, and smooth user journey for better rankings.',
       image: signVector
     },
     {
       heading4: (
-        <h4>High-Performance <br />Building</h4>
+        <h4>Responsive  <br />Optimization</h4>
       ),
-      para: 'We build games with optimized architecture to support smooth gameplay, scalability, and long-term maintenance.',
+      para: 'We optimize fully responsive, easy-to-navigate websites, delivering a seamless and high-quality search experience across all devices.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Cross-Platform<br />Compatibility</h4>
+        <h4>Integrated <br />Marketing</h4>
       ),
-      para: 'Games are developed to perform seamlessly across Android and iOS devices, ensuring broad reach and user accessibility.',
+      para: 'Games are developed to perform seamlessly across Android and iOS devices, ensuring broad reach and user accessibilityWe integrate tools and analytics to strengthen visibility, improve engagement, and track SEO performance effectively.',
       image: signVector
     },
     {
       heading4: (
-        <h4>Analytics and <br /> Monetization</h4>
+        <h4>Secure <br /> Website</h4>
       ),
-      para: 'We integrate real-time analytics, in-app purchases, and monetization options to track performance and drive revenue growth.',
+      para: 'We maintain secure site structure, proper indexing, and optimized performance, protecting both your website and search presence.',
       image: signVector
     }
   ]
@@ -169,34 +169,34 @@ const demandCompData = {
 
 const faqs = [
   {
-    question: "What is mobile game development?",
+    question: "What is SEO optimization?",
     answer:
-      "Mobile game development involves creating interactive games for smartphones and tablets, optimized for performance, user experience, and engagement.",
+      "SEO optimization improves website visibility on search engines through keyword targeting, technical improvements, and content optimization.",
   },
   {
-    question: "How long does it take to develop a mobile game?",
+    question: "How long does it take to see SEO results?",
     answer:
-      "The timeline depends on game complexity, features, and design requirements, typically ranging from 8 to 20 weeks.",
+      "Depending on competition and strategy, SEO results typically begin showing within 6 to 12 weeks from implementation.",
   },
   {
-    question: "Can games be developed for both Android and iOS?",
+    question: "Can you optimize a fully existing website?",
     answer:
-      "Yes, our cross-platform development ensures games perform seamlessly on both Android and iOS devices.",
+      "Yes, we can fully optimize existing websites with technical SEO, content improvements, and performance enhancements.",
   },
   {
-    question: "Do you provide post-launch updates?",
+    question: "Will the website be optimized for mobile devices?",
     answer:
-      "Absolutely. We offer ongoing support, updates, and feature enhancements to keep games engaging and optimized for new OS versions.",
+      "Yes, all SEO strategies ensure mobile-friendly performance and strong visibility across devices.",
   },
   {
-    question: "Can you integrate in-app purchases and ads?",
+    question: "Can you integrate analytics and tracking tools?",
     answer:
-      "Yes, we integrate monetization features like in-app purchases, ads, and subscriptions to maximize revenue.",
+      "Yes, we integrate analytics and tracking tools to monitor traffic, rankings, and performance effectively.",
   },
   {
-    question: "How do you ensure smooth gameplay and performance?",
+    question: "HDo you provide ongoing SEO support?",
     answer:
-      "We employ optimized coding practices, thorough testing, and performance tuning to ensure fast, smooth, and uninterrupted gameplay.",
+      "Yes, Hamkoders provides continuous optimization, monitoring, and performance improvement support.",
   }
 ];
 
