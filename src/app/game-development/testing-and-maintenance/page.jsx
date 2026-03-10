@@ -33,7 +33,7 @@ const bannerData = {
   bgImage: "/images/fullstack-banner.webp",
   heading1: (
     <h1 className="same-heading">
-      Expert  <span> Email Marketing </span>Campaign Services
+      Expert  <span> Email Marketing Campaign </span> Services
     </h1>
   ),
   para: (
