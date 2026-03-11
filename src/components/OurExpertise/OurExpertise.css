@@ -68,6 +68,7 @@
   border-bottom: 1px solid #000000;
   cursor: pointer;
   transition: all ease 0.3s;
+  color: #ffffff;
 }
 
 .our-expertise-box.active {
