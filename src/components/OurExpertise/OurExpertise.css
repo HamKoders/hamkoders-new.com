@@ -72,7 +72,10 @@
 
 .our-expertise-box.active {
   background-color: var(--theme-color);
-  color: #ffffff;
+  
+}
+.our-expertise-box.hover  {
+   color: #ffffff;
 }
 
 .our-expertise-box svg {
