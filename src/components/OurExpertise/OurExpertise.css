@@ -80,6 +80,9 @@
   text-transform: uppercase;
   margin: 0;
 }
+.our-expertise-box.active h3:hover{
+  color: #ffffff;
+}
 /* .our-expertise-box.active:hover  {
    color: #ffffff;
 } */
