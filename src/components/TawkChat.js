@@ -48,16 +48,15 @@ export default function TawkChat() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-            (function() {
-              var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-              s1.async = true;
-              s1.src = 'https://embed.tawk.to/6823d04936f29c190d212904/1ir5ub8ia';
-              s1.charset = 'UTF-8';
-              s1.setAttribute('crossorigin', '*');
-              s0.parentNode.insertBefore(s1, s0);
-            })();
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+             var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/699cd41d9f81c11c340d9f2d/1jjfci0lj';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+               s0.parentNode.insertBefore(s1,s0);
+              })();
           `,
         }}
       />
