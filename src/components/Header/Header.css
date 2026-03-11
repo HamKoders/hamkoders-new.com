@@ -276,19 +276,19 @@
     margin-top: 20px;
   }
 }
-.navbar-brand img {
+/* .navbar-brand img {
     width: 300px;
      
-  }
+  } */
 
 @media(max-width:440px) {
   .header .navbar-brand img {
-    width: 100px;
+    width: 70px;
     height: auto;
   }
 
   .header .navbar-nav {
-    gap: 10px;
+    gap: 20px;
   }
 
   .header-right-btn {
