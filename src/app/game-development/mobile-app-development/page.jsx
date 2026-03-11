@@ -154,7 +154,7 @@ const demandCompData = {
       heading4: (
         <h4>Integrated <br />Marketing</h4>
       ),
-      para: 'Games are developed to perform seamlessly across Android and iOS devices, ensuring broad reach and user accessibilityWe integrate tools and analytics to strengthen visibility, improve engagement, and track SEO performance effectively.',
+      para: 'Games are built to run smoothly on Android and iOS, ensuring wide reach and easy access. We also integrate analytics tools to enhance visibility, boost engagement, and monitor SEO performance.',
       image: signVector
     },
     {
