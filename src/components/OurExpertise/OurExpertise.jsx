@@ -7,8 +7,8 @@ import Image from "next/image";
 
 import expertise1 from "../../../public/images/expertise1.webp";
 import expertise2 from "../../../public/images/expertise2.webp";
-import expertise3 from "../../../public/images/expertise3.webp";
-import expertise4 from "../../../public/images/expertise4.webp";
+import expertise3 from "../../../public/images/expertise3.png";
+import expertise4 from "../../../public/images/expertise4.png";
 import expertise5 from "../../../public/images/expertise5.webp";
 
 const OurExpertise = () => {
