@@ -75,9 +75,9 @@
   color: #ffffff;
   
 }
-.our-expertise-box.active:hover  {
+/* .our-expertise-box.active:hover  {
    color: #ffffff;
-}
+} */
 
 .our-expertise-box svg {
   transition: all ease 0.3s;
@@ -91,6 +91,9 @@
   color: var(--black-color);
   text-transform: uppercase;
   margin: 0;
+}
+.our-expertise-box h3{
+  color: #ffffff;
 }
 
 .our-expertise-image-box {
