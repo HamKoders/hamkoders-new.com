@@ -58,7 +58,7 @@ const OurExpertise = () => {
                   style={{ cursor: "pointer" }}
                 >
                   <h3>{item.title}</h3>
-                  <GoArrowRight color="#000000" size={30} />
+                  <GoArrowRight  size={30} />
                 </div>
               ))}
             </div>
