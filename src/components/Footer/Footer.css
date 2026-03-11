@@ -167,7 +167,7 @@
   padding: 18px;
   margin-bottom: 15px;
   font-size: 14px;
-  background: #a1d81513;
+  background: #ffffffe4;
   outline: none;
   transition: 0.3s;
   height: 60px;
@@ -180,7 +180,7 @@
   padding: 18px;
   margin-bottom: 15px;
   font-size: 14px;
-  background: #a1d81513;
+  background: #ffffffe4;
   outline: none;
   transition: 0.3s;
   height: 60px;
@@ -189,7 +189,7 @@
 
 .form input:focus {
   border-color: var(--theme-color);
-  box-shadow: 0 0 5px #c0f736;
+  box-shadow: 0 0 5px #EF303E;
 }
 
 .submit-btn {
@@ -206,7 +206,7 @@
 }
 
 .submit-btn:hover {
-  background: linear-gradient(0deg, #dcff86 0%, #9fd815 100%);
+  background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   color: #000;
 }
 
