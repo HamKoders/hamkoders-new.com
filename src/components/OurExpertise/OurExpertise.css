@@ -80,7 +80,7 @@
 } */
 
 .our-expertise-box svg {
-  transition: all ease 0.3s;
+  transition: all ease 0.2s;
 }
 
 .our-expertise-box.active svg {
