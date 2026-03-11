@@ -283,7 +283,7 @@
 
 @media(max-width:440px) {
   .header .navbar-brand img {
-    width: 70px;
+    width: 100px;
     height: auto;
   }
 
