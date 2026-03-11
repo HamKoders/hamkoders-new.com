@@ -71,7 +71,7 @@
   
 }
 
-.our-expertise-box.active h3 {
+.our-expertise-box.active {
   background-color: var(--theme-color);
   color: #ffffff;
   
