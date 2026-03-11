@@ -68,15 +68,14 @@
   border-bottom: 1px solid #000000;
   cursor: pointer;
   transition: all ease 0.3s;
-  color: #ffffff;
+  
 }
 
-.our-expertise-box.active {
+.our-expertise-box.active h3 {
   background-color: var(--theme-color);
   color: #ffffff;
   
 }
-
 
 .our-expertise-box svg {
   transition: all ease 0.2s;
