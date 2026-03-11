@@ -75,6 +75,9 @@
   color: #ffffff;
   
 }
+.our-expertise-box.active h3{
+  color: var(--black-color);
+}
 /* .our-expertise-box.active:hover  {
    color: #ffffff;
 } */
@@ -87,14 +90,12 @@
   transform: rotate(-38deg);
 }
 
-.our-expertise-box.active h3 {
+/* .our-expertise-box h3 {
   color: var(--black-color);
   text-transform: uppercase;
   margin: 0;
-}
-.our-expertise-box.active h3:hover{
-  color: #ffffff;
-}
+} */
+
 
 .our-expertise-image-box {
   display: none;
