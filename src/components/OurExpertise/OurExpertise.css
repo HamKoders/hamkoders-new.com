@@ -74,7 +74,7 @@
   background-color: var(--theme-color);
   
 }
-.our-expertise-box.hover h3  {
+.our-expertise-box.active:hover  {
    color: #ffffff;
 }
 
