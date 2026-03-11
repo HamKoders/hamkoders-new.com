@@ -560,11 +560,11 @@ const Header = () => {
                         Portfolio
                       </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link className="nav-link" href="/blogs">
                         Blogs
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="header-right-btn">
                     <Link href={"/contact-us"}>Contact Us</Link>
