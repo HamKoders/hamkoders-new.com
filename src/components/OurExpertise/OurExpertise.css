@@ -92,9 +92,9 @@
   text-transform: uppercase;
   margin: 0;
 }
-.our-expertise-box h3:hover{
+/* .our-expertise-box h3:hover{
   color: #ffffff;
-}
+} */
 
 .our-expertise-image-box {
   display: none;
