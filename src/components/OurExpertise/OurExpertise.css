@@ -77,6 +77,8 @@
 }
 .our-expertise-box.active h3{
   color: var(--black-color);
+  text-transform: uppercase;
+  margin: 0;
 }
 /* .our-expertise-box.active:hover  {
    color: #ffffff;
