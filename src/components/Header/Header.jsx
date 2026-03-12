@@ -271,7 +271,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/shopify-development"
+                                          "/brand-service/shopify-development"
                                         }
                                       >
                                         Brand Strategy Development
@@ -280,7 +280,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/magento-development"
+                                          "/brand-service/magento-development"
                                         }
                                       >
                                         Logo & Visual Identity Design
@@ -289,7 +289,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/woocommerce-development"
+                                          "/brand-service/woocommerce-development"
                                         }
                                       >
                                         Brand Guidelines & Style Guide
@@ -298,7 +298,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/wordpress-development"
+                                          "/brand-service/wordpress-development"
                                         }
                                       >
                                         Corporate Identity Design
@@ -307,7 +307,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/drupal-development"
+                                          "/brand-service/drupal-development"
                                         }
                                       >
                                         Rebranding Services
@@ -316,7 +316,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/store-development/store-maintenance"
+                                          "/brand-service/store-maintenance"
                                         }
                                       >
                                         Packaging & Product Branding
