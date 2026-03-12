@@ -20,11 +20,11 @@ import whatWeOfferBox4 from "../../../public/images/store-dev-solution/4.png";
 import whatWeOfferBox5 from "../../../public/images/store-dev-solution/5.png";
 import whatWeOfferBox6 from "../../../public/images/store-dev-solution/6.png";
 
-import websitePortSlide1 from "../../../public/images/store-banner/1.webp";
-import websitePortSlide2 from "../../../public/images/store-banner/2.webp";
-import websitePortSlide3 from "../../../public/images/store-banner/3.webp";
-import websitePortSlide4 from "../../../public/images/store-banner/4.webp";
-import websitePortSlide5 from "../../../public/images/store-banner/5.webp";
+import websitePortSlide1 from "../../../public/images/store-banner/1.png";
+import websitePortSlide2 from "../../../public/images/store-banner/2.png";
+import websitePortSlide3 from "../../../public/images/store-banner/3.png";
+import websitePortSlide4 from "../../../public/images/store-banner/4.png";
+import websitePortSlide5 from "../../../public/images/store-banner/5.png";
 import webDevServiceBefore from "../../../public/images/store-dev-before.png";
 import webDevServiceAfter from "../../../public/images/store-dev-after.png";
 import axiosInstance from "@/utils/axiosInstance";
