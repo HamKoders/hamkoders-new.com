@@ -328,7 +328,7 @@ const Header = () => {
                               <div className="col-lg-6">
                                 <div className="services-drop">
                                   <h3>
-                                    <Link href={"/game-development"}>
+                                    <Link href={"/digital-marketing"}>
                                       Digital Marketing
                                     </Link>
                                   </h3>
@@ -336,7 +336,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/mobile-app-development"
+                                          "/digital-marketing/search-engine-optimization"
                                         }
                                       >
                                         Search Engine Optimization (SEO)
@@ -345,7 +345,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/cross-platform-game-development"
+                                          "/digital-marketing/social-media-marketing"
                                         }
                                       >
                                         Social Media Marketing (SMM)
@@ -354,7 +354,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/blockchain-and-nft-game-app"
+                                          "/digital-marketing/pay-per-click-advertising"
                                         }
                                       >
                                         Pay-Per-Click Advertising (PPC)
@@ -363,7 +363,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/console-game-app"
+                                          "/digital-marketing/google-meta-ads-management"
                                         }
                                       >
                                         Google & Meta Ads Management
@@ -372,7 +372,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/concept-design"
+                                          "/digital-marketing/content-marketing"
                                         }
                                       >
                                         Content Marketing
@@ -381,7 +381,7 @@ const Header = () => {
                                     <li>
                                       <Link
                                         href={
-                                          "/game-development/testing-and-maintenance"
+                                          "/digital-marketing/email-marketing-campaigns"
                                         }
                                       >
                                         Email Marketing Campaigns
