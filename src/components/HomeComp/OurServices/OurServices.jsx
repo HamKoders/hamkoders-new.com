@@ -174,10 +174,10 @@ const OurServices = () => {
                     </div>
 
                     <div className="our-services-slidesBox-btn">
-                      <Link href={"#"} className="simpleAnchor">
+                      <Link href={"/digital-marketing"} className="simpleAnchor">
                         <BsArrowRight size={36} color="#000" />
                       </Link>
-                      <Link href={"#"} className="bgAnchor">
+                      <Link href={"/digital-marketing"} className="bgAnchor">
                         <Image
                           src={btnGreenHover}
                           width={130}
@@ -208,10 +208,10 @@ const OurServices = () => {
                     </div>
 
                     <div className="our-services-slidesBox-btn">
-                      <Link href={"/website-development/web-app-development"} className="simpleAnchor">
+                      <Link href={"/brand-service"} className="simpleAnchor">
                         <BsArrowRight size={36} color="#000" />
                       </Link>
-                      <Link href={"/website-development/web-app-development"} className="bgAnchor">
+                      <Link href={"/brand-service"} className="bgAnchor">
                         <Image
                           src={btnGreenHover}
                           width={130}
@@ -242,10 +242,10 @@ const OurServices = () => {
                     </div>
 
                     <div className="our-services-slidesBox-btn">
-                      <Link href={"/store-development"} className="simpleAnchor">
+                      <Link href={"/software-development"} className="simpleAnchor">
                         <BsArrowRight size={36} color="#000" />
                       </Link>
-                      <Link href={"/store-development"} className="bgAnchor">
+                      <Link href={"/software-development"} className="bgAnchor">
                         <Image
                           src={btnGreenHover}
                           width={130}
