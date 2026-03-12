@@ -53,7 +53,7 @@ const GameServicesBox = () => {
                     DIGITAL  <span>MARKETING</span>
                   </h2>
                   <div className="gamedev-servicesBox-contentTop-btn">
-                    <Link className="global-btn-outline-black" href={"/game-development"}>
+                    <Link className="global-btn-outline-black" href={"/digital-marketing"}>
                       Explore Now
                     </Link>
                   </div>
@@ -66,7 +66,7 @@ const GameServicesBox = () => {
                   <div className="row">
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/mobile-app-development"}>
+                        <Link href={"/digital-marketing/search-engine-optimization"}>
                           Search Engine Optimization (SEO)  
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -74,7 +74,7 @@ const GameServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/cross-platform-game-development"}>
+                        <Link href={"/digital-marketing/social-media-marketing"}>
                           Social Media Marketing (SMM)
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -82,7 +82,7 @@ const GameServicesBox = () => {
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/blockchain-and-nft-game-app"}>
+                        <Link href={"/digital-marketing/pay-per-click-advertising"}>
                           Pay-Per-Click Advertising (PPC)
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -90,7 +90,7 @@ const GameServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/console-game-app"}>
+                        <Link href={"/digital-marketing/google-meta-ads-management"}>
                           Google & Meta Ads Management
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -98,7 +98,7 @@ const GameServicesBox = () => {
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/concept-design"}>
+                        <Link href={"/digital-marketing/content-marketing"}>
                           Content Marketing
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -106,7 +106,7 @@ const GameServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="gamedev-servicesBox-content-box-link">
-                        <Link href={"/game-development/testing-and-maintenance"}>
+                        <Link href={"/digital-marketing/email-marketing-campaigns"}>
                           Email Marketing Campaigns
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
