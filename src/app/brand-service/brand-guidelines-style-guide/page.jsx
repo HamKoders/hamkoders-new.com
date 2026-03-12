@@ -18,12 +18,12 @@ import DemandComp from "@/components/DemandComp/DemandComp";
 
 import vector from "../../../../public/images/guidelines-vector.png";
 
-import service1 from "../../../../public/images/brand-services/brand-guidelines-style-guide/1.png";
-import service2 from "../../../../public/images/brand-services/brand-guidelines-style-guide/2.png";
-import service3 from "../../../../public/images/brand-services/brand-guidelines-style-guide/3.png";
-import service4 from "../../../../public/images/brand-services/brand-guidelines-style-guide/4.png";
-import service5 from "../../../../public/images/brand-services/brand-guidelines-style-guide/5.png";
-import service6 from "../../../../public/images/brand-services/brand-guidelines-style-guide/6.png";
+import service1 from "../../../../public/images/store-services/woocommerce-development/1.png";
+import service2 from "../../../../public/images/store-services/woocommerce-development/2.png";
+import service3 from "../../../../public/images/store-services/woocommerce-development/3.png";
+import service4 from "../../../../public/images/store-services/woocommerce-development/4.png";
+import service5 from "../../../../public/images/store-services/woocommerce-development/5.png";
+import service6 from "../../../../public/images/store-services/woocommerce-development/6.png";
 
 import discussCtaImage from "../../../../public/images/brand-cta.png";
 
