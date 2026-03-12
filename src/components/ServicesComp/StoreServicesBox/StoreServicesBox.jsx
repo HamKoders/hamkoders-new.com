@@ -53,7 +53,7 @@ const StoreServicesBox = () => {
                     Branding
                   </h2>
                   <div className="storedev-servicesBox-contentTop-btn">
-                    <Link className="global-btn-outline-black" href={"/store-development"}>
+                    <Link className="global-btn-outline-black" href={"/brand-service"}>
                       Explore Now
                     </Link>
                   </div>
@@ -66,7 +66,7 @@ const StoreServicesBox = () => {
                   <div className="row">
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/shopify-development"}>
+                        <Link href={"/brand-service/brand-strategy-development"}>
                           Brand Strategy Development
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -74,7 +74,7 @@ const StoreServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/magento-development"}>
+                        <Link href={"/brand-service/logo-visual-identity-design"}>
                           Logo & Visual Identity Design
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -82,23 +82,23 @@ const StoreServicesBox = () => {
                     </div>
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/woocommerce-development"}>
+                        <Link href={"/brand-service/brand-guidelines-style-guide"}>
                           Brand Guidelines & Style Guide
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6 ps-lg-0">
+                    {/* <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/wordpress-development"}>
+                        <Link href={"/brand-service/wordpress-development"}>
                           Wordpress development
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6 pe-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/drupal-development"}>
+                        <Link href={"/brand-service/corporate-identity-design"}>
                           Corporate Identity Design
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -106,7 +106,7 @@ const StoreServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/store-maintenance"}>
+                        <Link href={"/brand-service/rebranding-services"}>
                           Rebranding Services
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
@@ -114,7 +114,7 @@ const StoreServicesBox = () => {
                     </div>
                     <div className="col-lg-6 ps-lg-0">
                       <div className="storedev-servicesBox-content-box-link">
-                        <Link href={"/store-development/store-maintenance"}>
+                        <Link href={"/brand-service/packaging-product-branding"}>
                            Packaging & Product Branding
                           <HiMiniArrowUpRight size={30}  />
                         </Link>
