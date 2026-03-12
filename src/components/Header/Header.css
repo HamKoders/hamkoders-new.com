@@ -110,7 +110,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background-image: url("../../../public/images/blur-logo.webp");
+  background-image: url("../../../public/images/blur-logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
