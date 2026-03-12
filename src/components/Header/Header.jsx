@@ -263,7 +263,7 @@ const Header = () => {
                               <div className="col-lg-6">
                                 <div className="services-drop">
                                   <h3>
-                                    <Link href={"/store-development"}>
+                                    <Link href={"/brand-service"}>
                                       Branding
                                     </Link>
                                   </h3>
