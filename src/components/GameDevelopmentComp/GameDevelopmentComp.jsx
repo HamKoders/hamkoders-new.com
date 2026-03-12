@@ -21,13 +21,14 @@ import whatWeOfferBox5 from "../../../public/images/game-dev-solution/5.png";
 import whatWeOfferBox6 from "../../../public/images/game-dev-solution/6.png";
 
 import websitePortSlide1 from "../../../public/images/game-banner/1.webp";
-import websitePortSlide2 from "../../../public/images/game-banner/2.webp";
+import websitePortSlide2 from "../../../public/images/game-banner/1.png";
 import websitePortSlide3 from "../../../public/images/game-banner/3.webp";
-import websitePortSlide4 from "../../../public/images/game-banner/4.webp";
+import websitePortSlide4 from "../../../public/images/game-banner/2.png";
 import websitePortSlide5 from "../../../public/images/game-banner/5.webp";
-import websitePortSlide6 from "../../../public/images/game-banner/6.webp";
+import websitePortSlide6 from "../../../public/images/game-banner/3.png";
 import websitePortSlide7 from "../../../public/images/game-banner/7.webp";
-import websitePortSlide8 from "../../../public/images/game-banner/8.webp";
+import websitePortSlide8 from "../../../public/images/game-banner/4.png";
+import websitePortSlide8 from "../../../public/images/game-banner/5.png";
 import webDevServiceBefore from "../../../public/images/digital-mar-before.png";
 import webDevServiceAfter from "../../../public/images/digital-mar-after.png";
 import axiosInstance from "@/utils/axiosInstance";
