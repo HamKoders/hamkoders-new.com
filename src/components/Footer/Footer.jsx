@@ -206,11 +206,11 @@ const currentYear = currentDate.getFullYear();
                           </Link>
                         </li> */}
                         <li>
-  <Link href={"mailto:info@hamkoders.com"}>
-    <MdEmail size={25} style={{ color: "#D41423", marginRight: "8px" }} />
-    info@hamkoders.com
-  </Link>
-</li>
+                        <Link href={"mailto:info@hamkoders.com"}>
+                        <MdEmail size={25} style={{ color: "#D41423", marginRight: "8px" }} />
+                        info@hamkoders.com
+                         </Link>
+                         </li>
                         {/* <li>
                           <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
                             12828 Willow Centre Dr Ste D #81 Houston, TX 77066
@@ -225,8 +225,9 @@ const currentYear = currentDate.getFullYear();
                         <Image src={FooterLOGO} alt="footer-logo" />
                       </Link>
                       <p className="para">
-                        Brand sets the standard for excellence in digital <br />
-                        marketing & web development in the USA.
+                         Hamkoders sets a new standard in branding, digital <br />
+                        innovation, and scalable tech solutions for global success.
+ 
                       </p>
                     </div>
                   </div>
