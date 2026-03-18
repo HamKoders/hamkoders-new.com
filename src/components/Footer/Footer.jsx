@@ -8,6 +8,7 @@ import usFlag from "../../../public/images/pk-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -198,12 +199,18 @@ const currentYear = currentDate.getFullYear();
                             (+92) 302 280 0188
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href={"mailto:info@hamkoders.com"}>
                           <FaEnvelope size={25} color="#D41423" />
                             info@hamkoders.com
                           </Link>
-                        </li>
+                        </li> */}
+                        <li>
+  <Link href={"mailto:info@hamkoders.com"}>
+    <MdEmail size={22} style={{ color: "#D41423", marginRight: "8px" }} />
+    info@hamkoders.com
+  </Link>
+</li>
                         {/* <li>
                           <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
                             12828 Willow Centre Dr Ste D #81 Houston, TX 77066
