@@ -207,7 +207,7 @@ const currentYear = currentDate.getFullYear();
                         </li> */}
                         <li>
   <Link href={"mailto:info@hamkoders.com"}>
-    <MdEmail size={22} style={{ color: "#D41423", marginRight: "8px" }} />
+    <MdEmail size={25} style={{ color: "#D41423", marginRight: "8px" }} />
     info@hamkoders.com
   </Link>
 </li>
