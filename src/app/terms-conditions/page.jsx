@@ -22,7 +22,7 @@ const TermConditions = () => {
             <div className="col-md-12">
               <p>
                 These Terms of Use govern your access to and use of the services
-                and products provided by Hadztech. By registering for or using
+                and products provided by Hamkoders. By registering for or using
                 any of our services, you agree that you have read, understood,
                 and accepted these Terms in their entirety. If you do not agree
                 with these Terms, please do not use our services or products.
@@ -37,8 +37,8 @@ const TermConditions = () => {
               </h3>
               <p>
                 These Terms apply to your use of the services and products
-                offered by Hadztech, including any websites owned and operated
-                by Hadztech. These Terms do not extend to third-party services
+                offered by Hamkoders, including any websites owned and operated
+                by Hamkoders. These Terms do not extend to third-party services
                 or websites to which we may link, nor do they apply to entities
                 that we do not own or control, including any third-party
                 providers of products or services.
@@ -68,7 +68,7 @@ const TermConditions = () => {
                 Eligibility for Refunds
               </h3>
               <p>
-                At Hadztech, we take every project seriously and ensure that our
+                At Hamkoders, we take every project seriously and ensure that our
                 clients receive the agreed-upon deliverables. However, if a
                 dispute arises and the matter goes through a resolution process,
                 refund requests will be considered according to the following
@@ -82,7 +82,7 @@ const TermConditions = () => {
                 <li>
                   <b>Partial Refund:</b> If the project has begun but is not
                   completed as agreed upon in the scope of work and contract,
-                  Hadztech may offer a partial refund at its discretion. The
+                  Hamkoders may offer a partial refund at its discretion. The
                   refund will be calculated based on the proportion of the
                   project completed.
                 </li>
@@ -133,7 +133,7 @@ const TermConditions = () => {
                 <li>
                   <b>Completeness of Information:</b> If the client does not
                   provide complete information or an accurate scope of the
-                  project during the initiation phase, Hadztech is not obligated
+                  project during the initiation phase, Hamkoders is not obligated
                   to meet the delivery or refund commitments. We will only
                   compensate for delays resulting from our own internal
                   processes, unless a special agreement with a penalty clause
@@ -149,7 +149,7 @@ const TermConditions = () => {
                 Limitation of Liability
               </h3>
               <p>
-                Hadztech's liability is limited to the value of the portion of
+                Hamkoders's liability is limited to the value of the portion of
                 the project that is incomplete at any given time, as specified
                 in the proposal. We are not liable for any loss or damage
                 resulting from services delivered, not delivered, or delayed
@@ -181,7 +181,7 @@ const TermConditions = () => {
                 Termination of Services
               </h3>
               <p>
-                Hadztech reserves the right to terminate or suspend services to
+                Hamkoders reserves the right to terminate or suspend services to
                 any user who violates these Terms of Use. Termination may occur
                 without notice if we believe there has been a breach of these
                 Terms or if we are required to do so by law.
@@ -231,12 +231,12 @@ const TermConditions = () => {
               </p>
               <p>
                 <b>Email:</b>{" "}
-                <Link href="mailto:info@hadztech.com">info@hadztech.com</Link>
+                <Link href="mailto:info@Hamkoders.com">info@Hamkoders.com</Link>
               </p>
               <p>
                 <b>Website:</b>{" "}
                 <Link href="/contact-us">
-                  http://hadztech.com/contact-us
+                  http://Hamkoders.com/contact-us
                 </Link>
               </p>
               <p>

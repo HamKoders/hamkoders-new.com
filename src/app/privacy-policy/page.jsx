@@ -22,11 +22,11 @@ const TermConditions = () => {
           <div className="row">
             <div className="col-md-12">
               <p>
-                At Hadztech, we are committed to protecting your privacy and
+                At Hamkoders, we are committed to protecting your privacy and
                 ensuring that your personal information is handled in a safe and
                 responsible manner. This Privacy Policy outlines how we collect,
                 use, disclose, and safeguard your information when you visit our
-                website <Link href="/">http://hadztech.com</Link>{" "}
+                website <Link href="/">http://Hamkoders.com</Link>{" "}
                 and utilize our services.
               </p>
               <p>
@@ -202,16 +202,16 @@ const TermConditions = () => {
                 <li>You can opt out any time by texting STOP.</li>
                 <li>
                   For assistance, text HELP or visit our website at
-                  https://hadztech.com/.
+                  https://Hamkoders.com/.
                 </li>
                 <li>
                   Visit{" "}
                   <Link href="/privacy-policy">
-                    https://hadztech.com/privacy-policy
+                    https://Hamkoders.com/privacy-policy
                   </Link>{" "}
                   for privacy policy and{" "}
                   <Link href="/terms-conditions">
-                    https://hadztech.com/terms-conditions
+                    https://Hamkoders.com/terms-conditions
                   </Link>{" "}
                   for Terms of Service.
                 </li>
@@ -230,12 +230,12 @@ const TermConditions = () => {
               </p>
               <p>
                 <b>Email:</b>{" "}
-                <Link href="mailto:info@hadztech.com">info@hadztech.com</Link>
+                <Link href="mailto:info@Hamkoders.com">info@Hamkoders.com</Link>
               </p>
               <p>
                 <b>Website:</b>{" "}
                 <Link href="/contact-us">
-                  http://hadztech.com/contact-us
+                  http://Hamkoders.com/contact-us
                 </Link>
               </p>
             </div>
