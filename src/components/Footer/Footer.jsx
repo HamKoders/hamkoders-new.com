@@ -4,9 +4,9 @@ import "./Footer.css";
 import Link from "next/link";
 import Image from "next/image";
 
-import usFlag from "../../../public/images/pak-flag.png";
+import usFlag from "../../../public/images/pk-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
-import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
 const Footer = () => {
@@ -200,7 +200,7 @@ const currentYear = currentDate.getFullYear();
                         </li>
                         <li>
                           <Link href={"mailto:info@hamkoders.com"}>
-                          <FaEmail size={25} color="#D41423" />
+                          <FaEnvelope size={25} color="#D41423" />
                             info@hamkoders.com
                           </Link>
                         </li>
