@@ -15,7 +15,7 @@ import axiosInstance from "@/utils/axiosInstance";
 const faqs = [
     {
       question: "What services does Hamkoders offer for startups?",
-      answer: "Hadztech is a design agency for startups, offering branding, website design services, and UI/UX design to help you launch with confidence.",
+      answer: "Hamkoders is a design agency for startups, offering branding, website design services, and UI/UX design to help you launch with confidence.",
     },
     {
       question:
