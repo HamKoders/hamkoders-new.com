@@ -200,7 +200,7 @@ const currentYear = currentDate.getFullYear();
                         </li>
                         <li>
                           <Link href={"mailto:info@hamkoders.com"}>
-                          <FaFacebook size={25} color="#D41423" />
+                          <FaEmail size={25} color="#D41423" />
                             info@hamkoders.com
                           </Link>
                         </li>
