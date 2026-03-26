@@ -21,7 +21,7 @@ const HomeBanner = () => {
           <div className="col-lg-12">
             <div className={`home-banner-content ${showVideo ? "active" : ""}`}>
               <h3>
-                We are <span>Hamkoders.</span>
+                We are <span>Hamkoders</span>
               </h3>
               <h1>
                 <span>Build</span>
