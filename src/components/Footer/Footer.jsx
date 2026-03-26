@@ -197,7 +197,7 @@ const currentYear = currentDate.getFullYear();
                               alt="us-flag"
                               className="me-2"
                             />{" "} */}
-                            <FaFlag size={25} color="#006600" />
+                            <FaFlag size={25} color="#D41423" />
                             (+92) 302 280 0188
                           </Link>
                         </li>
