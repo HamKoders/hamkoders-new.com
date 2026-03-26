@@ -6,9 +6,10 @@ import Image from "next/image";
 
 import usFlag from "../../../public/images/pak-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaFlag } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
+
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -191,11 +192,12 @@ const currentYear = currentDate.getFullYear();
                       <ul>
                         <li>
                           <Link href={"tel:8327890702"}>
-                            <Image
+                            {/* <Image
                               src={usFlag}
                               alt="us-flag"
                               className="me-2"
-                            />{" "}
+                            />{" "} */}
+                            <FaFlag size={25} color="#006600" />
                             (+92) 302 280 0188
                           </Link>
                         </li>
