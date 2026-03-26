@@ -127,7 +127,7 @@
 .footer-content.footer-social ul li a {
   display: flex;
   align-items: center;
-  justify-content: left;
+  /* justify-content: left; */
   gap: 10px;
 }
 
@@ -349,3 +349,16 @@
     height: 50px;
   }
 }
+
+.footer-row {
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* columns spacing */
+.footer-row > .col-lg-3,
+.footer-row > .col-lg-6 {
+  padding-left: 40px;
+  padding-right: 40px;
+} 
