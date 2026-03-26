@@ -225,8 +225,8 @@ const currentYear = currentDate.getFullYear();
                         <Image src={FooterLOGO} alt="footer-logo" />
                       </Link>
                       <p className="para">
-                         Hamkoders sets a new standard in branding, digital <br />
-                        innovation, and scalable tech solutions for global success.
+                         Hamkoders sets a new standard in branding, <br />
+                         digital innovation, and scalable tech solutions for global success.
  
                       </p>
                     </div>
