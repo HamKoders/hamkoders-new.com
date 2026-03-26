@@ -10,7 +10,7 @@ const AboutBanner = () => {
           <div className="col-lg-12">
             <div className="about-banner-content">
               <h4>
-                WITH<span>HAMKODERS</span>
+                WITH <span>HAMKODERS</span>
               </h4>
               <h1 className="same-heading">
                 WE DON’T JUST <span>CREATE SOFTWARE </span>
