@@ -272,7 +272,7 @@
   .footer-content ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 29px;
   }
 
