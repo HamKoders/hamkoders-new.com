@@ -2,6 +2,7 @@ import BootstrapClient from "@/components/BootstrapClient";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TawkChat from "@/components/TawkChat";
+<link rel="icon" type="image/png" href="/favicon.png" />
 
 export const metadata = {
   title: "Design Agency for Startups | Branding, UI/UX & Web Solutions",
