@@ -128,7 +128,7 @@
   display: flex;
   align-items: center;
   /* justify-content: left; */
-  gap: 10px;
+  gap: 20px;
 }
 .footer-content ul li:first-child a {
   white-space: nowrap;
