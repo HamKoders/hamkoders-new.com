@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import usFlag from "../../../public/images/pak-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaFlag } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 
@@ -197,7 +197,7 @@ const currentYear = currentDate.getFullYear();
                               alt="us-flag"
                               className="me-2"
                             />{" "} */}
-                            <FaFlag size={25} color="#D41423" />
+                            <FaPhone size={25} color="#D41423" />
                             (+92) 302 280 0188
                           </Link>
                         </li>
