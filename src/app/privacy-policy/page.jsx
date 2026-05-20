@@ -83,9 +83,9 @@ const TermConditions = () => {
                   <li>Time spent on the website</li>
                   <li>Referral source</li>
                   <li>Cookies and analytics data</li>
-                  <p>This information helps us improve website performance, user experience, marketing, and service quality.</p>
-                
-              </ul>
+                </ul>
+               <p>This information helps us improve website performance, user experience, marketing, and service quality.</p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
@@ -126,25 +126,36 @@ const TermConditions = () => {
                 Sharing Your Information
               </h3>
               <p>
-                We do not sell, trade, or rent your personal information to
-                third parties. However, we may share your information in the
-                following circumstances:
+                Hamkoders does not sell, rent, or trade your personal information.
+              </p>
+               <p>
+                We may share limited information only when necessary, such as:
               </p>
               <ul>
                 <li>
-                  <b>Service Providers</b>: With trusted third-party vendors who
-                  perform services on our behalf, such as payment processing and
-                  data hosting.
+                  With trusted service providers who help us operate our business
                 </li>
                 <li>
-                  <b>Legal Compliance:</b> When required by law or to protect
-                  our rights, property, or safety.
+                  With developers, designers, marketers, or project team members working on your project
                 </li>
                 <li>
-                  <b>Business Transfers:</b> In connection with a merger,
-                  acquisition, or sale of assets.
+                  With payment processors or accounting support
+                </li>
+                <li>
+                  With hosting, domain, email, CRM, or technical service providers
+                </li>
+                <li>
+                  When required by law, regulation, legal process, or government request
+                </li>
+                <li>
+                  To protect the rights, safety, and property of Hamkoders, our clients, or users
                 </li>
               </ul>
+
+               <p>
+                Hamkoders does not sell, rent, or trade your personal information.
+              </p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
@@ -154,11 +165,37 @@ const TermConditions = () => {
                 Cookies and Tracking Technologies
               </h3>
               <p>
-                Our Site uses cookies and similar technologies to enhance user
-                experience and analyze Site usage. You can control cookie
-                settings through your browser, but disabling cookies may affect
-                certain functionalities of the Site.
+                Our website may use cookies, analytics tools, pixels, and similar technologies to improve performance, 
+                understand visitor behavior, and enhance digital marketing efforts.
               </p>
+              <p>
+                Cookies may help us:
+              </p>
+                <ul>
+                <li>
+                 Improve website speed and functionality
+                </li>
+                <li>
+                  Understand which pages visitors use most
+                </li>
+                <li>
+                 Measure marketing campaign performance
+                </li>
+                <li>
+                  Improve user experience
+                </li>
+                <li>
+                  Remember user preferences
+                </li>
+                <li>
+                  Analyze traffic and website behavior
+                </li>
+              </ul>
+
+              <p>
+               You can disable cookies through your browser settings. However, some website features may not function properly if cookies are disabled.
+              </p>
+
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
