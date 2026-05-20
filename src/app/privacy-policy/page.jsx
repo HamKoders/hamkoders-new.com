@@ -65,8 +65,8 @@ const TermConditions = () => {
                   <li>Communication details</li>
                   <li>Files or documents you share with us</li>
                   <li>Information submitted through contact forms or consultation forms</li>
-                
-               
+                </ul>
+                <ul>
                    <h3>Non-Personal Information:</h3>
                   {/* Information that does not
                   identify you personally, including demographic data, browser
