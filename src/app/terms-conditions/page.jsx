@@ -308,26 +308,189 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Delivery Timeline
+                Revisions and Change Requests
               </h3>
               <p>
-                Project timelines are estimated based on the agreed scope and client cooperation. Hamkoders makes every effort to meet deadlines, 
-                but delivery dates may change due to project complexity, delayed feedback, 
-                technical issues, third-party dependencies, or change requests.
+                Revisions are provided according to the agreed project package or proposal. A revision means adjustment or improvement 
+                within the approved project scope.
               </p>
                <p>
-                A project timeline is only valid when:
+                Major changes, new features, new pages, new design directions, additional integrations, or extra services may require a separate quotation.
+              </p>
+               <p>
+                Hamkoders reserves the right to determine whether a request is a revision or a new task.
+              </p>
+
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Intellectual Property Rights
+              </h3>
+              <p>
+                All website content, designs, layouts, graphics, code, strategies, concepts, brand materials, and digital assets created by Hamkoders remain 
+                the property of Hamkoders until full payment has been received.
+              </p>
+               <p>
+                After full payment, the client receives ownership rights to the final approved deliverables, unless otherwise agreed in writing.
+              </p>
+               <p>
+                Hamkoders may retain the right to display completed work in its portfolio, website, social media, marketing materials, case studies, or proposals unless the client 
+                 requests confidentiality in writing before the project begins.
+              </p>
+              <p>
+                The client must ensure that any content, logo, image, text, video, font, license, or material provided to Hamkoders does not violate third-party rights.
+              </p>
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Third-Party Tools and Services
+              </h3>
+              <p>
+                Some projects may require third-party tools, platforms, plugins, APIs, hosting, domains, payment gateways, analytics tools, email services,
+                or software licenses.
+              </p>
+               <p>
+                Hamkoders is not responsible for:
               </p>
               <ul>
-                <li>Required information is provided on time</li>
-                <li>Payments are made according to the agreed schedule</li>
-                <li>Client feedback is received within the required time</li>
-                <li>No major changes are added outside the original scope</li>
+                <li>Third-party service downtime</li>
+                <li>Plugin or software updates</li>
+                <li>API changes</li>
+                <li>Payment gateway restrictions</li>
+                <li>Hosting or server failures</li>
+                <li>Domain expiration</li>
+                <li>Third-party pricing changes</li>
+                <li>Account suspension by external platforms</li>
               </ul>
                <p>
-                Hamkoders is not liable for delays caused by the client, third-party platforms,
-                 hosting providers, payment gateways, APIs, domain providers, or external service providers.
+                Any third-party fees are the responsibility of the client unless otherwise agreed in writing.
               </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Digital Marketing and SEO Disclaimer
+              </h3>
+              <p>
+                Hamkoders provides SEO, digital marketing, social media marketing, paid ads, and performance
+                marketing services using professional strategies and best practices.
+              </p>
+               <p>
+                However, we do not guarantee fixed search engine rankings, exact traffic numbers, sales results, leads, conversions, or 
+                 advertising outcomes because these depend on market competition, audience behavior, ad platforms, search engine algorithms, 
+                 budget, content quality, and external factors.
+              </p>
+               <p>
+                We aim to improve online visibility, performance, engagement, and brand growth through consistent and strategic work.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Confidentiality
+              </h3>
+              <p>
+               Both Hamkoders and the client agree to keep confidential business information private. This may include login details, business strategies, project information,
+                pricing, technical data, customer data, and internal communication.
+              </p>
+               <p>
+                Confidential information will not be shared with third parties unless required for project completion, 
+                 legal compliance, or with client permission.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Limitation of Liability
+              </h3>
+              <p>
+               Hamkoders will not be liable for any indirect, incidental, special, or consequential damages, including loss of profit, 
+                loss of business, loss of data, loss of reputation, or business interruption 
+                resulting from the use of our website or services.
+              </p>
+               <p>
+                Our total liability for any project is limited to the amount paid by the client for the specific service related to the claim.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+               Website Content Accuracy
+              </h3>
+              <p>
+               We try to keep the information on our website accurate and updated. However, we do not guarantee that all content, service descriptions, 
+                prices, offers, or information 
+                will always be complete, current, or error-free.
+              </p>
+               <p>
+                Hamkoders may update, remove, or change website content at any time without prior notice.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Termination of Services
+              </h3>
+              <p>
+                Hamkoders may suspend or terminate services if:
+              </p>
+              <ul>
+                <li>The client fails to make payments</li>
+                <li>The client provides false or misleading information</li>
+                <li>The client violates these Terms & Conditions</li>
+                <li>The client uses our services for unlawful purposes</li>
+                <li>The project remains inactive due to client delay</li>
+                <li>Communication becomes abusive, unethical, or unprofessional</li>
+              </ul>
+               <p>
+                If services are terminated, any completed work and pending payments will be reviewed according to the agreed project scope.  
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Governing Law
+              </h3>
+              <p>
+               These Terms & Conditions shall be governed by and interpreted in accordance with the laws of Austria.
+              </p>
+               <p>
+               Any dispute arising from the use of our website, services, proposals, invoices, or agreements shall be subject to the 
+                 competent courts of Austria, unless otherwise agreed in writing.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Updates to These Terms
+              </h3>
+              <p>
+               Hamkoders may update these Terms & Conditions from time to time. Any changes will be posted on this page with an updated revision date.
+              </p>
+               <p>
+                Your continued use of our website or services after changes are published means you accept the updated Terms & Conditions.
+              </p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
@@ -337,23 +500,27 @@ const TermConditions = () => {
                 Contact Us
               </h3>
               <p>
-                If you have any questions, concerns, or complaints regarding
-                these Terms of Use, please contact us using the details below:
+                For questions, complaints, legal concerns, or service-related inquiries, please contact us:
               </p>
-              <p>
+              <p><b>Hamkoders</b></p>
+               <p>
+                <b>Website:</b>{" "}
+               <Link href="https://www.hamkoders.com/">http://Hamkoders.com</Link>{" "}
+              </p>             
+               <p>
                 <b>Email:</b>{" "}
                 <Link href="mailto:info@Hamkoders.com">info@Hamkoders.com</Link>
               </p>
-              <p>
-                <b>Website:</b>{" "}
-                <Link href="/contact-us">
-                  http://Hamkoders.com/contact-us
-                </Link>
+               <p>
+                <b>Phone:</b>{" "}
+                (+92) 302 280 0188
+              </p>
+                 <p>
+                <b>Location:</b>{" "}
+                 Austria
               </p>
               <p>
-                By using our services, you agree to abide by these Terms and
-                Conditions. If you do not agree to these Terms, please refrain
-                from using our services.
+                By using our website and services, you confirm that you have read, understood, and agreed to these Terms & Conditions.
               </p>
             </div>
           </div>
