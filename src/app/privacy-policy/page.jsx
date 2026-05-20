@@ -205,33 +205,71 @@ const TermConditions = () => {
                 Data Security
               </h3>
               <p>
-                We implement reasonable security measures to protect your
-                personal information from unauthorized access, alteration, or
-                destruction. However, no method of transmission over the
-                Internet is 100% secure, and we cannot guarantee absolute
-                security.
+                We take reasonable technical and organizational measures to protect your personal information from unauthorized access,
+                loss, misuse, alteration, disclosure, or destruction.
               </p>
+              <p>
+                Security measures may include:
+              </p>
+              <ul>
+                <li>
+                 Secure communication channels 
+                </li>
+                <li>
+                  Limited access to project information
+                </li>
+                <li>
+                 Password-protected systems
+                </li>
+                <li>
+                  Secure hosting and storage practices
+                </li>
+                <li>
+                  Internal access controls
+                </li>
+                <li>
+                  Regular monitoring and website protection practices
+                </li>
+              </ul>
+              <p>
+                However, no internet-based system is completely secure. While we work to protect your data, we cannot guarantee absolute security.
+              </p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Your Rights and Choices
+                Your Privacy Rights
               </h3>
               <p>
-                Depending on your location, you may have rights regarding your
-                personal information, including:
+                Depending on your location and applicable privacy laws, including data protection rules in Austria
+                and the European Union, you may have the right to:
               </p>
               <ul>
-                <li>Accessing and correcting your data</li>
-                <li>Requesting deletion of your data</li>
-                <li>Opting out of marketing communications</li>
+                <li>Request access to your personal data</li>
+                <li>Request correction of inaccurate data</li>
+                <li>Request deletion of your data</li>
+                <li>Request restriction of processing</li>
+                <li>Object to certain types of processing</li>
+                <li>Request data portability</li>
+                <li>Withdraw consent where processing is based on consent</li>
+                <li>Opt out of marketing communication</li>
               </ul>
               <p>
-                To exercise these rights, please contact us using the
-                information below.
+                To exercise your rights, you can contact us at:
               </p>
+               <p>
+                info@hamkoders.com
+              </p>
+              <p>
+                We may need to verify your identity before processing your request. GDPR data-subject rights generally include access, rectification, 
+                erasure, restriction, portability, objection,
+                and consent withdrawal, though some rights depend on the legal basis and situation.
+              </p>
+              
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
