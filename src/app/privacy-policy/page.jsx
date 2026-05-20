@@ -47,25 +47,25 @@ const TermConditions = () => {
               <p>We may collect personal and non-personal information when you visit our website, fill out a form, contact us,
                 request a proposal, communicate with our team, or use our services.</p>
               <ul>
-                <li>
-                  <b>Personal Information:</b> 
+                
+                 <h3> <b>Personal Information:</b> 
                   {/* Information that can identify you
                   personally, such as your name, email address, phone number,
                   billing information, and other details you provide when
-                  registering or interacting with our services. */}
-                  Personal information may include:
+                  registering or interacting with our services. */}</h3>
+                 <p> Personal information may include:</p>
 
-                  Full name
-                  Email address
-                  Phone number
-                  Company name
-                  Business website
-                  Project requirements
-                  Billing information
-                  Communication details
-                  Files or documents you share with us
-                  Information submitted through contact forms or consultation forms
-                </li>
+                  <li>Full name</li>
+                 <li> Email address</li>
+                  <li>Phone number</li>
+                  <li>Company name</li>
+                 <li> Business website</li>
+                  <li>Project requirements</li>
+                  <li>Billing information</li>
+                  <li>Communication details</li>
+                  <li>Files or documents you share with us</li>
+                  <li>Information submitted through contact forms or consultation forms</li>
+                
                 <li>
                   <b>Non-Personal Information:</b> Information that does not
                   identify you personally, including demographic data, browser
