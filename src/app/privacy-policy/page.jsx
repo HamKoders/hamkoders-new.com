@@ -260,9 +260,7 @@ const TermConditions = () => {
               <p>
                 To exercise your rights, you can contact us at:
               </p>
-               <p>
-                info@hamkoders.com
-              </p>
+               <p><Link href="mailto:info@Hamkoders.com">info@Hamkoders.com</Link></p>
               <p>
                 We may need to verify your identity before processing your request. GDPR data-subject rights generally include access, rectification, 
                 erasure, restriction, portability, objection,
@@ -279,10 +277,13 @@ const TermConditions = () => {
                 Third-Party Links
               </h3>
               <p>
-                Our Site may contain links to third-party websites. We are not
-                responsible for the privacy practices or content of these
-                external sites.
+                Our website may contain links to third-party websites, platforms, tools, social media pages, or external services.
               </p>
+              <p>
+               Hamkoders is not responsible for the privacy practices, content, security, or policies of third-party websites.
+               We recommend reviewing their privacy policies before sharing personal information.
+              </p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
@@ -292,10 +293,11 @@ const TermConditions = () => {
                 Changes to This Privacy Policy
               </h3>
               <p>
-                We may update this Privacy Policy periodically to reflect
-                changes in our practices or legal requirements. The "Effective
-                Date" at the top of this page indicates the most recent
-                revision. We encourage you to review this policy regularly.
+                Hamkoders may update this Privacy Policy from time to time to reflect changes in our business,
+                services, website, legal requirements, or data protection practices.
+              </p>
+              <p>
+               Any updates will be posted on this page with a revised “Last Updated” date. We encourage you to review this Privacy Policy regularly.
               </p>
               <h3>
                 {/* <Image
@@ -303,18 +305,16 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Sign up forms
+                Legal Basis for Processing Data
               </h3>
               <p>
-                Yes, the form links to a privacy policy that clearly states we
-                do not share or sell SMS opt-in, or phone numbers for the
-                purpose of SMS
+               Where applicable, we process personal data based on one or more of the following legal grounds:
               </p>
               <ul>
-                <li>Messaging frequency may vary.</li>
-                <li>Message and data rates may apply.</li>
-                <li>You can opt out any time by texting STOP.</li>
-                <li>
+                <li>Your consent</li>
+                <li>Performance of a contract</li>
+                <li>Legitimate business interests.</li>  
+                {/* <li>
                   For assistance, text HELP or visit our website at
                   https://Hamkoders.com/.
                 </li>
@@ -328,8 +328,114 @@ const TermConditions = () => {
                     https://Hamkoders.com/terms-conditions
                   </Link>{" "}
                   for Terms of Service.
-                </li>
+                </li> */}
+                <li>Legal obligations</li>
+                <li>Necessary communication before entering into a service agreement</li>
               </ul>
+              <p>
+               For example, when you contact Hamkoders for a website development project, we use your information to respond,
+                understand your requirements, and provide relevant service details.
+              </p>
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Analytics and Marketing Tools
+              </h3>
+              <p>
+                Hamkoders may use third-party tools such as analytics platforms, advertising platforms, CRM tools, 
+                email marketing tools, and website tracking technologies.
+              </p>
+              <p>
+                These tools may collect limited technical or usage data to help us improve website performance, 
+                advertising campaigns, and marketing strategy.
+              </p>
+              <p>
+                Third-party tools may include services used for:
+              </p>  
+              <ul>
+                <li>Website analytics</li>
+                <li>Search engine optimization</li>
+                <li>Advertising campaigns</li>
+                <li>Social media marketing</li>
+                <li>Contact form management</li>
+                <li>Email communication</li>
+                <li>Customer relationship management</li>
+                <li>Website security</li>
+              </ul>
+              <p>
+                We only work with trusted service providers where required for business operations and service delivery.
+              </p>
+
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Data Retention
+              </h3>
+              <p>
+                We keep personal information only for as long as necessary for the purposes described in this Privacy Policy.
+              </p>
+              <p>
+                We may retain information to:
+              </p>
+              <ul>
+                <li>Complete a project</li>
+                <li>Provide support</li>
+                <li>Maintain business records</li>
+                <li>Meet legal or accounting requirements</li>
+                <li>Resolve disputes</li>
+                <li>Improve future communication</li>
+                <li>Comply with obligations under Austrian law</li>
+              </ul>
+              <p>
+                When data is no longer required, we may delete, anonymize, or securely store it according to business and legal requirements.
+              </p>
+
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Marketing Communication
+              </h3>
+              <p>
+              If you subscribe to updates, request marketing information, or communicate with Hamkoders,
+                we may send you relevant business updates, service information, offers, or educational content.
+              </p>
+              <p>
+               You can unsubscribe or opt out of marketing communication at any time by contacting us or using the unsubscribe option where available.
+              </p>
+              <p>
+               We do not sell your email address, phone number, or contact details to third parties.
+              </p>
+
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                SMS and Phone Communication
+              </h3>
+              <p>
+              If you provide your phone number, Hamkoders may contact you regarding your inquiry, consultation, project discussion, proposal, service update, or support request.
+              </p>
+              <p>
+               We do not sell or share SMS opt-in information or phone numbers for third-party marketing purposes.
+              </p>
+              <p>
+               Message frequency may vary depending on your communication with us. Standard message and data rates may apply depending on your service provider.
+              </p>
+              <p>
+              You may opt out of SMS communication by replying STOP where applicable or by contacting us directly..
+              </p>
+              
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
