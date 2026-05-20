@@ -48,10 +48,23 @@ const TermConditions = () => {
                 request a proposal, communicate with our team, or use our services.</p>
               <ul>
                 <li>
-                  <b>Personal Information:</b> Information that can identify you
+                  <b>Personal Information:</b> 
+                  {/* Information that can identify you
                   personally, such as your name, email address, phone number,
                   billing information, and other details you provide when
-                  registering or interacting with our services.
+                  registering or interacting with our services. */}
+                  Personal information may include:
+
+                  Full name
+                  Email address
+                  Phone number
+                  Company name
+                  Business website
+                  Project requirements
+                  Billing information
+                  Communication details
+                  Files or documents you share with us
+                  Information submitted through contact forms or consultation forms
                 </li>
                 <li>
                   <b>Non-Personal Information:</b> Information that does not
