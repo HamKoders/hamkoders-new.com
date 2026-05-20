@@ -44,7 +44,8 @@ const TermConditions = () => {
                 /> */}
                 Information We Collect
               </h3>
-              <p>We collect two types of information:</p>
+              <p>We may collect personal and non-personal information when you visit our website, fill out a form, contact us,
+                request a proposal, communicate with our team, or use our services.</p>
               <ul>
                 <li>
                   <b>Personal Information:</b> Information that can identify you
