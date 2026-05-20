@@ -30,6 +30,9 @@ const TermConditions = () => {
                 and utilize our services */}
                 At Hamkoders, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, protect, 
                 and manage your information when you visit our website, contact us, request a quote, book a consultation, or use our digital services.
+
+                Hamkoders provides web development, app development, software development, branding, SEO, digital marketing, ERP, CRM, CMS,
+                and technology solutions for businesses in Austria and international markets.
               </p>
               <p>
                 By accessing or using our Site, you agree to the terms of this
