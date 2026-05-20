@@ -22,12 +22,14 @@ const TermConditions = () => {
           <div className="row">
             <div className="col-md-12">
               <p>
-                At Hamkoders, we are committed to protecting your privacy and
+                {/* At Hamkoders, we are committed to protecting your privacy and
                 ensuring that your personal information is handled in a safe and
                 responsible manner. This Privacy Policy outlines how we collect,
                 use, disclose, and safeguard your information when you visit our
                 website <Link href="/">http://Hamkoders.com</Link>{" "}
-                and utilize our services
+                and utilize our services */}
+                At Hamkoders, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, protect, 
+                and manage your information when you visit our website, contact us, request a quote, book a consultation, or use our digital services.
               </p>
               <p>
                 By accessing or using our Site, you agree to the terms of this
