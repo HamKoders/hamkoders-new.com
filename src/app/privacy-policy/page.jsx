@@ -48,7 +48,7 @@ const TermConditions = () => {
                 request a proposal, communicate with our team, or use our services.</p>
               <ul>
                 
-                 <h3> <b>Personal Information:</b> 
+                 <h3>Personal Information: 
                   {/* Information that can identify you
                   personally, such as your name, email address, phone number,
                   billing information, and other details you provide when
@@ -66,12 +66,25 @@ const TermConditions = () => {
                   <li>Files or documents you share with us</li>
                   <li>Information submitted through contact forms or consultation forms</li>
                 
-                <li>
-                  <b>Non-Personal Information:</b> Information that does not
+                
+                 <h3>Non-Personal Information:</h3>
+                  {/* Information that does not
                   identify you personally, including demographic data, browser
                   type, IP address, and usage data collected through cookies and
-                  analytics tools.
-                </li>
+                  analytics tools. */}
+                  <p> Non-personal information may include:</p>
+
+                <li>Browser type</li>
+                 <li> Device type</li>
+                  <li>IP address</li>
+                  <li>Location data</li>
+                 <li>Website usage data</li>
+                  <li>Pages visited</li>
+                  <li>Time spent on the website</li>
+                  <li>Referral source</li>
+                  <li>Cookies and analytics data</li>
+                  <p>This information helps us improve website performance, user experience, marketing, and service quality.</p>
+                
               </ul>
               <h3>
                 {/* <Image
