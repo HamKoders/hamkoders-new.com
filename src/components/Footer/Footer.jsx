@@ -181,7 +181,7 @@ const currentYear = currentDate.getFullYear();
                           <Link href={"/privacy-policy"}>Privacy Policy</Link>
                         </li>
                         <li>
-                          <Link href={"/imprint"}>Imprint</Link>
+                          <Link href={"imprint"}>Imprint</Link>
                         </li>
                       </ul>
                     </div>
