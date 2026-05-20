@@ -27,7 +27,7 @@ const TermConditions = () => {
                 responsible manner. This Privacy Policy outlines how we collect,
                 use, disclose, and safeguard your information when you visit our
                 website <Link href="/">http://Hamkoders.com</Link>{" "}
-                and utilize our services.
+                and utilize our services
               </p>
               <p>
                 By accessing or using our Site, you agree to the terms of this
