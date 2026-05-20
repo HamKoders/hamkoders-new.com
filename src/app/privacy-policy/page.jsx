@@ -95,18 +95,28 @@ const TermConditions = () => {
                 How We Use Your Information
               </h3>
               <p>
-                We use the information we collect for various purposes,
-                including:
+                Hamkoders may use collected information for the following purposes:
               </p>
               <ul>
-                <li>Providing and improving our services</li>
+                <li>To respond to your inquiries</li>
                 <li>
-                  Communicating with you about your account or transactions
+                  To provide quotes, proposals, and consultations
                 </li>
-                <li>Personalizing your experience on our Site</li>
-                <li>Analyzing Site usage to enhance functionality</li>
-                <li>Complying with legal obligations</li>
+                <li>To deliver web development, app development, branding, software, and digital marketing services</li>
+                <li>To manage client communication</li>
+                <li>To process payments and invoices</li>
+                <li>To improve our website and services</li>
+                <li>To personalize your experience</li>
+                <li>To analyze website traffic and performance</li>
+                <li>To send important project updates</li>
+                <li>To send marketing emails only where legally allowed</li>
+                <li>To improve SEO, advertising, and user experience</li>
+                <li>To protect our website, business, and users</li>
+                <li>To comply with legal obligations in Austria and applicable data protection laws</li>
               </ul>
+              <p>
+                We only use your information for legitimate business purposes and service-related communication.
+              </p>
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
