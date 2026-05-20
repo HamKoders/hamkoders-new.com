@@ -21,11 +21,18 @@ const TermConditions = () => {
           <div className="row">
             <div className="col-md-12">
               <p>
-                These Terms of Use govern your access to and use of the services
-                and products provided by Hamkoders. By registering for or using
-                any of our services, you agree that you have read, understood,
-                and accepted these Terms in their entirety. If you do not agree
-                with these Terms, please do not use our services or products.
+               Welcome to Hamkoders. These Terms & Conditions govern your access to and use of our website, digital services, 
+                project work, consultations, proposals, 
+                communications, and any services offered by Hamkoders.
+              </p>
+               <p>
+               By visiting our website or using our services, you agree to follow these Terms & Conditions. 
+                 If you do not agree with any part of these terms, please do not use our website or services.
+              </p>
+               <p>
+               Hamkoders is a digital agency offering professional web development, app development, software development, branding, SEO, 
+               digital marketing, ERP, CRM, CMS, and business 
+               technology solutions for businesses in Austria and international markets.
               </p>
               <h3>
                 {/* <Image
@@ -33,15 +40,56 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Coverage & Scope
+                About Hamkoders
               </h3>
               <p>
-                These Terms apply to your use of the services and products
-                offered by Hamkoders, including any websites owned and operated
-                by Hamkoders. These Terms do not extend to third-party services
-                or websites to which we may link, nor do they apply to entities
-                that we do not own or control, including any third-party
-                providers of products or services.
+                Hamkoders provides digital solutions designed to help businesses build, improve, and scale their online presence.
+                Our services may include, but are not limited to:
+              </p>
+              <ul>
+                <li>Web Development</li>
+                 <li> App Development</li>
+                  <li>Software Development</li>
+                  <li>Branding & Corporate Identity</li>
+                 <li>Digital Marketing</li>
+                  <li>Search Engine Optimization</li>
+                  <li>Social Media Marketing</li>
+                  <li>Google & Meta Ads Management</li>
+                  <li>Content Marketing</li>
+                  <li>ERP Development</li>
+                  <li>CRM Development</li>
+                  <li>CMS Development</li>
+                <li>Website Maintenance</li>
+                <li>Business Technology Consulting</li>
+                </ul>
+               <p>
+                Our goal is to deliver reliable, scalable, and performance-focused digital solutions that support business growth.
+              </p>
+              
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+               Use of Our Website
+              </h3>
+              <p>
+               You agree to use the Hamkoders website only for lawful purposes. You must not use this website in any way that may damage the website, 
+                affect its performance, misuse its content, or interfere with other users.
+              </p>
+              <p>
+              You agree not to:
+              </p>
+              <p>
+               Copy, reproduce, or misuse our website content without permission
+               Attempt to hack, damage, or disrupt our website
+                Use our website for spam, fraud, or misleading activity
+               Submit false, harmful, or unlawful information through our forms
+               Use our services for illegal, unethical, or prohibited business activities
+              </p>
+              <p>
+               Hamkoders reserves the right to restrict access to the website or services if we believe a user is violating these terms.
               </p>
               <h3>
                 {/* <Image
@@ -49,31 +97,21 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Filing a Complaint
+                 Service Information
               </h3>
               <p>
-                If you are dissatisfied with any of our services, we will work
-                to find a mutually agreeable solution. If a resolution cannot be
-                reached, and you wish to file a formal complaint, we encourage
-                you to reach out to us in writing before proceeding with any
-                formal claims. Complaints should only be filed if we have been
-                unable to resolve the issue to your satisfaction.
+                We make every effort to present our services clearly and accurately. However, the information 
+                on this website is provided for general business and informational purposes only.
               </p>
-              <h3>
-                {/* <Image
-                  src="/assets/images/fa-vector-gn.webp"
-                  className="Image-fluid"
-                  alt="fa-art"
-                /> */}
-                Eligibility for Refunds
-              </h3>
               <p>
-                At Hamkoders, we take every project seriously and ensure that our
-                clients receive the agreed-upon deliverables. However, if a
-                dispute arises and the matter goes through a resolution process,
-                refund requests will be considered according to the following
-                guidelines for specific services:
+               Service details, pricing, timelines, scope, deliverables, and availability may vary depending on 
+                project requirements, business goals, technical complexity, and client approval.
               </p>
+              <p>
+               Any final project scope, pricing, timeline, and deliverables will be confirmed through a written proposal, 
+                quotation, invoice, agreement, or official communication from Hamkoders.
+              </p>
+              
               <h4>Application Programming</h4>
               <ul>
                 <li>
@@ -87,7 +125,7 @@ const TermConditions = () => {
                   project completed.
                 </li>
               </ul>
-              <h4>Dedicated Hiring</h4>
+              {/* <h4>Dedicated Hiring</h4>
               <ul>
                 <li>
                   <b>Full Refund: </b>If there is a delay in starting the
@@ -104,58 +142,51 @@ const TermConditions = () => {
                   work at any point, they must notify our Project Manager
                   immediately to request discounts or adjustments.
                 </li>
-              </ul>
+              </ul> */}
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Applicability of the Delivery Policy
+                Project Scope and Client Responsibilities
               </h3>
               <p>
-                The following factors will impact our ability to honor the
-                delivery schedule and refund commitments:
+                Every project requires clear communication and cooperation between Hamkoders and the client. The client is responsible for 
+                providing accurate information, required content, 
+                brand assets, approvals, login access, images, business details, and feedback within the agreed timeline.
+              </p>
+              <p>
+               Hamkoders will not be responsible for delays caused by:
               </p>
               <ul>
                 <li>
-                  <b>Timely Payments:</b> A project is not considered void if
-                  the agreed payments are not made as specified in the proposal.
-                  Delayed or missed payments may result in delays or halts to
-                  the project.
+                  Late client feedback
                 </li>
                 <li>
-                  <b>Timely Communication:</b> Cubix is not liable for delays
-                  caused by the client’s failure to provide timely feedback or
-                  required information. The client must maintain consistent
-                  communication for successful project completion.
+                  Incomplete project information
                 </li>
                 <li>
-                  <b>Completeness of Information:</b> If the client does not
-                  provide complete information or an accurate scope of the
-                  project during the initiation phase, Hamkoders is not obligated
-                  to meet the delivery or refund commitments. We will only
-                  compensate for delays resulting from our own internal
-                  processes, unless a special agreement with a penalty clause
-                  for delays is in place.
+                 Delay in payments
+                </li>
+                <li>
+                 Missing content, images, or access details
+                </li>
+                <li>
+                 Changes in project scope
+                </li>
+                <li>
+                 Third-party platform issues
+                </li>
+                <li>
+                 Hosting, domain, plugin, API, or server-related delays
+                </li>
+                <li>
+                 Delayed approvals from the client side
                 </li>
               </ul>
-              <h3>
-                {/* <Image
-                  src="/assets/images/fa-vector-gn.webp"
-                  className="Image-fluid"
-                  alt="fa-art"
-                /> */}
-                Limitation of Liability
-              </h3>
               <p>
-                Hamkoders's liability is limited to the value of the portion of
-                the project that is incomplete at any given time, as specified
-                in the proposal. We are not liable for any loss or damage
-                resulting from services delivered, not delivered, or delayed
-                services. If the client cancels the project, and the
-                cancellation is communicated in writing, the client is eligible
-                for a refund as per our refund policy.
+               If the client requests additional work outside the agreed project scope, it may be treated as a separate task and may require additional charges.
               </p>
               <h3>
                 {/* <Image
@@ -163,14 +194,40 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Processing of Refunds
+                Payments and Billing
               </h3>
               <p>
-                Refund requests, once approved, will be processed within 5
-                business days from the cancellation date. Refunds will be issued
-                using the same method of payment used for the original
-                transaction, whether by check, credit card, or other payment
-                methods.
+               All payments must be made according to the agreed proposal, invoice, contract, or payment plan. 
+                Work may begin after the agreed initial payment or advance payment has been received.
+              </p>
+              <p>
+               Hamkoders reserves the right to pause, delay, or stop project work if payments are not made on time.
+              </p>
+              <p>
+               Unless otherwise agreed in writing:
+              </p>
+              <ul>
+                <li>Advance payments are required to start a project</li>
+                <li>Milestone payments must be paid before the next stage begins</li>
+                <li>Final files, website launch, source code, credentials, or project delivery may be held until full payment is received</li>
+                <li>Late payments may cause timeline changes</li>
+              </ul>
+               <p>
+               Payment terms will be clearly communicated before starting the project.
+              </p>
+              
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Refund Policy
+              </h3>
+              <p>
+                Hamkoders takes every project seriously and works to deliver the agreed services professionally. Refund requests will 
+                be reviewed based on the project stage, completed work, approved scope,
+                and agreement between both parties.
               </p>
               <h3>
                 {/* <Image
@@ -178,13 +235,11 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Termination of Services
+                Full Refund
               </h3>
               <p>
-                Hamkoders reserves the right to terminate or suspend services to
-                any user who violates these Terms of Use. Termination may occur
-                without notice if we believe there has been a breach of these
-                Terms or if we are required to do so by law.
+                A full refund may be considered only if the project has not started and no planning, research, design, development, 
+                strategy, consultation, or resource allocation has been completed.
               </p>
               <h3>
                 {/* <Image
@@ -192,15 +247,11 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Modifications to the Terms
+                Partial Refund
               </h3>
               <p>
-                We reserve the right to update or modify these Terms of Use at
-                any time. Any changes will be posted on this page, and the
-                "Effective Date" at the top will be updated accordingly. It is
-                your responsibility to review these Terms periodically. Your
-                continued use of our services after such modifications
-                constitutes your acceptance of the updated Terms.
+               A partial refund may be considered if the project has started but the agreed deliverables have not been completed according to the confirmed scope. 
+                The refund amount will be calculated based on the work already completed, time spent, resources used, and project stage.
               </p>
               <h3>
                 {/* <Image
@@ -208,14 +259,74 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
-                Governing Law
+                No Refund
               </h3>
               <p>
-                These Terms of Use shall be governed by and construed in
-                accordance with the laws of Houston, USA, without regard to its
-                conflict of law principles. Any disputes arising out of or
-                related to these Terms shall be subject to the exclusive
-                jurisdiction of the courts located in Houston, TX.
+                Refunds will not be issued for:
+              </p>
+              <ul>
+                <li>Completed work</li>
+                <li>Approved designs, content, strategies, or development tasks</li>
+                <li>Delivered files or launched websites</li>
+                <li>Digital marketing campaigns already started</li>
+                <li>Third-party costs such as hosting, domains, plugins, tools, themes, ads budget, software, or paid integrations</li>
+                <li>Client delays, change of mind, or cancellation after work has started</li>
+                <li>Work completed according to the agreed scope</li>
+              </ul>
+               <p>
+                All refund decisions are made after reviewing the complete project record and communication history.
+              </p>
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Delivery Timeline
+              </h3>
+              <p>
+                Project timelines are estimated based on the agreed scope and client cooperation. Hamkoders makes every effort to meet deadlines, 
+                but delivery dates may change due to project complexity, delayed feedback, 
+                technical issues, third-party dependencies, or change requests.
+              </p>
+               <p>
+                A project timeline is only valid when:
+              </p>
+              <ul>
+                <li>Required information is provided on time</li>
+                <li>Payments are made according to the agreed schedule</li>
+                <li>Client feedback is received within the required time</li>
+                <li>No major changes are added outside the original scope</li>
+              </ul>
+               <p>
+                Hamkoders is not liable for delays caused by the client, third-party platforms,
+                 hosting providers, payment gateways, APIs, domain providers, or external service providers.
+              </p>
+               <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Delivery Timeline
+              </h3>
+              <p>
+                Project timelines are estimated based on the agreed scope and client cooperation. Hamkoders makes every effort to meet deadlines, 
+                but delivery dates may change due to project complexity, delayed feedback, 
+                technical issues, third-party dependencies, or change requests.
+              </p>
+               <p>
+                A project timeline is only valid when:
+              </p>
+              <ul>
+                <li>Required information is provided on time</li>
+                <li>Payments are made according to the agreed schedule</li>
+                <li>Client feedback is received within the required time</li>
+                <li>No major changes are added outside the original scope</li>
+              </ul>
+               <p>
+                Hamkoders is not liable for delays caused by the client, third-party platforms,
+                 hosting providers, payment gateways, APIs, domain providers, or external service providers.
               </p>
               <h3>
                 {/* <Image
