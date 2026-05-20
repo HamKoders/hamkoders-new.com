@@ -467,7 +467,7 @@ const TermConditions = () => {
               <p>
                Any updates will be posted on this page with a revised “Last Updated” date. We encourage you to review this Privacy Policy regularly.
               </p>
-              <h3>
+              
                 
               <h3>
                 {/* <Image
