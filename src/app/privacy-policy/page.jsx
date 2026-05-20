@@ -284,7 +284,7 @@ const TermConditions = () => {
                We recommend reviewing their privacy policies before sharing personal information.
               </p>
               
-             
+             <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
                   className="Image-fluid"
