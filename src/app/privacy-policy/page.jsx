@@ -284,22 +284,7 @@ const TermConditions = () => {
                We recommend reviewing their privacy policies before sharing personal information.
               </p>
               
-              <h3>
-                {/* <Image
-                  src="/assets/images/fa-vector-gn.webp"
-                  className="Image-fluid"
-                  alt="fa-art"
-                /> */}
-                Changes to This Privacy Policy
-              </h3>
-              <p>
-                Hamkoders may update this Privacy Policy from time to time to reflect changes in our business,
-                services, website, legal requirements, or data protection practices.
-              </p>
-              <p>
-               Any updates will be posted on this page with a revised “Last Updated” date. We encourage you to review this Privacy Policy regularly.
-              </p>
-              <h3>
+             
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
                   className="Image-fluid"
@@ -442,21 +427,75 @@ const TermConditions = () => {
                   className="Image-fluid"
                   alt="fa-art"
                 /> */}
+                Children’s Privacy
+              </h3>
+              <p>
+                 Our website and services are intended for businesses, professionals, startups, organizations, and adult users. 
+                We do not knowingly collect personal information from children.
+              </p>
+              <p>
+               If you believe a child has provided personal information to us, please contact us and we will take appropriate steps to remove the information.
+              </p>
+ 
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+               Data Protection Authority
+              </h3>
+              <p>
+                If you are located in Austria or the European Union and believe your data protection rights have been violated, 
+                you may have the right to lodge a complaint with the relevant data protection authority.
+              </p>
+              <p>
+              In Austria, complaints may be submitted to the Austrian Data Protection Authority.
+              </p>
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
+                Changes to This Privacy Policy
+              </h3>
+              <p>
+                Hamkoders may update this Privacy Policy from time to time to reflect changes in our business,
+                services, website, legal requirements, or data protection practices.
+              </p>
+              <p>
+               Any updates will be posted on this page with a revised “Last Updated” date. We encourage you to review this Privacy Policy regularly.
+              </p>
+              <h3>
+                
+              <h3>
+                {/* <Image
+                  src="/assets/images/fa-vector-gn.webp"
+                  className="Image-fluid"
+                  alt="fa-art"
+                /> */}
                 Contact Us
               </h3>
               <p>
-                If you have any questions or concerns about this Privacy Policy
-                or our data practices, please contact us at:
+                For privacy-related questions, data requests, complaints, or concerns, please contact us:
               </p>
+              <p><b>Hamkoders</b></p>
+               <p>
+                <b>Website:</b>{" "}
+               <Link href="https://www.hamkoders.com/">http://Hamkoders.com</Link>{" "}
+              </p> 
               <p>
                 <b>Email:</b>{" "}
                 <Link href="mailto:info@Hamkoders.com">info@Hamkoders.com</Link>
               </p>
               <p>
-                <b>Website:</b>{" "}
-                <Link href="/contact-us">
-                  http://Hamkoders.com/contact-us
-                </Link>
+                <b>Phone:</b>{" "}
+                (+92) 302 280 0188
+              </p>
+                 <p>
+                <b>Location:</b>{" "}
+                 Austria
               </p>
             </div>
           </div>
