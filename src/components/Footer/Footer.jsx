@@ -180,6 +180,9 @@ const currentYear = currentDate.getFullYear();
                         <li>
                           <Link href={"/privacy-policy"}>Privacy Policy</Link>
                         </li>
+                        <li>
+                          <Link href={"/imprint"}>Imprint</Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
