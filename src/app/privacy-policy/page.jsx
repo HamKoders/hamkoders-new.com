@@ -47,7 +47,7 @@ const TermConditions = () => {
               <p>We may collect personal and non-personal information when you visit our website, fill out a form, contact us,
                 request a proposal, communicate with our team, or use our services.</p>
               <ul>
-                
+              
                  <h3>Personal Information: 
                   {/* Information that can identify you
                   personally, such as your name, email address, phone number,
@@ -67,7 +67,7 @@ const TermConditions = () => {
                   <li>Information submitted through contact forms or consultation forms</li>
                 
                 
-                 <h3>Non-Personal Information:</h3>
+                  <br> <h3>Non-Personal Information:</h3></br>
                   {/* Information that does not
                   identify you personally, including demographic data, browser
                   type, IP address, and usage data collected through cookies and
