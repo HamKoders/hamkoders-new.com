@@ -20,12 +20,6 @@ const Imprint = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p>
-               Welcome to Hamkoders. These Terms & Conditions govern your access to and use of our website, digital services, 
-                project work, consultations, proposals, 
-                communications, and any services offered by Hamkoders.
-              </p>
-    
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
