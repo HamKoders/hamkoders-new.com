@@ -3,6 +3,28 @@
   position: relative;
   z-index: 111;
 }
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+.goog-te-gadget select {
+  color: #000;
+  font-size: 14px;
+  border: 1px solid #D41423;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  background: #fff;
+}
 
 .header .navbar-nav {
   gap: 35px;
