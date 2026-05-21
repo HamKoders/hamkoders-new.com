@@ -1,14 +1,35 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
+  // 👇 Yahan add karo (line 9 se pehle)
+  useEffect(() => {
+  const addScript = document.createElement("script");
+  addScript.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+  addScript.async = true;
+  document.body.appendChild(addScript);
+
+  window.googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        includedLanguages: "en,de",
+        layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false,
+      },
+      "google_translate_element"
+    );
+  };
+}, []);
+  // 👇 Yahan end hua hai (line 9 se pehle)
+  
   return (
     <header className="header">
-      <div className="container">
+      <div className="container">  
         <div className="row">
           <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -568,6 +589,7 @@ const Header = () => {
                   </ul>
                   <div className="header-right-btn">
                     <Link href={"/contact-us"}>Contact Us</Link>
+                     <div id="google_translate_element"></div>  {/* 👈 yahan */}
                   </div>
                 </div>
               </div>
