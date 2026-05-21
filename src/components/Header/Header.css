@@ -3,7 +3,6 @@
   position: relative;
   z-index: 111;
 }
-/* Google Translate Button Styling */
 .goog-te-banner-frame {
   display: none !important;
 }
@@ -17,24 +16,36 @@ body {
   font-size: 0 !important;
 }
 
-.goog-te-gadget select {
-  color: #000;
-  font-size: 14px;
-  border: 1px solid #D41423;
-  border-radius: 5px;
-  padding: 5px 8px;
-  cursor: pointer;
-  background: #fff;
-}
-
-/* Google G icon hide karo */
 .goog-te-gadget img {
   display: none !important;
 }
 
-/* Select Language text hide karo */
 .goog-te-gadget > span {
   display: none !important;
+}
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang-switcher button {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.lang-switcher button:hover {
+  color: #D41423;
+}
+
+.lang-switcher span {
+  color: #000;
 }
 
 .header .navbar-nav {
@@ -60,12 +71,12 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-/* 👇 Yeh naya code yahan add karo */
-.header-right-btn {
+ /* 👇 Yeh naya code yahan add karo */
+/* .header-right-btn {
   display: flex;
   align-items: center;
   gap: 15px;
-}
+} */
 
 .header .dropdown-toggle::after {
   vertical-align: 0.055em;
