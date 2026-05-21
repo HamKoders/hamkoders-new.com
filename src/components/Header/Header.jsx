@@ -7,14 +7,15 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
   
-  // 👇 Naya function add karo
-  const translatePage = (lang) => {
+ const translatePage = (lang) => {
+  setTimeout(() => {
     const select = document.querySelector('.goog-te-combo');
     if (select) {
       select.value = lang;
       select.dispatchEvent(new Event('change'));
     }
-  };
+  }, 500);
+};
   // 👇 Yahan add karo (line 9 se pehle)
   useEffect(() => {
   const addScript = document.createElement("script");
