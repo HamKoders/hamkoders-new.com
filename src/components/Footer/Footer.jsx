@@ -217,8 +217,9 @@ const currentYear = currentDate.getFullYear();
                          </Link>
                          </li>
                         <li>
+                           <FaLocation size={25} color="#D41423" style={{transform : "rotate(90deg)"}} />
                           <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
-                            12828 Willow Centre Dr Ste D #81 Houston, TX 77066
+                            Austria
                           </Link>
                         </li> 
                       </ul>
