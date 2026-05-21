@@ -665,19 +665,19 @@ body.translated-ltr p {
 }
 
 body.translated-ltr h1 {
-  font-size: 85% !important;
+  font-size: 60px!important;
 }
 
 body.translated-ltr h2 {
-  font-size: 85% !important;
+  font-size: 40px !important;
 }
 
 body.translated-ltr h3 {
-  font-size: 85% !important;
+  font-size: 25px !important;
 }
 
 body.translated-ltr h4 {
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 * {
@@ -691,18 +691,18 @@ body.translated-ltr h4 {
   }
 
   body.translated-ltr h1 {
-    font-size: 60px !important;
+    font-size: 40px !important;
   }
 
   body.translated-ltr h2 {
-    font-size: 45px !important;
+    font-size: 30px !important;
   }
 
   body.translated-ltr h3 {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 
   body.translated-ltr h4 {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 }
