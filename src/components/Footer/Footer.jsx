@@ -217,8 +217,8 @@ const currentYear = currentDate.getFullYear();
                          </Link>
                          </li>
                         <li>
-                           <FaLocation size={25} color="#D41423" style={{transform : "rotate(90deg)"}} />
-                          <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
+                          <MdLocation size={25} style={{ color: "#D41423", marginRight: "8px" }} />
+                          {/* <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank"> */}
                             Austria
                           </Link>
                         </li> 
