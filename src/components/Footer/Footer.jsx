@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import usFlag from "../../../public/images/pak-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone, FaLocation } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 
@@ -217,8 +217,8 @@ const currentYear = currentDate.getFullYear();
                          </Link>
                          </li>
                         <li>
-                          {/* <FaLocation size={25} style={{ color: "#D41423", marginRight: "8px" }} /> */}
                          <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
+                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginRight: "8px" }} />
                             Austria
                           </Link>
                         </li> 
