@@ -25,10 +25,7 @@ const Imprint = () => {
                 project work, consultations, proposals, 
                 communications, and any services offered by Hamkoders.
               </p>
-               <p>
-               By visiting our website or using our services, you agree to follow these Terms & Conditions. 
-                 If you do not agree with any part of these terms, please do not use our website or services.
-              </p>
+    
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
