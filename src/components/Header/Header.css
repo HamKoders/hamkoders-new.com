@@ -72,11 +72,11 @@ body {
   font-weight: 500;
 }
  /* 👇 Yeh naya code yahan add karo */
-/* .header-right-btn {
+.header-right-btn {
   display: flex;
   align-items: center;
   gap: 15px;
-} */
+}
 
 .header .dropdown-toggle::after {
   vertical-align: 0.055em;
