@@ -7,17 +7,20 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
   
- const translatePage = (lang) => {
-  setTimeout(() => {
+const translatePage = (lang) => {
+  const tryTranslate = (attempts) => {
     const select = document.querySelector('.goog-te-combo');
     if (select) {
       select.value = lang;
       select.dispatchEvent(new Event('change'));
+    } else if (attempts > 0) {
+      setTimeout(() => tryTranslate(attempts - 1), 500);
     }
-  }, 500);
+  };
+  tryTranslate(10);
 };
   // 👇 Yahan add karo (line 9 se pehle)
-  useEffect(() => {
+ useEffect(() => {
   const addScript = document.createElement("script");
   addScript.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
   addScript.async = true;
@@ -28,7 +31,6 @@ const Header = () => {
       {
         pageLanguage: "en",
         includedLanguages: "en,de",
-        layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
         autoDisplay: false,
       },
       "google_translate_element"
