@@ -29,11 +29,6 @@ const Imprint = () => {
                By visiting our website or using our services, you agree to follow these Terms & Conditions. 
                  If you do not agree with any part of these terms, please do not use our website or services.
               </p>
-               <p>
-               Hamkoders is a digital agency offering professional web development, app development, software development, branding, SEO, 
-               digital marketing, ERP, CRM, CMS, and business 
-               technology solutions for businesses in Austria and international markets.
-              </p>
               <h3>
                 {/* <Image
                   src="/assets/images/fa-vector-gn.webp"
