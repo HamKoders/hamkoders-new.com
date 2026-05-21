@@ -625,58 +625,34 @@ body {
   }
 }
 
-@media(max-width: 440px) {
-  .cta_sec_margin {
-    margin-bottom: 50px;
-  }
-
-  .terms {
-    padding: 30px 0px 0;
-  }
-}
-
-@media(max-width: 428px) {
-  .global-btn-outline {
-    padding: 10px 50px;
-    font-size: 16px;
-  }
-}
-
-@media(max-width: 375px) {
-  .same-heading {
-    font-size: 27px;
-  }
-
-  .CategoryService_padding {
-    padding-top: 50px;
-  }
-}
-
-@media(max-width: 360px) {
-  .global-btn-outline-black {
-    font-size: 16px;
-    padding: 10px 50px;
-  }
-}
-
 /* Google Translate - German Language Fix */
 * {
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
 }
 
-body.translated-ltr .same-heading {
-  font-size: 35px !important;
+html.translated-ltr h1,
+html.translated-ltr h2,
+html.translated-ltr h3,
+html.translated-ltr h4,
+html.translated-ltr .same-heading {
+  font-size: 40px !important;
 }
 
-@media (max-width: 1366px) {
-  body.translated-ltr .same-heading {
-    font-size: 40px !important;
-  }
+html.translated-ltr p {
+  font-size: 14px !important;
 }
 
 @media (max-width: 768px) {
-  body.translated-ltr .same-heading {
-    font-size: 28px !important;
+  html.translated-ltr h1,
+  html.translated-ltr h2,
+  html.translated-ltr h3,
+  html.translated-ltr h4,
+  html.translated-ltr .same-heading {
+    font-size: 30px !important;
+  }
+
+  html.translated-ltr p {
+    font-size: 13px !important;
   }
 }
