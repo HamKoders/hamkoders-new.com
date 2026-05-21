@@ -600,7 +600,7 @@ const translatePage = (lang) => {
                     </li> */}
                   </ul>
                   <div className="header-right-btn">
-                   
+                   <Link href={"/contact-us"}>Contact Us</Link>
                       <div id="google_translate_element" style={{display:"none"}}></div>
                        <div className="lang-switcher">
                           <button onClick={() => translatePage('en')}>EN</button>
@@ -608,7 +608,7 @@ const translatePage = (lang) => {
                                <button onClick={() => translatePage('de')}>DE</button>
                      </div>
                   </div>
-                   <Link href={"/contact-us"}>Contact Us</Link>
+                   
                 </div>
               </div>
             </nav>
