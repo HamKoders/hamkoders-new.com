@@ -6,6 +6,15 @@ import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
+  
+  // 👇 Naya function add karo
+  const translatePage = (lang) => {
+    const select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event('change'));
+    }
+  };
   // 👇 Yahan add karo (line 9 se pehle)
   useEffect(() => {
   const addScript = document.createElement("script");
@@ -589,7 +598,12 @@ const Header = () => {
                   </ul>
                   <div className="header-right-btn">
                     <Link href={"/contact-us"}>Contact Us</Link>
-                     <div id="google_translate_element"></div>  {/* 👈 yahan */}
+                      <div id="google_translate_element" style={{display:"none"}}></div>
+                       <div className="lang-switcher">
+                          <button onClick={() => translatePage('en')}>EN</button>
+                            <span>|</span>
+                               <button onClick={() => translatePage('de')}>DE</button>
+                     </div>
                   </div>
                 </div>
               </div>
