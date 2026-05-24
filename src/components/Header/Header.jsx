@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
+const Header = () => {
 
   return (
     <>
@@ -582,9 +583,9 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
                        <div className="lang-switcher">
                           <button onClick={() => translatePage('en')}>EN</button>
                             <span>|</span>
-                               <button onClick={() => translatePage('de')}>DE</button> */}
+                               <button onClick={() => translatePage('de')}>DE</button> 
                      </div>
-                  </div>
+                  </div> */}
                    
                 </div>
               </div>
