@@ -7,12 +7,12 @@ import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
-  const translatePage = (lang) => {
+  {/* const translatePage = (lang) => {
     const select = document.querySelector('.goog-te-combo');
     if (select) {
       select.value = lang;
       select.dispatchEvent(new Event('change'));
-    }
+    } */}
   };
 
   return (
@@ -585,7 +585,7 @@ const Header = () => {
                       </Link>
                     </li> */}
                   </ul>
-                <div className="header-right-btn">
+                  {/* <div className="header-right-btn">
                    <Link href={"/contact-us"}>Contact Us</Link>
                       <div id="google_translate_element" style={{display:"none"}}></div>
                        <div className="lang-switcher">
@@ -593,7 +593,7 @@ const Header = () => {
                             <span>|</span>
                                <button onClick={() => translatePage('de')}>DE</button> 
                      </div>
-                  </div>
+                  </div> */}
                    
                 </div>
               </div>
