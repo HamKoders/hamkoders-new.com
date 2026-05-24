@@ -102,16 +102,16 @@
   margin-bottom: 10px;
 }
 
-/* .footer-content ul li a {
+.footer-content ul li a {
   text-decoration: none;
   color: var(--black-color);
   font-size: 16px;
   font-weight: 400;
-} */
+}
 .location-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+ display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
   gap: 10px;
 }
 
