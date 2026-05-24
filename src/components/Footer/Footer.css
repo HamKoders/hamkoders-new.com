@@ -108,29 +108,34 @@
   font-size: 16px;
   font-weight: 400;
 }
-.footer-content ul li a {
+.location-item {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
-.footer-content ul li a span strong {
+.location-item strong {
   display: block;
   color: #000;
-  font-size: 14px;
   font-weight: 600;
+  font-size: 14px;
 }
 
-.footer-content ul li a span em {
+.location-item em {
   display: block;
   color: #D41423;
-  font-size: 13px;
   font-style: normal;
+  font-size: 13px;
 }
 
-.footer-content ul li a span {
-  font-size: 13px;
-  line-height: 1.5;
+.austria-flag {
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  background: #D41423;
+  border-left: 6px solid #000;
+  flex-shrink: 0;
 }
 .footer-content p {
   text-align: center;
