@@ -75,7 +75,7 @@ body {
 .header-right-btn {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 .header .dropdown-toggle::after {
