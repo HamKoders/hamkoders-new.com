@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-    <Script id="gtranslate-settings" strategy="beforeInteractive">
+    <Script id="gtranslate-settings" strategy="afterInteractive">
   {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
 </Script>
 <Script 
