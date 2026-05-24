@@ -8,38 +8,7 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 const Header = () => {
 
 // Translator Start  
-const translatePage = (lang) => {
-  const tryTranslate = (attempts) => {
-    const select = document.querySelector('.goog-te-combo');
-    if (select) {
-      select.value = lang;
-      select.dispatchEvent(new Event('change'));
-    } else if (attempts > 0) {
-      setTimeout(() => tryTranslate(attempts - 1), 500);
-    }
-  };
-  tryTranslate(10);
-};
-  // 👇 Yahan add karo (line 9 se pehle)
- useEffect(() => {
-  const addScript = document.createElement("script");
-  addScript.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-  addScript.async = true;
-  document.body.appendChild(addScript);
 
-  window.googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
-      {
-        pageLanguage: "en",
-        includedLanguages: "en,de",
-        autoDisplay: false,
-      },
-      "google_translate_element"
-    );
-  };
-}, []);
-  // 👇 Yahan end hua hai (line 9 se pehle)
-// Translator End
 
 
   <div class="gtranslate_wrapper"></div>
