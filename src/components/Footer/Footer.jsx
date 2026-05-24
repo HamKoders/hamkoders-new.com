@@ -191,7 +191,7 @@ const currentYear = currentDate.getFullYear();
                 <div className="row align-items-center footer-row justify-content-center">
                   <div className="col-lg-3">
                     <div className="footer-content">
-                      <h3>Contact</h3>
+                      <h3>Location</h3>
                       <ul>
                         <li>
                           <Link href={"tel:8327890702"}>
