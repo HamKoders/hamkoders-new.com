@@ -102,12 +102,12 @@
   margin-bottom: 10px;
 }
 
-.footer-content ul li a {
+/* .footer-content ul li a {
   text-decoration: none;
   color: var(--black-color);
   font-size: 16px;
   font-weight: 400;
-}
+} */
 .location-item {
   display: flex;
   flex-direction: row;
@@ -159,9 +159,9 @@
   gap: 10px;
   flex-direction: row;
 }
-.footer-content ul li:first-child a {
+/* .footer-content ul li:first-child a {
   white-space: nowrap;
-}
+} */
 .footer-content.footer-social ul.social-icons-row {
   display: flex;
   flex-direction: row;
