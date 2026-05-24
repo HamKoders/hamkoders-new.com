@@ -595,7 +595,7 @@ const Header = () => {
                      </div>
                   </div> */}
                   
-                  <div className="gtranslate_wrapper"></div>
+                  <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
                   <br></br>
                   <br></br>
                   <div className="header-right-btn">
