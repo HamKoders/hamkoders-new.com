@@ -7,12 +7,12 @@ import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
-  {/* const translatePage = (lang) => {
+  const translatePage = (lang) => {
     const select = document.querySelector('.goog-te-combo');
     if (select) {
       select.value = lang;
       select.dispatchEvent(new Event('change'));
-    } */}
+    } 
   };
 
   return (
