@@ -596,8 +596,7 @@ const Header = () => {
                   </div> */}
                   
                   <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
-                  <br></br>
-                  <br></br>
+                  
                   <div className="header-right-btn">
                   <Link href={"/contact-us"}>Contact Us</Link>
                   </div>
