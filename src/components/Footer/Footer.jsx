@@ -264,12 +264,12 @@ const currentYear = currentDate.getFullYear();
                         info@hamkoders.com
                          </Link>
                          </li>
-                        <li>
+                        {/* <li>
                          <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
                             <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginRight: "8px" }} />
                             Austria
                           </Link>
-                        </li> 
+                        </li>  */}
                       </ul>
                     </div>
                   </div>
