@@ -6,7 +6,8 @@ import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
-  
+
+// Translator Start  
 const translatePage = (lang) => {
   const tryTranslate = (attempts) => {
     const select = document.querySelector('.goog-te-combo');
@@ -38,6 +39,7 @@ const translatePage = (lang) => {
   };
 }, []);
   // 👇 Yahan end hua hai (line 9 se pehle)
+// Translator End
   
   return (
     <header className="header">
