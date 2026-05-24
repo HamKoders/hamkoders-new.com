@@ -586,7 +586,9 @@ const Header = () => {
                                <button onClick={() => translatePage('de')}>DE</button> 
                      </div>
                   </div> */}
-                   
+                   <div className="header-right-btn">
+  <Link href={"/contact-us"}>Contact Us</Link>
+</div>
                 </div>
               </div>
             </nav>
