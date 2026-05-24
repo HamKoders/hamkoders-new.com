@@ -128,14 +128,18 @@
   font-style: normal;
   font-size: 16px;
 }
-
 .austria-flag {
   display: inline-block;
   width: 35px;
-  height: 16px;
-  background: #D41423;
-  border-left: 6px solid #000;
+  height: 23px;
   flex-shrink: 0;
+  background: linear-gradient(
+    to bottom,
+    #ED2939 33%,
+    #ffffff 33%,
+    #ffffff 66%,
+    #ED2939 66%
+  );
 }
 .footer-content p {
   text-align: center;
