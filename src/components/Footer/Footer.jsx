@@ -274,7 +274,37 @@ const currentYear = currentDate.getFullYear();
 
                 <div className="row">
                   <div className="col-lg-12">
-                    <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hamkoders</p>
+                    <div className="footer-content footer-social">
+                     <ul>
+                        <li>
+                          <Link
+                            href={"https://www.facebook.com/Hamkoders/"}
+                            target="_blank"
+                          >
+                            <FaFacebook size={25} color="#D41423" /> 
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href={"https://www.instagram.com/hamkoders/"}
+                            target="_blank"
+                          >
+                            <FaInstagram size={25} color="#D41423" /> 
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href={
+                              "https://www.linkedin.com/company/hamkoders/"
+                            }
+                            target="_blank"
+                          >
+                            <FaLinkedinIn size={25} color="#D41423" /> 
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                    {/* <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hamkoders</p> */}
                   </div>
                 </div>
               </div>
