@@ -192,37 +192,32 @@ const currentYear = currentDate.getFullYear();
                   <div className="col-lg-3">
                     <div className="footer-content">
                       <h3>Location</h3>
-                      <ul>
-                        <li>
-                          <Link href={"tel:8327890702"}>
-                            {/* <Image
-                              src={usFlag}
-                              alt="us-flag"
-                              className="me-2"
-                            />{" "} */}
-                            <FaPhone size={25} color="#D41423" style={{transform : "rotate(90deg)"}} />
-                            (+92) 302 280 0188
-                          </Link>
-                        </li>
-                        {/* <li>
-                          <Link href={"mailto:info@hamkoders.com"}>
-                          <FaEnvelope size={25} color="#D41423" />
-                            info@hamkoders.com
-                          </Link>
-                        </li> */}
-                        <li>
-                        <Link href={"mailto:info@hamkoders.com"}>
-                        <MdEmail size={25} style={{ color: "#D41423", marginRight: "8px" }} />
-                        info@hamkoders.com
-                         </Link>
-                         </li>
-                        <li>
-                         <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
-                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginRight: "8px" }} />
-                            Austria
-                          </Link>
-                        </li> 
-                      </ul>
+                        <ul>
+    <li>
+      <Link href={"/"}>
+        <Image src={usFlag} alt="pak-flag" width={25} height={16} />
+        <span>
+          <strong>Head Office</strong><br />
+          Karachi, Pakistan
+        </span>
+      </Link>
+    </li>
+    <li>
+      <Link href={"/"}>
+        <span style={{
+          display: "inline-block",
+          width: "25px",
+          height: "16px",
+          background: "#D41423",
+          borderLeft: "6px solid #000"
+        }}></span>
+        <span>
+          <strong>European Office</strong><br />
+          Vienna, Austria
+        </span>
+      </Link>
+    </li>
+  </ul>
                     </div>
                   </div>
                   <div className="col-lg-6">
