@@ -238,35 +238,38 @@ const currentYear = currentDate.getFullYear();
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <div className="footer-content footer-social">
-                      <h3>Links</h3>
-                      <ul>
+                    <div className="footer-content">
+                      <h3>Contact</h3>
+                     <ul>
                         <li>
-                          <Link
-                            href={"https://www.facebook.com/Hamkoders/"}
-                            target="_blank"
-                          >
-                            <FaFacebook size={25} color="#D41423" /> Facebook
+                          <Link href={"tel:8327890702"}>
+                            {/* <Image
+                              src={usFlag}
+                              alt="us-flag"
+                              className="me-2"
+                            />{" "} */}
+                            <FaPhone size={25} color="#D41423" style={{transform : "rotate(90deg)"}} />
+                            (+92) 302 280 0188
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            href={"https://www.instagram.com/hamkoders/"}
-                            target="_blank"
-                          >
-                            <FaInstagram size={25} color="#D41423" /> Instagram
+                        {/* <li>
+                          <Link href={"mailto:info@hamkoders.com"}>
+                          <FaEnvelope size={25} color="#D41423" />
+                            info@hamkoders.com
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
-                          <Link
-                            href={
-                              "https://www.linkedin.com/company/hamkoders/"
-                            }
-                            target="_blank"
-                          >
-                            <FaLinkedinIn size={25} color="#D41423" /> LinkedIn
+                        <Link href={"mailto:info@hamkoders.com"}>
+                        <MdEmail size={25} style={{ color: "#D41423", marginRight: "8px" }} />
+                        info@hamkoders.com
+                         </Link>
+                         </li>
+                        <li>
+                         <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
+                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginRight: "8px" }} />
+                            Austria
                           </Link>
-                        </li>
+                        </li> 
                       </ul>
                     </div>
                   </div>
