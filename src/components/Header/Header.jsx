@@ -16,8 +16,9 @@ const translatePage = (lang) => {
   }
 };
 
+  
   return (
-  <>
+    <>
     <div className="gtranslate_wrapper" style={{display:"none"}}></div>
     <Script id="gtranslate-settings" strategy="beforeInteractive">
       {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
@@ -26,13 +27,7 @@ const translatePage = (lang) => {
       src="https://cdn.gtranslate.net/widgets/latest/float.js"
       strategy="afterInteractive"
     />
-
-    <header className="header">
-      </header>
-  </>
-);
-  
-  return (
+    
     <header className="header">
       <div className="container">  
         <div className="row">
@@ -609,6 +604,7 @@ const translatePage = (lang) => {
         </div>
       </div>
     </header>
+    </>
   );
 };
 
