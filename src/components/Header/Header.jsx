@@ -9,9 +9,13 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
   return (
     <>
-    <div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+    <Script id="gtranslate-settings" strategy="beforeInteractive">
+  {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
+</Script>
+<Script 
+  src="https://cdn.gtranslate.net/widgets/latest/float.js"
+  strategy="afterInteractive"
+/>
     
     <header className="header">
       <div className="container">  
