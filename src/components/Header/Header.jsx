@@ -8,7 +8,9 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 const Header = () => {
 
 // Translator Start  
-
+<div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","it","es","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 
   
   return (
@@ -592,6 +594,4 @@ const Header = () => {
 };
 
 export default Header;
-<div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","it","es","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
