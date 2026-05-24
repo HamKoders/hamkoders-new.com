@@ -274,8 +274,8 @@ const currentYear = currentDate.getFullYear();
 
                 <div className="row">
                   <div className="col-lg-12">
-                    <div className="footer-content footer-social">
-                     <ul>
+                    <div className="footer-content footer-social ">
+                     <ul className="social-icons-row>
                         <li>
                           <Link
                             href={"https://www.facebook.com/Hamkoders/"}
