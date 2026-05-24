@@ -63,6 +63,12 @@ body {
   color: var(--theme-color);
 }
 
+.header-right-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .header .header-right-btn a {
   color: var(--white-color);
   background-color: var(--black-color);
@@ -70,12 +76,6 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-}
- /* 👇 Yeh naya code yahan add karo */
-.header-right-btn {
-  display: flex;
-  align-items: center;
-  gap: 25px;
 }
 
 .header .dropdown-toggle::after {
