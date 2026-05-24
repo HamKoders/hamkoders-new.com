@@ -193,30 +193,28 @@ const currentYear = currentDate.getFullYear();
                     <div className="footer-content">
                       <h3>Location</h3>
                         <ul>
-    <li>
-      <Link href={"/"}>
-        <Image src={usFlag} alt="pak-flag" width={25} height={16} />
-        <span>
-          <strong>Head Office</strong><br />
-          Karachi, Pakistan
-        </span>
-      </Link>
-    </li>
-    <li>
-      <Link href={"/"}>
-        <span style={{
-          display: "inline-block",
-          width: "25px",
-          height: "16px",
-          background: "#D41423",
-          borderLeft: "6px solid #000"
-        }}></span>
-        <span>
-          <strong>European Office</strong><br />
-          Vienna, Austria
-        </span>
-      </Link>
-    </li>
+  <li>
+  <div className="location-item">
+    <Link href={"/"} className="location-item">
+    <Image src={usFlag} alt="pak-flag" width={25} height={16} />
+    <span>
+      <strong>Head Office</strong>
+      <em>Karachi, Pakistan</em>
+    </span>
+    </Link>
+  </div>
+</li>
+<li>
+  <div className="location-item">
+    <Link href={"/"} className="location-item">
+    <span className="austria-flag"></span>
+    <span>
+      <strong>European Office</strong>
+      <em>Vienna, Austria</em>
+    </span>
+    </Link>
+  </div>
+</li>
   </ul>
                     </div>
                   </div>
