@@ -17,9 +17,14 @@ const Header = () => {
 
   return (
     <>
-     <div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","flag_style":"3d"}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+     <div className="gtranslate_wrapper"></div>
+<Script id="gtranslate-settings" strategy="afterInteractive">
+  {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","flag_style":"3d"}`}
+</Script>
+<Script 
+  src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
+  strategy="afterInteractive"
+/>
     
     <header className="header">
       <div className="container">  
