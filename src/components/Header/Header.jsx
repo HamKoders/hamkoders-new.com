@@ -577,7 +577,7 @@ const Header = () => {
                       </Link>
                     </li> */}
                   </ul>
-                {/*   <div className="header-right-btn">
+                <div className="header-right-btn">
                    <Link href={"/contact-us"}>Contact Us</Link>
                       <div id="google_translate_element" style={{display:"none"}}></div>
                        <div className="lang-switcher">
@@ -585,10 +585,8 @@ const Header = () => {
                             <span>|</span>
                                <button onClick={() => translatePage('de')}>DE</button> 
                      </div>
-                  </div> */}
-                   <div className="header-right-btn">
-  <Link href={"/contact-us"}>Contact Us</Link>
-</div>
+                  </div>
+                   
                 </div>
               </div>
             </nav>
