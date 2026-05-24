@@ -6,14 +6,17 @@ import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
-const Header = () => {
-
 const translatePage = (lang) => {
-  const select = document.querySelector('.goog-te-combo');
-  if (select) {
-    select.value = lang;
-    select.dispatchEvent(new Event('change'));
-  }
+  const tryTranslate = (attempts) => {
+    const select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event('change'));
+    } else if (attempts > 0) {
+      setTimeout(() => tryTranslate(attempts - 1), 500);
+    }
+  };
+  tryTranslate(10);
 };
 
   
