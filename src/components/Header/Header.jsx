@@ -6,30 +6,18 @@ import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
-const translatePage = (lang) => {
-  const tryTranslate = (attempts) => {
-    const select = document.querySelector('.goog-te-combo');
-    if (select) {
-      select.value = lang;
-      select.dispatchEvent(new Event('change'));
-    } else if (attempts > 0) {
-      setTimeout(() => tryTranslate(attempts - 1), 500);
-    }
-  };
-  tryTranslate(10);
-};
+
 
   
   return (
-    <>
-    <div className="gtranslate_wrapper" style={{display:"none"}}></div>
-    <Script id="gtranslate-settings" strategy="beforeInteractive">
-      {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
-    </Script>
-    <Script 
-      src="https://cdn.gtranslate.net/widgets/latest/float.js"
-      strategy="afterInteractive"
-    />
+    <div className="gtranslate_wrapper"></div>
+<Script id="gtranslate-settings" strategy="beforeInteractive">
+  {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
+</Script>
+<Script 
+  src="https://cdn.gtranslate.net/widgets/latest/float.js"
+  strategy="afterInteractive"
+/>
     
     <header className="header">
       <div className="container">  
@@ -590,13 +578,13 @@ const translatePage = (lang) => {
                       </Link>
                     </li> */}
                   </ul>
-                  <div className="header-right-btn">
+                {/*   <div className="header-right-btn">
                    <Link href={"/contact-us"}>Contact Us</Link>
                       <div id="google_translate_element" style={{display:"none"}}></div>
                        <div className="lang-switcher">
                           <button onClick={() => translatePage('en')}>EN</button>
                             <span>|</span>
-                               <button onClick={() => translatePage('de')}>DE</button>
+                               <button onClick={() => translatePage('de')}>DE</button> */}
                      </div>
                   </div>
                    
@@ -607,7 +595,7 @@ const translatePage = (lang) => {
         </div>
       </div>
     </header>
-    </>
+  
   );
 };
 
