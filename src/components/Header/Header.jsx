@@ -1,5 +1,6 @@
 "use client";
-import React, { useEffect } from "react";
+import Script from 'next/script'
+import React from "react";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,11 +8,29 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
 
-// Translator Start  
-<div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","it","es","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+const translatePage = (lang) => {
+  const select = document.querySelector('.goog-te-combo');
+  if (select) {
+    select.value = lang;
+    select.dispatchEvent(new Event('change'));
+  }
+};
 
+  return (
+  <>
+    <div className="gtranslate_wrapper" style={{display:"none"}}></div>
+    <Script id="gtranslate-settings" strategy="beforeInteractive">
+      {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","flag_style":"3d"}`}
+    </Script>
+    <Script 
+      src="https://cdn.gtranslate.net/widgets/latest/float.js"
+      strategy="afterInteractive"
+    />
+
+    <header className="header">
+      </header>
+  </>
+);
   
   return (
     <header className="header">
