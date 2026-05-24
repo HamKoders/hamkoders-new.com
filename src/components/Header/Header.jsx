@@ -596,9 +596,9 @@ const Header = () => {
                   </div> */}
                   <div className="header-right-btn">
                   <Link href={"/contact-us"}>Contact Us</Link>
-                    <div className="gtranslate_wrapper"></div>
+                    
                   </div>
-                   
+                   <div className="gtranslate_wrapper"></div>
                 </div>
               </div>
             </nav>
