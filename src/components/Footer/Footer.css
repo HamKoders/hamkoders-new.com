@@ -407,3 +407,11 @@
   padding-left: 40px;
   padding-right: 40px;
 } 
+.footer-row .col-lg-3 .footer-content {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.footer-row {
+  align-items: flex-start !important;
+}
