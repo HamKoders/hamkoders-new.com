@@ -414,6 +414,9 @@
   justify-content: space-evenly !important;
   gap: 0;
 }
+p.para.text-center{
+  margin-bottom: 0px;
+}
 
 
 
