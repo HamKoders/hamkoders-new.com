@@ -161,7 +161,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  flex-direction: row;
+  
 }
 /* .footer-content ul li:first-child a {
   white-space: nowrap;
