@@ -408,6 +408,6 @@
   padding-right: 20px;
 } 
 .footer-row {
-  justify-content: space-between !important;
+  justify-content: space-evenly !important;
   gap: 0;
 }
