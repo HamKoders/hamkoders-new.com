@@ -395,11 +395,11 @@
   }
 }
 
-.footer-row {
+/* .footer-row {
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
-}
+} */
 
 /* columns spacing */
 .footer-row > .col-lg-3,
