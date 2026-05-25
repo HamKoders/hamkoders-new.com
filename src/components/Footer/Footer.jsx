@@ -189,7 +189,7 @@ const currentYear = currentDate.getFullYear();
                 </div>
 
                 <div className="row footer-row justify-content-center">
-                  <div className="col-lg-3">
+                  <div className="col-lg-4">
                     <div className="footer-content">
                       <h3>Location</h3>
                         <ul>
