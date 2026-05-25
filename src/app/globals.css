@@ -624,5 +624,16 @@ body {
     padding-top: 30px;
   }
 }
+/* Translation Responsive Fix */
+
+html[lang="de"] body {
+  overflow-x: hidden;
+}
+
+html[lang="de"] * {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
 
 
