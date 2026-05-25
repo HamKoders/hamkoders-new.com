@@ -362,7 +362,7 @@ h2, h3, h4, h5, h6 {
   hyphens: auto;
 }
 
-p, li, a, span {
+p, li, a {
   word-break: break-word;
   overflow-wrap: break-word;
 }
