@@ -351,3 +351,19 @@ body {
     gap: 10px;
   }
 }
+/* German translation responsive fix */
+* {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+p, li, a, span {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
