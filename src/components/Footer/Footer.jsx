@@ -242,7 +242,7 @@ const currentYear = currentDate.getFullYear();
                               className="me-2"
                             />{" "} */}
                             <FaPhone size={25} color="#D41423" style={{transform : "rotate(90deg)"}} />
-                            (+92) 302 280 0188
+                            (+92) 302 2800188
                           </Link>
                         </li>
                         {/* <li>
