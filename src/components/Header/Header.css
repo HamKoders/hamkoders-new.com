@@ -352,7 +352,7 @@ body {
   }
 }
 /* German translation responsive fix */
-* {
+/* * {
   word-break: break-word;
   overflow-wrap: break-word;
 }
@@ -365,4 +365,4 @@ h2, h3, h4, h5, h6 {
 p, li, a {
   word-break: break-word;
   overflow-wrap: break-word;
-}
+} */
