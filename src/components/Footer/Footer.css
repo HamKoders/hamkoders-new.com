@@ -404,9 +404,10 @@
 /* columns spacing */
 .footer-row > .col-lg-3,
 .footer-row > .col-lg-6 {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 } 
-/* .footer-row > .col-lg-3 {
-  align-self: flex-start;
-} */
+.footer-row {
+  justify-content: space-between !important;
+  gap: 0;
+}
