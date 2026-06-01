@@ -40,7 +40,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20px 44px;    
+  padding: 20px 44px;  
+   border: 2px solid var(--theme-color);
+  border-radius: 10px; 
 }
 .how-it-works-box p {
   color: var(--black-color);
