@@ -499,4 +499,12 @@ p.para.text-center{
     justify-content: center;
   }
 }
+.footer-border > .col-lg-3:last-child,
+.footer-bottom-row > .col-lg-3:last-child {
+  padding-right: 0;
+}
 
+.footer-border > .col-lg-3:first-child,
+.footer-bottom-row > .col-lg-3:first-child {
+  padding-left: 0;
+}
