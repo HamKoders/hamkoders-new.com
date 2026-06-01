@@ -436,9 +436,9 @@ p.para.text-center {
 }
 .footer-border {
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
 }
 
 .footer-bottom-row {
-  gap: 20px;
+  gap: 5px;
 }
