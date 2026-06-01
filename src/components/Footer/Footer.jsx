@@ -230,7 +230,7 @@ const currentYear = currentDate.getFullYear();
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-6" style={{display: 'flex', justifyContent: 'flex-end'}}>
+                 <div className="col-lg-3 col-md-6" style={{paddingLeft: '40px'}}>
                     <div className="footer-content">
                       <h3>Contact</h3>
                      <ul>
