@@ -196,7 +196,7 @@ const currentYear = currentDate.getFullYear();
   <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-<Image src={usFlag} alt="pak-flag" width={50} height={40} />
+<img src="https://flagcdn.com/w40/pk.png" alt="pakistan-flag" width={35} height={23} />
     <span>
       <strong>Head Office</strong>
       <em>Karachi, Pakistan</em>
@@ -207,7 +207,7 @@ const currentYear = currentDate.getFullYear();
 <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-   <img src="https://flagcdn.com/w40/at.png" alt="austria-flag" width={30} height={20} />
+   <img src="https://flagcdn.com/w40/at.png" alt="austria-flag" width={35} height={23} />
     <span>
       <strong>European Office</strong>
       <em>Vienna, Austria</em>
