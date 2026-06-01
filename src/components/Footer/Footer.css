@@ -443,4 +443,13 @@ p.para.text-center{
   display: flex;
   justify-content: flex-end;
 }
+.footer-border .col-lg-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-border .footer-navigation {
+  width: 100%;
+  max-width: 200px;
+}
 
