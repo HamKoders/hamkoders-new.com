@@ -431,3 +431,6 @@ p.para.text-center {
     height: 50px;
   }
 }
+.footer-bottom-row > div:last-child .footer-content {
+  margin-left: auto;
+}
