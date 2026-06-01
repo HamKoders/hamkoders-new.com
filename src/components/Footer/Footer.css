@@ -303,29 +303,32 @@
   .footer {
     margin: 50px 0px 32px;
   }
-
   .footer-navigation {
     margin-bottom: 20px;
   }
-
   .footer-main-content .footer-border {
     padding-bottom: 20px;
   }
-
   .footer-content {
     text-align: center;
     margin-bottom: 25px;
   }
-
   .footer-content ul {
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 29px;
   }
-
   .footer-content ul li {
     margin-bottom: 0;
+  }
+  .footer-bottom-row > div:first-child,
+  .footer-bottom-row > div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+  .location-item {
+    justify-content: center;
   }
 }
 
