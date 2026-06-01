@@ -446,7 +446,7 @@ p.para.text-center{
 .footer-bottom-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .footer-bottom-row > div:first-child {
