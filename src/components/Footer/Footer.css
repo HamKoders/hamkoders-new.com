@@ -460,12 +460,12 @@ p.para.text-center{
 }
 .footer-border .col-lg-3 {
   display: flex;
-  justify-content:center;
+  justify-content: flex-start;
 }
 
 .footer-border .footer-navigation {
   width: 100%;
-  max-width: 200px;
+  /* max-width: 200px; */
 }
 @media (max-width:768px) {
   .footer {
@@ -508,3 +508,6 @@ p.para.text-center{
 .footer-bottom-row > .col-lg-3:first-child {
   padding-left: 0;
 } */
+.footer-main-content .row {
+  --bs-gutter-x: 1.5rem;
+}
