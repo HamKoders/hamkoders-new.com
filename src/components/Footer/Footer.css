@@ -499,10 +499,4 @@ p.para.text-center{
     justify-content: center;
   }
 }
-.footer-border,
-.footer-bottom-row {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
+
