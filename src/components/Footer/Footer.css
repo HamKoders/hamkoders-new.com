@@ -165,11 +165,11 @@
 }
  
 .footer-border .col-lg-3:first-child {
-  padding-left: 0;
+  padding-left: 05;
 }
  
 .footer-border .col-lg-3:last-child {
-  padding-right: 0;
+  padding-right: 05;
 }
  
 .footer-bottom-row {
