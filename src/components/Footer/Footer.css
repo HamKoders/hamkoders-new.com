@@ -133,8 +133,8 @@
 }
 .austria-flag {
   display: inline-block;
-  width: 35px;
-  height: 23px;
+  width: 50px;
+  height: 40px;
   flex-shrink: 0;
   background: linear-gradient(
     to bottom,
