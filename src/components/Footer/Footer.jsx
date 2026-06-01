@@ -189,7 +189,7 @@ const currentYear = currentDate.getFullYear();
                 </div>
 
                 <div className="row justify-content-center align-items-center footer-bottom-row gx-0">
-                  <div className="col-lg-3">
+                  <div className="col-lg-3 col-md-6">
                     <div className="footer-content">
                       <h3>Locations</h3>
                         <ul>
@@ -218,7 +218,7 @@ const currentYear = currentDate.getFullYear();
   </ul>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-12">
                     <div className="footer-content text-center">
                       <Link  className="text-center" href={"/"}>
                         <Image src={FooterLOGO} alt="footer-logo" />
@@ -230,7 +230,7 @@ const currentYear = currentDate.getFullYear();
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3">
+                  <div className="col-lg-3 col-md-6">
                     <div className="footer-content">
                       <h3>Contact</h3>
                      <ul>
