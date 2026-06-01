@@ -28,8 +28,8 @@
 
 .how-it-works-box {
   width: 100%;
-  height: auto;          /* fixed height hata do */
-  min-height: 274px;     /* minimum height rakho */
+  height: auto;         
+  min-height: 274px;     
   background-image: url("../../../public/images/how-it-works.png");
   background-position: center;
   background-size: cover;
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20px 44px;    /* top/bottom padding bhi add karo */
+  padding: 20px 44px;    
 }
 .how-it-works-box p {
   color: var(--black-color);
