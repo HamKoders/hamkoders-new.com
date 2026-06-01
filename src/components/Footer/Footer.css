@@ -398,11 +398,16 @@
   }
 }
 
-/* .footer-row {
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-} */
+.footer-row {
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.footer-row > .col-lg-3,
+.footer-row > .col-lg-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* columns spacing */
 .footer-row > .col-lg-3,
