@@ -143,7 +143,7 @@ const currentYear = currentDate.getFullYear();
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3>Software Dev</h3>
+                      <h5>Software Dev</h5>
                       <ul>
                         <li>
                           <Link href={"/software-development/erm-development"}>
