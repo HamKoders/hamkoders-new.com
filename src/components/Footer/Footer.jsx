@@ -96,7 +96,7 @@ const currentYear = currentDate.getFullYear();
           <div className="row">
             <div className="col-lg-12">
               <div className="footer-main-content">
-                <div className="row footer-border">
+                <div className="row footer-border gx-0">
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
                       <h3>Company</h3>
@@ -188,7 +188,7 @@ const currentYear = currentDate.getFullYear();
                   </div>
                 </div>
 
-                <div className="row justify-content-center align-items-center footer-bottom-row">
+                <div className="row justify-content-center align-items-center footer-bottom-row gx-0">
                   <div className="col-lg-3">
                     <div className="footer-content">
                       <h3>Locations</h3>
