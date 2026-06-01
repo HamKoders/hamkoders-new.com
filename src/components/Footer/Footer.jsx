@@ -207,7 +207,7 @@ const currentYear = currentDate.getFullYear();
 <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-    <span className="austria-flag"></span>
+   <img src="https://flagcdn.com/w40/at.png" alt="austria-flag" width={35} height={23} />
     <span>
       <strong>European Office</strong>
       <em>Vienna, Austria</em>
