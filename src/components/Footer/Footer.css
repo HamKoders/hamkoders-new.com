@@ -511,3 +511,18 @@ p.para.text-center{
 .footer-main-content .row {
   --bs-gutter-x: 1.5rem;
 }
+.footer-border .col-lg-3,
+.footer-bottom-row .col-lg-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footer-border .col-lg-3:first-child,
+.footer-bottom-row .col-lg-3:first-child {
+  padding-left: 0;
+}
+
+.footer-border .col-lg-3:last-child,
+.footer-bottom-row .col-lg-3:last-child {
+  padding-right: 0;
+}
