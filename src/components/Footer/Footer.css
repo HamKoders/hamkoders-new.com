@@ -131,6 +131,25 @@
   font-style: normal;
   font-size: 16px;
 }
+..pakistan-flag {
+  display: inline-block;
+  width: 35px;
+  height: 23px;
+  flex-shrink: 0;
+  position: relative;
+  background: #01411C;
+  overflow: hidden;
+}
+
+.pakistan-flag::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: #ffffff;
+}
 .austria-flag {
   display: inline-block;
   width: 35px;
