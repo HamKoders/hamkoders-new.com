@@ -27,7 +27,8 @@ const AndroidProgress = () => {
                   <div className="android-progress-box">
                     <div className="android-progress-box">
                      {/* <h3>16+</h3> */}
-                         <h3>15+</h3>
+                         {/* /* {/* <h3>15+++++++++</h3> */} */ */}
+                      <h3>15+</h3>
                       <h4>Industries Served</h4>
                     </div>
                   </div>
