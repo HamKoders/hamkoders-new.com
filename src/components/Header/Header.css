@@ -100,7 +100,7 @@ body {
   left: auto;
   right: auto;
   transform: none;
-  margin-left: calc(-95vw + 100%);
+  margin-left: calc(-85vw + 60%);
   margin-top: 20px;
   opacity: 0;
   visibility: hidden;
