@@ -161,11 +161,11 @@
  
 .footer-border .col-lg-3 {
   padding-left: 40px;
-  padding-right: 0px;
+  padding-right: 40px;
 }
  
 .footer-border .col-lg-3:first-child {
-  padding-left: 90px;
+  padding-left: 0px;
 }
  
 .footer-border .col-lg-3:last-child {
