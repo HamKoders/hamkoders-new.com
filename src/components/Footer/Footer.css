@@ -160,16 +160,16 @@
 }
  
 .footer-border .col-lg-3 {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
  
 .footer-border .col-lg-3:first-child {
-  padding-left: 05;
+  padding-left: 30;
 }
  
 .footer-border .col-lg-3:last-child {
-  padding-right: 05;
+  padding-right: 30;
 }
  
 .footer-bottom-row {
