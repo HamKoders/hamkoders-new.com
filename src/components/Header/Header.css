@@ -365,3 +365,7 @@ p, li, a {
   word-break: break-word;
   overflow-wrap: break-word;
 } */
+  
+html[lang="de"] .header .dropdown-menu {
+  margin-left: calc(0vw + 50%);
+}
