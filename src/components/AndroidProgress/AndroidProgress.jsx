@@ -23,14 +23,14 @@ const AndroidProgress = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col-lg-3 col-md-6 col-12">
+               { <div className="col-lg-3 col-md-6 col-12">
                   <div className="android-progress-box">
                     <div className="android-progress-box">
                       <h3>15+</h3>
                       <h4>Industries Served</h4>
                     </div>
                   </div>
-                </div> */}
+                </div> }
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="android-progress-box">
                     <div className="android-progress-box">
