@@ -95,6 +95,9 @@
   text-transform: uppercase;
   color: var(--theme-color);
   font-weight: 800;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .what-our-clients-says h2 span {
