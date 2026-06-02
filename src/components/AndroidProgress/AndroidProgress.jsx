@@ -26,7 +26,7 @@ const AndroidProgress = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="android-progress-box">
                     <div className="android-progress-box">
-                     <h3>15+</h3>
+                     <h3>16+</h3>
                       <h4>Industries Served</h4>
                     </div>
                   </div>
