@@ -367,5 +367,5 @@ p, li, a {
 } */
   
 html[lang="de"] .header .dropdown-menu {
-  margin-left: calc(0vw + 50%);
+  margin-left: calc(12vw + 50%);
 }
