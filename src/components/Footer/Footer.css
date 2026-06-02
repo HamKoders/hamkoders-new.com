@@ -161,7 +161,7 @@
  
 .footer-border .col-lg-3 {
   padding-left: 50px;
-  padding-right: 100px;
+  padding-right: 70px;
   /* align-content: space-evenly; */
 }
  
@@ -170,7 +170,7 @@
 }
  
 .footer-border .col-lg-3:last-child {
-  padding-left: 130px;
+  padding-left: 110px;
 }
  
 .footer-bottom-row {
