@@ -501,7 +501,8 @@ html[lang="de"] .footer-navigation h3 {
   color: #D41423;
   margin-left: 22px!important;
 }
+@media (max-width: 768px){
 .email-icon {
-  margin-right: 0 !important;
   margin-left: 22px !important;
+ }
 }
