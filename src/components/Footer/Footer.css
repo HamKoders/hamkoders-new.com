@@ -499,5 +499,5 @@ html[lang="de"] .footer-navigation h3 {
 }
 .contact-email-icon {
   color: #D41423;
-  margin-left: 22px;
+  margin-left: 22px!important;
 }
