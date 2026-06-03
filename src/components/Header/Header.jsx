@@ -18,12 +18,26 @@ const Header = () => {
     } 
   };
 
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     if (typeof window !== 'undefined' && window.gtranslateSettings) {
+  //       const script = document.createElement('script');
+  //       script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+  //       document.body.appendChild(script);
+  //     }
+  //   }, 300);
+  //   return () => clearTimeout(timer);
+  // }, [pathname]);
   useEffect(() => {
     const timer = setTimeout(() => {
       if (typeof window !== 'undefined' && window.gtranslateSettings) {
-        const script = document.createElement('script');
-        script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
-        document.body.appendChild(script);
+        // Check karo ke script already exist karta hai ya nahi
+        const existingScript = document.querySelector('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
+        if (!existingScript) {
+          const script = document.createElement('script');
+          script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+          document.body.appendChild(script);
+        }
       }
     }, 300);
     return () => clearTimeout(timer);
