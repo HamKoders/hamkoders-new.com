@@ -186,6 +186,7 @@
   .our-services-content {
     flex-direction: column;
     margin-bottom: 30px;
+    justify-content: center;
 }
 
     .our-services-slidesBox-btn a.simpleAnchor {
