@@ -188,7 +188,11 @@
     margin-bottom: 30px;
     /* justify-content: center; */
 }
-
+html[lang="de"] .our-services-content {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+}
     .our-services-slidesBox-btn a.simpleAnchor {
         padding: 8px 14px;
     }
