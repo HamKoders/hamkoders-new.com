@@ -375,7 +375,7 @@ html[lang="de"] .header .dropdown-menu {
   top: 90px;
   left: 50%;
   transform: translateX(-50%);
-  margin-left: 0 !important;
+  margin-left: calc(17vw + 50%) !important;
 }
 
 @media(max-width:1536px) {
@@ -383,7 +383,7 @@ html[lang="de"] .header .dropdown-menu {
     top: 90px;
     left: 50%;
     transform: translateX(-50%);
-    margin-left: 0 !important;
+    margin-left: calc(17vw + 50%) !important;
   }
 }
 
