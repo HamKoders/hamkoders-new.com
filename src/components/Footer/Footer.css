@@ -491,3 +491,6 @@ html[lang="de"] .footer-navigation h3 {
 .footer-bottom-row .col-lg-3:last-child {
     padding-top: 20px;
 }
+.location-item strong {
+  text-align: left!important;
+}
