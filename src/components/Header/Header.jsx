@@ -1,12 +1,36 @@
 "use client";
 import Script from 'next/script'
-import React from "react";
+import React, { useEffect } from "react";
+import { usePathname } from 'next/navigation';
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      // Pehle purane duplicate scripts hatao
+      const existingScripts = document.querySelectorAll('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
+      if (existingScripts.length > 1) {
+        // Extra scripts hatao, sirf pehla rakho
+        for (let i = 1; i < existingScripts.length; i++) {
+          existingScripts[i].remove();
+        }
+      }
+
+      // Wrapper reset karo
+      const wrapper = document.querySelector('.gtranslate_wrapper');
+      if (wrapper && wrapper.innerHTML === '') {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+        document.body.appendChild(script);
+      }
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [pathname]);
 
   return (
     <>
