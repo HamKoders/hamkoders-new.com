@@ -494,3 +494,6 @@ html[lang="de"] .footer-navigation h3 {
 .location-item strong {
   text-align: left!important;
 }
+.location-item em {
+  text-align: left!important;
+}
