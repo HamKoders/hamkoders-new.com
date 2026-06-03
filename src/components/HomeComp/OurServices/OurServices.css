@@ -186,13 +186,9 @@
   .our-services-content {
     flex-direction: column;
     margin-bottom: 30px;
-    /* justify-content: center; */
+    
 }
-html[lang="de"] .our-services-content {
-    flex-direction: column;
-    margin-bottom: 30px;
-    justify-content: center;
-}
+
     .our-services-slidesBox-btn a.simpleAnchor {
         padding: 8px 14px;
     }
@@ -295,5 +291,12 @@ html[lang="de"] .our-services-content {
 @media(max-width:360px) {
 .our-services-slidesBox {
         padding: 42px 12px 45px;
+    }
+}
+@media (max-width: 768px) {
+    .our-services-content {
+        flex-direction: column;
+        margin-bottom: 30px;
+        justify-content: center;
     }
 }
