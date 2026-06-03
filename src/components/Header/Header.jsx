@@ -106,6 +106,42 @@ const Header = () => {
                                           Web app development
                                         </Link>
                                       </li>
+
+                                      <li>
+                                        <Link href="/website-development/frontend-development">
+                                          Front-end development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/website-development/backend-development">
+                                          Backend development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/website-development/fullstack-development">
+                                          Full-Stack development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/website-development/landing-page-development">
+                                          Landing Page development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/website-development/web3.0-development">
+                                          Web 3.0 Development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/website-development/website-maintenance">
+                                          Website maintenance
+                                        </Link>
+                                      </li>
                                     </ul>
                                   </div>
                                 </div>
@@ -136,6 +172,42 @@ const Header = () => {
                                           Cross-platform app development
                                         </Link>
                                       </li>
+
+                                      <li>
+                                        <Link href="/app-development/hybrid-app-development">
+                                          Hybrid app development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/app-development/saas-app-development">
+                                          Saas app development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/app-development/mvp-app-development">
+                                          MVP app development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/app-development/concept-design">
+                                          Concept design
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/app-development/wearable-app-development">
+                                          Wearable app development
+                                        </Link>
+                                      </li>
+
+                                      <li>
+                                        <Link href="/app-development/app-maintenance">
+                                          App maintenance
+                                        </Link>
+                                      </li>
                                     </ul>
                                   </div>
                                 </div>
@@ -151,6 +223,14 @@ const Header = () => {
                                         Branding
                                       </Link>
                                     </h3>
+
+                                    <ul>
+                                      <li>
+                                        <Link href="/brand-service/brand-strategy-development">
+                                          Brand Strategy Development
+                                        </Link>
+                                      </li>
+                                    </ul>
                                   </div>
                                 </div>
 
@@ -161,6 +241,14 @@ const Header = () => {
                                         Digital Marketing
                                       </Link>
                                     </h3>
+
+                                    <ul>
+                                      <li>
+                                        <Link href="/digital-marketing/search-engine-optimization">
+                                          Search Engine Optimization (SEO)
+                                        </Link>
+                                      </li>
+                                    </ul>
                                   </div>
                                 </div>
                               </div>
@@ -189,7 +277,9 @@ const Header = () => {
                     ></div>
 
                     <div className="header-right-btn">
-                      <Link href="/contact-us">Contact Us</Link>
+                      <Link href="/contact-us">
+                        Contact Us
+                      </Link>
                     </div>
                   </div>
                 </div>
