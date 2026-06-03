@@ -197,7 +197,7 @@ const currentYear = currentDate.getFullYear();
   <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-    <Image src={myImage} alt="my image" width={35} height={33} />
+    <Image src={myImage} alt="my image" width={35} height={40} />
     <span>
       <strong>Head Office</strong>
       <em>Karachi, Pakistan</em>
