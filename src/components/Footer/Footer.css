@@ -341,13 +341,13 @@ p.para.text-center {
     margin-bottom: 25px;
   }
  
-  .footer-content ul {
+  /* .footer-content ul {
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 29px;
   }
- 
+  */
   .footer-content ul li {
     margin-bottom: 0;
   }
