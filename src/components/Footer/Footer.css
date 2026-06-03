@@ -476,15 +476,12 @@ html[lang="de"] .footer-navigation h3 {
   }
 }
 @media (max-width: 768px) {
+  
+  .footer-border .col-lg-3:first-child .footer-navigation h3 {
+    padding-left: 60px !important;
+  }
 
-.footer-navigation
-  .col-lg-3:first-child 
-  .footer-navigation h3 {
-  padding-left: 60px;
-}
- 
-.footer-navigation
-  .col-lg-3:first-child 
-  .footer-navigation ul {
-  padding-left: 50px !important;
+  .footer-border .col-lg-3:first-child .footer-navigation ul {
+    padding-left: 50px !important;
+  }
 }
