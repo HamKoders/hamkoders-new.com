@@ -454,30 +454,4 @@ html[lang="de"] .footer-navigation h3 {
     justify-content: center !important;
   }
 }
-@media (max-width: 768px) {
 
-  .footer-navigation {
-    text-align: center !important;
-  }
-
-  .footer-navigation h3 {
-    text-align: center !important;
-  }
-
-  .footer-navigation ul {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    padding: 0 !important;
-  }
-
-  .footer-navigation ul li {
-    text-align: center !important;
-    width: 100%;
-  }
-
-  .footer-navigation ul li a {
-    justify-content: center !important;
-  }
-}
