@@ -298,5 +298,14 @@
         flex-direction: column;
         margin-bottom: 30px;
         justify-content: center;
+        
+    }
+}
+@media (max-width: 768px) {
+    .our-services-content,
+    h2.same-heading {
+        flex-direction: column;
+        margin-bottom: 30px;
+        text-align: center;
     }
 }
