@@ -99,8 +99,8 @@ const currentYear = currentDate.getFullYear();
                 <div className="row footer-border gx-0">
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{paddingLeft: "60px"}}>Company</h3>
-                      <ul style={{paddingLeft: "50px!important"}}>
+                      <h3>Company</h3>
+                      <ul>
                         <li>
                           <Link href={"/about"}>About us</Link>
                         </li>
