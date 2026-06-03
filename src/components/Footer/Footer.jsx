@@ -9,6 +9,7 @@ import FooterLOGO from "../../../public/images/footer-logo.png";
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
+import myImage from "../../../public/images/image (1).png";
 
 
 const Footer = () => {
@@ -196,7 +197,7 @@ const currentYear = currentDate.getFullYear();
   <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-<img src="https://teams.live.com/4dc833d0-6ba9-421b-8a5b-184f50d40a59" alt="pakistan-flag" width={35} height={23} />
+    <Image src={myImage} alt="my image" width={35} height={23} />
     <span>
       <strong>Head Office</strong>
       <em>Karachi, Pakistan</em>
