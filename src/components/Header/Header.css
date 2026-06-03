@@ -371,6 +371,6 @@ html[lang="de"] .header .dropdown-menu {
 }
 /* Inner pages mega menu fix */
 body:not([class*="home"]) .header .dropdown-menu {
-  margin-left: calc(0vw + 50%) !important;
+  margin-left: calc(7vw + 50%) !important;
 }
 
