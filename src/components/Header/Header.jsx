@@ -1,11 +1,39 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
-
+ 
 const Header = () => {
+  const pathname = usePathname();
+ 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const wrapper = document.querySelector('.gtranslate_wrapper');
+      if (wrapper) wrapper.innerHTML = '';
+ 
+      window.gtranslateSettings = {
+        default_language: "en",
+        languages: ["en", "de"],
+        wrapper_selector: ".gtranslate_wrapper",
+        flag_size: 16,
+        switcher_horizontal_position: "inline",
+        flag_style: "3d"
+      };
+ 
+      const old = document.querySelector('script[src*="gtranslate"]');
+      if (old) old.remove();
+ 
+      const s = document.createElement('script');
+      s.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+      document.body.appendChild(s);
+    }, 300);
+ 
+    return () => clearTimeout(timer);
+  }, [pathname]);
+ 
   return (
     <>
       <header className="header">
@@ -184,5 +212,5 @@ const Header = () => {
     </>
   );
 };
-
+ 
 export default Header;
