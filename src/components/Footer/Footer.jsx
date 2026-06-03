@@ -196,7 +196,7 @@ const currentYear = currentDate.getFullYear();
   <li>
   <div className="location-item">
     <Link href={"/"} className="location-item">
-<img src="https://teams.live.com/4dc833d0-6ba9-421b-8a5b-184f50d40a59 alt="pakistan-flag" width={35} height={23} />
+<img src="https://teams.live.com/4dc833d0-6ba9-421b-8a5b-184f50d40a59" alt="pakistan-flag" width={35} height={23} />
     <span>
       <strong>Head Office</strong>
       <em>Karachi, Pakistan</em>
