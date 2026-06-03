@@ -348,6 +348,27 @@ p.para.text-center {
     gap: 29px;
   }
   */
+  .footer-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+}
+
+/* Company, Services, Quick Links center */
+.footer-navigation {
+  text-align: center !important;
+}
+
+.footer-navigation ul {
+  display: block !important;
+  width: 100%;
+}
+
+.footer-navigation ul li a {
+  display: block !important;
+  text-align: center !important;
+}
   .footer-content ul li {
     margin-bottom: 0;
   }
