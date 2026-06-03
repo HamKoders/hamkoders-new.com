@@ -372,8 +372,8 @@ html[lang="de"] .header .dropdown-menu {
 /* ===== MEGA MENU INNER PAGES FIX ===== */
 .header .dropdown-menu {
   position: fixed;
-  top: 90px;
-  left: 50%;
+  top: 50px;
+  left: 20%;
   transform: translateX(-50%);
   margin-left: calc(17vw + 50%) !important;
 }
