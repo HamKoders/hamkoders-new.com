@@ -369,3 +369,51 @@ p, li, a {
 html[lang="de"] .header .dropdown-menu {
   margin-left: calc(17vw + 50%);
 }
+/* ===== MEGA MENU INNER PAGES FIX ===== */
+.header .dropdown-menu {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0 !important;
+}
+
+@media(max-width:1536px) {
+  .header .dropdown-menu {
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0 !important;
+  }
+}
+
+@media(max-width:1440px) {
+  .header .dropdown-menu {
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0 !important;
+  }
+}
+
+@media(max-width:1366px) {
+  .header .dropdown-menu {
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50__);
+    margin-left: 0 !important;
+  }
+}
+
+@media(max-width:1330px) {
+  .header .dropdown-menu {
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0 !important;
+  }
+}
+
+html[lang="de"] .header .dropdown-menu {
+  margin-left: 0 !important;
+}
