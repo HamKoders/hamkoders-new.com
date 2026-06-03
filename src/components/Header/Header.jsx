@@ -19,19 +19,13 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const reinitTranslate = () => {
-      if (window.gtranslateSettings) {
-        const wrapper = document.querySelector('.gtranslate_wrapper');
-        if (wrapper) {
-          wrapper.innerHTML = '';
-        }
-        if (window.doGTranslate) {
-          window.doGTranslate('en|en');
-        }
+    const timer = setTimeout(() => {
+      if (typeof window !== 'undefined' && window.gtranslateSettings) {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+        document.body.appendChild(script);
       }
-    };
-
-    const timer = setTimeout(reinitTranslate, 300);
+    }, 300);
     return () => clearTimeout(timer);
   }, [pathname]);
 
@@ -43,9 +37,6 @@ const Header = () => {
       <Script 
         src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
         strategy="afterInteractive"
-        onLoad={() => {
-          console.log('GTranslate loaded');
-        }}
       />
     
       <header className="header">
