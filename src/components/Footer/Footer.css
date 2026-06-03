@@ -477,21 +477,10 @@ html[lang="de"] .footer-navigation h3 {
 }
 @media (max-width: 768px) {
 
-  .footer-content ul {
-    justify-content: center !important;
-  }
+.footer-border .col-lg-3:first-child .footer-navigation h3 {
+  padding-left: 60px;
+}
 
-  .footer-navigation {
-    text-align: center !important;
-  }
-
-  .footer-navigation ul {
-    padding: 0 !important;
-    margin: 0 auto !important;
-    list-style: none !important;
-  }
-
-  .footer-navigation ul li {
-    text-align: center !important;
-  }
+.footer-border .col-lg-3:first-child .footer-navigation ul {
+  padding-left: 50px !important;
 }
