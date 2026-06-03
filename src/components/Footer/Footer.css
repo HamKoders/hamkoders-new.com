@@ -439,6 +439,18 @@ html[lang="de"] .footer-navigation h3 {
   font-size: 22px;
   white-space: normal;
 }
-.footer-content h3 {
-  text-align: center;
+@media (max-width: 768px) {
+
+  .footer-bottom-row > div:last-child .footer-content {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+
+  .footer-bottom-row > div:last-child {
+    justify-content: center !important;
+  }
+
+  .footer-content ul {
+    justify-content: center !important;
+  }
 }
