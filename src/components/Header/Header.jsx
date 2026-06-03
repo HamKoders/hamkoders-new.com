@@ -10,27 +10,34 @@ import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 const Header = () => {
   const pathname = usePathname();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // Pehle purane duplicate scripts hatao
-      const existingScripts = document.querySelectorAll('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
-      if (existingScripts.length > 1) {
-        // Extra scripts hatao, sirf pehla rakho
-        for (let i = 1; i < existingScripts.length; i++) {
-          existingScripts[i].remove();
-        }
-      }
+useEffect(() => {
+  const timer = setTimeout(() => {
+    const wrapper = document.querySelector('.gtranslate_wrapper');
+    if (wrapper) {
+      wrapper.innerHTML = '';
+    }
 
-      // Wrapper reset karo
-      const wrapper = document.querySelector('.gtranslate_wrapper');
-      if (wrapper && wrapper.innerHTML === '') {
-        const script = document.createElement('script');
-        script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
-        document.body.appendChild(script);
-      }
-    }, 200);
-    return () => clearTimeout(timer);
-  }, [pathname]);
+    // Settings reset karo
+    window.gtranslateSettings = {
+      default_language: "en",
+      languages: ["en", "de"],
+      wrapper_selector: ".gtranslate_wrapper",
+      flag_size: 16,
+      switcher_horizontal_position: "inline",
+      flag_style: "3d"
+    };
+
+    // Script dobara load karo
+    const oldScript = document.querySelector('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
+    if (oldScript) oldScript.remove();
+
+    const script = document.createElement('script');
+    script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+    document.body.appendChild(script);
+  }, 300);
+
+  return () => clearTimeout(timer);
+}, [pathname]);
 
   return (
     <>
