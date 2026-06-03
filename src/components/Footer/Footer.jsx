@@ -100,7 +100,7 @@ const currentYear = currentDate.getFullYear();
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
                       <h3 style={{paddingLeft: "60px"}}>Company</h3>
-                      <ul>
+                      <ul style={{paddingLeft: "50px"}}>
                         <li>
                           <Link href={"/about"}>About us</Link>
                         </li>
