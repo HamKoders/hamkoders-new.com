@@ -259,7 +259,7 @@ const currentYear = currentDate.getFullYear();
                          </li>
                         {/* <li>
                          <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
-                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginRight: "8px" }} />
+                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginleft: 22px" }} />
                             Austria
                           </Link>
                         </li>  */}
