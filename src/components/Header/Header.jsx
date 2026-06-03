@@ -1,12 +1,15 @@
 "use client";
 import Script from 'next/script'
-import React from "react";
+import React, { useEffect } from "react";
+import { usePathname } from 'next/navigation';
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
+  const pathname = usePathname();
+
   const translatePage = (lang) => {
     const select = document.querySelector('.goog-te-combo');
     if (select) {
@@ -15,601 +18,367 @@ const Header = () => {
     } 
   };
 
+  useEffect(() => {
+    const reinitTranslate = () => {
+      if (window.gtranslateSettings) {
+        const wrapper = document.querySelector('.gtranslate_wrapper');
+        if (wrapper) {
+          wrapper.innerHTML = '';
+        }
+        if (window.doGTranslate) {
+          window.doGTranslate('en|en');
+        }
+      }
+    };
+
+    const timer = setTimeout(reinitTranslate, 300);
+    return () => clearTimeout(timer);
+  }, [pathname]);
+
   return (
     <>
-     
-<Script id="gtranslate-settings" strategy="afterInteractive">
-  {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","flag_style":"3d"}`}
-</Script>
-<Script 
-  src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
-  strategy="afterInteractive"
-/>
+      <Script id="gtranslate-settings" strategy="afterInteractive">
+        {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","flag_style":"3d"}`}
+      </Script>
+      <Script 
+        src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          console.log('GTranslate loaded');
+        }}
+      />
     
-    <header className="header">
-      <div className="container">  
-        <div className="row">
-          <div className="col-lg-12">
-            <nav className="navbar navbar-expand-lg navbar-light">
-              <div className="container-fluid">
-                <Link className="navbar-brand" href="/">
-                  <Image
-                    src={LOGO_IMAGE}
-                    width={93}
-                    height={90}
-                    alt="LOGO_IMAGE"
-                  />
-                </Link>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul className="navbar-nav m-auto">
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link active"
-                        aria-current="page"
-                        href="/"
-                      >
-                        Home
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li className="nav-item mobile-service-item">
-                      <Link className="nav-link" href="/services">
-                        Services
-                      </Link>
-                    </li>
-                    <li className="nav-item lap-service-item dropdown">
-                      <Link
-                        className="nav-link dropdown-toggle"
-                        href="/services"
-                        id="navbarDropdown"
-                        // role="button"
-                        // data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Services
-                      </Link>
-                      <ul
-                        className="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                      >
-                        <div className="row">
-                          <div className="col-lg-6">
-                            <div className="row">
-                              <div className="col-lg-6">
-                                <div className="services-drop">
-                                  <h3>
-                                    <Link href={"/website-development"}>
-                                      Web Development
-                                    </Link>
-                                  </h3>
-                                  <ul>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/custom-website-development"
-                                        }
-                                      >
-                                        Custom website development
+      <header className="header">
+        <div className="container">  
+          <div className="row">
+            <div className="col-lg-12">
+              <nav className="navbar navbar-expand-lg navbar-light">
+                <div className="container-fluid">
+                  <Link className="navbar-brand" href="/">
+                    <Image
+                      src={LOGO_IMAGE}
+                      width={93}
+                      height={90}
+                      alt="LOGO_IMAGE"
+                    />
+                  </Link>
+                  <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    className="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul className="navbar-nav m-auto">
+                      <li className="nav-item">
+                        <Link
+                          className="nav-link active"
+                          aria-current="page"
+                          href="/"
+                        >
+                          Home
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link className="nav-link" href="/about">
+                          About
+                        </Link>
+                      </li>
+                      <li className="nav-item mobile-service-item">
+                        <Link className="nav-link" href="/services">
+                          Services
+                        </Link>
+                      </li>
+                      <li className="nav-item lap-service-item dropdown">
+                        <Link
+                          className="nav-link dropdown-toggle"
+                          href="/services"
+                          id="navbarDropdown"
+                          aria-expanded="false"
+                        >
+                          Services
+                        </Link>
+                        <ul
+                          className="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <div className="row">
+                            <div className="col-lg-6">
+                              <div className="row">
+                                <div className="col-lg-6">
+                                  <div className="services-drop">
+                                    <h3>
+                                      <Link href={"/website-development"}>
+                                        Web Development
                                       </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/enterprise-web-development"
-                                        }
-                                      >
-                                        Enterprise web development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/web-app-development"
-                                        }
-                                      >
-                                        Web app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/frontend-development"
-                                        }
-                                      >
-                                        Front-end development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/backend-development"
-                                        }
-                                      >
-                                        Backend development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/fullstack-development"
-                                        }
-                                      >
-                                        Full-Stack development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/landing-page-development"
-                                        }
-                                      >
-                                        Landing Page development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/web3.0-development"
-                                        }
-                                      >
-                                        Web 3.0 Development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/website-development/website-maintenance"
-                                        }
-                                      >
-                                        Website maintenance
-                                      </Link>
-                                    </li>
-                                  </ul>
+                                    </h3>
+                                    <ul>
+                                      <li>
+                                        <Link href={"/website-development/custom-website-development"}>
+                                          Custom website development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/enterprise-web-development"}>
+                                          Enterprise web development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/web-app-development"}>
+                                          Web app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/frontend-development"}>
+                                          Front-end development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/backend-development"}>
+                                          Backend development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/fullstack-development"}>
+                                          Full-Stack development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/landing-page-development"}>
+                                          Landing Page development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/web3.0-development"}>
+                                          Web 3.0 Development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/website-development/website-maintenance"}>
+                                          Website maintenance
+                                        </Link>
+                                      </li>
+                                    </ul>
+                                  </div>
                                 </div>
-                              </div>
-                              <div className="col-lg-6">
-                                <div className="services-drop">
-                                  <h3>
-                                    <Link href={"/app-development"}>
-                                      App development
-                                    </Link>
-                                  </h3>
-                                  <ul>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/ios-app-development"
-                                        }
-                                      >
-                                        iOS app development
+                                <div className="col-lg-6">
+                                  <div className="services-drop">
+                                    <h3>
+                                      <Link href={"/app-development"}>
+                                        App development
                                       </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/android-app-development"
-                                        }
-                                      >
-                                        Android app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/cross-platform-app-development"
-                                        }
-                                      >
-                                        Cross-platform app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/hybrid-app-development"
-                                        }
-                                      >
-                                        Hybrid app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/saas-app-development"
-                                        }
-                                      >
-                                        Saas app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/mvp-app-development"
-                                        }
-                                      >
-                                        MVP app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={"/app-development/concept-design"}
-                                      >
-                                        Concept design
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/wearable-app-development"
-                                        }
-                                      >
-                                        Wearable app development
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/app-development/app-maintenance"
-                                        }
-                                      >
-                                        App maintenance
-                                      </Link>
-                                    </li>
-                                  </ul>
+                                    </h3>
+                                    <ul>
+                                      <li>
+                                        <Link href={"/app-development/ios-app-development"}>
+                                          iOS app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/android-app-development"}>
+                                          Android app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/cross-platform-app-development"}>
+                                          Cross-platform app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/hybrid-app-development"}>
+                                          Hybrid app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/saas-app-development"}>
+                                          Saas app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/mvp-app-development"}>
+                                          MVP app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/concept-design"}>
+                                          Concept design
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/wearable-app-development"}>
+                                          Wearable app development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/app-development/app-maintenance"}>
+                                          App maintenance
+                                        </Link>
+                                      </li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="row">
-                              <div className="col-lg-6">
-                                <div className="services-drop">
-                                  <h3>
-                                    <Link href={"/brand-service"}>
-                                      Branding
-                                    </Link>
-                                  </h3>
-                                  <ul>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/brand-strategy-development"
-                                        }
-                                      >
-                                        Brand Strategy Development
+                            <div className="col-lg-6">
+                              <div className="row">
+                                <div className="col-lg-6">
+                                  <div className="services-drop">
+                                    <h3>
+                                      <Link href={"/brand-service"}>
+                                        Branding
                                       </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/logo-visual-identity-design"
-                                        }
-                                      >
-                                        Logo & Visual Identity Design
+                                    </h3>
+                                    <ul>
+                                      <li>
+                                        <Link href={"/brand-service/brand-strategy-development"}>
+                                          Brand Strategy Development
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/brand-service/logo-visual-identity-design"}>
+                                          Logo & Visual Identity Design
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/brand-service/brand-guidelines-style-guide"}>
+                                          Brand Guidelines & Style Guide
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/brand-service/corporate-identity-design"}>
+                                          Corporate Identity Design
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/brand-service/rebranding-services"}>
+                                          Rebranding Services
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/brand-service/packaging-product-branding"}>
+                                          Packaging & Product Branding
+                                        </Link>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div className="col-lg-6">
+                                  <div className="services-drop">
+                                    <h3>
+                                      <Link href={"/digital-marketing"}>
+                                        Digital Marketing
                                       </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/brand-guidelines-style-guide"
-                                        }
-                                      >
-                                        Brand Guidelines & Style Guide
+                                    </h3>
+                                    <ul>
+                                      <li>
+                                        <Link href={"/digital-marketing/search-engine-optimization"}>
+                                          Search Engine Optimization (SEO)
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/digital-marketing/social-media-marketing"}>
+                                          Social Media Marketing (SMM)
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/digital-marketing/pay-per-click-advertising"}>
+                                          Pay-Per-Click Advertising (PPC)
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/digital-marketing/google-meta-ads-management"}>
+                                          Google & Meta Ads Management
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/digital-marketing/content-marketing"}>
+                                          Content Marketing
+                                        </Link>
+                                      </li>
+                                      <li>
+                                        <Link href={"/digital-marketing/email-marketing-campaigns"}>
+                                          Email Marketing Campaigns
+                                        </Link>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div className="col-lg-12">
+                                  <div className="services-drop-cta1">
+                                    <h3>
+                                      <Link href={"/software-development"}>
+                                        Software <span>Development</span>
                                       </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/corporate-identity-design"
-                                        }
-                                      >
-                                        Corporate Identity Design
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/rebranding-services"
-                                        }
-                                      >
-                                        Rebranding Services
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/brand-service/packaging-product-branding"
-                                        }
-                                      >
-                                        Packaging & Product Branding
-                                      </Link>
-                                    </li>
-                                  </ul>
+                                    </h3>
+                                    <div className="services-drop-flex">
+                                      <ul>
+                                        <li>
+                                          <Link href={"/software-development/erp-development"} className="global-btn-outline">
+                                            ERP Development
+                                          </Link>
+                                        </li>
+                                        <li>
+                                          <Link href={"/software-development/erm-development"} className="global-btn-outline">
+                                            ERM Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                      <ul>
+                                        <li>
+                                          <Link href={"/software-development/crm-development"} className="global-btn-outline">
+                                            CRM Development
+                                          </Link>
+                                        </li>
+                                        <li>
+                                          <Link href={"/software-development/cms-development"} className="global-btn-outline">
+                                            CMS Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div className="col-lg-6">
-                                <div className="services-drop">
-                                  <h3>
-                                    <Link href={"/digital-marketing"}>
-                                      Digital Marketing
-                                    </Link>
-                                  </h3>
-                                  <ul>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/search-engine-optimization"
-                                        }
-                                      >
-                                        Search Engine Optimization (SEO)
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/social-media-marketing"
-                                        }
-                                      >
-                                        Social Media Marketing (SMM)
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/pay-per-click-advertising"
-                                        }
-                                      >
-                                        Pay-Per-Click Advertising (PPC)
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/google-meta-ads-management"
-                                        }
-                                      >
-                                        Google & Meta Ads Management
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/content-marketing"
-                                        }
-                                      >
-                                        Content Marketing
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        href={
-                                          "/digital-marketing/email-marketing-campaigns"
-                                        }
-                                      >
-                                        Email Marketing Campaigns
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                              <div className="col-lg-12">
-                                <div className="services-drop-cta1">
-                              <h3>
-                                <Link href={"/software-development"}>
-                                  Software <span>Development</span>
-                                </Link>
-                              </h3>
-                              <div className="services-drop-flex">
-                                <ul>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/erp-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      ERP Development
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/erm-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      ERM Development
-                                    </Link>
-                                  </li>
-                                </ul>
-                                <ul>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/crm-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      CRM Development
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/cms-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      CMS Development
-                                    </Link>
-                                  </li>
-                                </ul>
-                              </div>
                             </div>
-                              </div>
+                            <div className="col-lg-12">
                             </div>
                           </div>
-                          <div className="col-lg-12">
-                            {/* <div className="services-drop-cta1">
-                              <h3>
-                                <Link href={"/software-development"}>
-                                  Software <span>Development</span>
-                                </Link>
-                              </h3>
-                              <div className="services-drop-flex">
-                                <ul>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/erp-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      ERP Development
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/erm-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      ERM Development
-                                    </Link>
-                                  </li>
-                                </ul>
-                                <ul>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/crm-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      CRM Development
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link
-                                      href={
-                                        "/software-development/cms-development"
-                                      }
-                                      className="global-btn-outline"
-                                    >
-                                      CMS Development
-                                    </Link>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div> */}
-                            {/* <div className="services-drop">
-                              <h3>
-                                <Link href={"/software-development"}>
-                                  Software <span>Development</span>
-                                </Link>
-                              </h3>
-                              <ul>
-                                <li>
-                                  <Link
-                                    href={
-                                      "/software-development/erp-development"
-                                    }
-                                  >
-                                    ERP Development
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link
-                                    href={
-                                      "/software-development/erm-development"
-                                    }
-                                  >
-                                    ERM Development
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link
-                                    href={
-                                      "/software-development/crm-development"
-                                    }
-                                  >
-                                    CRM Development
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link
-                                    href={
-                                      "/software-development/cms-development"
-                                    }
-                                  >
-                                    CMS Development
-                                  </Link>
-                                </li>
-                              </ul>
-                            </div> */}
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/industries">
-                        Industries
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/portfolio">
-                        Portfolio
-                      </Link>
-                    </li>
-                    {/* <li className="nav-item">
-                      <Link className="nav-link" href="/blogs">
-                        Blogs
-                      </Link>
-                    </li> */}
-                  </ul>
-                  {/* <div className="header-right-btn">
-                   <Link href={"/contact-us"}>Contact Us</Link>
-                      <div id="google_translate_element" style={{display:"none"}}></div>
-                       <div className="lang-switcher">
-                          <button onClick={() => translatePage('en')}>EN</button>
-                            <span>|</span>
-                               <button onClick={() => translatePage('de')}>DE</button> 
-                     </div>
-                  </div> */}
-                  
-                  <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
-                  
-                  <div className="header-right-btn">
-                  <Link href={"/contact-us"}>Contact Us</Link>
+                        </ul>
+                      </li>
+                      <li className="nav-item">
+                        <Link className="nav-link" href="/industries">
+                          Industries
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link className="nav-link" href="/portfolio">
+                          Portfolio
+                        </Link>
+                      </li>
+                    </ul>
+                    
+                    <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
+                    
+                    <div className="header-right-btn">
+                      <Link href={"/contact-us"}>Contact Us</Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </nav>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-  </>
+      </header>
+    </>
   );
 };
 
 export default Header;
-
