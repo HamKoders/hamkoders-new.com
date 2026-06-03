@@ -456,37 +456,21 @@ html[lang="de"] .footer-navigation h3 {
 }
 @media (max-width: 768px) {
 
-  /* Company section force center */
-  .footer-navigation,
-  .footer-navigation * {
-    text-align: center !important;
+  .footer-content ul {
+    justify-content: center !important;
   }
 
   .footer-navigation {
-    width: 100% !important;
-    margin: 0 auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-
-  .footer-navigation ul {
-    width: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 8px !important;
-  }
-
-  .footer-navigation ul li {
-    width: 100% !important;
     text-align: center !important;
   }
 
-  .footer-navigation ul li a {
-    display: inline-block !important;
+  .footer-navigation ul {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    list-style: none !important;
+  }
+
+  .footer-navigation ul li {
     text-align: center !important;
   }
 }
