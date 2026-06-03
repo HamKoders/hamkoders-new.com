@@ -1,47 +1,12 @@
 "use client";
 import Script from 'next/script'
-import React, { useEffect } from "react";
-import { usePathname } from 'next/navigation';
+import React from "react";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
-  const pathname = usePathname();
-
-  const translatePage = (lang) => {
-    const select = document.querySelector('.goog-te-combo');
-    if (select) {
-      select.value = lang;
-      select.dispatchEvent(new Event('change'));
-    } 
-  };
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     if (typeof window !== 'undefined' && window.gtranslateSettings) {
-  //       const script = document.createElement('script');
-  //       script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
-  //       document.body.appendChild(script);
-  //     }
-  //   }, 300);
-  //   return () => clearTimeout(timer);
-  // }, [pathname]);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      if (typeof window !== 'undefined' && window.gtranslateSettings) {
-        // Check karo ke script already exist karta hai ya nahi
-        const existingScript = document.querySelector('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
-        if (!existingScript) {
-          const script = document.createElement('script');
-          script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
-          document.body.appendChild(script);
-        }
-      }
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [pathname]);
 
   return (
     <>
