@@ -477,10 +477,14 @@ html[lang="de"] .footer-navigation h3 {
 }
 @media (max-width: 768px) {
 
-.col-lg-3:first-child .footer-navigation h3 {
+.footer-navigation
+  .col-lg-3:first-child 
+  .footer-navigation h3 {
   padding-left: 60px;
 }
  
-.col-lg-3:first-child .footer-navigation ul {
+.footer-navigation
+  .col-lg-3:first-child 
+  .footer-navigation ul {
   padding-left: 50px !important;
 }
