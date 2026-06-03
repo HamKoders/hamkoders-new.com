@@ -439,3 +439,6 @@ html[lang="de"] .footer-navigation h3 {
   font-size: 22px;
   white-space: normal;
 }
+.footer-content h3 {
+  text-align: center;
+}
