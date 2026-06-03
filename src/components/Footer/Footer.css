@@ -501,6 +501,7 @@ html[lang="de"] .footer-navigation h3 {
   color: #D41423;
   margin-left: 22px!important;
 }
-.footer-content ul li a {
-  margin-right: 22px!important;
+.email-icon {
+  margin-right: 0 !important;
+  margin-left: 22px !important;
 }
