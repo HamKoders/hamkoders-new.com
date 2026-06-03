@@ -497,3 +497,7 @@ html[lang="de"] .footer-navigation h3 {
 .location-item em {
   text-align: left!important;
 }
+.contact-email-icon {
+  color: #D41423;
+  margin-left: 22px;
+}
