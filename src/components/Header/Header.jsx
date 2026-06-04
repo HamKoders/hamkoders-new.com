@@ -1,12 +1,31 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
+  const pathname = usePathname();
+
+useEffect(() => {
+  const selectedLang =
+    document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("googtrans="))
+      ?.split("=")[1];
+
+  setTimeout(() => {
+    if (
+      selectedLang &&
+      selectedLang !== "/en/en"
+    ) {
+      window.location.reload();
+    }
+  }, 300);
+}, [pathname]);
   return (
     <>
       <header className="header">
