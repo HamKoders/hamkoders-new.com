@@ -1,5 +1,4 @@
 "use client";
-import Script from 'next/script'
 import React, { useEffect } from "react";
 import { usePathname } from 'next/navigation';
 import "./Header.css";
@@ -11,11 +10,9 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const initGTranslate = () => {
       const wrapper = document.querySelector('.gtranslate_wrapper');
-      if (wrapper) {
-        wrapper.innerHTML = '';
-      }
+      if (wrapper) wrapper.innerHTML = '';
 
       window.gtranslateSettings = {
         default_language: "en",
@@ -26,23 +23,21 @@ const Header = () => {
         flag_style: "3d"
       };
 
-      const oldScript = document.querySelector('script[src="https://cdn.gtranslate.net/widgets/latest/dwf.js"]');
-      if (oldScript) oldScript.remove();
+      document.querySelectorAll('script[src*="gtranslate"]').forEach(s => s.remove());
 
       const script = document.createElement('script');
       script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
+      script.defer = true;
       document.body.appendChild(script);
-    }, 300);
+    };
 
+    const timer = setTimeout(initGTranslate, 200);
     return () => clearTimeout(timer);
+
   }, [pathname]);
 
   return (
     <>
-      <Script id="gtranslate-settings" strategy="afterInteractive">
-        {`window.gtranslateSettings = {"default_language":"en","languages":["en","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","flag_style":"3d"}`}
-      </Script>
-    
       <header className="header">
         <div className="container">  
           <div className="row">
