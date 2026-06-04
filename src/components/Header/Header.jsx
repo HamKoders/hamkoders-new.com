@@ -1,32 +1,12 @@
 "use client";
 import React, { useEffect } from "react";
-import { usePathname } from 'next/navigation';
 import "./Header.css";
-import Link from "next/link";
 import Image from "next/image";
 import LOGO_IMAGE from "../../../public/images/Logo-1.png";
 
 const Header = () => {
-  const pathname = usePathname();
 
   useEffect(() => {
-  const initGTranslate = () => {
-    // Step 1: Wrapper clear karo
-    const wrapper = document.querySelector('.gtranslate_wrapper');
-    if (wrapper) wrapper.innerHTML = '';
-
-    // Step 2: GTranslate ke saare global variables reset karo
-    delete window.doGTranslate;
-    delete window.GTranslateGetCurrentLang;
-    delete window.GTranslateFireEvent;
-
-    // Step 3: Saari purani scripts hatao
-    document.querySelectorAll('script[src*="gtranslate"]').forEach(s => s.remove());
-
-    // Step 4: Google translate cookie reset (optional but helps)
-    document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-    // Step 5: Settings set karo
     window.gtranslateSettings = {
       default_language: "en",
       languages: ["en", "de"],
@@ -36,34 +16,29 @@ const Header = () => {
       flag_style: "3d"
     };
 
-    // Step 6: Cache bust karke fresh script inject karo
+    document.querySelectorAll('script[src*="gtranslate"]').forEach(s => s.remove());
+
     const script = document.createElement('script');
-    script.src = `https://cdn.gtranslate.net/widgets/latest/dwf.js?v=${Date.now()}`;
-    script.defer = true;
+    script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
     document.body.appendChild(script);
-  };
-
-  const timer = setTimeout(initGTranslate, 300);
-  return () => clearTimeout(timer);
-
-}, [pathname]);
+  }, []);
 
   return (
     <>
       <header className="header">
-        <div className="container">  
+        <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                  <Link className="navbar-brand" href="/">
+                  <a className="navbar-brand" href="/">
                     <Image
                       src={LOGO_IMAGE}
                       width={93}
                       height={90}
                       alt="LOGO_IMAGE"
                     />
-                  </Link>
+                  </a>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -81,33 +56,29 @@ const Header = () => {
                   >
                     <ul className="navbar-nav m-auto">
                       <li className="nav-item">
-                        <Link
-                          className="nav-link active"
-                          aria-current="page"
-                          href="/"
-                        >
+                        <a className="nav-link active" aria-current="page" href="/">
                           Home
-                        </Link>
+                        </a>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/about">
+                        <a className="nav-link" href="/about">
                           About
-                        </Link>
+                        </a>
                       </li>
                       <li className="nav-item mobile-service-item">
-                        <Link className="nav-link" href="/services">
+                        <a className="nav-link" href="/services">
                           Services
-                        </Link>
+                        </a>
                       </li>
                       <li className="nav-item lap-service-item dropdown">
-                        <Link
+                        
                           className="nav-link dropdown-toggle"
                           href="/services"
                           id="navbarDropdown"
                           aria-expanded="false"
                         >
                           Services
-                        </Link>
+                        </a>
                         <ul
                           className="dropdown-menu"
                           aria-labelledby="navbarDropdown"
@@ -118,55 +89,55 @@ const Header = () => {
                                 <div className="col-lg-6">
                                   <div className="services-drop">
                                     <h3>
-                                      <Link href={"/website-development"}>
+                                      <a href="/website-development">
                                         Web Development
-                                      </Link>
+                                      </a>
                                     </h3>
                                     <ul>
                                       <li>
-                                        <Link href={"/website-development/custom-website-development"}>
+                                        <a href="/website-development/custom-website-development">
                                           Custom website development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/enterprise-web-development"}>
+                                        <a href="/website-development/enterprise-web-development">
                                           Enterprise web development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/web-app-development"}>
+                                        <a href="/website-development/web-app-development">
                                           Web app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/frontend-development"}>
+                                        <a href="/website-development/frontend-development">
                                           Front-end development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/backend-development"}>
+                                        <a href="/website-development/backend-development">
                                           Backend development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/fullstack-development"}>
+                                        <a href="/website-development/fullstack-development">
                                           Full-Stack development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/landing-page-development"}>
+                                        <a href="/website-development/landing-page-development">
                                           Landing Page development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/web3.0-development"}>
+                                        <a href="/website-development/web3.0-development">
                                           Web 3.0 Development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/website-development/website-maintenance"}>
+                                        <a href="/website-development/website-maintenance">
                                           Website maintenance
-                                        </Link>
+                                        </a>
                                       </li>
                                     </ul>
                                   </div>
@@ -174,55 +145,55 @@ const Header = () => {
                                 <div className="col-lg-6">
                                   <div className="services-drop">
                                     <h3>
-                                      <Link href={"/app-development"}>
+                                      <a href="/app-development">
                                         App development
-                                      </Link>
+                                      </a>
                                     </h3>
                                     <ul>
                                       <li>
-                                        <Link href={"/app-development/ios-app-development"}>
+                                        <a href="/app-development/ios-app-development">
                                           iOS app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/android-app-development"}>
+                                        <a href="/app-development/android-app-development">
                                           Android app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/cross-platform-app-development"}>
+                                        <a href="/app-development/cross-platform-app-development">
                                           Cross-platform app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/hybrid-app-development"}>
+                                        <a href="/app-development/hybrid-app-development">
                                           Hybrid app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/saas-app-development"}>
+                                        <a href="/app-development/saas-app-development">
                                           Saas app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/mvp-app-development"}>
+                                        <a href="/app-development/mvp-app-development">
                                           MVP app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/concept-design"}>
+                                        <a href="/app-development/concept-design">
                                           Concept design
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/wearable-app-development"}>
+                                        <a href="/app-development/wearable-app-development">
                                           Wearable app development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/app-development/app-maintenance"}>
+                                        <a href="/app-development/app-maintenance">
                                           App maintenance
-                                        </Link>
+                                        </a>
                                       </li>
                                     </ul>
                                   </div>
@@ -234,40 +205,40 @@ const Header = () => {
                                 <div className="col-lg-6">
                                   <div className="services-drop">
                                     <h3>
-                                      <Link href={"/brand-service"}>
+                                      <a href="/brand-service">
                                         Branding
-                                      </Link>
+                                      </a>
                                     </h3>
                                     <ul>
                                       <li>
-                                        <Link href={"/brand-service/brand-strategy-development"}>
+                                        <a href="/brand-service/brand-strategy-development">
                                           Brand Strategy Development
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/brand-service/logo-visual-identity-design"}>
+                                        <a href="/brand-service/logo-visual-identity-design">
                                           Logo & Visual Identity Design
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/brand-service/brand-guidelines-style-guide"}>
+                                        <a href="/brand-service/brand-guidelines-style-guide">
                                           Brand Guidelines & Style Guide
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/brand-service/corporate-identity-design"}>
+                                        <a href="/brand-service/corporate-identity-design">
                                           Corporate Identity Design
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/brand-service/rebranding-services"}>
+                                        <a href="/brand-service/rebranding-services">
                                           Rebranding Services
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/brand-service/packaging-product-branding"}>
+                                        <a href="/brand-service/packaging-product-branding">
                                           Packaging & Product Branding
-                                        </Link>
+                                        </a>
                                       </li>
                                     </ul>
                                   </div>
@@ -275,40 +246,40 @@ const Header = () => {
                                 <div className="col-lg-6">
                                   <div className="services-drop">
                                     <h3>
-                                      <Link href={"/digital-marketing"}>
+                                      <a href="/digital-marketing">
                                         Digital Marketing
-                                      </Link>
+                                      </a>
                                     </h3>
                                     <ul>
                                       <li>
-                                        <Link href={"/digital-marketing/search-engine-optimization"}>
+                                        <a href="/digital-marketing/search-engine-optimization">
                                           Search Engine Optimization (SEO)
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/digital-marketing/social-media-marketing"}>
+                                        <a href="/digital-marketing/social-media-marketing">
                                           Social Media Marketing (SMM)
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/digital-marketing/pay-per-click-advertising"}>
+                                        <a href="/digital-marketing/pay-per-click-advertising">
                                           Pay-Per-Click Advertising (PPC)
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/digital-marketing/google-meta-ads-management"}>
+                                        <a href="/digital-marketing/google-meta-ads-management">
                                           Google & Meta Ads Management
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/digital-marketing/content-marketing"}>
+                                        <a href="/digital-marketing/content-marketing">
                                           Content Marketing
-                                        </Link>
+                                        </a>
                                       </li>
                                       <li>
-                                        <Link href={"/digital-marketing/email-marketing-campaigns"}>
+                                        <a href="/digital-marketing/email-marketing-campaigns">
                                           Email Marketing Campaigns
-                                        </Link>
+                                        </a>
                                       </li>
                                     </ul>
                                   </div>
@@ -316,33 +287,33 @@ const Header = () => {
                                 <div className="col-lg-12">
                                   <div className="services-drop-cta1">
                                     <h3>
-                                      <Link href={"/software-development"}>
+                                      <a href="/software-development">
                                         Software <span>Development</span>
-                                      </Link>
+                                      </a>
                                     </h3>
                                     <div className="services-drop-flex">
                                       <ul>
                                         <li>
-                                          <Link href={"/software-development/erp-development"} className="global-btn-outline">
+                                          <a href="/software-development/erp-development" className="global-btn-outline">
                                             ERP Development
-                                          </Link>
+                                          </a>
                                         </li>
                                         <li>
-                                          <Link href={"/software-development/erm-development"} className="global-btn-outline">
+                                          <a href="/software-development/erm-development" className="global-btn-outline">
                                             ERM Development
-                                          </Link>
+                                          </a>
                                         </li>
                                       </ul>
                                       <ul>
                                         <li>
-                                          <Link href={"/software-development/crm-development"} className="global-btn-outline">
+                                          <a href="/software-development/crm-development" className="global-btn-outline">
                                             CRM Development
-                                          </Link>
+                                          </a>
                                         </li>
                                         <li>
-                                          <Link href={"/software-development/cms-development"} className="global-btn-outline">
+                                          <a href="/software-development/cms-development" className="global-btn-outline">
                                             CMS Development
-                                          </Link>
+                                          </a>
                                         </li>
                                       </ul>
                                     </div>
@@ -356,21 +327,21 @@ const Header = () => {
                         </ul>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/industries">
+                        <a className="nav-link" href="/industries">
                           Industries
-                        </Link>
+                        </a>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/portfolio">
+                        <a className="nav-link" href="/portfolio">
                           Portfolio
-                        </Link>
+                        </a>
                       </li>
                     </ul>
-                    
+
                     <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
-                    
+
                     <div className="header-right-btn">
-                      <Link href={"/contact-us"}>Contact Us</Link>
+                      <a href="/contact-us">Contact Us</a>
                     </div>
                   </div>
                 </div>
