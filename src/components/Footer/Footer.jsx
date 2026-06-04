@@ -35,16 +35,21 @@ const Footer = () => {
       const isGerman = document.cookie.includes('googtrans=/en/de') ||
                        document.documentElement.lang?.startsWith('de');
 
-      const h3s = document.querySelectorAll('.footer-navigation h3');
+      // Dono classes ke h3 target karo
+      const h3s = document.querySelectorAll('.footer-navigation h3, .footer-content h3');
       h3s.forEach(h3 => {
         if (isGerman) {
-          h3.style.fontSize = 'clamp(11px, 1vw, 15px)';
-          h3.style.wordBreak = 'normal';
+          h3.style.fontSize = 'clamp(10px, 1.1vw, 14px)';
+          h3.style.wordBreak = 'break-word';
           h3.style.whiteSpace = 'normal';
+          h3.style.lineHeight = '1.3';
+          h3.style.hyphens = 'auto';
         } else {
           h3.style.fontSize = '';
           h3.style.wordBreak = '';
           h3.style.whiteSpace = '';
+          h3.style.lineHeight = '';
+          h3.style.hyphens = '';
         }
       });
     };
