@@ -71,18 +71,18 @@ const Header = () => {
                         </a>
                       </li>
                       <li className="nav-item lap-service-item dropdown">
-                        
-                          className="nav-link dropdown-toggle"
-                          href="/services"
-                          id="navbarDropdown"
-                          aria-expanded="false"
-                        >
-                          Services
-                        </a>
-                        <ul
-                          className="dropdown-menu"
-                          aria-labelledby="navbarDropdown"
-                        >
+  
+    className="nav-link dropdown-toggle"
+    href="/services"
+    id="navbarDropdown"
+    aria-expanded="false"
+  >
+    Services
+  </a>
+  <ul
+    className="dropdown-menu"
+    aria-labelledby="navbarDropdown"
+  >
                           <div className="row">
                             <div className="col-lg-6">
                               <div className="row">
