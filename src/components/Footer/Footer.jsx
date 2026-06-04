@@ -88,8 +88,9 @@ const Footer = () => {
     }
   };
 
-const currentDate = new Date();
-const currentYear = currentDate.getFullYear();
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+
   return (
     <>
       <footer className="footer">
@@ -100,7 +101,7 @@ const currentYear = currentDate.getFullYear();
                 <div className="row footer-border gx-0">
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3>Company</h3>
+                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Company</h3>
                       <ul>
                         <li>
                           <Link href={"/about"}>About us</Link>
@@ -119,7 +120,7 @@ const currentYear = currentDate.getFullYear();
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3>Services</h3>
+                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Services</h3>
                       <ul>
                         <li>
                           <Link href={"/website-development"}>
@@ -130,9 +131,7 @@ const currentYear = currentDate.getFullYear();
                           <Link href={"/app-development"}>App Development</Link>
                         </li>
                         <li>
-                          <Link href={"/branding"}>
-                           Branding
-                          </Link>
+                          <Link href={"/branding"}>Branding</Link>
                         </li>
                         <li>
                           <Link href={"/digital-marketing"}>
@@ -144,7 +143,7 @@ const currentYear = currentDate.getFullYear();
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3>Software Dev</h3>
+                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Software Dev</h3>
                       <ul>
                         <li>
                           <Link href={"/software-development/erm-development"}>
@@ -171,7 +170,7 @@ const currentYear = currentDate.getFullYear();
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3>Quick Links</h3>
+                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Quick Links</h3>
                       <ul>
                         <li>
                           <Link href={"/terms-conditions"}>
@@ -193,77 +192,59 @@ const currentYear = currentDate.getFullYear();
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-content">
                       <h3>Locations</h3>
-                        <ul>
-  <li>
-  <div className="location-item">
-    <Link href={"/"} className="location-item">
-    <Image src={myImage} alt="my image" width={38} height={40} />
-    <span>
-      <strong>Head Office</strong>
-      <em>Karachi, Pakistan</em>
-    </span>
-    </Link>
-  </div>
-</li>
-<li>
-  <div className="location-item">
-    <Link href={"/"} className="location-item">
-   <img src="https://flagcdn.com/w40/at.png" alt="austria-flag" width={35} height={23} />
-    <span>
-      <strong>European Office</strong>
-      <em>Vienna, Austria</em>
-    </span>
-    </Link>
-  </div>
-</li>
-  </ul>
+                      <ul>
+                        <li>
+                          <div className="location-item">
+                            <Link href={"/"} className="location-item">
+                              <Image src={myImage} alt="my image" width={38} height={40} />
+                              <span>
+                                <strong>Head Office</strong>
+                                <em>Karachi, Pakistan</em>
+                              </span>
+                            </Link>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="location-item">
+                            <Link href={"/"} className="location-item">
+                              <img src="https://flagcdn.com/w40/at.png" alt="austria-flag" width={35} height={23} />
+                              <span>
+                                <strong>European Office</strong>
+                                <em>Vienna, Austria</em>
+                              </span>
+                            </Link>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <div className="footer-content text-center">
-                      <Link  className="text-center" href={"/"}>
+                      <Link className="text-center" href={"/"}>
                         <Image src={FooterLOGO} alt="footer-logo" />
                       </Link>
                       <p className="para">
-                         Hamkoders sets a new standard in branding, <br />
-                         digital innovation, and scalable tech solutions for global success.
- 
+                        Hamkoders sets a new standard in branding, <br />
+                        digital innovation, and scalable tech solutions for global success.
                       </p>
                     </div>
                   </div>
-              <div className="col-lg-3 col-md-6" >
+                  <div className="col-lg-3 col-md-6">
                     <div className="footer-content">
                       <h3>Contact</h3>
-                     <ul>
+                      <ul>
                         <li>
                           <Link href={"tel:8327890702"}>
-                            {/* <Image
-                              src={usFlag}
-                              alt="us-flag"
-                              className="me-2"
-                            />{" "} */}
-                            <FaPhone size={20} color="#D41423" style={{transform : "rotate(90deg)"}} />
+                            <FaPhone size={20} color="#D41423" style={{transform: "rotate(90deg)"}} />
                             (+92) 302 2800188
                           </Link>
                         </li>
-                        {/* <li>
+                        <li>
                           <Link href={"mailto:info@hamkoders.com"}>
-                          <FaEnvelope size={25} color="#D41423" />
+                            <MdEmail size={25} style={{color: "#D41423", marginLeft: "0px"}} className="email-icon" />
                             info@hamkoders.com
                           </Link>
-                        </li> */}
-                        <li>
-                        <Link href={"mailto:info@hamkoders.com"}>
-                        <MdEmail size={25} style={{ color: "#D41423", marginLeft: "0px" }} className="email-icon" />
-                        info@hamkoders.com
-                         </Link>
-                         </li>
-                        {/* <li>
-                         <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
-                            <FaMapMarkerAlt size={25} style={{ color: "#D41423", marginleft: 22px" }} />
-                            Austria
-                          </Link>
-                        </li>  */}
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -271,44 +252,35 @@ const currentYear = currentDate.getFullYear();
 
                 <div className="row">
                   <div className="col-lg-12">
-                    <div className="footer-content footer-social ">
-                     <ul className="social-icons-row">
+                    <div className="footer-content footer-social">
+                      <ul className="social-icons-row">
                         <li>
-                          <Link
-                            href={"https://www.facebook.com/Hamkoders/"}
-                            target="_blank"
-                          >
-                            <FaFacebook size={25} color="#D41423" /> 
+                          <Link href={"https://www.facebook.com/Hamkoders/"} target="_blank">
+                            <FaFacebook size={25} color="#D41423" />
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href={"https://www.instagram.com/hamkoders/"}
-                            target="_blank"
-                          >
-                            <FaInstagram size={25} color="#D41423" /> 
+                          <Link href={"https://www.instagram.com/hamkoders/"} target="_blank">
+                            <FaInstagram size={25} color="#D41423" />
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href={
-                              "https://www.linkedin.com/company/hamkoders/"
-                            }
-                            target="_blank"
-                          >
-                            <FaLinkedinIn size={25} color="#D41423" /> 
+                          <Link href={"https://www.linkedin.com/company/hamkoders/"} target="_blank">
+                            <FaLinkedinIn size={25} color="#D41423" />
                           </Link>
                         </li>
                       </ul>
                     </div>
-                    {/* <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hamkoders</p> */}
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-lg-12">
-                    <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hamkoders</p>
+                    <p className="para text-center" style={{color: "#000"}}>
+                      Ⓒ All Rights Reserved {currentYear} - Hamkoders
+                    </p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -322,7 +294,7 @@ const currentYear = currentDate.getFullYear();
         role="dialog"
         aria-labelledby="exampleModalLabel"
         aria-hidden={!showModal}
-        style={{ display: showModal ? "block" : "none" }}
+        style={{display: showModal ? "block" : "none"}}
       >
         <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="modal-content discount-modal">
@@ -386,12 +358,9 @@ const currentYear = currentDate.getFullYear();
                       <div className="loader"></div>
                     </div>
                   )}
-
                   {status && (
                     <div className="col-lg-12">
-                      <p
-                        className={`status-message ${!status ? "hidden" : ""}`}
-                      >
+                      <p className={`status-message ${!status ? "hidden" : ""}`}>
                         {status}
                       </p>
                     </div>
