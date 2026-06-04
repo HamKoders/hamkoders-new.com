@@ -77,13 +77,7 @@
   color: var(--black-color);
   text-transform: uppercase;
 }
- html[lang="de"] .footer-navigation h3 {
-  font-size: 22px;
-  white-space: normal;
-  line-height: 1.2;
-  word-break: break-word;
-  max-width: 100%;
-}
+
 .footer-content ul {
   padding: 0;
   margin: 0;
@@ -514,4 +508,17 @@ html[lang="de"] .footer-navigation h3 {
 .email-icon {
   margin-left: 22px !important;
  }
+}
+/* German footer heading fix */
+html[lang="de"] .footer-navigation h3 {
+  font-size: 20px !important;
+  white-space: normal !important;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+/* German footer column spacing */
+html[lang="de"] .footer-border .col-lg-3 {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
