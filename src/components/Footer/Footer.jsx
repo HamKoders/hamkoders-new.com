@@ -101,7 +101,7 @@ const Footer = () => {
                 <div className="row footer-border gx-0">
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Company</h3>
+                      <h3>Company</h3>
                       <ul>
                         <li>
                           <Link href={"/about"}>About us</Link>
@@ -120,7 +120,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Services</h3>
+                      <h3>Services</h3>
                       <ul>
                         <li>
                           <Link href={"/website-development"}>
@@ -143,7 +143,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Software Dev</h3>
+                      <h3>Software Dev</h3>
                       <ul>
                         <li>
                           <Link href={"/software-development/erm-development"}>
@@ -170,7 +170,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Quick Links</h3>
+                      <h3>Quick Links</h3>
                       <ul>
                         <li>
                           <Link href={"/terms-conditions"}>
