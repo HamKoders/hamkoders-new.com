@@ -10,31 +10,43 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    const initGTranslate = () => {
-      const wrapper = document.querySelector('.gtranslate_wrapper');
-      if (wrapper) wrapper.innerHTML = '';
+  const initGTranslate = () => {
+    // Step 1: Wrapper clear karo
+    const wrapper = document.querySelector('.gtranslate_wrapper');
+    if (wrapper) wrapper.innerHTML = '';
 
-      window.gtranslateSettings = {
-        default_language: "en",
-        languages: ["en", "de"],
-        wrapper_selector: ".gtranslate_wrapper",
-        flag_size: 16,
-        switcher_horizontal_position: "inline",
-        flag_style: "3d"
-      };
+    // Step 2: GTranslate ke saare global variables reset karo
+    delete window.doGTranslate;
+    delete window.GTranslateGetCurrentLang;
+    delete window.GTranslateFireEvent;
 
-      document.querySelectorAll('script[src*="gtranslate"]').forEach(s => s.remove());
+    // Step 3: Saari purani scripts hatao
+    document.querySelectorAll('script[src*="gtranslate"]').forEach(s => s.remove());
 
-      const script = document.createElement('script');
-      script.src = 'https://cdn.gtranslate.net/widgets/latest/dwf.js';
-      script.defer = true;
-      document.body.appendChild(script);
+    // Step 4: Google translate cookie reset (optional but helps)
+    document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+    // Step 5: Settings set karo
+    window.gtranslateSettings = {
+      default_language: "en",
+      languages: ["en", "de"],
+      wrapper_selector: ".gtranslate_wrapper",
+      flag_size: 16,
+      switcher_horizontal_position: "inline",
+      flag_style: "3d"
     };
 
-    const timer = setTimeout(initGTranslate, 200);
-    return () => clearTimeout(timer);
+    // Step 6: Cache bust karke fresh script inject karo
+    const script = document.createElement('script');
+    script.src = `https://cdn.gtranslate.net/widgets/latest/dwf.js?v=${Date.now()}`;
+    script.defer = true;
+    document.body.appendChild(script);
+  };
 
-  }, [pathname]);
+  const timer = setTimeout(initGTranslate, 300);
+  return () => clearTimeout(timer);
+
+}, [pathname]);
 
   return (
     <>
