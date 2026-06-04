@@ -175,7 +175,12 @@ const Header = () => {
 
                   </ul>
 
-                  <div className="gtranslate_wrapper" style={{marginRight: "20px"}}></div>
+                  {/* ✅ FIX: suppressHydrationWarning added to prevent GTranslate DOM crash */}
+                  <div
+                    className="gtranslate_wrapper"
+                    style={{ marginRight: "20px" }}
+                    suppressHydrationWarning={true}
+                  ></div>
 
                   <div className="header-right-btn">
                     <a href="/contact-us">Contact Us</a>
