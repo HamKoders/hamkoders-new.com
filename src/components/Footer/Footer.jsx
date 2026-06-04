@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import usFlag from "../../../public/images/pak-flag.png";
 import FooterLOGO from "../../../public/images/footer-logo.png";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaPhone } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import myImage from "../../../public/images/image (1).png";
@@ -27,6 +27,37 @@ const Footer = () => {
 
   useEffect(() => {
     setShowModal(true);
+  }, []);
+
+  // German language detect karke h3 font size fix karo
+  useEffect(() => {
+    const applyFooterFix = () => {
+      const isGerman = document.cookie.includes('googtrans=/en/de') ||
+                       document.documentElement.lang?.startsWith('de');
+
+      const h3s = document.querySelectorAll('.footer-navigation h3');
+      h3s.forEach(h3 => {
+        if (isGerman) {
+          h3.style.fontSize = 'clamp(11px, 1vw, 15px)';
+          h3.style.wordBreak = 'normal';
+          h3.style.whiteSpace = 'normal';
+        } else {
+          h3.style.fontSize = '';
+          h3.style.wordBreak = '';
+          h3.style.whiteSpace = '';
+        }
+      });
+    };
+
+    applyFooterFix();
+
+    const observer = new MutationObserver(applyFooterFix);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['lang', 'class']
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   const handleClose = () => {
@@ -101,7 +132,7 @@ const Footer = () => {
                 <div className="row footer-border gx-0">
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Company</h3>
+                      <h3>Company</h3>
                       <ul>
                         <li>
                           <Link href={"/about"}>About us</Link>
@@ -120,7 +151,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Services</h3>
+                      <h3>Services</h3>
                       <ul>
                         <li>
                           <Link href={"/website-development"}>
@@ -143,7 +174,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Software Dev</h3>
+                      <h3>Software Dev</h3>
                       <ul>
                         <li>
                           <Link href={"/software-development/erm-development"}>
@@ -170,7 +201,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="footer-navigation">
-                      <h3 style={{wordBreak: "break-word", whiteSpace: "normal"}}>Quick Links</h3>
+                      <h3>Quick Links</h3>
                       <ul>
                         <li>
                           <Link href={"/terms-conditions"}>
@@ -234,7 +265,7 @@ const Footer = () => {
                       <h3>Contact</h3>
                       <ul>
                         <li>
-                          <Link href={"tel:8327890702"}>
+                          <Link href={"tel:923022800188"}>
                             <FaPhone size={20} color="#D41423" style={{transform: "rotate(90deg)"}} />
                             (+92) 302 2800188
                           </Link>
@@ -273,6 +304,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="row">
                   <div className="col-lg-12">
                     <p className="para text-center" style={{color: "#000"}}>
