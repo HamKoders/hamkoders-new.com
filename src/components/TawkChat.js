@@ -1,5 +1,4 @@
 "use client";
-
 import Script from "next/script";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -8,6 +7,8 @@ export default function TawkChat() {
   const pathname = usePathname();
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     window.Tawk_API = window.Tawk_API || {};
     window.Tawk_LoadStart = new Date();
 
@@ -24,7 +25,6 @@ export default function TawkChat() {
     }
 
     const triggers = document.querySelectorAll(".open-chat");
-
     const handleClick = (e) => {
       e.preventDefault();
       onTawkReady(() => window.Tawk_API.maximize());
@@ -49,14 +49,14 @@ export default function TawkChat() {
         dangerouslySetInnerHTML={{
           __html: `
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/699cd41d9f81c11c340d9f2d/1ji69p5mb';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+            (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/699cd41d9f81c11c340d9f2d/1ji69p5mb';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+            })();
           `,
         }}
       />
