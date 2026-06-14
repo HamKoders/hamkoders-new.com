@@ -387,7 +387,12 @@ html[lang="de"] .header .dropdown-menu {
   margin-left: calc(16vw + 50%);
 }
 @media(max-width: 1750px) {
+  .header .dropdown-menu {
+    transform: translateX(-50%);
+    padding: 26px 80px;
+  }
+
   html[lang="de"] .header .dropdown-menu {
-  margin-left: calc(26vw + 70%);
- }
+    margin-left: 0%;
+  }
 }
