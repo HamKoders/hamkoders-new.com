@@ -399,7 +399,7 @@ html[lang="de"] .header .dropdown-menu {
   left: auto;
   right: auto;
   transform: none;
-  margin-left: calc(0vw + 50%);
+  margin-left: calc(10vw + 50%);
   margin-top: 20px;
   opacity: 0;
   visibility: hidden;
