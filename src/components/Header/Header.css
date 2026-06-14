@@ -276,12 +276,20 @@ body {
     transform: translateX(-50%);
     padding: 26px 80px;
   }
+
+  html[lang="de"] .header .dropdown-menu {
+    margin-left: 50%;
+  }
 }
 
 @media(max-width:1440px) {
   .header .dropdown-menu {
     transform: translateX(-50%);
     padding: 26px 42px;
+  }
+
+  html[lang="de"] .header .dropdown-menu {
+    margin-left: 50%;
   }
 }
 
@@ -290,6 +298,10 @@ body {
     transform: translateX(-50%);
     padding: 26px 24px;
     min-width: 97vw;
+  }
+
+  html[lang="de"] .header .dropdown-menu {
+    margin-left: 50%;
   }
 }
 
@@ -304,6 +316,10 @@ body {
   }
   .header .services-drop-cta1 h3 a {
     font-size: 24px;
+  }
+
+  html[lang="de"] .header .dropdown-menu {
+    margin-left: 50%;
   }
 }
 
@@ -365,8 +381,8 @@ p, li, a {
   word-break: break-word;
   overflow-wrap: break-word;
 } */
-  
-html[lang="de"] .header .dropdown-menu {
-  margin-left: calc(20vw + 50%);
-}
 
+/* Default (large screens, >1536px): German dropdown needs extra right offset */
+html[lang="de"] .header .dropdown-menu {
+  margin-left: calc(16vw + 50%);
+}
