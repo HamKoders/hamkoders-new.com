@@ -388,6 +388,24 @@ html[lang="de"] .header .dropdown-menu {
 }
 @media(max-width: 1750px) {
   .header .dropdown-menu {
+  position: absolute;
+  min-width: 95vw;
+  padding: 26px 140px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  box-shadow: 0px -9px 32.3px 0px #00000040 inset;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  left: auto;
+  right: auto;
+  transform: none;
+  margin-left: calc(12vw + 50%);
+  margin-top: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+  .header .dropdown-menu {
     transform: translateX(-50%);
     padding: 26px 80px;
   }
