@@ -386,3 +386,8 @@ p, li, a {
 html[lang="de"] .header .dropdown-menu {
   margin-left: calc(16vw + 50%);
 }
+@media(max-width: 1750px) {
+  html[lang="de"] .header .dropdown-menu {
+  margin-left: calc(16vw + 50%);
+ }
+}
